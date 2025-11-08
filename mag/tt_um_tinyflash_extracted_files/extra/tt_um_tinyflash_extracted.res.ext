@@ -38,16 +38,45 @@ rnode "ua[5]" 0 0 11042 0 0
 rnode "ua[4]" 0 0 14906 0 0
 rnode "ua[3]" 0 0 18770 0 0
 rnode "ua[2]" 0 0 22634 0 0
-killnode "uo_out[0]"
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/S" 0 -4.47024 20661 41574 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/S" 0 12.664 20661 40845 0
-rnode "uo_out[1]" 0 1127.29 18278 44952 0
-rnode "uo_out[0].n0" 0 862.16 20746 41304 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vout" 0 2.35341 20726 41224 0
-resist "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vout" "uo_out[0].n0" 0.03125
-resist "uo_out[0].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/S" 2.61684
-resist "uo_out[0].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/S" 5.30039
-resist "uo_out[0].n0" "uo_out[1]" 9.67808
+rnode "uo_out[2]" 0 58.5017 17756 45152 0
+rnode "uo_out[2]" 0 -5.74082 17726 44212 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/S" 0 9.80702 20661 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMn/S" 0 -3.46175 20661 39278 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vout" 0 1.82248 20726 39548 0
+rnode "uo_out[2].n0" 0 806.77 20746 39628 0
+rnode "uo_out[2]" 0 2.87041 17726 44212 0
+rnode "uo_out[2]" 0 1229.43 17756 44296 0
+resist "uo_out[2]" "uo_out[2]" 0.0167857
+resist "uo_out[2].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vout" 0.03125
+resist "uo_out[2]" "uo_out[2]" 0.0658
+resist "uo_out[2]" "uo_out[2]" 0.670533
+resist "uo_out[2].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/S" 2.61684
+resist "uo_out[2].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMn/S" 5.30039
+resist "uo_out[2]" "uo_out[2].n0" 10.6416
+rnode "uo_out[1]" 0 58.9353 18308 45152 0
+rnode "uo_out[1]" 0 -6.30126 18278 44448 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/S" 0 -4.69375 20661 41574 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/S" 0 13.2972 20661 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vout" 0 2.47108 20726 41224 0
+rnode "uo_out[1].n0" 0 864.803 20746 41304 0
+rnode "uo_out[1]" 0 3.15063 18278 44448 0
+rnode "uo_out[1]" 0 1168.34 18308 44516 0
+resist "uo_out[1]" "uo_out[1]" 0.0207353
+resist "uo_out[1].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vout" 0.03125
+resist "uo_out[1]" "uo_out[1]" 0.0532667
+resist "uo_out[1]" "uo_out[1]" 0.4982
+resist "uo_out[1].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/S" 2.61684
+resist "uo_out[1].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/S" 5.30039
+resist "uo_out[1]" "uo_out[1].n0" 9.33655
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/S" 0 0 20661 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMn/S" 0 -0 20661 42194 0
+rnode "uo_out[0]" 0 0 18830 44952 0
+rnode "uo_out[0].n0" 0 0 20746 42544 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vout" 0 0 20726 42464 0
+resist "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vout" "uo_out[0].n0" 0.03125
+resist "uo_out[0].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/S" 2.61684
+resist "uo_out[0].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMn/S" 5.30039
+resist "uo_out[0].n0" "uo_out[0]" 8.08688
 rnode "flashADC_3bit_0/comp_p_6/vout" 0 3392.49 15868 28984 0
 rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/G" 0 34.1918 17247 34439 0
 rnode "uio_out[1].t1" 0 98.6768 17247 34175 0
@@ -127,41 +156,6 @@ resist "flashADC_3bit_0/comp_p_5/out_left" "flashADC_3bit_0/comp_p_5/out_left.n3
 resist "flashADC_3bit_0/comp_p_5/out_left.n0" "flashADC_3bit_0/comp_p_5/out_left.t1" 29.4281
 resist "flashADC_3bit_0/comp_p_5/out_left.n2" "flashADC_3bit_0/comp_p_5/out_left.t0" 143.416
 resist "flashADC_3bit_0/comp_p_5/out_left.n1" "flashADC_3bit_0/comp_p_5/out_left.t2" 145.611
-rnode "flashADC_3bit_0/comp_p_5/latch_right.t1" 0 469.293 15310 33118 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.n0" 0 925.666 15310 33147 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.t3" 0 1967.8 14072 32532 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.t2" 0 1827.44 14072 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.n1" 0 3126.02 14072 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.t0" 0 1566.97 15310 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.n2" 0 458.451 15310 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.n3" 0 2064.22 14855 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right.n4" 0 288.657 15308 33148 0
-rnode "flashADC_3bit_0/comp_p_5/latch_right" 0 8905.48 15418 33340 0
-resist "flashADC_3bit_0/comp_p_5/latch_right.n4" "flashADC_3bit_0/comp_p_5/latch_right.n0" 0.00480769
-resist "flashADC_3bit_0/comp_p_5/latch_right" "flashADC_3bit_0/comp_p_5/latch_right.n4" 0.607639
-resist "flashADC_3bit_0/comp_p_5/latch_right.n3" "flashADC_3bit_0/comp_p_5/latch_right.n2" 1.06913
-resist "flashADC_3bit_0/comp_p_5/latch_right.n4" "flashADC_3bit_0/comp_p_5/latch_right.n3" 1.11791
-resist "flashADC_3bit_0/comp_p_5/latch_right.n3" "flashADC_3bit_0/comp_p_5/latch_right.n1" 1.43323
-resist "flashADC_3bit_0/comp_p_5/latch_right.n2" "flashADC_3bit_0/comp_p_5/latch_right.n0" 2.37483
-resist "flashADC_3bit_0/comp_p_5/latch_right.n0" "flashADC_3bit_0/comp_p_5/latch_right.t1" 22.0136
-resist "flashADC_3bit_0/comp_p_5/latch_right.n2" "flashADC_3bit_0/comp_p_5/latch_right.t0" 94.6187
-resist "flashADC_3bit_0/comp_p_5/latch_right.n1" "flashADC_3bit_0/comp_p_5/latch_right.t2" 106.571
-resist "flashADC_3bit_0/comp_p_5/latch_right.n1" "flashADC_3bit_0/comp_p_5/latch_right.t3" 114.777
-rnode "flashADC_3bit_0/comp_p_5/latch_left.t0" 0 1281.29 11408 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left.t3" 0 1606.31 12678 32532 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left.t2" 0 1491.74 12678 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left.n0" 0 2836.11 12678 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left.n1" 0 1820.18 11863 33018 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left.t1" 0 383.083 11408 33118 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left.n2" 0 1637.16 11408 33147 0
-rnode "flashADC_3bit_0/comp_p_5/latch_left" 0 6944.14 11284 33470 0
-resist "flashADC_3bit_0/comp_p_5/latch_left.n2" "flashADC_3bit_0/comp_p_5/latch_left.n1" 0.598669
-resist "flashADC_3bit_0/comp_p_5/latch_left" "flashADC_3bit_0/comp_p_5/latch_left.n2" 0.717014
-resist "flashADC_3bit_0/comp_p_5/latch_left.n1" "flashADC_3bit_0/comp_p_5/latch_left.n0" 1.72683
-resist "flashADC_3bit_0/comp_p_5/latch_left.n2" "flashADC_3bit_0/comp_p_5/latch_left.t1" 22.0136
-resist "flashADC_3bit_0/comp_p_5/latch_left.n1" "flashADC_3bit_0/comp_p_5/latch_left.t0" 95.1707
-resist "flashADC_3bit_0/comp_p_5/latch_left.n0" "flashADC_3bit_0/comp_p_5/latch_left.t2" 106.571
-resist "flashADC_3bit_0/comp_p_5/latch_left.n0" "flashADC_3bit_0/comp_p_5/latch_left.t3" 114.777
 rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/G" 0 27.6462 17247 37355 0
 rnode "uo_out[7].t1" 0 79.7863 17247 37091 0
 rnode "uo_out[7].t0" 0 75.7068 17247 36362 0
@@ -229,21 +223,6 @@ resist "uo_out[6].n1" "flashADC_3bit_0/comp_p_3/vout" 10.0069
 resist "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMn/G" "uo_out[6].t0" 372.113
 resist "uo_out[6].t1" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/G" 547.24
 resist "uo_out[6].n0" "uo_out[6].t1" 556.78
-rnode "flashADC_3bit_0/comp_p_3/latch_left.t0" 0 1274.17 11408 38858 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left.t3" 0 1597.39 12678 39344 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left.t2" 0 1483.45 12678 38858 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left.n0" 0 2820.36 12678 38858 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left.n1" 0 1810.06 11863 38858 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left.t1" 0 380.955 11408 38758 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left.n2" 0 1628.06 11408 38729 0
-rnode "flashADC_3bit_0/comp_p_3/latch_left" 0 6905.56 11284 38406 0
-resist "flashADC_3bit_0/comp_p_3/latch_left.n2" "flashADC_3bit_0/comp_p_3/latch_left.n1" 0.598669
-resist "flashADC_3bit_0/comp_p_3/latch_left" "flashADC_3bit_0/comp_p_3/latch_left.n2" 0.717014
-resist "flashADC_3bit_0/comp_p_3/latch_left.n1" "flashADC_3bit_0/comp_p_3/latch_left.n0" 1.72683
-resist "flashADC_3bit_0/comp_p_3/latch_left.n2" "flashADC_3bit_0/comp_p_3/latch_left.t1" 22.0136
-resist "flashADC_3bit_0/comp_p_3/latch_left.n1" "flashADC_3bit_0/comp_p_3/latch_left.t0" 95.1707
-resist "flashADC_3bit_0/comp_p_3/latch_left.n0" "flashADC_3bit_0/comp_p_3/latch_left.t2" 106.571
-resist "flashADC_3bit_0/comp_p_3/latch_left.n0" "flashADC_3bit_0/comp_p_3/latch_left.t3" 114.777
 rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/G" 0 32.1415 17247 40271 0
 rnode "uo_out[5].t1" 0 92.7596 17247 40007 0
 rnode "uo_out[5].t0" 0 88.0168 17247 39278 0
@@ -275,42 +254,21 @@ resist "uo_out[5].n2" "flashADC_3bit_0/comp_p_2/vout" 18.5751
 resist "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMn/G" "uo_out[5].t0" 372.113
 resist "uo_out[5].t1" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/G" 547.24
 resist "uo_out[5].n0" "uo_out[5].t1" 556.78
-rnode "flashADC_3bit_0/comp_p_2/out_left.t1" 0 270.491 7009 36334 0
-rnode "flashADC_3bit_0/comp_p_2/out_left.n0" 0 271.238 7009 36363 0
-rnode "flashADC_3bit_0/comp_p_2/out_left.t2" 0 720.529 8941 36234 0
-rnode "flashADC_3bit_0/comp_p_2/out_left.n1" 0 1306.26 7873 36318 0
-rnode "flashADC_3bit_0/comp_p_2/out_left.t0" 0 714.659 7009 36234 0
-rnode "flashADC_3bit_0/comp_p_2/out_left.n2" 0 236.836 7009 36234 0
-rnode "flashADC_3bit_0/comp_p_2/out_left.n3" 0 937.199 7008 36362 0
-rnode "flashADC_3bit_0/comp_p_2/out_left" 0 842.784 6092 39214 0
-resist "flashADC_3bit_0/comp_p_2/out_left.n3" "flashADC_3bit_0/comp_p_2/out_left.n0" 0.00240385
-resist "flashADC_3bit_0/comp_p_2/out_left.n2" "flashADC_3bit_0/comp_p_2/out_left.n1" 2.04378
-resist "flashADC_3bit_0/comp_p_2/out_left.n1" "flashADC_3bit_0/comp_p_2/out_left.n0" 2.12584
-resist "flashADC_3bit_0/comp_p_2/out_left.n3" "flashADC_3bit_0/comp_p_2/out_left.n2" 4.33026
-resist "flashADC_3bit_0/comp_p_2/out_left" "flashADC_3bit_0/comp_p_2/out_left.n3" 11.6036
-resist "flashADC_3bit_0/comp_p_2/out_left.n0" "flashADC_3bit_0/comp_p_2/out_left.t1" 29.4281
-resist "flashADC_3bit_0/comp_p_2/out_left.n2" "flashADC_3bit_0/comp_p_2/out_left.t0" 143.416
-resist "flashADC_3bit_0/comp_p_2/out_left.n1" "flashADC_3bit_0/comp_p_2/out_left.t2" 145.611
-rnode "flashADC_3bit_0/comp_p_2/latch_right.t1" 0 386.732 9926 38758 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.n0" 0 762.818 9926 38729 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.t3" 0 1621.61 8688 39344 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.t2" 0 1505.95 8688 38858 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.n1" 0 2576.07 8688 38858 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.t0" 0 1291.3 9926 38858 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.n2" 0 377.797 9926 38858 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.n3" 0 1701.07 9471 38858 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right.n4" 0 237.874 9924 38728 0
-rnode "flashADC_3bit_0/comp_p_2/latch_right" 0 7338.77 10034 38536 0
-resist "flashADC_3bit_0/comp_p_2/latch_right.n4" "flashADC_3bit_0/comp_p_2/latch_right.n0" 0.00480769
-resist "flashADC_3bit_0/comp_p_2/latch_right" "flashADC_3bit_0/comp_p_2/latch_right.n4" 0.607639
-resist "flashADC_3bit_0/comp_p_2/latch_right.n3" "flashADC_3bit_0/comp_p_2/latch_right.n2" 1.06913
-resist "flashADC_3bit_0/comp_p_2/latch_right.n4" "flashADC_3bit_0/comp_p_2/latch_right.n3" 1.11791
-resist "flashADC_3bit_0/comp_p_2/latch_right.n3" "flashADC_3bit_0/comp_p_2/latch_right.n1" 1.43323
-resist "flashADC_3bit_0/comp_p_2/latch_right.n2" "flashADC_3bit_0/comp_p_2/latch_right.n0" 2.37483
-resist "flashADC_3bit_0/comp_p_2/latch_right.n0" "flashADC_3bit_0/comp_p_2/latch_right.t1" 22.0136
-resist "flashADC_3bit_0/comp_p_2/latch_right.n2" "flashADC_3bit_0/comp_p_2/latch_right.t0" 94.6187
-resist "flashADC_3bit_0/comp_p_2/latch_right.n1" "flashADC_3bit_0/comp_p_2/latch_right.t2" 106.571
-resist "flashADC_3bit_0/comp_p_2/latch_right.n1" "flashADC_3bit_0/comp_p_2/latch_right.t3" 114.777
+rnode "flashADC_3bit_0/comp_p_2/latch_left.t0" 0 1010.79 6024 38858 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left.t3" 0 1267.2 7294 39344 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left.t2" 0 1176.81 7294 38858 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left.n0" 0 2237.38 7294 38858 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left.n1" 0 1435.92 6479 38858 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left.t1" 0 302.21 6024 38758 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left.n2" 0 1291.54 6024 38729 0
+rnode "flashADC_3bit_0/comp_p_2/latch_left" 0 5478.15 5900 38406 0
+resist "flashADC_3bit_0/comp_p_2/latch_left.n2" "flashADC_3bit_0/comp_p_2/latch_left.n1" 0.598669
+resist "flashADC_3bit_0/comp_p_2/latch_left" "flashADC_3bit_0/comp_p_2/latch_left.n2" 0.717014
+resist "flashADC_3bit_0/comp_p_2/latch_left.n1" "flashADC_3bit_0/comp_p_2/latch_left.n0" 1.72683
+resist "flashADC_3bit_0/comp_p_2/latch_left.n2" "flashADC_3bit_0/comp_p_2/latch_left.t1" 22.0136
+resist "flashADC_3bit_0/comp_p_2/latch_left.n1" "flashADC_3bit_0/comp_p_2/latch_left.t0" 95.1707
+resist "flashADC_3bit_0/comp_p_2/latch_left.n0" "flashADC_3bit_0/comp_p_2/latch_left.t2" 106.571
+resist "flashADC_3bit_0/comp_p_2/latch_left.n0" "flashADC_3bit_0/comp_p_2/latch_left.t3" 114.777
 rnode "flashADC_3bit_0/comp_p_0/vout" 0 3394.09 10484 42892 0
 rnode "uo_out[4].t0" 0 62.1586 17247 41574 0
 rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMn/G" 0 32.3855 17247 41419 0
@@ -336,21 +294,42 @@ resist "uo_out[4].n1" "flashADC_3bit_0/comp_p_0/vout" 20.4926
 resist "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMn/G" "uo_out[4].t0" 372.113
 resist "uo_out[4].t1" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/G" 547.24
 resist "uo_out[4].n0" "uo_out[4].t1" 556.78
-rnode "flashADC_3bit_0/comp_p_0/latch_left.t0" 0 1010.79 6024 40422 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left.t3" 0 1267.2 7294 39936 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left.t2" 0 1176.81 7294 40422 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left.n0" 0 2237.38 7294 40422 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left.n1" 0 1435.92 6479 40422 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left.t1" 0 302.21 6024 40522 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left.n2" 0 1291.54 6024 40551 0
-rnode "flashADC_3bit_0/comp_p_0/latch_left" 0 5478.15 5900 40874 0
-resist "flashADC_3bit_0/comp_p_0/latch_left.n2" "flashADC_3bit_0/comp_p_0/latch_left.n1" 0.598669
-resist "flashADC_3bit_0/comp_p_0/latch_left" "flashADC_3bit_0/comp_p_0/latch_left.n2" 0.717014
-resist "flashADC_3bit_0/comp_p_0/latch_left.n1" "flashADC_3bit_0/comp_p_0/latch_left.n0" 1.72683
-resist "flashADC_3bit_0/comp_p_0/latch_left.n2" "flashADC_3bit_0/comp_p_0/latch_left.t1" 22.0136
-resist "flashADC_3bit_0/comp_p_0/latch_left.n1" "flashADC_3bit_0/comp_p_0/latch_left.t0" 95.1707
-resist "flashADC_3bit_0/comp_p_0/latch_left.n0" "flashADC_3bit_0/comp_p_0/latch_left.t2" 106.571
-resist "flashADC_3bit_0/comp_p_0/latch_left.n0" "flashADC_3bit_0/comp_p_0/latch_left.t3" 114.777
+rnode "flashADC_3bit_0/comp_p_0/out_left.t1" 0 270.491 7009 42946 0
+rnode "flashADC_3bit_0/comp_p_0/out_left.n0" 0 271.238 7009 42917 0
+rnode "flashADC_3bit_0/comp_p_0/out_left.t2" 0 720.529 8941 43046 0
+rnode "flashADC_3bit_0/comp_p_0/out_left.n1" 0 1306.26 7873 43046 0
+rnode "flashADC_3bit_0/comp_p_0/out_left.t0" 0 714.659 7009 43046 0
+rnode "flashADC_3bit_0/comp_p_0/out_left.n2" 0 236.836 7009 43046 0
+rnode "flashADC_3bit_0/comp_p_0/out_left.n3" 0 937.199 7008 42918 0
+rnode "flashADC_3bit_0/comp_p_0/out_left" 0 842.784 6092 40066 0
+resist "flashADC_3bit_0/comp_p_0/out_left.n3" "flashADC_3bit_0/comp_p_0/out_left.n0" 0.00240385
+resist "flashADC_3bit_0/comp_p_0/out_left.n2" "flashADC_3bit_0/comp_p_0/out_left.n1" 2.04378
+resist "flashADC_3bit_0/comp_p_0/out_left.n1" "flashADC_3bit_0/comp_p_0/out_left.n0" 2.12584
+resist "flashADC_3bit_0/comp_p_0/out_left.n3" "flashADC_3bit_0/comp_p_0/out_left.n2" 4.33026
+resist "flashADC_3bit_0/comp_p_0/out_left" "flashADC_3bit_0/comp_p_0/out_left.n3" 11.6036
+resist "flashADC_3bit_0/comp_p_0/out_left.n0" "flashADC_3bit_0/comp_p_0/out_left.t1" 29.4281
+resist "flashADC_3bit_0/comp_p_0/out_left.n2" "flashADC_3bit_0/comp_p_0/out_left.t0" 143.416
+resist "flashADC_3bit_0/comp_p_0/out_left.n1" "flashADC_3bit_0/comp_p_0/out_left.t2" 145.611
+rnode "flashADC_3bit_0/comp_p_0/latch_right.t1" 0 386.732 9926 40522 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.n0" 0 762.818 9926 40551 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.t3" 0 1621.61 8688 39936 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.t2" 0 1505.95 8688 40422 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.n1" 0 2576.07 8688 40422 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.t0" 0 1291.3 9926 40422 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.n2" 0 377.797 9926 40422 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.n3" 0 1701.07 9471 40422 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right.n4" 0 237.874 9924 40552 0
+rnode "flashADC_3bit_0/comp_p_0/latch_right" 0 7338.77 10034 40744 0
+resist "flashADC_3bit_0/comp_p_0/latch_right.n4" "flashADC_3bit_0/comp_p_0/latch_right.n0" 0.00480769
+resist "flashADC_3bit_0/comp_p_0/latch_right" "flashADC_3bit_0/comp_p_0/latch_right.n4" 0.607639
+resist "flashADC_3bit_0/comp_p_0/latch_right.n3" "flashADC_3bit_0/comp_p_0/latch_right.n2" 1.06913
+resist "flashADC_3bit_0/comp_p_0/latch_right.n4" "flashADC_3bit_0/comp_p_0/latch_right.n3" 1.11791
+resist "flashADC_3bit_0/comp_p_0/latch_right.n3" "flashADC_3bit_0/comp_p_0/latch_right.n1" 1.43323
+resist "flashADC_3bit_0/comp_p_0/latch_right.n2" "flashADC_3bit_0/comp_p_0/latch_right.n0" 2.37483
+resist "flashADC_3bit_0/comp_p_0/latch_right.n0" "flashADC_3bit_0/comp_p_0/latch_right.t1" 22.0136
+resist "flashADC_3bit_0/comp_p_0/latch_right.n2" "flashADC_3bit_0/comp_p_0/latch_right.t0" 94.6187
+resist "flashADC_3bit_0/comp_p_0/latch_right.n1" "flashADC_3bit_0/comp_p_0/latch_right.t2" 106.571
+resist "flashADC_3bit_0/comp_p_0/latch_right.n1" "flashADC_3bit_0/comp_p_0/latch_right.t3" 114.777
 rnode "ua[0].t4" 0 357.73 9110 41403 0
 rnode "ua[0].t5" 0 357.492 9110 41883 0
 rnode "ua[0].n0" 0 480.326 10255 41902 0
@@ -565,6 +544,22 @@ resist "uo_out[3].n0" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMn/
 resist "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMn/G" "uo_out[3].t0" 372.113
 resist "uo_out[3].t1" "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/G" 547.24
 resist "uo_out[3].n0" "uo_out[3].t1" 556.78
+rnode "flashADC_3bit_0/comp_p_1/out_left.t1" 0 362.357 12393 42946 0
+rnode "flashADC_3bit_0/comp_p_1/out_left.n0" 0 363.356 12393 42917 0
+rnode "flashADC_3bit_0/comp_p_1/out_left.t2" 0 965.236 14325 43046 0
+rnode "flashADC_3bit_0/comp_p_1/out_left.n1" 0 1749.9 13257 43046 0
+rnode "flashADC_3bit_0/comp_p_1/out_left.t0" 0 957.374 12393 43046 0
+rnode "flashADC_3bit_0/comp_p_1/out_left.n2" 0 317.271 12393 43046 0
+rnode "flashADC_3bit_0/comp_p_1/out_left.n3" 0 1255.49 12392 42918 0
+rnode "flashADC_3bit_0/comp_p_1/out_left" 0 1129.01 11476 40066 0
+resist "flashADC_3bit_0/comp_p_1/out_left.n3" "flashADC_3bit_0/comp_p_1/out_left.n0" 0.00240385
+resist "flashADC_3bit_0/comp_p_1/out_left.n2" "flashADC_3bit_0/comp_p_1/out_left.n1" 2.04378
+resist "flashADC_3bit_0/comp_p_1/out_left.n1" "flashADC_3bit_0/comp_p_1/out_left.n0" 2.12584
+resist "flashADC_3bit_0/comp_p_1/out_left.n3" "flashADC_3bit_0/comp_p_1/out_left.n2" 4.33026
+resist "flashADC_3bit_0/comp_p_1/out_left" "flashADC_3bit_0/comp_p_1/out_left.n3" 11.6036
+resist "flashADC_3bit_0/comp_p_1/out_left.n0" "flashADC_3bit_0/comp_p_1/out_left.t1" 29.4281
+resist "flashADC_3bit_0/comp_p_1/out_left.n2" "flashADC_3bit_0/comp_p_1/out_left.t0" 143.416
+resist "flashADC_3bit_0/comp_p_1/out_left.n1" "flashADC_3bit_0/comp_p_1/out_left.t2" 145.611
 rnode "flashADC_3bit_0/res_ladder_vref_0/XR2/R2" 0 84.1121 2589 30981 0
 rnode "flashADC_3bit_0/res_ladder_vref_0/XR1/R2" 0 38.7869 2589 29609 0
 rnode "ua[1].n0" 0 506.263 2770 29609 0
@@ -576,969 +571,969 @@ resist "ua[1].n1" "ua[1].n0" 0.187789
 resist "ua[1].n0" "flashADC_3bit_0/res_ladder_vref_0/XR1/R2" 2.11852
 resist "ua[1].n0" "flashADC_3bit_0/res_ladder_vref_0/XR2/R2" 2.51551
 resist "ua[1].n1" "ua[1]" 9.55191
-rnode "VDPWR.n0" 0 449.699 18925 43303 0
-rnode "VDPWR.n1" 0 656.668 17546 39606 0
-rnode "VDPWR.n2" 0 1320.22 19415 37512 0
-rnode "VDPWR.n3" 0 13307.9 11229 39571 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/D" 0 1.7588 17203 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vdd" 0 34.7994 17456 43264 0
-rnode "VDPWR.n4" 0 7.85147 17247 43289 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/B" 0 15.6734 17247 42557 0
-rnode "VDPWR.n5" 0 15.6734 17247 43289 0
-rnode "VDPWR.n6" 0 126.067 17247 43289 0
-rnode "VDPWR.n7" 0 15.2949 17405 42923 0
-rnode "VDPWR.n8" 0 115.074 17667 43289 0
-rnode "VDPWR.n9" 0 15.6734 17667 43289 0
-rnode "VDPWR.n10" 0 15.6734 17667 42557 0
-rnode "VDPWR.n11" 0 5.47339 17666 43294 0
-rnode "VDPWR.n12" 0 7.85147 17667 43289 0
-rnode "VDPWR.n13" 0 115.074 18089 43289 0
-rnode "VDPWR.n14" 0 10.1711 18089 43289 0
-rnode "VDPWR.n15" 0 10.1711 18089 42557 0
-rnode "VDPWR.n16" 0 10.1711 18089 43289 0
-rnode "VDPWR.n17" 0 10.3129 18247 42923 0
-rnode "VDPWR.n18" 0 9.82534 18563 42574 0
-rnode "VDPWR.n19" 0 9.82534 18563 42574 0
-rnode "VDPWR.n20" 0 9.82534 18247 42574 0
-rnode "VDPWR.n21" 0 115.074 18563 42923 0
-rnode "VDPWR.n22" 0 115.074 18247 42923 0
-rnode "VDPWR.n23" 0 9.82534 18563 43272 0
-rnode "VDPWR.n24" 0 10.3129 18247 42923 0
-rnode "VDPWR.n25" 0 9.82534 18247 43272 0
-rnode "VDPWR.n26" 0 15.2949 18879 42923 0
-rnode "VDPWR.n27" 0 15.2949 18879 42923 0
-rnode "VDPWR.n28" 0 115.074 20197 43289 0
-rnode "VDPWR.n29" 0 15.6734 20197 43289 0
-rnode "VDPWR.n30" 0 15.6734 20197 42557 0
-rnode "VDPWR.n31" 0 5.47339 20196 43294 0
-rnode "VDPWR.n32" 0 7.85147 20197 43289 0
-rnode "VDPWR.n33" 0 126.067 20617 43289 0
-rnode "VDPWR.n34" 0 15.6734 20617 43289 0
-rnode "VDPWR.n35" 0 15.6734 20617 42557 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/D" 0 1.7588 20573 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/D" 0 1.7588 20153 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/vdd" 0 140.565 19986 43264 0
-rnode "VDPWR.n36" 0 73.2128 20056 43262 0
-rnode "VDPWR.n37" 0 43.4992 20196 43294 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vdd" 0 34.7994 20406 43264 0
-rnode "VDPWR.n38" 0 141.076 20476 43262 0
-rnode "VDPWR.n39" 0 7.7059 20616 43294 0
-rnode "VDPWR.n40" 0 7.85147 20617 43289 0
+rnode "VDPWR.n0" 0 446.589 18925 43303 0
+rnode "VDPWR.n1" 0 652.127 17546 39606 0
+rnode "VDPWR.n2" 0 1311.09 19415 37512 0
+rnode "VDPWR.n3" 0 13215.8 11229 39571 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/D" 0 1.74664 17203 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vdd" 0 34.5587 17456 43264 0
+rnode "VDPWR.n4" 0 7.79717 17247 43289 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/B" 0 15.565 17247 42557 0
+rnode "VDPWR.n5" 0 15.565 17247 43289 0
+rnode "VDPWR.n6" 0 125.195 17247 43289 0
+rnode "VDPWR.n7" 0 15.1891 17405 42923 0
+rnode "VDPWR.n8" 0 114.278 17667 43289 0
+rnode "VDPWR.n9" 0 15.565 17667 43289 0
+rnode "VDPWR.n10" 0 15.565 17667 42557 0
+rnode "VDPWR.n11" 0 5.43554 17666 43294 0
+rnode "VDPWR.n12" 0 7.79717 17667 43289 0
+rnode "VDPWR.n13" 0 114.278 18089 43289 0
+rnode "VDPWR.n14" 0 10.1008 18089 43289 0
+rnode "VDPWR.n15" 0 10.1008 18089 42557 0
+rnode "VDPWR.n16" 0 10.1008 18089 43289 0
+rnode "VDPWR.n17" 0 10.2416 18247 42923 0
+rnode "VDPWR.n18" 0 9.75739 18563 42574 0
+rnode "VDPWR.n19" 0 9.75739 18563 42574 0
+rnode "VDPWR.n20" 0 9.75739 18247 42574 0
+rnode "VDPWR.n21" 0 114.278 18563 42923 0
+rnode "VDPWR.n22" 0 114.278 18247 42923 0
+rnode "VDPWR.n23" 0 9.75739 18563 43272 0
+rnode "VDPWR.n24" 0 10.2416 18247 42923 0
+rnode "VDPWR.n25" 0 9.75739 18247 43272 0
+rnode "VDPWR.n26" 0 15.1891 18879 42923 0
+rnode "VDPWR.n27" 0 15.1891 18879 42923 0
+rnode "VDPWR.n28" 0 114.278 20197 43289 0
+rnode "VDPWR.n29" 0 15.565 20197 43289 0
+rnode "VDPWR.n30" 0 15.565 20197 42557 0
+rnode "VDPWR.n31" 0 5.43554 20196 43294 0
+rnode "VDPWR.n32" 0 7.79717 20197 43289 0
+rnode "VDPWR.n33" 0 125.195 20617 43289 0
+rnode "VDPWR.n34" 0 15.565 20617 43289 0
+rnode "VDPWR.n35" 0 15.565 20617 42557 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/D" 0 1.74664 20573 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/D" 0 1.74664 20153 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/vdd" 0 139.592 19986 43264 0
+rnode "VDPWR.n36" 0 72.7064 20056 43262 0
+rnode "VDPWR.n37" 0 43.1984 20196 43294 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vdd" 0 34.5587 20406 43264 0
+rnode "VDPWR.n38" 0 140.1 20476 43262 0
+rnode "VDPWR.n39" 0 7.65261 20616 43294 0
+rnode "VDPWR.n40" 0 7.79717 20617 43289 0
 rnode "VDPWR.n41" 0 0 20617 43289 0
-rnode "VDPWR.n42" 0 100.44 20775 42923 0
-rnode "VDPWR.n43" 0 15.2949 20775 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/B" 0 15.6734 20617 42557 0
-rnode "VDPWR.n44" 0 15.2794 20459 42923 0
-rnode "VDPWR.n45" 0 15.2949 20459 42923 0
-rnode "VDPWR.n46" 0 95.4097 20459 42923 0
-rnode "VDPWR.n47" 0 95.4097 20355 42923 0
-rnode "VDPWR.n48" 0 15.2949 20355 42923 0
-rnode "VDPWR.n49" 0 15.2949 20355 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/B" 0 15.6734 20197 42557 0
-rnode "VDPWR.n50" 0 15.2794 20039 42923 0
-rnode "VDPWR.n51" 0 15.2949 20039 42923 0
-rnode "VDPWR.n52" 0 479.962 20039 42923 0
-rnode "VDPWR.n53" 0 479.962 18879 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/B" 0 10.1711 18721 42557 0
-rnode "VDPWR.n54" 0 10.1711 18721 42557 0
-rnode "VDPWR.n55" 0 115.074 18721 43289 0
-rnode "VDPWR.n56" 0 10.1711 18721 43289 0
-rnode "VDPWR.n57" 0 10.1711 18721 43289 0
-rnode "VDPWR.n58" 0 10.3129 18563 42923 0
-rnode "VDPWR.n59" 0 10.3129 18563 42923 0
-rnode "VDPWR.n60" 0 9.82534 18563 43272 0
-rnode "VDPWR.n61" 0 9.81057 18247 43272 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/D" 0 1.25538 18045 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/D" 0 1.7588 17623 42923 0
-rnode "VDPWR.n62" 0 73.2128 17526 43262 0
-rnode "VDPWR.n63" 0 43.7478 17666 43294 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/vdd" 0 34.4265 17878 43306 0
-rnode "VDPWR.n64" 0 115.642 17943 43262 0
-rnode "VDPWR.n65" 0 122.046 18404 43289 0
-rnode "VDPWR.n66" 0 2.33444 18404 43289 0
-rnode "VDPWR.n67" 0 2.34922 18405 43289 0
-rnode "VDPWR.n68" 0 4.66888 18405 43289 0
-rnode "VDPWR.n69" 0 115.074 18405 43289 0
-rnode "VDPWR.n70" 0 4.66888 18405 42557 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/B" 0 4.66888 18405 42557 0
-rnode "VDPWR.n71" 0 9.82534 18247 42574 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/B" 0 10.1711 18089 42557 0
-rnode "VDPWR.n72" 0 15.2949 17931 42923 0
-rnode "VDPWR.n73" 0 15.2949 17931 42923 0
-rnode "VDPWR.n74" 0 96.138 17931 42923 0
-rnode "VDPWR.n75" 0 96.138 17825 42923 0
-rnode "VDPWR.n76" 0 15.2949 17825 42923 0
-rnode "VDPWR.n77" 0 15.2949 17825 42923 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/B" 0 15.6734 17667 42557 0
-rnode "VDPWR.n78" 0 15.2794 17509 42923 0
-rnode "VDPWR.n79" 0 15.2949 17509 42923 0
-rnode "VDPWR.n80" 0 95.4097 17509 42923 0
-rnode "VDPWR.n81" 0 95.4097 17405 42923 0
-rnode "VDPWR.n82" 0 15.2949 17405 42923 0
-rnode "VDPWR.n83" 0 15.6734 17247 42557 0
+rnode "VDPWR.n42" 0 99.7455 20775 42923 0
+rnode "VDPWR.n43" 0 15.1891 20775 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/B" 0 15.565 20617 42557 0
+rnode "VDPWR.n44" 0 15.1738 20459 42923 0
+rnode "VDPWR.n45" 0 15.1891 20459 42923 0
+rnode "VDPWR.n46" 0 94.7498 20459 42923 0
+rnode "VDPWR.n47" 0 94.7498 20355 42923 0
+rnode "VDPWR.n48" 0 15.1891 20355 42923 0
+rnode "VDPWR.n49" 0 15.1891 20355 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/B" 0 15.565 20197 42557 0
+rnode "VDPWR.n50" 0 15.1738 20039 42923 0
+rnode "VDPWR.n51" 0 15.1891 20039 42923 0
+rnode "VDPWR.n52" 0 476.642 20039 42923 0
+rnode "VDPWR.n53" 0 476.642 18879 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/B" 0 10.1008 18721 42557 0
+rnode "VDPWR.n54" 0 10.1008 18721 42557 0
+rnode "VDPWR.n55" 0 114.278 18721 43289 0
+rnode "VDPWR.n56" 0 10.1008 18721 43289 0
+rnode "VDPWR.n57" 0 10.1008 18721 43289 0
+rnode "VDPWR.n58" 0 10.2416 18563 42923 0
+rnode "VDPWR.n59" 0 10.2416 18563 42923 0
+rnode "VDPWR.n60" 0 9.75739 18563 43272 0
+rnode "VDPWR.n61" 0 9.74272 18247 43272 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/D" 0 1.2467 18045 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/D" 0 1.74664 17623 42923 0
+rnode "VDPWR.n62" 0 72.7064 17526 43262 0
+rnode "VDPWR.n63" 0 43.4452 17666 43294 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/vdd" 0 34.1884 17878 43306 0
+rnode "VDPWR.n64" 0 114.843 17943 43262 0
+rnode "VDPWR.n65" 0 121.202 18404 43289 0
+rnode "VDPWR.n66" 0 2.3183 18404 43289 0
+rnode "VDPWR.n67" 0 2.33297 18405 43289 0
+rnode "VDPWR.n68" 0 4.6366 18405 43289 0
+rnode "VDPWR.n69" 0 114.278 18405 43289 0
+rnode "VDPWR.n70" 0 4.6366 18405 42557 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/B" 0 4.6366 18405 42557 0
+rnode "VDPWR.n71" 0 9.75739 18247 42574 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/B" 0 10.1008 18089 42557 0
+rnode "VDPWR.n72" 0 15.1891 17931 42923 0
+rnode "VDPWR.n73" 0 15.1891 17931 42923 0
+rnode "VDPWR.n74" 0 95.4731 17931 42923 0
+rnode "VDPWR.n75" 0 95.4731 17825 42923 0
+rnode "VDPWR.n76" 0 15.1891 17825 42923 0
+rnode "VDPWR.n77" 0 15.1891 17825 42923 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/B" 0 15.565 17667 42557 0
+rnode "VDPWR.n78" 0 15.1738 17509 42923 0
+rnode "VDPWR.n79" 0 15.1891 17509 42923 0
+rnode "VDPWR.n80" 0 94.7498 17509 42923 0
+rnode "VDPWR.n81" 0 94.7498 17405 42923 0
+rnode "VDPWR.n82" 0 15.1891 17405 42923 0
+rnode "VDPWR.n83" 0 15.565 17247 42557 0
 rnode "VDPWR.n84" 0 0 17247 42557 0
-rnode "VDPWR.n85" 0 100.44 17089 42923 0
-rnode "VDPWR.n86" 0 15.2794 17089 42923 0
-rnode "VDPWR.n87" 0 5.47339 17246 43294 0
-rnode "VDPWR.n88" 0 43.4992 17246 43294 0
-rnode "VDPWR.n89" 0 73.2128 17106 43262 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/vdd" 0 187.076 17036 43264 0
-rnode "VDPWR.n90" 0 1131.88 15593 43204 0
-rnode "VDPWR.n91" 0 1749.54 15372 34763 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -282.772 10832 35868 0
-rnode "VDPWR.n92" 0 519.425 15113 35938 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -2292.17 10832 35868 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -127.647 10832 35868 0
-rnode "VDPWR.n93" 0 364.3 11605 35938 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -40.5564 10832 35868 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 439.754 5448 35974 0
-rnode "flashADC_3bit_0/comp_p_4/vdd" 0 430.589 5448 35868 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -282.772 5448 35974 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -446.681 5448 35974 0
-rnode "VDPWR.n94" 0 14.2726 7974 35991 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -40.5564 5448 35974 0
-rnode "VDPWR.n95" 0 80.9076 6062 35938 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -127.647 5448 35974 0
-rnode "VDPWR.n96" 0 364.3 6221 35771 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -155.158 5448 35974 0
-rnode "VDPWR.n97" 0 393 7797 35938 0
-rnode "VDPWR.n98" 0 17.6265 7975 35868 0
-rnode "VDPWR.n99" 0 211.807 6043 35642 0
-rnode "VDPWR.n100" 0 31.8843 7975 35868 0
-rnode "VDPWR.n101" 0 36.0377 6043 35642 0
-rnode "VDPWR.n102" 0 2253.19 7975 37757 0
-rnode "VDPWR.n103" 0 31.9796 7009 35991 0
-rnode "VDPWR.n104" 0 31.9796 7009 35399 0
-rnode "VDPWR.n105" 0 405.939 6842 38281 0
-rnode "VDPWR.n106" 0 31.8843 7975 36460 0
-rnode "VDPWR.n107" 0 36.0377 6043 36234 0
-rnode "VDPWR.n108" 0 116.381 6848 37142 0
-rnode "VDPWR.n109" 0 -81.7072 7997 36565 0
-rnode "VDPWR.n110" 0 17.6265 7975 36008 0
-rnode "VDPWR.n111" 0 36.0377 9907 36234 0
-rnode "VDPWR.n112" 0 29.5245 8941 35991 0
-rnode "VDPWR.n113" 0 506.284 9114 38281 0
-rnode "VDPWR.n114" 0 31.9796 8941 35399 0
-rnode "VDPWR.n115" 0 2203.02 7997 37051 0
-rnode "VDPWR.n116" 0 31.9796 8941 35885 0
-rnode "VDPWR.n117" 0 107.662 9114 37233 0
-rnode "VDPWR.n118" 0 210.01 9907 36234 0
-rnode "VDPWR.n119" 0 662.559 10195 36458 0
-rnode "VDPWR.n120" 0 41.2966 7997 37051 0
-rnode "VDPWR.n121" 0 41.2966 7997 36565 0
-rnode "VDPWR.n122" 0 2469.84 9907 36234 0
-rnode "VDPWR.n123" 0 41.2966 7997 35311 0
-rnode "VDPWR.n124" 0 41.2966 7997 34825 0
-rnode "VDPWR.n125" 0 29.5245 8941 35885 0
-rnode "VDPWR.n126" 0 36.0377 9907 35642 0
-rnode "VDPWR.n127" 0 210.01 9907 35642 0
-rnode "VDPWR.n128" 0 662.559 10195 35418 0
-rnode "VDPWR.n129" 0 107.662 9114 34643 0
-rnode "VDPWR.n130" 0 106.912 7997 34825 0
-rnode "VDPWR.n131" 0 115.341 7975 34626 0
-rnode "VDPWR.n132" 0 373.167 6831 35068 0
-rnode "VDPWR.n133" 0 41.0596 7975 34626 0
-rnode "VDPWR.n134" 0 41.2143 6842 33595 0
-rnode "VDPWR.n135" 0 678.347 5755 35416 0
-rnode "VDPWR.n136" 0 221.903 5703 34119 0
-rnode "VDPWR.n137" 0 2572.47 6043 36234 0
-rnode "VDPWR.n138" 0 41.2143 6842 38281 0
-rnode "VDPWR.n139" 0 41.2143 6842 37233 0
-rnode "VDPWR.n140" 0 106.912 7997 37051 0
-rnode "VDPWR.n141" 0 115.341 7975 37250 0
-rnode "VDPWR.n142" 0 14.9818 7975 37757 0
-rnode "VDPWR.n143" 0 220.678 10246 37757 0
-rnode "VDPWR.n144" 0 2572.47 11427 36234 0
-rnode "VDPWR.n145" 0 49.3344 11087 37757 0
-rnode "VDPWR.n146" 0 41.2143 12226 34643 0
-rnode "VDPWR.n147" 0 41.2143 12226 33595 0
-rnode "VDPWR.n148" 0 678.347 11139 35416 0
-rnode "VDPWR.n149" 0 14.9818 13359 34119 0
-rnode "VDPWR.n150" 0 220.678 15630 34119 0
-rnode "VDPWR.n151" 0 49.1262 15630 34119 0
-rnode "VDPWR.n152" 0 41.0596 13359 33612 0
-rnode "VDPWR.n153" 0 1808.48 14547 35068 0
-rnode "VDPWR.n154" 0 41.2002 14498 34643 0
-rnode "VDPWR.n155" 0 41.2002 14498 37233 0
-rnode "VDPWR.n156" 0 2547.38 14325 35885 0
-rnode "VDPWR.n157" 0 49.1262 15630 37757 0
-rnode "VDPWR.n158" 0 41.0596 13359 38264 0
-rnode "VDPWR.n159" 0 220.678 15630 37757 0
-rnode "VDPWR.n160" 0 14.9818 13359 37757 0
-rnode "VDPWR.n161" 0 221.903 11087 37757 0
-rnode "VDPWR.n162" 0 2583.87 12393 35885 0
-rnode "VDPWR.n163" 0 41.2143 12226 37233 0
-rnode "VDPWR.n164" 0 41.975 12215 36808 0
-rnode "VDPWR.n165" 0 41.2966 13381 35311 0
-rnode "VDPWR.n166" 0 41.2966 13381 34825 0
-rnode "VDPWR.n167" 0 107.131 12393 35399 0
-rnode "VDPWR.n168" 0 41.975 14547 35068 0
-rnode "VDPWR.n169" 0 361.722 14547 35068 0
-rnode "VDPWR.n170" 0 -81.7072 13381 35311 0
-rnode "VDPWR.n171" 0 36.0377 15291 35642 0
-rnode "VDPWR.n172" 0 6.67828 13359 35642 0
-rnode "VDPWR.n173" 0 31.9796 12393 35885 0
-rnode "VDPWR.n174" 0 104.664 13359 35416 0
-rnode "VDPWR.n175" 0 6.67828 13359 35642 0
-rnode "VDPWR.n176" 0 662.559 15579 35418 0
-rnode "VDPWR.n177" 0 210.01 15291 35642 0
-rnode "VDPWR.n178" 0 31.8843 13359 35868 0
-rnode "VDPWR.n179" 0 31.9796 14325 35885 0
-rnode "VDPWR.n180" 0 29.5245 14325 35885 0
-rnode "VDPWR.n181" 0 17.6265 13359 35868 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -446.681 10832 35868 0
-rnode "VDPWR.n182" 0 684.656 13537 35771 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -155.158 10832 35868 0
-rnode "VDPWR.n183" 0 393 13181 35938 0
-rnode "VDPWR.n184" 0 17.6265 13359 36008 0
-rnode "VDPWR.n185" 0 211.807 11427 36234 0
-rnode "VDPWR.n186" 0 31.8843 13359 36008 0
-rnode "VDPWR.n187" 0 31.8843 13359 36460 0
-rnode "VDPWR.n188" 0 104.664 13359 36460 0
-rnode "VDPWR.n189" 0 678.347 11139 36460 0
-rnode "VDPWR.n190" 0 373.167 12215 36808 0
-rnode "VDPWR.n191" 0 5.8361 12226 37233 0
-rnode "VDPWR.n192" 0 107.662 14498 37233 0
-rnode "VDPWR.n193" 0 41.975 14547 36808 0
-rnode "VDPWR.n194" 0 19.3452 14528 36521 0
-rnode "VDPWR.n195" 0 31.9796 14325 35991 0
-rnode "VDPWR.n196" 0 361.722 14547 36808 0
-rnode "VDPWR.n197" 0 662.559 15579 36458 0
-rnode "VDPWR.n198" 0 29.5245 14325 35991 0
-rnode "VDPWR.n199" 0 210.01 15291 36234 0
-rnode "VDPWR.n200" 0 2095.83 15630 34119 0
-rnode "VDPWR.n201" 0 2469.84 15291 36234 0
-rnode "VDPWR.n202" 0 36.0377 15291 36234 0
-rnode "VDPWR.n203" 0 31.9796 14325 36477 0
-rnode "VDPWR.n204" 0 112.234 14325 36477 0
-rnode "VDPWR.n205" 0 -81.7072 13381 36565 0
-rnode "VDPWR.n206" 0 41.2966 13381 36565 0
-rnode "VDPWR.n207" 0 41.0596 13359 34626 0
-rnode "VDPWR.n208" 0 14.9818 13359 34119 0
-rnode "VDPWR.n209" 0 6.67828 13359 36234 0
-rnode "VDPWR.n210" 0 6.67828 13359 36234 0
-rnode "VDPWR.n211" 0 41.0596 13359 37250 0
-rnode "VDPWR.n212" 0 14.9818 13359 37757 0
-rnode "VDPWR.n213" 0 2253.19 13359 35642 0
-rnode "VDPWR.n214" 0 2203.02 13381 35311 0
-rnode "VDPWR.n215" 0 41.2966 13381 37051 0
-rnode "VDPWR.n216" 0 106.912 13381 37051 0
-rnode "VDPWR.n217" 0 115.341 13359 37250 0
-rnode "VDPWR.n218" 0 116.381 12232 37142 0
-rnode "VDPWR.n219" 0 107.131 12393 36521 0
-rnode "VDPWR.n220" 0 31.9796 12393 36477 0
-rnode "VDPWR.n221" 0 36.0377 11427 36234 0
-rnode "VDPWR.n222" 0 31.9796 12393 35991 0
-rnode "VDPWR.n223" 0 29.4812 12393 35991 0
-rnode "VDPWR.n224" 0 14.2726 13358 35991 0
-rnode "VDPWR.n225" 0 23.5148 13358 35991 0
-rnode "VDPWR.n226" 0 14.2726 13358 35885 0
-rnode "VDPWR.n227" 0 29.4812 12393 35885 0
-rnode "VDPWR.n228" 0 211.807 11427 35642 0
-rnode "VDPWR.n229" 0 36.0377 11427 35642 0
-rnode "VDPWR.n230" 0 31.9796 12393 35399 0
-rnode "VDPWR.n231" 0 31.8843 13359 35416 0
-rnode "VDPWR.n232" 0 31.9796 14325 35399 0
-rnode "VDPWR.n233" 0 112.234 14325 35399 0
-rnode "VDPWR.n234" 0 19.3452 14528 35355 0
-rnode "VDPWR.n235" 0 107.662 14498 34643 0
-rnode "VDPWR.n236" 0 106.912 13381 34825 0
-rnode "VDPWR.n237" 0 115.341 13359 34626 0
-rnode "VDPWR.n238" 0 116.381 12232 34734 0
-rnode "VDPWR.n239" 0 5.8361 12226 34643 0
-rnode "VDPWR.n240" 0 373.167 12215 35068 0
-rnode "VDPWR.n241" 0 41.975 12215 35068 0
-rnode "VDPWR.n242" 0 1822.16 12215 35068 0
-rnode "VDPWR.n243" 0 405.939 12226 33595 0
-rnode "VDPWR.n244" 0 41.2143 12226 38281 0
-rnode "VDPWR.n245" 0 37.8699 12226 38281 0
-rnode "VDPWR.n246" 0 41.0596 13359 38264 0
-rnode "VDPWR.n247" 0 37.8788 14498 38281 0
-rnode "VDPWR.n248" 0 41.2002 14498 38281 0
-rnode "VDPWR.n249" 0 506.284 14498 33595 0
-rnode "VDPWR.n250" 0 41.2002 14498 33595 0
-rnode "VDPWR.n251" 0 37.8788 14498 33595 0
-rnode "VDPWR.n252" 0 41.0596 13359 33612 0
-rnode "VDPWR.n253" 0 37.8699 12226 33595 0
-rnode "VDPWR.n254" 0 221.903 11087 34119 0
-rnode "VDPWR.n255" 0 49.3344 11087 34119 0
-rnode "VDPWR.n256" 0 2693.34 11087 34119 0
-rnode "VDPWR.n257" 0 41.2002 9114 34643 0
-rnode "VDPWR.n258" 0 41.2002 9114 33595 0
-rnode "VDPWR.n259" 0 37.8699 6842 33595 0
-rnode "VDPWR.n260" 0 41.0596 7975 33612 0
-rnode "VDPWR.n261" 0 14.9818 7975 34119 0
-rnode "VDPWR.n262" 0 14.9818 7975 34119 0
-rnode "VDPWR.n263" 0 41.0596 7975 33612 0
-rnode "VDPWR.n264" 0 37.8788 9114 33595 0
-rnode "VDPWR.n265" 0 220.678 10246 34119 0
-rnode "VDPWR.n266" 0 49.1262 10246 34119 0
-rnode "VDPWR.n267" 0 2691.06 10246 37757 0
-rnode "VDPWR.n268" 0 49.1262 10246 37757 0
-rnode "VDPWR.n269" 0 41.2002 9114 37233 0
-rnode "VDPWR.n270" 0 41.0596 7975 37250 0
-rnode "VDPWR.n271" 0 14.9818 7975 37757 0
-rnode "VDPWR.n272" 0 41.0596 7975 38264 0
-rnode "VDPWR.n273" 0 41.2002 9114 38281 0
-rnode "VDPWR.n274" 0 37.8788 9114 38281 0
-rnode "VDPWR.n275" 0 41.0596 7975 38264 0
-rnode "VDPWR.n276" 0 37.8699 6842 38281 0
-rnode "VDPWR.n277" 0 29.4812 7009 35991 0
-rnode "VDPWR.n278" 0 211.807 6043 36234 0
-rnode "VDPWR.n279" 0 5.8361 6842 37233 0
-rnode "VDPWR.n280" 0 41.975 6831 35068 0
-rnode "VDPWR.n281" 0 1822.16 6831 36808 0
-rnode "VDPWR.n282" 0 41.975 6831 36808 0
-rnode "VDPWR.n283" 0 373.167 6831 36808 0
-rnode "VDPWR.n284" 0 678.347 5755 36460 0
-rnode "VDPWR.n285" 0 221.903 5703 37757 0
-rnode "VDPWR.n286" 0 49.3344 5703 37757 0
-rnode "VDPWR.n287" 0 2093.55 5703 37757 0
-rnode "VDPWR.n288" 0 49.3344 5703 34119 0
-rnode "VDPWR.n289" 0 41.2143 6842 34643 0
-rnode "VDPWR.n290" 0 5.8361 6842 34643 0
-rnode "VDPWR.n291" 0 116.381 6848 35355 0
-rnode "VDPWR.n292" 0 107.131 7009 35399 0
-rnode "VDPWR.n293" 0 31.8843 7975 35416 0
-rnode "VDPWR.n294" 0 6.67828 7975 35642 0
-rnode "VDPWR.n295" 0 6.67828 7975 35642 0
-rnode "VDPWR.n296" 0 104.664 7975 35416 0
-rnode "VDPWR.n297" 0 -81.7072 7997 35311 0
-rnode "VDPWR.n298" 0 112.234 8941 35399 0
-rnode "VDPWR.n299" 0 19.3452 9144 34734 0
-rnode "VDPWR.n300" 0 361.722 9163 35068 0
-rnode "VDPWR.n301" 0 41.975 9163 35068 0
-rnode "VDPWR.n302" 0 1808.48 9163 36808 0
-rnode "VDPWR.n303" 0 41.975 9163 36808 0
-rnode "VDPWR.n304" 0 361.722 9163 36808 0
-rnode "VDPWR.n305" 0 19.3452 9144 36521 0
-rnode "VDPWR.n306" 0 112.234 8941 36477 0
-rnode "VDPWR.n307" 0 31.9796 8941 36477 0
-rnode "VDPWR.n308" 0 2547.38 8941 36477 0
-rnode "VDPWR.n309" 0 31.9796 8941 35991 0
-rnode "VDPWR.n310" 0 31.8843 7975 36008 0
-rnode "VDPWR.n311" 0 6.67828 7975 36234 0
-rnode "VDPWR.n312" 0 6.67828 7975 36234 0
-rnode "VDPWR.n313" 0 104.664 7975 36460 0
-rnode "VDPWR.n314" 0 107.131 7009 36477 0
-rnode "VDPWR.n315" 0 31.9796 7009 36477 0
-rnode "VDPWR.n316" 0 2583.87 7009 36477 0
-rnode "VDPWR.n317" 0 31.9796 7009 35885 0
-rnode "VDPWR.n318" 0 29.4812 7009 35885 0
-rnode "VDPWR.n319" 0 14.2726 7974 35885 0
-rnode "VDPWR.n320" 0 23.5148 7974 35885 0
-rnode "VDPWR.n321" 0 684.656 8153 35938 0
-rnode "VDPWR.n322" 0 519.293 9729 36105 0
-rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -2291.14 5448 35974 0
-rnode "VDPWR.n323" 0 3037.34 9886 35380 0
-rnode "flashADC_3bit_0/comp_p_5/vdd" 0 649.964 10832 35868 0
-rnode "VDPWR.n324" 0 186.206 11145 36211 0
-rnode "flashADC_3bit_0/vdd" 0 54.185 10902 43474 0
-rnode "VDPWR.n325" 0 141.313 11226 43437 0
-rnode "VDPWR.n326" 0 122.321 11226 43437 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 448.957 5448 43272 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -524.616 5448 43272 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -465.489 5448 43272 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -75.2427 5448 43272 0
-rnode "VDPWR.n327" 0 212.152 6062 43407 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -133.021 5448 43272 0
-rnode "VDPWR.n328" 0 406.663 6221 43175 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -287.859 5448 43272 0
-rnode "VDPWR.n329" 0 563.706 7797 43407 0
-rnode "VDPWR.n330" 0 17.6265 7975 43272 0
-rnode "VDPWR.n331" 0 211.807 6043 43046 0
-rnode "VDPWR.n332" 0 31.8843 7975 43272 0
-rnode "VDPWR.n333" 0 36.0377 6043 43046 0
-rnode "VDPWR.n334" 0 1126.6 7975 43046 0
-rnode "VDPWR.n335" 0 31.9796 7009 42803 0
-rnode "VDPWR.n336" 0 41.2143 6842 40999 0
-rnode "VDPWR.n337" 0 911.082 6831 42472 0
-rnode "VDPWR.n338" 0 41.0596 7975 42030 0
-rnode "VDPWR.n339" 0 1394.71 6043 43046 0
-rnode "VDPWR.n340" 0 987.634 5703 41523 0
-rnode "VDPWR.n341" 0 116.381 6848 42759 0
-rnode "VDPWR.n342" 0 678.347 5755 42820 0
-rnode "VDPWR.n343" 0 41.2966 7997 42715 0
-rnode "VDPWR.n344" 0 41.975 9163 42472 0
-rnode "VDPWR.n345" 0 106.912 7997 42229 0
-rnode "VDPWR.n346" 0 253.142 9114 42047 0
-rnode "VDPWR.n347" 0 31.9796 8941 42803 0
-rnode "VDPWR.n348" 0 36.0377 9907 43046 0
-rnode "VDPWR.n349" 0 220.678 10246 41523 0
-rnode "VDPWR.n350" 0 41.0596 7975 41016 0
-rnode "VDPWR.n351" 0 221.903 5703 41523 0
-rnode "VDPWR.n352" 0 37.8699 6842 40999 0
-rnode "VDPWR.n353" 0 115.341 7975 42030 0
-rnode "VDPWR.n354" 0 14.9818 7975 41523 0
-rnode "VDPWR.n355" 0 14.9818 7975 41523 0
-rnode "VDPWR.n356" 0 41.0596 7975 41016 0
-rnode "VDPWR.n357" 0 37.8788 9114 40999 0
-rnode "VDPWR.n358" 0 41.2002 9114 40999 0
-rnode "VDPWR.n359" 0 1286.23 11427 43046 0
-rnode "VDPWR.n360" 0 41.2143 12226 42047 0
-rnode "VDPWR.n361" 0 41.2143 12226 40999 0
-rnode "VDPWR.n362" 0 678.347 11139 42820 0
-rnode "VDPWR.n363" 0 14.9818 13359 41523 0
-rnode "VDPWR.n364" 0 220.678 15630 41523 0
-rnode "VDPWR.n365" 0 988.161 15630 41523 0
-rnode "VDPWR.n366" 0 41.0596 13359 41016 0
-rnode "VDPWR.n367" 0 904.241 14547 42472 0
-rnode "VDPWR.n368" 0 41.2002 14498 42047 0
-rnode "VDPWR.n369" 0 31.9796 14325 42803 0
-rnode "VDPWR.n370" 0 1101.51 13381 42715 0
-rnode "VDPWR.n371" 0 1343.8 15291 43046 0
-rnode "VDPWR.n372" 0 36.0377 15291 43046 0
-rnode "VDPWR.n373" 0 31.8843 13359 43272 0
-rnode "VDPWR.n374" 0 210.01 15291 43046 0
-rnode "VDPWR.n375" 0 6.67828 13359 43046 0
-rnode "VDPWR.n376" 0 211.807 11427 43046 0
-rnode "VDPWR.n377" 0 36.0377 11427 43046 0
-rnode "VDPWR.n378" 0 41.0596 13359 42030 0
-rnode "VDPWR.n379" 0 14.9818 13359 41523 0
-rnode "VDPWR.n380" 0 1126.6 13359 43046 0
-rnode "VDPWR.n381" 0 6.67828 13359 43046 0
-rnode "VDPWR.n382" 0 31.8843 13359 42820 0
-rnode "VDPWR.n383" 0 31.9796 12393 42803 0
-rnode "VDPWR.n384" 0 41.2966 13381 42715 0
-rnode "VDPWR.n385" 0 41.2966 13381 42229 0
-rnode "VDPWR.n386" 0 107.131 12393 42803 0
-rnode "VDPWR.n387" 0 662.559 15579 42822 0
-rnode "VDPWR.n388" 0 41.975 14547 42472 0
-rnode "VDPWR.n389" 0 361.722 14547 42472 0
-rnode "VDPWR.n390" 0 104.664 13359 42820 0
-rnode "VDPWR.n391" 0 -81.7072 13381 42715 0
-rnode "VDPWR.n392" 0 112.234 14325 42803 0
-rnode "VDPWR.n393" 0 19.3452 14528 42759 0
-rnode "VDPWR.n394" 0 107.662 14498 42047 0
-rnode "VDPWR.n395" 0 106.912 13381 42229 0
-rnode "VDPWR.n396" 0 115.341 13359 42030 0
-rnode "VDPWR.n397" 0 116.381 12232 42138 0
-rnode "VDPWR.n398" 0 5.8361 12226 42047 0
-rnode "VDPWR.n399" 0 373.167 12215 42472 0
-rnode "VDPWR.n400" 0 41.975 12215 42472 0
-rnode "VDPWR.n401" 0 911.082 12215 42472 0
-rnode "VDPWR.n402" 0 202.97 12226 40999 0
-rnode "VDPWR.n403" 0 1291.94 12393 43289 0
-rnode "VDPWR.n404" 0 31.9796 12393 43289 0
-rnode "VDPWR.n405" 0 29.4812 12393 43289 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -465.489 10832 43272 0
-rnode "VDPWR.n406" 0 741.582 13537 43407 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -287.859 10832 43272 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -133.021 10832 43272 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -75.4878 10832 43272 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -1543.55 10832 43272 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -524.616 10832 43272 0
-rnode "VDPWR.n407" 0 798.257 15113 43407 0
-rnode "VDPWR.n408" 0 1773.24 15272 43407 0
-rnode "VDPWR.n409" 0 291.551 11448 43407 0
-rnode "VDPWR.n410" 0 406.418 11605 43407 0
-rnode "VDPWR.n411" 0 563.706 13181 43407 0
-rnode "VDPWR.n412" 0 43.6261 13358 43289 0
-rnode "VDPWR.n413" 0 14.2726 13358 43289 0
-rnode "VDPWR.n414" 0 17.6265 13359 43272 0
-rnode "VDPWR.n415" 0 29.5245 14325 43289 0
-rnode "VDPWR.n416" 0 31.9796 14325 43289 0
-rnode "VDPWR.n417" 0 1273.69 14325 43289 0
-rnode "VDPWR.n418" 0 253.142 14498 40999 0
-rnode "VDPWR.n419" 0 41.2002 14498 40999 0
-rnode "VDPWR.n420" 0 37.8788 14498 40999 0
-rnode "VDPWR.n421" 0 41.0596 13359 41016 0
-rnode "VDPWR.n422" 0 37.8699 12226 40999 0
-rnode "VDPWR.n423" 0 221.903 11087 41523 0
-rnode "VDPWR.n424" 0 49.3344 11087 41523 0
-rnode "VDPWR.n425" 0 1346.67 11087 41523 0
-rnode "VDPWR.n426" 0 904.241 9163 42472 0
-rnode "VDPWR.n427" 0 1234.92 9907 43046 0
-rnode "VDPWR.n428" 0 1345.53 10246 41523 0
-rnode "VDPWR.n429" 0 49.1262 10246 41523 0
-rnode "VDPWR.n430" 0 41.2002 9114 42047 0
-rnode "VDPWR.n431" 0 107.662 9114 42047 0
-rnode "VDPWR.n432" 0 107.131 7009 42803 0
-rnode "VDPWR.n433" 0 31.8843 7975 42820 0
-rnode "VDPWR.n434" 0 6.67828 7975 43046 0
-rnode "VDPWR.n435" 0 6.67828 7975 43046 0
-rnode "VDPWR.n436" 0 104.664 7975 42820 0
-rnode "VDPWR.n437" 0 -81.7072 7997 42715 0
-rnode "VDPWR.n438" 0 112.234 8941 42803 0
-rnode "VDPWR.n439" 0 19.3452 9144 42138 0
-rnode "VDPWR.n440" 0 361.722 9163 42472 0
-rnode "VDPWR.n441" 0 662.559 10195 42822 0
-rnode "VDPWR.n442" 0 210.01 9907 43046 0
-rnode "VDPWR.n443" 0 29.5245 8941 43289 0
-rnode "VDPWR.n444" 0 31.9796 8941 43289 0
-rnode "VDPWR.n445" 0 1273.69 8941 43289 0
-rnode "VDPWR.n446" 0 1101.51 7997 42715 0
-rnode "VDPWR.n447" 0 41.2966 7997 42229 0
-rnode "VDPWR.n448" 0 41.975 6831 42472 0
-rnode "VDPWR.n449" 0 373.167 6831 42472 0
-rnode "VDPWR.n450" 0 5.8361 6842 42047 0
-rnode "VDPWR.n451" 0 41.2143 6842 42047 0
-rnode "VDPWR.n452" 0 202.97 6842 42047 0
-rnode "VDPWR.n453" 0 1291.94 7009 43289 0
-rnode "VDPWR.n454" 0 31.9796 7009 43289 0
-rnode "VDPWR.n455" 0 29.4812 7009 43289 0
-rnode "VDPWR.n456" 0 14.2726 7974 43289 0
-rnode "VDPWR.n457" 0 43.6261 7974 43289 0
-rnode "VDPWR.n458" 0 741.582 8153 43407 0
-rnode "VDPWR.n459" 0 798.257 9729 43407 0
-rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -1543.55 5448 43272 0
-rnode "VDPWR.n460" 0 2014.79 9888 42784 0
-rnode "flashADC_3bit_0/comp_p_1/vdd" 0 448.463 10832 43272 0
-rnode "VDPWR.n461" 0 156.976 11178 43077 0
-rnode "VDPWR.n462" 0 1149.92 11178 43077 0
-rnode "VDPWR.n463" 0 2010.99 11229 39571 0
-rnode "VDPWR.n464" 0 1167.93 11145 36211 0
-rnode "VDPWR.n465" 0 2712.03 11220 32005 0
-rnode "VDPWR.n466" 0 3562.15 15372 34763 0
-rnode "VDPWR" 0 5396.16 200 1000 0
-rnode "VDPWR.n467" 0 3652.26 17550 32028 0
-rnode "VDPWR.n468" 0 3936.05 19406 32028 0
-rnode "VDPWR.n469" 0 5.47339 17666 37462 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/D" 0 1.7588 17623 37929 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/D" 0 1.7588 17623 37091 0
-rnode "VDPWR.n470" 0 108.828 17526 37590 0
-rnode "VDPWR.n471" 0 7.85147 17667 37563 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/B" 0 15.6734 17667 38295 0
-rnode "VDPWR.n472" 0 15.6734 17667 38295 0
-rnode "VDPWR.n473" 0 15.6734 17667 37563 0
-rnode "VDPWR.n474" 0 777.781 17247 38295 0
-rnode "VDPWR.n475" 0 15.2949 17089 37929 0
-rnode "VDPWR.n476" 0 777.781 17247 37563 0
-rnode "VDPWR.n477" 0 15.2949 17825 37929 0
-rnode "VDPWR.n478" 0 15.2949 17825 37929 0
-rnode "VDPWR.n479" 0 15.6734 17247 38295 0
-rnode "VDPWR.n480" 0 15.6734 17247 37563 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/B" 0 15.6734 17247 38295 0
-rnode "VDPWR.n481" 0 15.2794 17089 37929 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vdd" 0 19.4682 17456 37510 0
-rnode "VDPWR.n482" 0 7.85147 17247 37457 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/B" 0 15.6734 17247 36725 0
-rnode "VDPWR.n483" 0 15.6734 17247 37457 0
-rnode "VDPWR.n484" 0 15.6734 17247 36725 0
-rnode "VDPWR.n485" 0 777.781 17667 37457 0
-rnode "VDPWR.n486" 0 15.2949 17825 37091 0
-rnode "VDPWR.n487" 0 15.2949 17405 37091 0
-rnode "VDPWR.n488" 0 15.2949 17405 37091 0
-rnode "VDPWR.n489" 0 777.781 17667 36725 0
-rnode "VDPWR.n490" 0 15.6734 17667 37457 0
-rnode "VDPWR.n491" 0 15.6734 17667 36725 0
-rnode "VDPWR.n492" 0 7.85147 17667 37457 0
-rnode "VDPWR.n493" 0 15.2949 17825 37091 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/B" 0 15.6734 17667 36725 0
-rnode "VDPWR.n494" 0 15.2794 17509 37091 0
-rnode "VDPWR.n495" 0 15.2949 17509 37091 0
-rnode "VDPWR.n496" 0 1206.22 17509 37091 0
-rnode "VDPWR.n497" 0 15.2949 17089 37091 0
-rnode "VDPWR.n498" 0 15.2794 17089 37091 0
-rnode "VDPWR.n499" 0 5.47339 17246 37462 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/D" 0 1.7588 17203 37929 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/D" 0 1.7588 17203 37091 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/vdd" 0 4.86704 17036 37432 0
-rnode "VDPWR.n500" 0 108.828 17106 37590 0
-rnode "VDPWR.n501" 0 24.3352 17246 37558 0
-rnode "VDPWR.n502" 0 5.47339 17246 37558 0
-rnode "VDPWR.n503" 0 7.85147 17247 37563 0
-rnode "VDPWR.n504" 0 15.2949 17405 37929 0
-rnode "VDPWR.n505" 0 15.2949 17405 37929 0
-rnode "VDPWR.n506" 0 1206.22 17405 37929 0
-rnode "VDPWR.n507" 0 15.2949 17509 37929 0
-rnode "VDPWR.n508" 0 15.2794 17509 37929 0
-rnode "VDPWR.n509" 0 5.47339 17666 37558 0
-rnode "VDPWR.n510" 0 123.019 17666 37558 0
-rnode "VDPWR.n511" 0 668.547 18925 37512 0
-rnode "VDPWR.n512" 0 1195.98 17557 37516 0
-rnode "VDPWR.n513" 0 660.284 17536 34766 0
-rnode "VDPWR.n514" 0 3681.29 17536 34766 0
-rnode "VDPWR.n515" 0 1760.86 19422 34770 0
-rnode "VDPWR.n516" 0 784.89 19403 34588 0
-rnode "VDPWR.n517" 0 5.47339 17666 34546 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/D" 0 1.7588 17623 35013 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/D" 0 1.7588 17623 34175 0
-rnode "VDPWR.n518" 0 108.828 17526 34674 0
-rnode "VDPWR.n519" 0 7.85147 17667 34647 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/B" 0 15.6734 17667 35379 0
-rnode "VDPWR.n520" 0 15.6734 17667 35379 0
-rnode "VDPWR.n521" 0 15.6734 17667 34647 0
-rnode "VDPWR.n522" 0 777.781 17247 35379 0
-rnode "VDPWR.n523" 0 15.2949 17089 35013 0
-rnode "VDPWR.n524" 0 777.781 17247 34647 0
-rnode "VDPWR.n525" 0 15.2949 17825 35013 0
-rnode "VDPWR.n526" 0 15.2949 17825 35013 0
-rnode "VDPWR.n527" 0 15.6734 17247 35379 0
-rnode "VDPWR.n528" 0 15.6734 17247 34647 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/B" 0 15.6734 17247 35379 0
-rnode "VDPWR.n529" 0 15.2794 17089 35013 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vdd" 0 19.4682 17456 34516 0
-rnode "VDPWR.n530" 0 7.85147 17247 34541 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/B" 0 15.6734 17247 33809 0
-rnode "VDPWR.n531" 0 15.6734 17247 34541 0
-rnode "VDPWR.n532" 0 15.6734 17247 33809 0
-rnode "VDPWR.n533" 0 777.781 17667 34541 0
-rnode "VDPWR.n534" 0 15.2949 17825 34175 0
-rnode "VDPWR.n535" 0 15.2949 17405 34175 0
-rnode "VDPWR.n536" 0 15.2949 17405 34175 0
-rnode "VDPWR.n537" 0 777.781 17667 33809 0
-rnode "VDPWR.n538" 0 15.6734 17667 34541 0
-rnode "VDPWR.n539" 0 15.6734 17667 33809 0
-rnode "VDPWR.n540" 0 7.85147 17667 34541 0
-rnode "VDPWR.n541" 0 15.2949 17825 34175 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/B" 0 15.6734 17667 33809 0
-rnode "VDPWR.n542" 0 15.2794 17509 34175 0
-rnode "VDPWR.n543" 0 15.2949 17509 34175 0
-rnode "VDPWR.n544" 0 1206.22 17509 34175 0
-rnode "VDPWR.n545" 0 15.2949 17089 34175 0
-rnode "VDPWR.n546" 0 15.2794 17089 34175 0
-rnode "VDPWR.n547" 0 5.47339 17246 34546 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/D" 0 1.7588 17203 35013 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/D" 0 1.7588 17203 34175 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/vdd" 0 4.86704 17036 34594 0
-rnode "VDPWR.n548" 0 108.828 17106 34674 0
-rnode "VDPWR.n549" 0 24.3352 17246 34642 0
-rnode "VDPWR.n550" 0 5.47339 17246 34642 0
-rnode "VDPWR.n551" 0 7.85147 17247 34647 0
-rnode "VDPWR.n552" 0 15.2949 17405 35013 0
-rnode "VDPWR.n553" 0 15.2949 17405 35013 0
-rnode "VDPWR.n554" 0 1206.22 17405 35013 0
-rnode "VDPWR.n555" 0 15.2949 17509 35013 0
-rnode "VDPWR.n556" 0 15.2794 17509 35013 0
-rnode "VDPWR.n557" 0 5.47339 17666 34642 0
-rnode "VDPWR.n558" 0 123.019 17666 34642 0
-rnode "VDPWR.n559" 0 669.727 18925 34592 0
-rnode "VDPWR.n560" 0 720.833 17545 34594 0
-rnode "VDPWR.n561" 0 1844.61 17550 32028 0
-rnode "VDPWR.n562" 0 3133.87 17560 28784 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -379.509 10832 28570 0
-rnode "VDPWR.n563" 0 594.165 15113 28508 0
-rnode "VDPWR.n564" 0 467.295 11148 28800 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -373.802 10832 28570 0
-rnode "VDPWR.n565" 0 590.408 13537 28508 0
-rnode "VDPWR.n566" 0 17.6265 13359 28604 0
-rnode "VDPWR.n567" 0 211.807 11427 28830 0
-rnode "VDPWR.n568" 0 31.8843 13359 28604 0
-rnode "VDPWR.n569" 0 36.0377 11427 28830 0
-rnode "VDPWR.n570" 0 1126.6 13359 30353 0
-rnode "VDPWR.n571" 0 202.97 12226 30877 0
-rnode "VDPWR.n572" 0 31.8843 13359 29056 0
-rnode "VDPWR.n573" 0 6.67828 13359 28830 0
-rnode "VDPWR.n574" 0 6.67828 13359 28830 0
-rnode "VDPWR.n575" 0 104.664 13359 29056 0
-rnode "VDPWR.n576" 0 5.8361 12226 29829 0
-rnode "VDPWR.n577" 0 106.912 13381 29647 0
-rnode "VDPWR.n578" 0 41.0596 13359 30860 0
-rnode "VDPWR.n579" 0 41.0596 13359 30860 0
-rnode "VDPWR.n580" 0 41.2002 14498 29829 0
-rnode "VDPWR.n581" 0 41.2143 12226 30877 0
-rnode "VDPWR.n582" 0 37.8699 12226 30877 0
-rnode "VDPWR.n583" 0 221.903 11087 30353 0
-rnode "VDPWR.n584" 0 41.2966 13381 29647 0
-rnode "VDPWR.n585" 0 41.975 14547 29404 0
-rnode "VDPWR.n586" 0 -81.7072 13381 29161 0
-rnode "VDPWR.n587" 0 253.142 14498 30877 0
-rnode "VDPWR.n588" 0 31.9796 14325 28587 0
-rnode "VDPWR.n589" 0 36.0377 15291 28830 0
-rnode "VDPWR.n590" 0 107.662 14498 29829 0
-rnode "VDPWR.n591" 0 37.8788 14498 30877 0
-rnode "VDPWR.n592" 0 41.2002 14498 30877 0
-rnode "VDPWR.n593" 0 904.241 14547 29404 0
-rnode "VDPWR.n594" 0 1343.8 15291 28830 0
-rnode "VDPWR.n595" 0 988.161 15630 30353 0
-rnode "VDPWR.n596" 0 220.678 15630 30353 0
-rnode "VDPWR.n597" 0 29.5245 14325 28587 0
-rnode "VDPWR.n598" 0 210.01 15291 28830 0
-rnode "VDPWR.n599" 0 662.559 15579 29054 0
-rnode "VDPWR.n600" 0 361.722 14547 29404 0
-rnode "VDPWR.n601" 0 19.3452 14528 29117 0
-rnode "VDPWR.n602" 0 112.234 14325 29073 0
-rnode "VDPWR.n603" 0 31.9796 14325 29073 0
-rnode "VDPWR.n604" 0 1273.69 14325 29073 0
-rnode "VDPWR.n605" 0 1101.51 13381 29647 0
-rnode "VDPWR.n606" 0 41.2966 13381 29161 0
-rnode "VDPWR.n607" 0 678.347 11139 29056 0
-rnode "VDPWR.n608" 0 373.167 12215 29404 0
-rnode "VDPWR.n609" 0 41.975 12215 29404 0
-rnode "VDPWR.n610" 0 911.082 12215 29404 0
-rnode "VDPWR.n611" 0 1286.23 11427 28830 0
-rnode "VDPWR.n612" 0 742.157 8889 28717 0
-rnode "VDPWR.n613" 0 41.2966 8889 29203 0
-rnode "VDPWR.n614" 0 41.2966 8889 28717 0
-rnode "VDPWR.n615" 0 37.6401 8889 29203 0
-rnode "VDPWR.n616" 0 21.0542 7739 29186 0
+rnode "VDPWR.n85" 0 99.7455 17089 42923 0
+rnode "VDPWR.n86" 0 15.1738 17089 42923 0
+rnode "VDPWR.n87" 0 5.43554 17246 43294 0
+rnode "VDPWR.n88" 0 43.1984 17246 43294 0
+rnode "VDPWR.n89" 0 72.7064 17106 43262 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/vdd" 0 185.782 17036 43264 0
+rnode "VDPWR.n90" 0 1124.05 15593 43204 0
+rnode "VDPWR.n91" 0 1737.44 15372 34763 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -280.816 10832 35868 0
+rnode "VDPWR.n92" 0 515.832 15113 35938 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -2276.32 10832 35868 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -126.764 10832 35868 0
+rnode "VDPWR.n93" 0 361.78 11605 35938 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -40.2759 10832 35868 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 436.713 5448 35974 0
+rnode "flashADC_3bit_0/comp_p_4/vdd" 0 427.612 5448 35868 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -280.816 5448 35974 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -443.592 5448 35974 0
+rnode "VDPWR.n94" 0 14.1739 7974 35991 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -40.2759 5448 35974 0
+rnode "VDPWR.n95" 0 80.3481 6062 35938 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -126.764 5448 35974 0
+rnode "VDPWR.n96" 0 361.78 6221 35771 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -154.085 5448 35974 0
+rnode "VDPWR.n97" 0 390.282 7797 35938 0
+rnode "VDPWR.n98" 0 17.5046 7975 35868 0
+rnode "VDPWR.n99" 0 210.342 6043 35642 0
+rnode "VDPWR.n100" 0 31.6638 7975 35868 0
+rnode "VDPWR.n101" 0 35.7885 6043 35642 0
+rnode "VDPWR.n102" 0 2237.61 7975 37757 0
+rnode "VDPWR.n103" 0 31.7584 7009 35991 0
+rnode "VDPWR.n104" 0 31.7584 7009 35399 0
+rnode "VDPWR.n105" 0 403.132 6842 38281 0
+rnode "VDPWR.n106" 0 31.6638 7975 36460 0
+rnode "VDPWR.n107" 0 35.7885 6043 36234 0
+rnode "VDPWR.n108" 0 115.576 6848 37142 0
+rnode "VDPWR.n109" 0 -81.1421 7997 36565 0
+rnode "VDPWR.n110" 0 17.5046 7975 36008 0
+rnode "VDPWR.n111" 0 35.7885 9907 36234 0
+rnode "VDPWR.n112" 0 29.3204 8941 35991 0
+rnode "VDPWR.n113" 0 502.782 9114 38281 0
+rnode "VDPWR.n114" 0 31.7584 8941 35399 0
+rnode "VDPWR.n115" 0 2187.78 7997 37051 0
+rnode "VDPWR.n116" 0 31.7584 8941 35885 0
+rnode "VDPWR.n117" 0 106.918 9114 37233 0
+rnode "VDPWR.n118" 0 208.558 9907 36234 0
+rnode "VDPWR.n119" 0 657.977 10195 36458 0
+rnode "VDPWR.n120" 0 41.011 7997 37051 0
+rnode "VDPWR.n121" 0 41.011 7997 36565 0
+rnode "VDPWR.n122" 0 2452.76 9907 36234 0
+rnode "VDPWR.n123" 0 41.011 7997 35311 0
+rnode "VDPWR.n124" 0 41.011 7997 34825 0
+rnode "VDPWR.n125" 0 29.3204 8941 35885 0
+rnode "VDPWR.n126" 0 35.7885 9907 35642 0
+rnode "VDPWR.n127" 0 208.558 9907 35642 0
+rnode "VDPWR.n128" 0 657.977 10195 35418 0
+rnode "VDPWR.n129" 0 106.918 9114 34643 0
+rnode "VDPWR.n130" 0 106.172 7997 34825 0
+rnode "VDPWR.n131" 0 114.543 7975 34626 0
+rnode "VDPWR.n132" 0 370.587 6831 35068 0
+rnode "VDPWR.n133" 0 40.7756 7975 34626 0
+rnode "VDPWR.n134" 0 40.9293 6842 33595 0
+rnode "VDPWR.n135" 0 673.656 5755 35416 0
+rnode "VDPWR.n136" 0 220.368 5703 34119 0
+rnode "VDPWR.n137" 0 2554.68 6043 36234 0
+rnode "VDPWR.n138" 0 40.9293 6842 38281 0
+rnode "VDPWR.n139" 0 40.9293 6842 37233 0
+rnode "VDPWR.n140" 0 106.172 7997 37051 0
+rnode "VDPWR.n141" 0 114.543 7975 37250 0
+rnode "VDPWR.n142" 0 14.8782 7975 37757 0
+rnode "VDPWR.n143" 0 219.152 10246 37757 0
+rnode "VDPWR.n144" 0 2554.68 11427 36234 0
+rnode "VDPWR.n145" 0 48.9932 11087 37757 0
+rnode "VDPWR.n146" 0 40.9293 12226 34643 0
+rnode "VDPWR.n147" 0 40.9293 12226 33595 0
+rnode "VDPWR.n148" 0 673.656 11139 35416 0
+rnode "VDPWR.n149" 0 14.8782 13359 34119 0
+rnode "VDPWR.n150" 0 219.152 15630 34119 0
+rnode "VDPWR.n151" 0 48.7864 15630 34119 0
+rnode "VDPWR.n152" 0 40.7756 13359 33612 0
+rnode "VDPWR.n153" 0 1795.97 14547 35068 0
+rnode "VDPWR.n154" 0 40.9153 14498 34643 0
+rnode "VDPWR.n155" 0 40.9153 14498 37233 0
+rnode "VDPWR.n156" 0 2529.76 14325 35885 0
+rnode "VDPWR.n157" 0 48.7864 15630 37757 0
+rnode "VDPWR.n158" 0 40.7756 13359 38264 0
+rnode "VDPWR.n159" 0 219.152 15630 37757 0
+rnode "VDPWR.n160" 0 14.8782 13359 37757 0
+rnode "VDPWR.n161" 0 220.368 11087 37757 0
+rnode "VDPWR.n162" 0 2566 12393 35885 0
+rnode "VDPWR.n163" 0 40.9293 12226 37233 0
+rnode "VDPWR.n164" 0 41.6847 12215 36808 0
+rnode "VDPWR.n165" 0 41.011 13381 35311 0
+rnode "VDPWR.n166" 0 41.011 13381 34825 0
+rnode "VDPWR.n167" 0 106.391 12393 35399 0
+rnode "VDPWR.n168" 0 41.6847 14547 35068 0
+rnode "VDPWR.n169" 0 359.22 14547 35068 0
+rnode "VDPWR.n170" 0 -81.1421 13381 35311 0
+rnode "VDPWR.n171" 0 35.7885 15291 35642 0
+rnode "VDPWR.n172" 0 6.63209 13359 35642 0
+rnode "VDPWR.n173" 0 31.7584 12393 35885 0
+rnode "VDPWR.n174" 0 103.94 13359 35416 0
+rnode "VDPWR.n175" 0 6.63209 13359 35642 0
+rnode "VDPWR.n176" 0 657.977 15579 35418 0
+rnode "VDPWR.n177" 0 208.558 15291 35642 0
+rnode "VDPWR.n178" 0 31.6638 13359 35868 0
+rnode "VDPWR.n179" 0 31.7584 14325 35885 0
+rnode "VDPWR.n180" 0 29.3204 14325 35885 0
+rnode "VDPWR.n181" 0 17.5046 13359 35868 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -443.592 10832 35868 0
+rnode "VDPWR.n182" 0 679.921 13537 35771 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 -154.085 10832 35868 0
+rnode "VDPWR.n183" 0 390.282 13181 35938 0
+rnode "VDPWR.n184" 0 17.5046 13359 36008 0
+rnode "VDPWR.n185" 0 210.342 11427 36234 0
+rnode "VDPWR.n186" 0 31.6638 13359 36008 0
+rnode "VDPWR.n187" 0 31.6638 13359 36460 0
+rnode "VDPWR.n188" 0 103.94 13359 36460 0
+rnode "VDPWR.n189" 0 673.656 11139 36460 0
+rnode "VDPWR.n190" 0 370.587 12215 36808 0
+rnode "VDPWR.n191" 0 5.79574 12226 37233 0
+rnode "VDPWR.n192" 0 106.918 14498 37233 0
+rnode "VDPWR.n193" 0 41.6847 14547 36808 0
+rnode "VDPWR.n194" 0 19.2114 14528 36521 0
+rnode "VDPWR.n195" 0 31.7584 14325 35991 0
+rnode "VDPWR.n196" 0 359.22 14547 36808 0
+rnode "VDPWR.n197" 0 657.977 15579 36458 0
+rnode "VDPWR.n198" 0 29.3204 14325 35991 0
+rnode "VDPWR.n199" 0 208.558 15291 36234 0
+rnode "VDPWR.n200" 0 2081.34 15630 34119 0
+rnode "VDPWR.n201" 0 2452.76 15291 36234 0
+rnode "VDPWR.n202" 0 35.7885 15291 36234 0
+rnode "VDPWR.n203" 0 31.7584 14325 36477 0
+rnode "VDPWR.n204" 0 111.457 14325 36477 0
+rnode "VDPWR.n205" 0 -81.1421 13381 36565 0
+rnode "VDPWR.n206" 0 41.011 13381 36565 0
+rnode "VDPWR.n207" 0 40.7756 13359 34626 0
+rnode "VDPWR.n208" 0 14.8782 13359 34119 0
+rnode "VDPWR.n209" 0 6.63209 13359 36234 0
+rnode "VDPWR.n210" 0 6.63209 13359 36234 0
+rnode "VDPWR.n211" 0 40.7756 13359 37250 0
+rnode "VDPWR.n212" 0 14.8782 13359 37757 0
+rnode "VDPWR.n213" 0 2237.61 13359 35642 0
+rnode "VDPWR.n214" 0 2187.78 13381 35311 0
+rnode "VDPWR.n215" 0 41.011 13381 37051 0
+rnode "VDPWR.n216" 0 106.172 13381 37051 0
+rnode "VDPWR.n217" 0 114.543 13359 37250 0
+rnode "VDPWR.n218" 0 115.576 12232 37142 0
+rnode "VDPWR.n219" 0 106.391 12393 36521 0
+rnode "VDPWR.n220" 0 31.7584 12393 36477 0
+rnode "VDPWR.n221" 0 35.7885 11427 36234 0
+rnode "VDPWR.n222" 0 31.7584 12393 35991 0
+rnode "VDPWR.n223" 0 29.2773 12393 35991 0
+rnode "VDPWR.n224" 0 14.1739 13358 35991 0
+rnode "VDPWR.n225" 0 23.3521 13358 35991 0
+rnode "VDPWR.n226" 0 14.1739 13358 35885 0
+rnode "VDPWR.n227" 0 29.2773 12393 35885 0
+rnode "VDPWR.n228" 0 210.342 11427 35642 0
+rnode "VDPWR.n229" 0 35.7885 11427 35642 0
+rnode "VDPWR.n230" 0 31.7584 12393 35399 0
+rnode "VDPWR.n231" 0 31.6638 13359 35416 0
+rnode "VDPWR.n232" 0 31.7584 14325 35399 0
+rnode "VDPWR.n233" 0 111.457 14325 35399 0
+rnode "VDPWR.n234" 0 19.2114 14528 35355 0
+rnode "VDPWR.n235" 0 106.918 14498 34643 0
+rnode "VDPWR.n236" 0 106.172 13381 34825 0
+rnode "VDPWR.n237" 0 114.543 13359 34626 0
+rnode "VDPWR.n238" 0 115.576 12232 34734 0
+rnode "VDPWR.n239" 0 5.79574 12226 34643 0
+rnode "VDPWR.n240" 0 370.587 12215 35068 0
+rnode "VDPWR.n241" 0 41.6847 12215 35068 0
+rnode "VDPWR.n242" 0 1809.56 12215 35068 0
+rnode "VDPWR.n243" 0 403.132 12226 33595 0
+rnode "VDPWR.n244" 0 40.9293 12226 38281 0
+rnode "VDPWR.n245" 0 37.608 12226 38281 0
+rnode "VDPWR.n246" 0 40.7756 13359 38264 0
+rnode "VDPWR.n247" 0 37.6168 14498 38281 0
+rnode "VDPWR.n248" 0 40.9153 14498 38281 0
+rnode "VDPWR.n249" 0 502.782 14498 33595 0
+rnode "VDPWR.n250" 0 40.9153 14498 33595 0
+rnode "VDPWR.n251" 0 37.6168 14498 33595 0
+rnode "VDPWR.n252" 0 40.7756 13359 33612 0
+rnode "VDPWR.n253" 0 37.608 12226 33595 0
+rnode "VDPWR.n254" 0 220.368 11087 34119 0
+rnode "VDPWR.n255" 0 48.9932 11087 34119 0
+rnode "VDPWR.n256" 0 2674.71 11087 34119 0
+rnode "VDPWR.n257" 0 40.9153 9114 34643 0
+rnode "VDPWR.n258" 0 40.9153 9114 33595 0
+rnode "VDPWR.n259" 0 37.608 6842 33595 0
+rnode "VDPWR.n260" 0 40.7756 7975 33612 0
+rnode "VDPWR.n261" 0 14.8782 7975 34119 0
+rnode "VDPWR.n262" 0 14.8782 7975 34119 0
+rnode "VDPWR.n263" 0 40.7756 7975 33612 0
+rnode "VDPWR.n264" 0 37.6168 9114 33595 0
+rnode "VDPWR.n265" 0 219.152 10246 34119 0
+rnode "VDPWR.n266" 0 48.7864 10246 34119 0
+rnode "VDPWR.n267" 0 2672.45 10246 37757 0
+rnode "VDPWR.n268" 0 48.7864 10246 37757 0
+rnode "VDPWR.n269" 0 40.9153 9114 37233 0
+rnode "VDPWR.n270" 0 40.7756 7975 37250 0
+rnode "VDPWR.n271" 0 14.8782 7975 37757 0
+rnode "VDPWR.n272" 0 40.7756 7975 38264 0
+rnode "VDPWR.n273" 0 40.9153 9114 38281 0
+rnode "VDPWR.n274" 0 37.6168 9114 38281 0
+rnode "VDPWR.n275" 0 40.7756 7975 38264 0
+rnode "VDPWR.n276" 0 37.608 6842 38281 0
+rnode "VDPWR.n277" 0 29.2773 7009 35991 0
+rnode "VDPWR.n278" 0 210.342 6043 36234 0
+rnode "VDPWR.n279" 0 5.79574 6842 37233 0
+rnode "VDPWR.n280" 0 41.6847 6831 35068 0
+rnode "VDPWR.n281" 0 1809.56 6831 36808 0
+rnode "VDPWR.n282" 0 41.6847 6831 36808 0
+rnode "VDPWR.n283" 0 370.587 6831 36808 0
+rnode "VDPWR.n284" 0 673.656 5755 36460 0
+rnode "VDPWR.n285" 0 220.368 5703 37757 0
+rnode "VDPWR.n286" 0 48.9932 5703 37757 0
+rnode "VDPWR.n287" 0 2079.07 5703 37757 0
+rnode "VDPWR.n288" 0 48.9932 5703 34119 0
+rnode "VDPWR.n289" 0 40.9293 6842 34643 0
+rnode "VDPWR.n290" 0 5.79574 6842 34643 0
+rnode "VDPWR.n291" 0 115.576 6848 35355 0
+rnode "VDPWR.n292" 0 106.391 7009 35399 0
+rnode "VDPWR.n293" 0 31.6638 7975 35416 0
+rnode "VDPWR.n294" 0 6.63209 7975 35642 0
+rnode "VDPWR.n295" 0 6.63209 7975 35642 0
+rnode "VDPWR.n296" 0 103.94 7975 35416 0
+rnode "VDPWR.n297" 0 -81.1421 7997 35311 0
+rnode "VDPWR.n298" 0 111.457 8941 35399 0
+rnode "VDPWR.n299" 0 19.2114 9144 34734 0
+rnode "VDPWR.n300" 0 359.22 9163 35068 0
+rnode "VDPWR.n301" 0 41.6847 9163 35068 0
+rnode "VDPWR.n302" 0 1795.97 9163 36808 0
+rnode "VDPWR.n303" 0 41.6847 9163 36808 0
+rnode "VDPWR.n304" 0 359.22 9163 36808 0
+rnode "VDPWR.n305" 0 19.2114 9144 36521 0
+rnode "VDPWR.n306" 0 111.457 8941 36477 0
+rnode "VDPWR.n307" 0 31.7584 8941 36477 0
+rnode "VDPWR.n308" 0 2529.76 8941 36477 0
+rnode "VDPWR.n309" 0 31.7584 8941 35991 0
+rnode "VDPWR.n310" 0 31.6638 7975 36008 0
+rnode "VDPWR.n311" 0 6.63209 7975 36234 0
+rnode "VDPWR.n312" 0 6.63209 7975 36234 0
+rnode "VDPWR.n313" 0 103.94 7975 36460 0
+rnode "VDPWR.n314" 0 106.391 7009 36477 0
+rnode "VDPWR.n315" 0 31.7584 7009 36477 0
+rnode "VDPWR.n316" 0 2566 7009 36477 0
+rnode "VDPWR.n317" 0 31.7584 7009 35885 0
+rnode "VDPWR.n318" 0 29.2773 7009 35885 0
+rnode "VDPWR.n319" 0 14.1739 7974 35885 0
+rnode "VDPWR.n320" 0 23.3521 7974 35885 0
+rnode "VDPWR.n321" 0 679.921 8153 35938 0
+rnode "VDPWR.n322" 0 515.701 9729 36105 0
+rnode "flashADC_3bit_0/comp_p_2/vdd" 0 -2275.29 5448 35974 0
+rnode "VDPWR.n323" 0 3016.33 9886 35380 0
+rnode "flashADC_3bit_0/comp_p_5/vdd" 0 645.469 10832 35868 0
+rnode "VDPWR.n324" 0 184.918 11145 36211 0
+rnode "flashADC_3bit_0/vdd" 0 53.8102 10902 43474 0
+rnode "VDPWR.n325" 0 140.336 11226 43437 0
+rnode "VDPWR.n326" 0 121.475 11226 43437 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 445.852 5448 43272 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -520.988 5448 43272 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -462.27 5448 43272 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -74.7224 5448 43272 0
+rnode "VDPWR.n327" 0 210.685 6062 43407 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -132.102 5448 43272 0
+rnode "VDPWR.n328" 0 403.851 6221 43175 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -285.868 5448 43272 0
+rnode "VDPWR.n329" 0 559.808 7797 43407 0
+rnode "VDPWR.n330" 0 17.5046 7975 43272 0
+rnode "VDPWR.n331" 0 210.342 6043 43046 0
+rnode "VDPWR.n332" 0 31.6638 7975 43272 0
+rnode "VDPWR.n333" 0 35.7885 6043 43046 0
+rnode "VDPWR.n334" 0 1118.8 7975 43046 0
+rnode "VDPWR.n335" 0 31.7584 7009 42803 0
+rnode "VDPWR.n336" 0 40.9293 6842 40999 0
+rnode "VDPWR.n337" 0 904.782 6831 42472 0
+rnode "VDPWR.n338" 0 40.7756 7975 42030 0
+rnode "VDPWR.n339" 0 1385.06 6043 43046 0
+rnode "VDPWR.n340" 0 980.804 5703 41523 0
+rnode "VDPWR.n341" 0 115.576 6848 42759 0
+rnode "VDPWR.n342" 0 673.656 5755 42820 0
+rnode "VDPWR.n343" 0 41.011 7997 42715 0
+rnode "VDPWR.n344" 0 41.6847 9163 42472 0
+rnode "VDPWR.n345" 0 106.172 7997 42229 0
+rnode "VDPWR.n346" 0 251.391 9114 42047 0
+rnode "VDPWR.n347" 0 31.7584 8941 42803 0
+rnode "VDPWR.n348" 0 35.7885 9907 43046 0
+rnode "VDPWR.n349" 0 219.152 10246 41523 0
+rnode "VDPWR.n350" 0 40.7756 7975 41016 0
+rnode "VDPWR.n351" 0 220.368 5703 41523 0
+rnode "VDPWR.n352" 0 37.608 6842 40999 0
+rnode "VDPWR.n353" 0 114.543 7975 42030 0
+rnode "VDPWR.n354" 0 14.8782 7975 41523 0
+rnode "VDPWR.n355" 0 14.8782 7975 41523 0
+rnode "VDPWR.n356" 0 40.7756 7975 41016 0
+rnode "VDPWR.n357" 0 37.6168 9114 40999 0
+rnode "VDPWR.n358" 0 40.9153 9114 40999 0
+rnode "VDPWR.n359" 0 1277.34 11427 43046 0
+rnode "VDPWR.n360" 0 40.9293 12226 42047 0
+rnode "VDPWR.n361" 0 40.9293 12226 40999 0
+rnode "VDPWR.n362" 0 673.656 11139 42820 0
+rnode "VDPWR.n363" 0 14.8782 13359 41523 0
+rnode "VDPWR.n364" 0 219.152 15630 41523 0
+rnode "VDPWR.n365" 0 981.327 15630 41523 0
+rnode "VDPWR.n366" 0 40.7756 13359 41016 0
+rnode "VDPWR.n367" 0 897.987 14547 42472 0
+rnode "VDPWR.n368" 0 40.9153 14498 42047 0
+rnode "VDPWR.n369" 0 31.7584 14325 42803 0
+rnode "VDPWR.n370" 0 1093.89 13381 42715 0
+rnode "VDPWR.n371" 0 1334.51 15291 43046 0
+rnode "VDPWR.n372" 0 35.7885 15291 43046 0
+rnode "VDPWR.n373" 0 31.6638 13359 43272 0
+rnode "VDPWR.n374" 0 208.558 15291 43046 0
+rnode "VDPWR.n375" 0 6.63209 13359 43046 0
+rnode "VDPWR.n376" 0 210.342 11427 43046 0
+rnode "VDPWR.n377" 0 35.7885 11427 43046 0
+rnode "VDPWR.n378" 0 40.7756 13359 42030 0
+rnode "VDPWR.n379" 0 14.8782 13359 41523 0
+rnode "VDPWR.n380" 0 1118.8 13359 43046 0
+rnode "VDPWR.n381" 0 6.63209 13359 43046 0
+rnode "VDPWR.n382" 0 31.6638 13359 42820 0
+rnode "VDPWR.n383" 0 31.7584 12393 42803 0
+rnode "VDPWR.n384" 0 41.011 13381 42715 0
+rnode "VDPWR.n385" 0 41.011 13381 42229 0
+rnode "VDPWR.n386" 0 106.391 12393 42803 0
+rnode "VDPWR.n387" 0 657.977 15579 42822 0
+rnode "VDPWR.n388" 0 41.6847 14547 42472 0
+rnode "VDPWR.n389" 0 359.22 14547 42472 0
+rnode "VDPWR.n390" 0 103.94 13359 42820 0
+rnode "VDPWR.n391" 0 -81.1421 13381 42715 0
+rnode "VDPWR.n392" 0 111.457 14325 42803 0
+rnode "VDPWR.n393" 0 19.2114 14528 42759 0
+rnode "VDPWR.n394" 0 106.918 14498 42047 0
+rnode "VDPWR.n395" 0 106.172 13381 42229 0
+rnode "VDPWR.n396" 0 114.543 13359 42030 0
+rnode "VDPWR.n397" 0 115.576 12232 42138 0
+rnode "VDPWR.n398" 0 5.79574 12226 42047 0
+rnode "VDPWR.n399" 0 370.587 12215 42472 0
+rnode "VDPWR.n400" 0 41.6847 12215 42472 0
+rnode "VDPWR.n401" 0 904.782 12215 42472 0
+rnode "VDPWR.n402" 0 201.566 12226 40999 0
+rnode "VDPWR.n403" 0 1283 12393 43289 0
+rnode "VDPWR.n404" 0 31.7584 12393 43289 0
+rnode "VDPWR.n405" 0 29.2773 12393 43289 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -462.27 10832 43272 0
+rnode "VDPWR.n406" 0 736.453 13537 43407 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -285.868 10832 43272 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -132.102 10832 43272 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -74.9658 10832 43272 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -1532.87 10832 43272 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 -520.988 10832 43272 0
+rnode "VDPWR.n407" 0 792.737 15113 43407 0
+rnode "VDPWR.n408" 0 1760.97 15272 43407 0
+rnode "VDPWR.n409" 0 289.534 11448 43407 0
+rnode "VDPWR.n410" 0 403.607 11605 43407 0
+rnode "VDPWR.n411" 0 559.808 13181 43407 0
+rnode "VDPWR.n412" 0 43.3244 13358 43289 0
+rnode "VDPWR.n413" 0 14.1739 13358 43289 0
+rnode "VDPWR.n414" 0 17.5046 13359 43272 0
+rnode "VDPWR.n415" 0 29.3204 14325 43289 0
+rnode "VDPWR.n416" 0 31.7584 14325 43289 0
+rnode "VDPWR.n417" 0 1264.88 14325 43289 0
+rnode "VDPWR.n418" 0 251.391 14498 40999 0
+rnode "VDPWR.n419" 0 40.9153 14498 40999 0
+rnode "VDPWR.n420" 0 37.6168 14498 40999 0
+rnode "VDPWR.n421" 0 40.7756 13359 41016 0
+rnode "VDPWR.n422" 0 37.608 12226 40999 0
+rnode "VDPWR.n423" 0 220.368 11087 41523 0
+rnode "VDPWR.n424" 0 48.9932 11087 41523 0
+rnode "VDPWR.n425" 0 1337.36 11087 41523 0
+rnode "VDPWR.n426" 0 897.987 9163 42472 0
+rnode "VDPWR.n427" 0 1226.38 9907 43046 0
+rnode "VDPWR.n428" 0 1336.22 10246 41523 0
+rnode "VDPWR.n429" 0 48.7864 10246 41523 0
+rnode "VDPWR.n430" 0 40.9153 9114 42047 0
+rnode "VDPWR.n431" 0 106.918 9114 42047 0
+rnode "VDPWR.n432" 0 106.391 7009 42803 0
+rnode "VDPWR.n433" 0 31.6638 7975 42820 0
+rnode "VDPWR.n434" 0 6.63209 7975 43046 0
+rnode "VDPWR.n435" 0 6.63209 7975 43046 0
+rnode "VDPWR.n436" 0 103.94 7975 42820 0
+rnode "VDPWR.n437" 0 -81.1421 7997 42715 0
+rnode "VDPWR.n438" 0 111.457 8941 42803 0
+rnode "VDPWR.n439" 0 19.2114 9144 42138 0
+rnode "VDPWR.n440" 0 359.22 9163 42472 0
+rnode "VDPWR.n441" 0 657.977 10195 42822 0
+rnode "VDPWR.n442" 0 208.558 9907 43046 0
+rnode "VDPWR.n443" 0 29.3204 8941 43289 0
+rnode "VDPWR.n444" 0 31.7584 8941 43289 0
+rnode "VDPWR.n445" 0 1264.88 8941 43289 0
+rnode "VDPWR.n446" 0 1093.89 7997 42715 0
+rnode "VDPWR.n447" 0 41.011 7997 42229 0
+rnode "VDPWR.n448" 0 41.6847 6831 42472 0
+rnode "VDPWR.n449" 0 370.587 6831 42472 0
+rnode "VDPWR.n450" 0 5.79574 6842 42047 0
+rnode "VDPWR.n451" 0 40.9293 6842 42047 0
+rnode "VDPWR.n452" 0 201.566 6842 42047 0
+rnode "VDPWR.n453" 0 1283 7009 43289 0
+rnode "VDPWR.n454" 0 31.7584 7009 43289 0
+rnode "VDPWR.n455" 0 29.2773 7009 43289 0
+rnode "VDPWR.n456" 0 14.1739 7974 43289 0
+rnode "VDPWR.n457" 0 43.3244 7974 43289 0
+rnode "VDPWR.n458" 0 736.453 8153 43407 0
+rnode "VDPWR.n459" 0 792.737 9729 43407 0
+rnode "flashADC_3bit_0/comp_p_0/vdd" 0 -1532.87 5448 43272 0
+rnode "VDPWR.n460" 0 2000.86 9888 42784 0
+rnode "flashADC_3bit_0/comp_p_1/vdd" 0 445.362 10832 43272 0
+rnode "VDPWR.n461" 0 155.89 11178 43077 0
+rnode "VDPWR.n462" 0 1141.96 11178 43077 0
+rnode "VDPWR.n463" 0 1997.09 11229 39571 0
+rnode "VDPWR.n464" 0 1159.85 11145 36211 0
+rnode "VDPWR.n465" 0 2693.28 11220 32005 0
+rnode "VDPWR.n466" 0 3537.52 15372 34763 0
+rnode "VDPWR" 0 5358.84 200 1000 0
+rnode "VDPWR.n467" 0 3627 17550 32028 0
+rnode "VDPWR.n468" 0 3908.83 19406 32028 0
+rnode "VDPWR.n469" 0 5.43554 17666 37462 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/D" 0 1.74664 17623 37929 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/D" 0 1.74664 17623 37091 0
+rnode "VDPWR.n470" 0 108.075 17526 37590 0
+rnode "VDPWR.n471" 0 7.79717 17667 37563 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/B" 0 15.565 17667 38295 0
+rnode "VDPWR.n472" 0 15.565 17667 38295 0
+rnode "VDPWR.n473" 0 15.565 17667 37563 0
+rnode "VDPWR.n474" 0 772.402 17247 38295 0
+rnode "VDPWR.n475" 0 15.1891 17089 37929 0
+rnode "VDPWR.n476" 0 772.402 17247 37563 0
+rnode "VDPWR.n477" 0 15.1891 17825 37929 0
+rnode "VDPWR.n478" 0 15.1891 17825 37929 0
+rnode "VDPWR.n479" 0 15.565 17247 38295 0
+rnode "VDPWR.n480" 0 15.565 17247 37563 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/B" 0 15.565 17247 38295 0
+rnode "VDPWR.n481" 0 15.1738 17089 37929 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vdd" 0 19.3335 17456 37510 0
+rnode "VDPWR.n482" 0 7.79717 17247 37457 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/B" 0 15.565 17247 36725 0
+rnode "VDPWR.n483" 0 15.565 17247 37457 0
+rnode "VDPWR.n484" 0 15.565 17247 36725 0
+rnode "VDPWR.n485" 0 772.402 17667 37457 0
+rnode "VDPWR.n486" 0 15.1891 17825 37091 0
+rnode "VDPWR.n487" 0 15.1891 17405 37091 0
+rnode "VDPWR.n488" 0 15.1891 17405 37091 0
+rnode "VDPWR.n489" 0 772.402 17667 36725 0
+rnode "VDPWR.n490" 0 15.565 17667 37457 0
+rnode "VDPWR.n491" 0 15.565 17667 36725 0
+rnode "VDPWR.n492" 0 7.79717 17667 37457 0
+rnode "VDPWR.n493" 0 15.1891 17825 37091 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/B" 0 15.565 17667 36725 0
+rnode "VDPWR.n494" 0 15.1738 17509 37091 0
+rnode "VDPWR.n495" 0 15.1891 17509 37091 0
+rnode "VDPWR.n496" 0 1197.88 17509 37091 0
+rnode "VDPWR.n497" 0 15.1891 17089 37091 0
+rnode "VDPWR.n498" 0 15.1738 17089 37091 0
+rnode "VDPWR.n499" 0 5.43554 17246 37462 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/D" 0 1.74664 17203 37929 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/D" 0 1.74664 17203 37091 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/vdd" 0 4.83338 17036 37432 0
+rnode "VDPWR.n500" 0 108.075 17106 37590 0
+rnode "VDPWR.n501" 0 24.1669 17246 37558 0
+rnode "VDPWR.n502" 0 5.43554 17246 37558 0
+rnode "VDPWR.n503" 0 7.79717 17247 37563 0
+rnode "VDPWR.n504" 0 15.1891 17405 37929 0
+rnode "VDPWR.n505" 0 15.1891 17405 37929 0
+rnode "VDPWR.n506" 0 1197.88 17405 37929 0
+rnode "VDPWR.n507" 0 15.1891 17509 37929 0
+rnode "VDPWR.n508" 0 15.1738 17509 37929 0
+rnode "VDPWR.n509" 0 5.43554 17666 37558 0
+rnode "VDPWR.n510" 0 122.168 17666 37558 0
+rnode "VDPWR.n511" 0 663.924 18925 37512 0
+rnode "VDPWR.n512" 0 1187.71 17557 37516 0
+rnode "VDPWR.n513" 0 655.717 17536 34766 0
+rnode "VDPWR.n514" 0 3655.83 17536 34766 0
+rnode "VDPWR.n515" 0 1748.68 19422 34770 0
+rnode "VDPWR.n516" 0 779.462 19403 34588 0
+rnode "VDPWR.n517" 0 5.43554 17666 34546 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/D" 0 1.74664 17623 35013 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/D" 0 1.74664 17623 34175 0
+rnode "VDPWR.n518" 0 108.075 17526 34674 0
+rnode "VDPWR.n519" 0 7.79717 17667 34647 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/B" 0 15.565 17667 35379 0
+rnode "VDPWR.n520" 0 15.565 17667 35379 0
+rnode "VDPWR.n521" 0 15.565 17667 34647 0
+rnode "VDPWR.n522" 0 772.402 17247 35379 0
+rnode "VDPWR.n523" 0 15.1891 17089 35013 0
+rnode "VDPWR.n524" 0 772.402 17247 34647 0
+rnode "VDPWR.n525" 0 15.1891 17825 35013 0
+rnode "VDPWR.n526" 0 15.1891 17825 35013 0
+rnode "VDPWR.n527" 0 15.565 17247 35379 0
+rnode "VDPWR.n528" 0 15.565 17247 34647 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/B" 0 15.565 17247 35379 0
+rnode "VDPWR.n529" 0 15.1738 17089 35013 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vdd" 0 19.3335 17456 34516 0
+rnode "VDPWR.n530" 0 7.79717 17247 34541 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/B" 0 15.565 17247 33809 0
+rnode "VDPWR.n531" 0 15.565 17247 34541 0
+rnode "VDPWR.n532" 0 15.565 17247 33809 0
+rnode "VDPWR.n533" 0 772.402 17667 34541 0
+rnode "VDPWR.n534" 0 15.1891 17825 34175 0
+rnode "VDPWR.n535" 0 15.1891 17405 34175 0
+rnode "VDPWR.n536" 0 15.1891 17405 34175 0
+rnode "VDPWR.n537" 0 772.402 17667 33809 0
+rnode "VDPWR.n538" 0 15.565 17667 34541 0
+rnode "VDPWR.n539" 0 15.565 17667 33809 0
+rnode "VDPWR.n540" 0 7.79717 17667 34541 0
+rnode "VDPWR.n541" 0 15.1891 17825 34175 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/B" 0 15.565 17667 33809 0
+rnode "VDPWR.n542" 0 15.1738 17509 34175 0
+rnode "VDPWR.n543" 0 15.1891 17509 34175 0
+rnode "VDPWR.n544" 0 1197.88 17509 34175 0
+rnode "VDPWR.n545" 0 15.1891 17089 34175 0
+rnode "VDPWR.n546" 0 15.1738 17089 34175 0
+rnode "VDPWR.n547" 0 5.43554 17246 34546 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/D" 0 1.74664 17203 35013 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/D" 0 1.74664 17203 34175 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/vdd" 0 4.83338 17036 34594 0
+rnode "VDPWR.n548" 0 108.075 17106 34674 0
+rnode "VDPWR.n549" 0 24.1669 17246 34642 0
+rnode "VDPWR.n550" 0 5.43554 17246 34642 0
+rnode "VDPWR.n551" 0 7.79717 17247 34647 0
+rnode "VDPWR.n552" 0 15.1891 17405 35013 0
+rnode "VDPWR.n553" 0 15.1891 17405 35013 0
+rnode "VDPWR.n554" 0 1197.88 17405 35013 0
+rnode "VDPWR.n555" 0 15.1891 17509 35013 0
+rnode "VDPWR.n556" 0 15.1738 17509 35013 0
+rnode "VDPWR.n557" 0 5.43554 17666 34642 0
+rnode "VDPWR.n558" 0 122.168 17666 34642 0
+rnode "VDPWR.n559" 0 665.096 18925 34592 0
+rnode "VDPWR.n560" 0 715.848 17545 34594 0
+rnode "VDPWR.n561" 0 1831.85 17550 32028 0
+rnode "VDPWR.n562" 0 3112.19 17560 28784 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -376.885 10832 28570 0
+rnode "VDPWR.n563" 0 590.056 15113 28508 0
+rnode "VDPWR.n564" 0 464.063 11148 28800 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -371.217 10832 28570 0
+rnode "VDPWR.n565" 0 586.325 13537 28508 0
+rnode "VDPWR.n566" 0 17.5046 13359 28604 0
+rnode "VDPWR.n567" 0 210.342 11427 28830 0
+rnode "VDPWR.n568" 0 31.6638 13359 28604 0
+rnode "VDPWR.n569" 0 35.7885 11427 28830 0
+rnode "VDPWR.n570" 0 1118.8 13359 30353 0
+rnode "VDPWR.n571" 0 201.566 12226 30877 0
+rnode "VDPWR.n572" 0 31.6638 13359 29056 0
+rnode "VDPWR.n573" 0 6.63209 13359 28830 0
+rnode "VDPWR.n574" 0 6.63209 13359 28830 0
+rnode "VDPWR.n575" 0 103.94 13359 29056 0
+rnode "VDPWR.n576" 0 5.79574 12226 29829 0
+rnode "VDPWR.n577" 0 106.172 13381 29647 0
+rnode "VDPWR.n578" 0 40.7756 13359 30860 0
+rnode "VDPWR.n579" 0 40.7756 13359 30860 0
+rnode "VDPWR.n580" 0 40.9153 14498 29829 0
+rnode "VDPWR.n581" 0 40.9293 12226 30877 0
+rnode "VDPWR.n582" 0 37.608 12226 30877 0
+rnode "VDPWR.n583" 0 220.368 11087 30353 0
+rnode "VDPWR.n584" 0 41.011 13381 29647 0
+rnode "VDPWR.n585" 0 41.6847 14547 29404 0
+rnode "VDPWR.n586" 0 -81.1421 13381 29161 0
+rnode "VDPWR.n587" 0 251.391 14498 30877 0
+rnode "VDPWR.n588" 0 31.7584 14325 28587 0
+rnode "VDPWR.n589" 0 35.7885 15291 28830 0
+rnode "VDPWR.n590" 0 106.918 14498 29829 0
+rnode "VDPWR.n591" 0 37.6168 14498 30877 0
+rnode "VDPWR.n592" 0 40.9153 14498 30877 0
+rnode "VDPWR.n593" 0 897.987 14547 29404 0
+rnode "VDPWR.n594" 0 1334.51 15291 28830 0
+rnode "VDPWR.n595" 0 981.327 15630 30353 0
+rnode "VDPWR.n596" 0 219.152 15630 30353 0
+rnode "VDPWR.n597" 0 29.3204 14325 28587 0
+rnode "VDPWR.n598" 0 208.558 15291 28830 0
+rnode "VDPWR.n599" 0 657.977 15579 29054 0
+rnode "VDPWR.n600" 0 359.22 14547 29404 0
+rnode "VDPWR.n601" 0 19.2114 14528 29117 0
+rnode "VDPWR.n602" 0 111.457 14325 29073 0
+rnode "VDPWR.n603" 0 31.7584 14325 29073 0
+rnode "VDPWR.n604" 0 1264.88 14325 29073 0
+rnode "VDPWR.n605" 0 1093.89 13381 29647 0
+rnode "VDPWR.n606" 0 41.011 13381 29161 0
+rnode "VDPWR.n607" 0 673.656 11139 29056 0
+rnode "VDPWR.n608" 0 370.587 12215 29404 0
+rnode "VDPWR.n609" 0 41.6847 12215 29404 0
+rnode "VDPWR.n610" 0 904.782 12215 29404 0
+rnode "VDPWR.n611" 0 1277.34 11427 28830 0
+rnode "VDPWR.n612" 0 737.025 8889 28717 0
+rnode "VDPWR.n613" 0 41.011 8889 29203 0
+rnode "VDPWR.n614" 0 41.011 8889 28717 0
+rnode "VDPWR.n615" 0 37.3798 8889 29203 0
+rnode "VDPWR.n616" 0 20.9086 7739 29186 0
 rnode "VDPWR.n617" 0 0 8889 29203 0
-rnode "VDPWR.n618" 0 477.009 7723 28960 0
-rnode "flashADC_3bit_0/vbias_generation_0/XMp_bias/B" 0 7.17935 7723 28960 0
-rnode "VDPWR.n619" 0 23.0582 7739 28734 0
-rnode "VDPWR.n620" 0 19.2213 8889 28717 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 269.99 10832 28570 0
-rnode "flashADC_3bit_0/vbias_generation_0/vdd" 0 -331.505 7596 28664 0
-rnode "VDPWR.n621" 0 657.013 9880 28573 0
-rnode "flashADC_3bit_0/vbias_generation_0/vdd" 0 677.233 7596 28664 0
-rnode "flashADC_3bit_0/vbias_generation_0/vdd" 0 -58.7939 7596 28664 0
-rnode "VDPWR.n622" 0 295.197 7898 28573 0
-rnode "flashADC_3bit_0/vbias_generation_0/XMp_bias/S" 0 -41.4811 8889 28831 0
-rnode "VDPWR.n623" 0 195.655 8889 28831 0
-rnode "VDPWR.n624" 0 192.93 8903 28715 0
-rnode "VDPWR.n625" 0 23.3774 8903 28715 0
-rnode "VDPWR.n626" 0 43.1129 10055 28960 0
-rnode "VDPWR.n627" 0 41.975 10055 28960 0
-rnode "VDPWR.n628" 0 1170.91 10055 28960 0
-rnode "VDPWR.n629" 0 1762.59 11087 30353 0
-rnode "VDPWR.n630" 0 49.3344 11087 30353 0
-rnode "VDPWR.n631" 0 41.2143 12226 29829 0
-rnode "VDPWR.n632" 0 41.0596 13359 29846 0
-rnode "VDPWR.n633" 0 14.9818 13359 30353 0
-rnode "VDPWR.n634" 0 14.9818 13359 30353 0
-rnode "VDPWR.n635" 0 115.341 13359 29846 0
-rnode "VDPWR.n636" 0 116.381 12232 29738 0
-rnode "VDPWR.n637" 0 107.131 12393 29117 0
-rnode "VDPWR.n638" 0 31.9796 12393 29073 0
-rnode "VDPWR.n639" 0 1291.94 12393 29073 0
-rnode "VDPWR.n640" 0 31.9796 12393 28587 0
-rnode "VDPWR.n641" 0 29.4812 12393 28587 0
-rnode "VDPWR.n642" 0 14.2726 13358 28587 0
-rnode "VDPWR.n643" 0 31.5593 13358 28587 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -208.238 10832 28570 0
-rnode "VDPWR.n644" 0 424.667 13181 28508 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -106.82 10832 28570 0
-rnode "VDPWR.n645" 0 321.653 11605 28508 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -54.4309 10832 28570 0
-rnode "VDPWR.n646" 0 274.657 11446 28508 0
-rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -1392.42 10832 28570 0
-rnode "VDPWR.n647" 0 1628.9 15270 28508 0
-rnode "VDPWR.n648" 0 1162.6 15598 28655 0
-rnode "VDPWR.n649" 0 4145.66 15402 32028 0
-rnode "VDPWR.n650" 0 3542.96 15402 32028 0
-rnode "VDPWR.n651" 0 10333.5 11220 32005 0
-rnode "VDPWR.n652" 0 12033.9 400 32044 0
-rnode "VDPWR.n653" 0 11437.2 398 34773 0
-rnode "VDPWR.n654" 0 10352.2 11211 34769 0
-rnode "VDPWR.n655" 0 1070.81 11211 34769 0
-rnode "VDPWR.n656" 0 446.148 11151 35661 0
-rnode "VDPWR.n657" 0 177.935 11151 35661 0
-rnode "VDPWR.n658" 0 442.77 11446 36496 0
-rnode "VDPWR.n659" 0 3270.67 15272 36496 0
-rnode "VDPWR.n660" 0 2286.22 15586 35952 0
-rnode "VDPWR.n661" 0 4718.3 15397 39581 0
-rnode "VDPWR.n662" 0 3151.37 15397 39581 0
-rnode "VDPWR.n663" 0 3172.78 17546 39606 0
-rnode "VDPWR.n664" 0 2005.42 19402 39596 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/vdd" 0 4.72798 18932 40426 0
-rnode "VDPWR.n665" 0 2.33444 18404 40373 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/D" 0 1.25538 18045 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/D" 0 1.25538 18045 40007 0
-rnode "VDPWR.n666" 0 137.111 17943 40506 0
-rnode "VDPWR.n667" 0 2.34922 18405 40479 0
-rnode "VDPWR.n668" 0 10.3129 18247 40845 0
-rnode "VDPWR.n669" 0 15.2949 17931 40845 0
-rnode "VDPWR.n670" 0 9.82534 18247 40496 0
-rnode "VDPWR.n671" 0 15.2949 17931 40845 0
-rnode "VDPWR.n672" 0 230.149 18247 40845 0
-rnode "VDPWR.n673" 0 10.1711 18089 39641 0
-rnode "VDPWR.n674" 0 15.2949 17825 40007 0
-rnode "VDPWR.n675" 0 230.149 17667 41211 0
-rnode "VDPWR.n676" 0 15.6734 17667 41211 0
-rnode "VDPWR.n677" 0 15.6734 17667 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/B" 0 15.6734 17667 41211 0
-rnode "VDPWR.n678" 0 15.2794 17509 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/vdd" 0 19.2596 17878 40390 0
-rnode "VDPWR.n679" 0 5.47339 17666 40378 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/D" 0 1.7588 17623 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/D" 0 1.7588 17623 40007 0
-rnode "VDPWR.n680" 0 5.47339 17246 40378 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/D" 0 1.7588 17203 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/D" 0 1.7588 17203 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/vdd" 0 4.86704 17036 40348 0
-rnode "VDPWR.n681" 0 108.828 17106 40506 0
-rnode "VDPWR.n682" 0 7.85147 17247 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/B" 0 15.6734 17247 41211 0
-rnode "VDPWR.n683" 0 15.6734 17247 41211 0
-rnode "VDPWR.n684" 0 15.6734 17247 40479 0
-rnode "VDPWR.n685" 0 230.149 17247 41211 0
-rnode "VDPWR.n686" 0 15.6734 17247 40373 0
-rnode "VDPWR.n687" 0 15.6734 17247 39641 0
-rnode "VDPWR.n688" 0 7.85147 17247 40373 0
-rnode "VDPWR.n689" 0 15.6734 17667 40373 0
-rnode "VDPWR.n690" 0 15.6734 17667 39641 0
-rnode "VDPWR.n691" 0 7.85147 17667 40373 0
-rnode "VDPWR.n692" 0 15.2949 17825 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/B" 0 15.6734 17667 39641 0
-rnode "VDPWR.n693" 0 15.2794 17509 40007 0
-rnode "VDPWR.n694" 0 15.2949 17509 40007 0
-rnode "VDPWR.n695" 0 15.2949 17509 40845 0
-rnode "VDPWR.n696" 0 190.819 17509 40845 0
-rnode "VDPWR.n697" 0 15.2949 17405 40845 0
-rnode "VDPWR.n698" 0 15.2949 17405 40845 0
-rnode "VDPWR.n699" 0 190.819 17405 40845 0
-rnode "VDPWR.n700" 0 15.2949 17405 40007 0
-rnode "VDPWR.n701" 0 15.2949 17405 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/B" 0 15.6734 17247 39641 0
-rnode "VDPWR.n702" 0 15.2794 17089 40007 0
-rnode "VDPWR.n703" 0 15.2949 17089 40007 0
-rnode "VDPWR.n704" 0 192.276 17089 40845 0
-rnode "VDPWR.n705" 0 15.2949 17089 40845 0
-rnode "VDPWR.n706" 0 15.2794 17089 40845 0
-rnode "VDPWR.n707" 0 5.47339 17246 40474 0
-rnode "VDPWR.n708" 0 24.3352 17246 40474 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vdd" 0 19.4682 17456 40348 0
-rnode "VDPWR.n709" 0 108.828 17526 40506 0
-rnode "VDPWR.n710" 0 24.4743 17666 40474 0
-rnode "VDPWR.n711" 0 5.47339 17666 40474 0
-rnode "VDPWR.n712" 0 7.85147 17667 40479 0
-rnode "VDPWR.n713" 0 15.2949 17825 40845 0
-rnode "VDPWR.n714" 0 15.2949 17825 40845 0
-rnode "VDPWR.n715" 0 192.276 17825 40845 0
-rnode "VDPWR.n716" 0 192.276 17931 40845 0
-rnode "VDPWR.n717" 0 10.1711 18089 40373 0
-rnode "VDPWR.n718" 0 10.3129 18247 40845 0
-rnode "VDPWR.n719" 0 9.82534 18247 41194 0
-rnode "VDPWR.n720" 0 9.82534 18563 41194 0
-rnode "VDPWR.n721" 0 9.82534 18563 41194 0
-rnode "VDPWR.n722" 0 230.149 18563 40845 0
-rnode "VDPWR.n723" 0 4.66888 18405 40479 0
-rnode "VDPWR.n724" 0 4.66888 18405 39641 0
-rnode "VDPWR.n725" 0 9.82534 18563 40356 0
-rnode "VDPWR.n726" 0 9.82534 18247 40356 0
-rnode "VDPWR.n727" 0 10.1711 18721 40373 0
-rnode "VDPWR.n728" 0 9.82534 18247 39658 0
-rnode "VDPWR.n729" 0 10.3129 18247 40007 0
-rnode "VDPWR.n730" 0 10.3129 18247 40007 0
-rnode "VDPWR.n731" 0 9.81057 18247 40356 0
-rnode "VDPWR.n732" 0 10.1711 18089 40373 0
-rnode "VDPWR.n733" 0 15.2949 17931 40007 0
-rnode "VDPWR.n734" 0 15.2949 17931 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/B" 0 10.1711 18089 39641 0
-rnode "VDPWR.n735" 0 9.82534 18247 39658 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/B" 0 4.66888 18405 39641 0
-rnode "VDPWR.n736" 0 9.82534 18563 39658 0
-rnode "VDPWR.n737" 0 15.2949 18879 40007 0
-rnode "VDPWR.n738" 0 15.2949 18879 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/B" 0 10.1711 18721 39641 0
-rnode "VDPWR.n739" 0 230.149 19143 41211 0
-rnode "VDPWR.n740" 0 10.1711 19143 41211 0
-rnode "VDPWR.n741" 0 10.1711 19143 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/B" 0 10.1711 19143 41211 0
-rnode "VDPWR.n742" 0 10.3129 19301 40845 0
-rnode "VDPWR.n743" 0 2.34922 19459 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/D" 0 1.7588 20153 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/D" 0 1.7588 20153 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vdd" 0 19.4682 20406 40426 0
-rnode "VDPWR.n744" 0 5.47339 20196 40378 0
-rnode "VDPWR.n745" 0 7.85147 20197 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/B" 0 15.6734 20197 41211 0
-rnode "VDPWR.n746" 0 15.6734 20197 41211 0
-rnode "VDPWR.n747" 0 15.6734 20197 40479 0
-rnode "VDPWR.n748" 0 230.149 20197 41211 0
-rnode "VDPWR.n749" 0 15.6734 20197 40373 0
-rnode "VDPWR.n750" 0 15.6734 20197 39641 0
-rnode "VDPWR.n751" 0 7.85147 20197 40373 0
-rnode "VDPWR.n752" 0 230.149 20617 40373 0
-rnode "VDPWR.n753" 0 15.2949 20459 40845 0
-rnode "VDPWR.n754" 0 15.6734 20617 40373 0
-rnode "VDPWR.n755" 0 15.6734 20617 39641 0
-rnode "VDPWR.n756" 0 5.47339 20616 40378 0
-rnode "VDPWR.n757" 0 7.85147 20617 40373 0
-rnode "VDPWR.n758" 0 15.6734 20617 41211 0
-rnode "VDPWR.n759" 0 15.6734 20617 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/B" 0 15.6734 20617 41211 0
-rnode "VDPWR.n760" 0 15.2794 20459 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/D" 0 1.7588 20573 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/D" 0 1.7588 20573 40007 0
-rnode "VDPWR.n761" 0 108.828 20476 40506 0
-rnode "VDPWR.n762" 0 39.2145 20616 40474 0
-rnode "VDPWR.n763" 0 5.47339 20616 40474 0
-rnode "VDPWR.n764" 0 7.85147 20617 40479 0
-rnode "VDPWR.n765" 0 15.2949 20775 40845 0
-rnode "VDPWR.n766" 0 15.2949 20775 40845 0
-rnode "VDPWR.n767" 0 192.276 20775 40007 0
-rnode "VDPWR.n768" 0 15.2949 20775 40007 0
-rnode "VDPWR.n769" 0 15.2949 20775 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/B" 0 15.6734 20617 39641 0
-rnode "VDPWR.n770" 0 15.2794 20459 40007 0
-rnode "VDPWR.n771" 0 15.2949 20459 40007 0
-rnode "VDPWR.n772" 0 190.819 20459 40007 0
-rnode "VDPWR.n773" 0 15.2949 20355 40845 0
-rnode "VDPWR.n774" 0 15.2949 20355 40845 0
-rnode "VDPWR.n775" 0 190.819 20355 40845 0
-rnode "VDPWR.n776" 0 15.2949 20355 40007 0
-rnode "VDPWR.n777" 0 15.2949 20355 40007 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/B" 0 15.6734 20197 39641 0
-rnode "VDPWR.n778" 0 15.2794 20039 40007 0
-rnode "VDPWR.n779" 0 15.2949 20039 40007 0
-rnode "VDPWR.n780" 0 230.149 19775 41211 0
-rnode "VDPWR.n781" 0 10.1711 19775 41211 0
-rnode "VDPWR.n782" 0 10.1711 19775 40479 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/B" 0 10.1711 19775 41211 0
-rnode "VDPWR.n783" 0 9.82534 19617 41194 0
-rnode "VDPWR.n784" 0 9.82534 19617 41194 0
-rnode "VDPWR.n785" 0 9.82534 19617 40496 0
-rnode "VDPWR.n786" 0 4.66888 19459 40479 0
-rnode "VDPWR.n787" 0 230.149 19301 40845 0
-rnode "VDPWR.n788" 0 9.82534 19301 40496 0
-rnode "VDPWR.n789" 0 10.3129 19301 40845 0
-rnode "VDPWR.n790" 0 9.82534 19301 41194 0
-rnode "VDPWR.n791" 0 9.82534 19301 41194 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/B" 0 4.66888 19459 41211 0
-rnode "VDPWR.n792" 0 4.66888 19459 41211 0
-rnode "VDPWR.n793" 0 230.149 19459 41211 0
-rnode "VDPWR.n794" 0 230.149 19617 40845 0
-rnode "VDPWR.n795" 0 10.3129 19617 40845 0
-rnode "VDPWR.n796" 0 10.3129 19617 40845 0
-rnode "VDPWR.n797" 0 9.82534 19617 40496 0
-rnode "VDPWR.n798" 0 10.1711 19775 40479 0
-rnode "VDPWR.n799" 0 15.2949 19933 40845 0
-rnode "VDPWR.n800" 0 15.2949 19933 40845 0
-rnode "VDPWR.n801" 0 192.276 19933 40845 0
-rnode "VDPWR.n802" 0 192.276 20039 40845 0
-rnode "VDPWR.n803" 0 15.2949 20039 40845 0
-rnode "VDPWR.n804" 0 15.2794 20039 40845 0
-rnode "VDPWR.n805" 0 5.47339 20196 40474 0
-rnode "VDPWR.n806" 0 24.3352 20196 40474 0
-rnode "VDPWR.n807" 0 108.828 20056 40506 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/vdd" 0 41.5784 19986 40426 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/D" 0 1.25538 19099 40845 0
-rnode "VDPWR.n808" 0 86.8416 18997 40506 0
-rnode "VDPWR.n809" 0 68.7644 19458 40479 0
-rnode "VDPWR.n810" 0 2.33444 19458 40479 0
-rnode "VDPWR.n811" 0 9.81057 19301 40496 0
-rnode "VDPWR.n812" 0 10.1711 19143 40479 0
-rnode "VDPWR.n813" 0 15.2949 18985 40845 0
-rnode "VDPWR.n814" 0 15.2949 18985 40845 0
-rnode "VDPWR.n815" 0 192.276 18985 40845 0
-rnode "VDPWR.n816" 0 192.276 18879 40845 0
-rnode "VDPWR.n817" 0 10.1711 18721 40479 0
-rnode "VDPWR.n818" 0 10.1711 18721 40373 0
-rnode "VDPWR.n819" 0 15.2949 18879 40845 0
-rnode "VDPWR.n820" 0 9.82534 18563 40496 0
-rnode "VDPWR.n821" 0 10.3129 18563 40845 0
-rnode "VDPWR.n822" 0 10.3129 18563 40845 0
-rnode "VDPWR.n823" 0 9.82534 18563 40496 0
-rnode "VDPWR.n824" 0 10.1711 18721 40479 0
-rnode "VDPWR.n825" 0 15.2949 18879 40845 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/B" 0 10.1711 18721 41211 0
-rnode "VDPWR.n826" 0 10.1711 18721 41211 0
-rnode "VDPWR.n827" 0 230.149 18721 41211 0
-rnode "VDPWR.n828" 0 10.1711 18721 39641 0
-rnode "VDPWR.n829" 0 9.82534 18563 39658 0
-rnode "VDPWR.n830" 0 10.3129 18563 40007 0
-rnode "VDPWR.n831" 0 10.3129 18563 40007 0
-rnode "VDPWR.n832" 0 9.82534 18563 40356 0
-rnode "VDPWR.n833" 0 2.34922 18405 40373 0
-rnode "VDPWR.n834" 0 4.66888 18405 40373 0
-rnode "VDPWR.n835" 0 230.149 18405 41211 0
-rnode "VDPWR.n836" 0 4.66888 18405 41211 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/B" 0 4.66888 18405 41211 0
-rnode "VDPWR.n837" 0 9.82534 18247 41194 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/B" 0 10.1711 18089 41211 0
-rnode "VDPWR.n838" 0 10.1711 18089 41211 0
-rnode "VDPWR.n839" 0 230.149 18089 41211 0
-rnode "VDPWR.n840" 0 10.1711 18089 40479 0
-rnode "VDPWR.n841" 0 10.1711 18089 40479 0
-rnode "VDPWR.n842" 0 9.81057 18247 40496 0
-rnode "VDPWR.n843" 0 2.33444 18404 40479 0
-rnode "VDPWR.n844" 0 68.5558 18404 40479 0
-rnode "VDPWR.n845" 0 36.7114 18929 40432 0
-rnode "VDPWR.n846" 0 362.785 18929 40432 0
-rnode "VDPWR.n847" 0 299.062 17549 40422 0
-rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/vdd" 0 1318.03 17296 40476 0
+rnode "VDPWR.n618" 0 473.71 7723 28960 0
+rnode "flashADC_3bit_0/vbias_generation_0/XMp_bias/B" 0 7.1297 7723 28960 0
+rnode "VDPWR.n619" 0 22.8987 7739 28734 0
+rnode "VDPWR.n620" 0 19.0884 8889 28717 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 268.122 10832 28570 0
+rnode "flashADC_3bit_0/vbias_generation_0/vdd" 0 -329.212 7596 28664 0
+rnode "VDPWR.n621" 0 652.47 9880 28573 0
+rnode "flashADC_3bit_0/vbias_generation_0/vdd" 0 672.55 7596 28664 0
+rnode "flashADC_3bit_0/vbias_generation_0/vdd" 0 -58.3873 7596 28664 0
+rnode "VDPWR.n622" 0 293.155 7898 28573 0
+rnode "flashADC_3bit_0/vbias_generation_0/XMp_bias/S" 0 -41.1942 8889 28831 0
+rnode "VDPWR.n623" 0 194.302 8889 28831 0
+rnode "VDPWR.n624" 0 191.595 8903 28715 0
+rnode "VDPWR.n625" 0 23.2157 8903 28715 0
+rnode "VDPWR.n626" 0 42.8147 10055 28960 0
+rnode "VDPWR.n627" 0 41.6847 10055 28960 0
+rnode "VDPWR.n628" 0 1162.81 10055 28960 0
+rnode "VDPWR.n629" 0 1750.4 11087 30353 0
+rnode "VDPWR.n630" 0 48.9932 11087 30353 0
+rnode "VDPWR.n631" 0 40.9293 12226 29829 0
+rnode "VDPWR.n632" 0 40.7756 13359 29846 0
+rnode "VDPWR.n633" 0 14.8782 13359 30353 0
+rnode "VDPWR.n634" 0 14.8782 13359 30353 0
+rnode "VDPWR.n635" 0 114.543 13359 29846 0
+rnode "VDPWR.n636" 0 115.576 12232 29738 0
+rnode "VDPWR.n637" 0 106.391 12393 29117 0
+rnode "VDPWR.n638" 0 31.7584 12393 29073 0
+rnode "VDPWR.n639" 0 1283 12393 29073 0
+rnode "VDPWR.n640" 0 31.7584 12393 28587 0
+rnode "VDPWR.n641" 0 29.2773 12393 28587 0
+rnode "VDPWR.n642" 0 14.1739 13358 28587 0
+rnode "VDPWR.n643" 0 31.341 13358 28587 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -206.798 10832 28570 0
+rnode "VDPWR.n644" 0 421.73 13181 28508 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -106.082 10832 28570 0
+rnode "VDPWR.n645" 0 319.429 11605 28508 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -54.0545 10832 28570 0
+rnode "VDPWR.n646" 0 272.757 11446 28508 0
+rnode "flashADC_3bit_0/comp_p_6/vdd" 0 -1382.79 10832 28570 0
+rnode "VDPWR.n647" 0 1617.63 15270 28508 0
+rnode "VDPWR.n648" 0 1154.56 15598 28655 0
+rnode "VDPWR.n649" 0 4116.99 15402 32028 0
+rnode "VDPWR.n650" 0 3518.46 15402 32028 0
+rnode "VDPWR.n651" 0 10262.1 11220 32005 0
+rnode "VDPWR.n652" 0 11950.7 400 32044 0
+rnode "VDPWR.n653" 0 11358.1 398 34773 0
+rnode "VDPWR.n654" 0 10280.6 11211 34769 0
+rnode "VDPWR.n655" 0 1063.41 11211 34769 0
+rnode "VDPWR.n656" 0 443.063 11151 35661 0
+rnode "VDPWR.n657" 0 176.705 11151 35661 0
+rnode "VDPWR.n658" 0 439.708 11446 36496 0
+rnode "VDPWR.n659" 0 3248.05 15272 36496 0
+rnode "VDPWR.n660" 0 2270.41 15586 35952 0
+rnode "VDPWR.n661" 0 4685.67 15397 39581 0
+rnode "VDPWR.n662" 0 3129.58 15397 39581 0
+rnode "VDPWR.n663" 0 3150.83 17546 39606 0
+rnode "VDPWR.n664" 0 1991.55 19402 39596 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/vdd" 0 4.69529 18932 40426 0
+rnode "VDPWR.n665" 0 2.3183 18404 40373 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/D" 0 1.2467 18045 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/D" 0 1.2467 18045 40007 0
+rnode "VDPWR.n666" 0 136.163 17943 40506 0
+rnode "VDPWR.n667" 0 2.33297 18405 40479 0
+rnode "VDPWR.n668" 0 10.2416 18247 40845 0
+rnode "VDPWR.n669" 0 15.1891 17931 40845 0
+rnode "VDPWR.n670" 0 9.75739 18247 40496 0
+rnode "VDPWR.n671" 0 15.1891 17931 40845 0
+rnode "VDPWR.n672" 0 228.557 18247 40845 0
+rnode "VDPWR.n673" 0 10.1008 18089 39641 0
+rnode "VDPWR.n674" 0 15.1891 17825 40007 0
+rnode "VDPWR.n675" 0 228.557 17667 41211 0
+rnode "VDPWR.n676" 0 15.565 17667 41211 0
+rnode "VDPWR.n677" 0 15.565 17667 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/B" 0 15.565 17667 41211 0
+rnode "VDPWR.n678" 0 15.1738 17509 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/vdd" 0 19.1264 17878 40390 0
+rnode "VDPWR.n679" 0 5.43554 17666 40378 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/D" 0 1.74664 17623 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/D" 0 1.74664 17623 40007 0
+rnode "VDPWR.n680" 0 5.43554 17246 40378 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/D" 0 1.74664 17203 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/D" 0 1.74664 17203 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/vdd" 0 4.83338 17036 40348 0
+rnode "VDPWR.n681" 0 108.075 17106 40506 0
+rnode "VDPWR.n682" 0 7.79717 17247 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/B" 0 15.565 17247 41211 0
+rnode "VDPWR.n683" 0 15.565 17247 41211 0
+rnode "VDPWR.n684" 0 15.565 17247 40479 0
+rnode "VDPWR.n685" 0 228.557 17247 41211 0
+rnode "VDPWR.n686" 0 15.565 17247 40373 0
+rnode "VDPWR.n687" 0 15.565 17247 39641 0
+rnode "VDPWR.n688" 0 7.79717 17247 40373 0
+rnode "VDPWR.n689" 0 15.565 17667 40373 0
+rnode "VDPWR.n690" 0 15.565 17667 39641 0
+rnode "VDPWR.n691" 0 7.79717 17667 40373 0
+rnode "VDPWR.n692" 0 15.1891 17825 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/B" 0 15.565 17667 39641 0
+rnode "VDPWR.n693" 0 15.1738 17509 40007 0
+rnode "VDPWR.n694" 0 15.1891 17509 40007 0
+rnode "VDPWR.n695" 0 15.1891 17509 40845 0
+rnode "VDPWR.n696" 0 189.5 17509 40845 0
+rnode "VDPWR.n697" 0 15.1891 17405 40845 0
+rnode "VDPWR.n698" 0 15.1891 17405 40845 0
+rnode "VDPWR.n699" 0 189.5 17405 40845 0
+rnode "VDPWR.n700" 0 15.1891 17405 40007 0
+rnode "VDPWR.n701" 0 15.1891 17405 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/B" 0 15.565 17247 39641 0
+rnode "VDPWR.n702" 0 15.1738 17089 40007 0
+rnode "VDPWR.n703" 0 15.1891 17089 40007 0
+rnode "VDPWR.n704" 0 190.946 17089 40845 0
+rnode "VDPWR.n705" 0 15.1891 17089 40845 0
+rnode "VDPWR.n706" 0 15.1738 17089 40845 0
+rnode "VDPWR.n707" 0 5.43554 17246 40474 0
+rnode "VDPWR.n708" 0 24.1669 17246 40474 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vdd" 0 19.3335 17456 40348 0
+rnode "VDPWR.n709" 0 108.075 17526 40506 0
+rnode "VDPWR.n710" 0 24.305 17666 40474 0
+rnode "VDPWR.n711" 0 5.43554 17666 40474 0
+rnode "VDPWR.n712" 0 7.79717 17667 40479 0
+rnode "VDPWR.n713" 0 15.1891 17825 40845 0
+rnode "VDPWR.n714" 0 15.1891 17825 40845 0
+rnode "VDPWR.n715" 0 190.946 17825 40845 0
+rnode "VDPWR.n716" 0 190.946 17931 40845 0
+rnode "VDPWR.n717" 0 10.1008 18089 40373 0
+rnode "VDPWR.n718" 0 10.2416 18247 40845 0
+rnode "VDPWR.n719" 0 9.75739 18247 41194 0
+rnode "VDPWR.n720" 0 9.75739 18563 41194 0
+rnode "VDPWR.n721" 0 9.75739 18563 41194 0
+rnode "VDPWR.n722" 0 228.557 18563 40845 0
+rnode "VDPWR.n723" 0 4.6366 18405 40479 0
+rnode "VDPWR.n724" 0 4.6366 18405 39641 0
+rnode "VDPWR.n725" 0 9.75739 18563 40356 0
+rnode "VDPWR.n726" 0 9.75739 18247 40356 0
+rnode "VDPWR.n727" 0 10.1008 18721 40373 0
+rnode "VDPWR.n728" 0 9.75739 18247 39658 0
+rnode "VDPWR.n729" 0 10.2416 18247 40007 0
+rnode "VDPWR.n730" 0 10.2416 18247 40007 0
+rnode "VDPWR.n731" 0 9.74272 18247 40356 0
+rnode "VDPWR.n732" 0 10.1008 18089 40373 0
+rnode "VDPWR.n733" 0 15.1891 17931 40007 0
+rnode "VDPWR.n734" 0 15.1891 17931 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/B" 0 10.1008 18089 39641 0
+rnode "VDPWR.n735" 0 9.75739 18247 39658 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/B" 0 4.6366 18405 39641 0
+rnode "VDPWR.n736" 0 9.75739 18563 39658 0
+rnode "VDPWR.n737" 0 15.1891 18879 40007 0
+rnode "VDPWR.n738" 0 15.1891 18879 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/B" 0 10.1008 18721 39641 0
+rnode "VDPWR.n739" 0 228.557 19143 41211 0
+rnode "VDPWR.n740" 0 10.1008 19143 41211 0
+rnode "VDPWR.n741" 0 10.1008 19143 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/B" 0 10.1008 19143 41211 0
+rnode "VDPWR.n742" 0 10.2416 19301 40845 0
+rnode "VDPWR.n743" 0 2.33297 19459 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/D" 0 1.74664 20153 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/D" 0 1.74664 20153 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vdd" 0 19.3335 20406 40426 0
+rnode "VDPWR.n744" 0 5.43554 20196 40378 0
+rnode "VDPWR.n745" 0 7.79717 20197 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/B" 0 15.565 20197 41211 0
+rnode "VDPWR.n746" 0 15.565 20197 41211 0
+rnode "VDPWR.n747" 0 15.565 20197 40479 0
+rnode "VDPWR.n748" 0 228.557 20197 41211 0
+rnode "VDPWR.n749" 0 15.565 20197 40373 0
+rnode "VDPWR.n750" 0 15.565 20197 39641 0
+rnode "VDPWR.n751" 0 7.79717 20197 40373 0
+rnode "VDPWR.n752" 0 228.557 20617 40373 0
+rnode "VDPWR.n753" 0 15.1891 20459 40845 0
+rnode "VDPWR.n754" 0 15.565 20617 40373 0
+rnode "VDPWR.n755" 0 15.565 20617 39641 0
+rnode "VDPWR.n756" 0 5.43554 20616 40378 0
+rnode "VDPWR.n757" 0 7.79717 20617 40373 0
+rnode "VDPWR.n758" 0 15.565 20617 41211 0
+rnode "VDPWR.n759" 0 15.565 20617 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/B" 0 15.565 20617 41211 0
+rnode "VDPWR.n760" 0 15.1738 20459 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/D" 0 1.74664 20573 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/D" 0 1.74664 20573 40007 0
+rnode "VDPWR.n761" 0 108.075 20476 40506 0
+rnode "VDPWR.n762" 0 38.9433 20616 40474 0
+rnode "VDPWR.n763" 0 5.43554 20616 40474 0
+rnode "VDPWR.n764" 0 7.79717 20617 40479 0
+rnode "VDPWR.n765" 0 15.1891 20775 40845 0
+rnode "VDPWR.n766" 0 15.1891 20775 40845 0
+rnode "VDPWR.n767" 0 190.946 20775 40007 0
+rnode "VDPWR.n768" 0 15.1891 20775 40007 0
+rnode "VDPWR.n769" 0 15.1891 20775 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/B" 0 15.565 20617 39641 0
+rnode "VDPWR.n770" 0 15.1738 20459 40007 0
+rnode "VDPWR.n771" 0 15.1891 20459 40007 0
+rnode "VDPWR.n772" 0 189.5 20459 40007 0
+rnode "VDPWR.n773" 0 15.1891 20355 40845 0
+rnode "VDPWR.n774" 0 15.1891 20355 40845 0
+rnode "VDPWR.n775" 0 189.5 20355 40845 0
+rnode "VDPWR.n776" 0 15.1891 20355 40007 0
+rnode "VDPWR.n777" 0 15.1891 20355 40007 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/B" 0 15.565 20197 39641 0
+rnode "VDPWR.n778" 0 15.1738 20039 40007 0
+rnode "VDPWR.n779" 0 15.1891 20039 40007 0
+rnode "VDPWR.n780" 0 228.557 19775 41211 0
+rnode "VDPWR.n781" 0 10.1008 19775 41211 0
+rnode "VDPWR.n782" 0 10.1008 19775 40479 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/B" 0 10.1008 19775 41211 0
+rnode "VDPWR.n783" 0 9.75739 19617 41194 0
+rnode "VDPWR.n784" 0 9.75739 19617 41194 0
+rnode "VDPWR.n785" 0 9.75739 19617 40496 0
+rnode "VDPWR.n786" 0 4.6366 19459 40479 0
+rnode "VDPWR.n787" 0 228.557 19301 40845 0
+rnode "VDPWR.n788" 0 9.75739 19301 40496 0
+rnode "VDPWR.n789" 0 10.2416 19301 40845 0
+rnode "VDPWR.n790" 0 9.75739 19301 41194 0
+rnode "VDPWR.n791" 0 9.75739 19301 41194 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/B" 0 4.6366 19459 41211 0
+rnode "VDPWR.n792" 0 4.6366 19459 41211 0
+rnode "VDPWR.n793" 0 228.557 19459 41211 0
+rnode "VDPWR.n794" 0 228.557 19617 40845 0
+rnode "VDPWR.n795" 0 10.2416 19617 40845 0
+rnode "VDPWR.n796" 0 10.2416 19617 40845 0
+rnode "VDPWR.n797" 0 9.75739 19617 40496 0
+rnode "VDPWR.n798" 0 10.1008 19775 40479 0
+rnode "VDPWR.n799" 0 15.1891 19933 40845 0
+rnode "VDPWR.n800" 0 15.1891 19933 40845 0
+rnode "VDPWR.n801" 0 190.946 19933 40845 0
+rnode "VDPWR.n802" 0 190.946 20039 40845 0
+rnode "VDPWR.n803" 0 15.1891 20039 40845 0
+rnode "VDPWR.n804" 0 15.1738 20039 40845 0
+rnode "VDPWR.n805" 0 5.43554 20196 40474 0
+rnode "VDPWR.n806" 0 24.1669 20196 40474 0
+rnode "VDPWR.n807" 0 108.075 20056 40506 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/vdd" 0 41.2909 19986 40426 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/D" 0 1.2467 19099 40845 0
+rnode "VDPWR.n808" 0 86.241 18997 40506 0
+rnode "VDPWR.n809" 0 68.2888 19458 40479 0
+rnode "VDPWR.n810" 0 2.3183 19458 40479 0
+rnode "VDPWR.n811" 0 9.74272 19301 40496 0
+rnode "VDPWR.n812" 0 10.1008 19143 40479 0
+rnode "VDPWR.n813" 0 15.1891 18985 40845 0
+rnode "VDPWR.n814" 0 15.1891 18985 40845 0
+rnode "VDPWR.n815" 0 190.946 18985 40845 0
+rnode "VDPWR.n816" 0 190.946 18879 40845 0
+rnode "VDPWR.n817" 0 10.1008 18721 40479 0
+rnode "VDPWR.n818" 0 10.1008 18721 40373 0
+rnode "VDPWR.n819" 0 15.1891 18879 40845 0
+rnode "VDPWR.n820" 0 9.75739 18563 40496 0
+rnode "VDPWR.n821" 0 10.2416 18563 40845 0
+rnode "VDPWR.n822" 0 10.2416 18563 40845 0
+rnode "VDPWR.n823" 0 9.75739 18563 40496 0
+rnode "VDPWR.n824" 0 10.1008 18721 40479 0
+rnode "VDPWR.n825" 0 15.1891 18879 40845 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/B" 0 10.1008 18721 41211 0
+rnode "VDPWR.n826" 0 10.1008 18721 41211 0
+rnode "VDPWR.n827" 0 228.557 18721 41211 0
+rnode "VDPWR.n828" 0 10.1008 18721 39641 0
+rnode "VDPWR.n829" 0 9.75739 18563 39658 0
+rnode "VDPWR.n830" 0 10.2416 18563 40007 0
+rnode "VDPWR.n831" 0 10.2416 18563 40007 0
+rnode "VDPWR.n832" 0 9.75739 18563 40356 0
+rnode "VDPWR.n833" 0 2.33297 18405 40373 0
+rnode "VDPWR.n834" 0 4.6366 18405 40373 0
+rnode "VDPWR.n835" 0 228.557 18405 41211 0
+rnode "VDPWR.n836" 0 4.6366 18405 41211 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/B" 0 4.6366 18405 41211 0
+rnode "VDPWR.n837" 0 9.75739 18247 41194 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/B" 0 10.1008 18089 41211 0
+rnode "VDPWR.n838" 0 10.1008 18089 41211 0
+rnode "VDPWR.n839" 0 228.557 18089 41211 0
+rnode "VDPWR.n840" 0 10.1008 18089 40479 0
+rnode "VDPWR.n841" 0 10.1008 18089 40479 0
+rnode "VDPWR.n842" 0 9.74272 18247 40496 0
+rnode "VDPWR.n843" 0 2.3183 18404 40479 0
+rnode "VDPWR.n844" 0 68.0816 18404 40479 0
+rnode "VDPWR.n845" 0 36.4575 18929 40432 0
+rnode "VDPWR.n846" 0 360.276 18929 40432 0
+rnode "VDPWR.n847" 0 296.994 17549 40422 0
+rnode "flashADC_3bit_0/tmux_7therm_to_3bin_0/vdd" 0 1308.92 17296 40476 0
 resist "VDPWR.n657" "VDPWR.n324" 0.000631313
 resist "VDPWR.n845" "flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/vdd" 0.00234375
 resist "VDPWR.n325" "flashADC_3bit_0/vdd" 0.00258012
@@ -6237,61 +6232,6 @@ resist "VGND.n15" "VGND.n14" 12039.7
 resist "VGND.n351" "VGND.n15" 12367.9
 resist "VGND.n606" "VGND.n16" 15045.2
 resist "VGND.n952" "VGND.n951" 28249.5
-rnode "flashADC_3bit_0/vbias_generation_0/bias_p" 0 1.34306 7706 28876 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t3" 0 794.982 7997 42472 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t2" 0 835.47 13381 42472 0
-rnode "flashADC_3bit_0/comp_p_1/vbias_p" 0 1542.8 10798 43204 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n0" 0 1260.02 7974 43204 0
-rnode "flashADC_3bit_0/comp_p_0/vbias_p" 0 111.304 5414 43204 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n1" 0 2126.47 6987 43304 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t4" 0 794.982 7997 36808 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t6" 0 794.982 7997 35068 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t5" 0 794.982 13381 36808 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t7" 0 794.982 13381 35068 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n2" 0 3005.71 13358 36076 0
-rnode "flashADC_3bit_0/comp_p_3/vbias_p" 0 2151.63 10798 35939 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n3" 0 3477.13 7974 36076 0
-rnode "flashADC_3bit_0/comp_p_2/vbias_p" 0 632.65 5414 36024 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n4" 0 1027 6991 35940 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n5" 0 10541 6991 35940 0
-rnode "flashADC_3bit_0/vbias_generation_0/bias_p" 0 2515.27 7706 28876 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n6" 0 329.543 7783 28888 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t0" 0 772.62 8889 28960 0
-rnode "flashADC_3bit_0/vbias_generation_0/XMp_bias/G" 0 273.209 9953 28960 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t8" 0 835.47 13381 29404 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p" 0 1473.28 10798 28620 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n7" 0 282.353 10025 28967 0
-rnode "flashADC_3bit_0/vbias_generation_0/XR_bias_1/R2" 0 136.533 9959 29563 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.n8" 0 1396.34 9889 29388 0
-rnode "flashADC_3bit_0/comp_p_6/vbias_p.t1" 0 305.847 8889 29060 0
-rnode "flashADC_3bit_0/vbias_generation_0/XMp_bias/D" 0 392.095 8889 29089 0
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n6" "flashADC_3bit_0/vbias_generation_0/bias_p" 0.0559593
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n5" "flashADC_3bit_0/comp_p_6/vbias_p.n4" 0.378889
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n4" "flashADC_3bit_0/comp_p_6/vbias_p.n3" 0.445199
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n8" "flashADC_3bit_0/comp_p_6/vbias_p.n7" 0.451139
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n4" "flashADC_3bit_0/comp_p_2/vbias_p" 0.714221
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n6" "flashADC_3bit_0/vbias_generation_0/bias_p" 0.802083
-resist "flashADC_3bit_0/comp_p_3/vbias_p" "flashADC_3bit_0/comp_p_6/vbias_p.n2" 1.15942
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n3" "flashADC_3bit_0/comp_p_3/vbias_p" 1.28824
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n1" "flashADC_3bit_0/comp_p_6/vbias_p.n0" 2.08264
-resist "flashADC_3bit_0/vbias_generation_0/bias_p" "flashADC_3bit_0/comp_p_6/vbias_p.n5" 2.14333
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n5" "flashADC_3bit_0/comp_p_6/vbias_p.n1" 2.21825
-resist "flashADC_3bit_0/vbias_generation_0/XMp_bias/D" "flashADC_3bit_0/comp_p_6/vbias_p.n8" 2.28755
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n7" "flashADC_3bit_0/comp_p_6/vbias_p" 3.11495
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n1" "flashADC_3bit_0/comp_p_0/vbias_p" 3.50197
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n7" "flashADC_3bit_0/vbias_generation_0/XMp_bias/G" 4.65421
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n0" "flashADC_3bit_0/comp_p_1/vbias_p" 6.78846
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n8" "flashADC_3bit_0/vbias_generation_0/XR_bias_1/R2" 8.71531
-resist "flashADC_3bit_0/vbias_generation_0/XMp_bias/D" "flashADC_3bit_0/comp_p_6/vbias_p.t1" 23.0289
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n0" "flashADC_3bit_0/comp_p_6/vbias_p.t3" 172.639
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n3" "flashADC_3bit_0/comp_p_6/vbias_p.t4" 172.639
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n3" "flashADC_3bit_0/comp_p_6/vbias_p.t6" 172.639
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n2" "flashADC_3bit_0/comp_p_6/vbias_p.t5" 172.639
-resist "flashADC_3bit_0/comp_p_6/vbias_p.n2" "flashADC_3bit_0/comp_p_6/vbias_p.t7" 172.639
-resist "flashADC_3bit_0/comp_p_6/vbias_p" "flashADC_3bit_0/comp_p_6/vbias_p.t8" 178.793
-resist "flashADC_3bit_0/comp_p_1/vbias_p" "flashADC_3bit_0/comp_p_6/vbias_p.t2" 178.793
-resist "flashADC_3bit_0/vbias_generation_0/XMp_bias/G" "flashADC_3bit_0/comp_p_6/vbias_p.t0" 332.424
-resist "flashADC_3bit_0/comp_p_6/vbias_p.t0" "flashADC_3bit_0/comp_p_6/vbias_p.n6" 337.105
 device msubckt sky130_fd_pr__pfet_01v8 17232 33975 17233 33976  "VDPWR" "uio_out[1].t1" 60 0 "VDPWR" 400 23200,916 "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 400 23200,916
 device msubckt sky130_fd_pr__nfet_01v8 17232 33346 17233 33347  "VGND" "uio_out[1].t0" 60 0 "VGND" 200 11600,516 "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 200 11600,516
 device msubckt sky130_fd_pr__pfet_01v8 17232 34813 17233 34814  "VDPWR" "uio_out[0].t1" 60 0 "VDPWR" 400 23200,916 "flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" 400 23200,916
@@ -6310,7 +6250,6 @@ device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 30198 11224 30199  "VDPWR" "ua[
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 30678 11224 30679  "VDPWR" "ua[0].t26" 140 0 "flashADC_3bit_0/comp_p_6/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_6/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 29958 13496 29959  "VDPWR" "ua[0].t25" 140 0 "flashADC_3bit_0/comp_p_6/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_6/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 30438 13496 30439  "VDPWR" "ua[0].t24" 140 0 "flashADC_3bit_0/comp_p_6/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_6/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 12381 29304 12382 29305  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t8" 400 0 "flashADC_3bit_0/comp_p_6/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
 device msubckt sky130_fd_pr__nfet_01v8_lvt 12178 31840 12179 31841  "VGND" "flashADC_3bit_0/comp_p_6/latch_left.t3" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_6/out_left" 1000 58000,2116
 device msubckt sky130_fd_pr__nfet_01v8_lvt 11008 31354 11009 31355  "VGND" "flashADC_3bit_0/comp_p_6/latch_left.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_6/latch_left.t1" 800 46400,1716
 device msubckt sky130_fd_pr__nfet_01v8_lvt 12178 31354 12179 31355  "VGND" "flashADC_3bit_0/comp_p_6/latch_left.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_6/latch_right" 1000 58000,2116
@@ -6318,20 +6257,12 @@ device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 34204 11224 34205  "VDPWR" "ua[
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 33724 11224 33725  "VDPWR" "ua[0].t22" 140 0 "flashADC_3bit_0/comp_p_5/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_5/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 34444 13496 34445  "VDPWR" "ua[0].t21" 140 0 "flashADC_3bit_0/comp_p_5/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_5/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 33964 13496 33965  "VDPWR" "ua[0].t20" 140 0 "flashADC_3bit_0/comp_p_5/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_5/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 12381 34968 12382 34969  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t7" 400 0 "flashADC_3bit_0/comp_p_5/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 13572 32432 13573 32433  "VGND" "flashADC_3bit_0/comp_p_5/latch_right.t3" 400 0 "VGND" 1000 58000,2116 "uio_out[0]" 1000 58000,2116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 12178 32432 12179 32433  "VGND" "flashADC_3bit_0/comp_p_5/latch_left.t3" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_5/out_left" 1000 58000,2116
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11593 35542 11594 35543  "VDPWR" "flashADC_3bit_0/comp_p_5/out_left.t0" 400 0 "flashADC_3bit_0/comp_p_5/out_left.t1" 1600 92800,3316 "VDPWR" 1600 92800,3316
-device msubckt sky130_fd_pr__nfet_01v8_lvt 14910 32918 14911 32919  "VGND" "flashADC_3bit_0/comp_p_5/latch_right.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_5/latch_right.t1" 800 46400,1716
-device msubckt sky130_fd_pr__nfet_01v8_lvt 13572 32918 13573 32919  "VGND" "flashADC_3bit_0/comp_p_5/latch_right.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_5/latch_left" 1000 58000,2116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 11008 32918 11009 32919  "VGND" "flashADC_3bit_0/comp_p_5/latch_left.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_5/latch_left.t1" 800 46400,1716
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13525 35542 13526 35543  "VDPWR" "flashADC_3bit_0/comp_p_5/out_left.t2" 400 0 "uio_out[0]" 1600 92800,3316 "VDPWR" 1600 92800,3316
-device msubckt sky130_fd_pr__nfet_01v8_lvt 12178 32918 12179 32919  "VGND" "flashADC_3bit_0/comp_p_5/latch_left.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_5/latch_right" 1000 58000,2116
 device msubckt sky130_fd_pr__pfet_01v8_lvt 5839 34204 5840 34205  "VDPWR" "ua[0].t19" 140 0 "flashADC_3bit_0/comp_p_4/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_4/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 5839 33724 5840 33725  "VDPWR" "ua[0].t18" 140 0 "flashADC_3bit_0/comp_p_4/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_4/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8111 34444 8112 34445  "VDPWR" "ua[0].t17" 140 0 "flashADC_3bit_0/comp_p_4/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_4/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8111 33964 8112 33965  "VDPWR" "ua[0].t16" 140 0 "flashADC_3bit_0/comp_p_4/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_4/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 6997 34968 6998 34969  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t6" 400 0 "flashADC_3bit_0/comp_p_4/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
 device msubckt sky130_fd_pr__nfet_01v8_lvt 6794 32432 6795 32433  "VGND" "flashADC_3bit_0/comp_p_4/latch_left.t3" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_4/out_left" 1000 58000,2116
 device msubckt sky130_fd_pr__nfet_01v8_lvt 5624 32918 5625 32919  "VGND" "flashADC_3bit_0/comp_p_4/latch_left.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_4/latch_left.t1" 800 46400,1716
 device msubckt sky130_fd_pr__nfet_01v8_lvt 6794 32918 6795 32919  "VGND" "flashADC_3bit_0/comp_p_4/latch_left.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_4/latch_right" 1000 58000,2116
@@ -6339,31 +6270,25 @@ device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 37602 11224 37603  "VDPWR" "ua[
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 38082 11224 38083  "VDPWR" "ua[0].t14" 140 0 "flashADC_3bit_0/comp_p_3/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_3/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 37362 13496 37363  "VDPWR" "ua[0].t13" 140 0 "flashADC_3bit_0/comp_p_3/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_3/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 37842 13496 37843  "VDPWR" "ua[0].t12" 140 0 "flashADC_3bit_0/comp_p_3/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_3/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 12381 36708 12382 36709  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t5" 400 0 "flashADC_3bit_0/comp_p_3/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 12178 39244 12179 39245  "VGND" "flashADC_3bit_0/comp_p_3/latch_left.t3" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_3/out_left" 1000 58000,2116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 11008 38758 11009 38759  "VGND" "flashADC_3bit_0/comp_p_3/latch_left.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_3/latch_left.t1" 800 46400,1716
-device msubckt sky130_fd_pr__nfet_01v8_lvt 12178 38758 12179 38759  "VGND" "flashADC_3bit_0/comp_p_3/latch_left.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_3/latch_right" 1000 58000,2116
 device msubckt sky130_fd_pr__pfet_01v8_lvt 5839 37602 5840 37603  "VDPWR" "ua[0].t11" 140 0 "flashADC_3bit_0/comp_p_2/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_2/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 5839 38082 5840 38083  "VDPWR" "ua[0].t10" 140 0 "flashADC_3bit_0/comp_p_2/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_2/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8111 37362 8112 37363  "VDPWR" "ua[0].t9" 140 0 "flashADC_3bit_0/comp_p_2/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_2/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8111 37842 8112 37843  "VDPWR" "ua[0].t8" 140 0 "flashADC_3bit_0/comp_p_2/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_2/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 6997 36708 6998 36709  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t4" 400 0 "flashADC_3bit_0/comp_p_2/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 8188 39244 8189 39245  "VGND" "flashADC_3bit_0/comp_p_2/latch_right.t3" 400 0 "VGND" 1000 58000,2116 "uo_out[5]" 1000 58000,2116
-device msubckt sky130_fd_pr__pfet_01v8_lvt 6209 36134 6210 36135  "VDPWR" "flashADC_3bit_0/comp_p_2/out_left.t0" 400 0 "flashADC_3bit_0/comp_p_2/out_left.t1" 1600 92800,3316 "VDPWR" 1600 92800,3316
-device msubckt sky130_fd_pr__nfet_01v8_lvt 9526 38758 9527 38759  "VGND" "flashADC_3bit_0/comp_p_2/latch_right.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_2/latch_right.t1" 800 46400,1716
-device msubckt sky130_fd_pr__nfet_01v8_lvt 8188 38758 8189 38759  "VGND" "flashADC_3bit_0/comp_p_2/latch_right.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_2/latch_left" 1000 58000,2116
-device msubckt sky130_fd_pr__pfet_01v8_lvt 8141 36134 8142 36135  "VDPWR" "flashADC_3bit_0/comp_p_2/out_left.t2" 400 0 "uo_out[5]" 1600 92800,3316 "VDPWR" 1600 92800,3316
+device msubckt sky130_fd_pr__nfet_01v8_lvt 6794 39244 6795 39245  "VGND" "flashADC_3bit_0/comp_p_2/latch_left.t3" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_2/out_left" 1000 58000,2116
+device msubckt sky130_fd_pr__nfet_01v8_lvt 5624 38758 5625 38759  "VGND" "flashADC_3bit_0/comp_p_2/latch_left.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_2/latch_left.t1" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 6794 38758 6795 38759  "VGND" "flashADC_3bit_0/comp_p_2/latch_left.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_2/latch_right" 1000 58000,2116
 device msubckt sky130_fd_pr__pfet_01v8_lvt 5839 41608 5840 41609  "VDPWR" "ua[0].t7" 140 0 "flashADC_3bit_0/comp_p_0/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_0/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 5839 41128 5840 41129  "VDPWR" "ua[0].t6" 140 0 "flashADC_3bit_0/comp_p_0/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_0/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8111 41848 8112 41849  "VDPWR" "ua[0].t5" 140 0 "flashADC_3bit_0/comp_p_0/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_0/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 8111 41368 8112 41369  "VDPWR" "ua[0].t4" 140 0 "flashADC_3bit_0/comp_p_0/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_0/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 6997 42372 6998 42373  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t3" 400 0 "flashADC_3bit_0/comp_p_0/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 6794 39836 6795 39837  "VGND" "flashADC_3bit_0/comp_p_0/latch_left.t3" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_0/out_left" 1000 58000,2116
-device msubckt sky130_fd_pr__nfet_01v8_lvt 5624 40322 5625 40323  "VGND" "flashADC_3bit_0/comp_p_0/latch_left.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_0/latch_left.t1" 800 46400,1716
-device msubckt sky130_fd_pr__nfet_01v8_lvt 6794 40322 6795 40323  "VGND" "flashADC_3bit_0/comp_p_0/latch_left.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_0/latch_right" 1000 58000,2116
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8188 39836 8189 39837  "VGND" "flashADC_3bit_0/comp_p_0/latch_right.t3" 400 0 "VGND" 1000 58000,2116 "uo_out[4]" 1000 58000,2116
+device msubckt sky130_fd_pr__pfet_01v8_lvt 6209 42946 6210 42947  "VDPWR" "flashADC_3bit_0/comp_p_0/out_left.t0" 400 0 "flashADC_3bit_0/comp_p_0/out_left.t1" 1600 92800,3316 "VDPWR" 1600 92800,3316
+device msubckt sky130_fd_pr__nfet_01v8_lvt 9526 40322 9527 40323  "VGND" "flashADC_3bit_0/comp_p_0/latch_right.t0" 400 0 "VGND" 800 46400,1716 "flashADC_3bit_0/comp_p_0/latch_right.t1" 800 46400,1716
+device msubckt sky130_fd_pr__nfet_01v8_lvt 8188 40322 8189 40323  "VGND" "flashADC_3bit_0/comp_p_0/latch_right.t2" 400 0 "VGND" 1000 58000,2116 "flashADC_3bit_0/comp_p_0/latch_left" 1000 58000,2116
+device msubckt sky130_fd_pr__pfet_01v8_lvt 8141 42946 8142 42947  "VDPWR" "flashADC_3bit_0/comp_p_0/out_left.t2" 400 0 "uo_out[4]" 1600 92800,3316 "VDPWR" 1600 92800,3316
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 41608 11224 41609  "VDPWR" "ua[0].t3" 140 0 "flashADC_3bit_0/comp_p_1/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_1/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 11223 41128 11224 41129  "VDPWR" "ua[0].t2" 140 0 "flashADC_3bit_0/comp_p_1/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_1/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 41848 13496 41849  "VDPWR" "ua[0].t1" 140 0 "flashADC_3bit_0/comp_p_1/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_1/tail" 1999 115942,4114
 device msubckt sky130_fd_pr__pfet_01v8_lvt 13495 41368 13496 41369  "VDPWR" "ua[0].t0" 140 0 "flashADC_3bit_0/comp_p_1/latch_right" 1999 115942,4114 "flashADC_3bit_0/comp_p_1/tail" 1999 115942,4114
-device msubckt sky130_fd_pr__pfet_01v8_lvt 12381 42372 12382 42373  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t2" 400 0 "flashADC_3bit_0/comp_p_1/tail" 2000 116000,4116 "VDPWR" 2000 116000,4116
-device msubckt sky130_fd_pr__pfet_01v8_lvt 7889 28860 7890 28861  "VDPWR" "flashADC_3bit_0/comp_p_6/vbias_p.t0" 400 0 "flashADC_3bit_0/comp_p_6/vbias_p.t1" 2000 116000,4116 "VDPWR" 2000 116000,4116
+device msubckt sky130_fd_pr__pfet_01v8_lvt 11593 42946 11594 42947  "VDPWR" "flashADC_3bit_0/comp_p_1/out_left.t0" 400 0 "flashADC_3bit_0/comp_p_1/out_left.t1" 1600 92800,3316 "VDPWR" 1600 92800,3316
+device msubckt sky130_fd_pr__pfet_01v8_lvt 13525 42946 13526 42947  "VDPWR" "flashADC_3bit_0/comp_p_1/out_left.t2" 400 0 "uo_out[3]" 1600 92800,3316 "VDPWR" 1600 92800,3316

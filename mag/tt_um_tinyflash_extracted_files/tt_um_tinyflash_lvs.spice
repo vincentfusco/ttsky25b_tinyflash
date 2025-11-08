@@ -125,8 +125,7 @@ Xbuffer_9 R1/R1 q2 vdd vss buffer
 Xtmux_2to1_0 R1/R1 tmux_2to1_3/A vdd buffer_4/out buffer_0/out vss tmux_2to1
 .ends
 
-.subckt flashADC_3bit vin dout0 dout1 dout2 d0 d1 d2 d3 d4 d5 d6 m3_n3070_n10912#
-+ vdd vref vss
+.subckt flashADC_3bit vin dout0 dout1 dout2 d0 d1 d2 d3 d4 d5 d6 vdd vref vss
 Xvbias_generation_0 vbias_generation_0/bias_n comp_p_6/vbias_p vdd vss vbias_generation
 Xres_ladder_vref_0 comp_p_2/vinn comp_p_5/vinn comp_p_6/vinn vref comp_p_3/vinn comp_p_0/vinn
 + comp_p_1/vinn comp_p_4/vinn vss res_ladder_vref
@@ -146,8 +145,8 @@ Xtmux_7therm_to_3bin_0 d0 d1 d2 d3 d4 d5 d6 dout0 dout1 dout2 tmux_7therm_to_3bi
 + uio_in[1] uio_in[2] uio_in[3] uio_in[4] uio_in[5] uio_in[6] uio_in[7] uio_oe[0]
 + uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4] uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0]
 + uio_out[1] uio_out[2] uio_out[3] uio_out[4] uio_out[5] uio_out[6] uio_out[7] uo_out[0]
-+ uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
-XflashADC_3bit_0 ua[0] uo_out[0] uo_out[0] uo_out[0] uo_out[3] uo_out[4] uo_out[5]
-+ uo_out[6] uo_out[7] uio_out[0] uio_out[1] ua[1] VDPWR ua[1] VGND flashADC_3bit
++ uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5] uo_out[6] uo_out[7] VDPWR VGND
+XflashADC_3bit_0 ua[0] uo_out[0] uo_out[1] uo_out[2] uo_out[3] uo_out[4] uo_out[5]
++ uo_out[6] uo_out[7] uio_out[0] uio_out[1] VDPWR ua[1] VGND flashADC_3bit
 .ends
 

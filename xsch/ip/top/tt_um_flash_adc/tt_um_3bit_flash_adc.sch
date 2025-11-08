@@ -111,6 +111,6 @@ C {devices/ipin.sym} -340 -200 0 0 {name=p4 lab=ua[2]}
 C {devices/noconn.sym} -340 -200 0 1 {name=l5
 lab=ua[2]}
 C {devices/ipin.sym} 80 -20 0 0 {name=p5 lab=ua[1]}
-C {devices/iopin.sym} 340 -240 3 0 {name=p11 lab=VPWR}
+C {devices/iopin.sym} 340 -240 3 0 {name=p11 lab=VDPWR}
 C {devices/iopin.sym} 340 80 1 0 {name=p35 lab=VGND}
 C {devices/opin.sym} 500 -180 0 0 {name=p43 lab=uo_out[0]}

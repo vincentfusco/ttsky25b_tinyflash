@@ -40,9 +40,11 @@ uio_oe[7] 6134 44952 m4
 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G 18721 43187 pc
 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A 19328 41031 m1
 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin 20446 39548 m1
-uo_out[0] 17726 44952 m4
+uo_out[2] 17726 44212 m4
 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin 20446 41303 m1
+uo_out[1] 18278 44448 m4
 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin 20446 42464 m1
+uo_out[0] 18830 44952 m4
 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in 20027 42464 m1
 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin 17496 33716 m1
 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out 17776 33716 m1
