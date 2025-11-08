@@ -1,0 +1,1395 @@
+| units: 500000 tech: sky130A format: MIT
+x flashADC_3bit_0/vbias_generation_0/XR_bias_1/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/comp_p_6/vbias_p VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=9560 y=29423 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_2/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=8195 y=30210 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_3/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=9560 y=30439 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_4/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/bias_n VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=9560 y=30947 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/bias_n VGND VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9948 y=31573 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/vbias_p VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=7890 y=29058 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/res_ladder_vref_0/XR1/a_n573_n557# flashADC_3bit_0/comp_p_6/vinn ua[1] VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=29037 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR2/a_n573_n557# flashADC_3bit_0/comp_p_6/vinn ua[1] VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=30409 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR10/a_n573_n557# flashADC_3bit_0/comp_p_1/vinn VGND VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=41385 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR3/a_n573_n557# flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_5/vinn VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=31781 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR4/a_n573_n557# flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_5/vinn VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=33153 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR5/a_n573_n557# flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_3/vinn VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=34525 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR6/a_n573_n557# flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_3/vinn VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=35897 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR7/a_n573_n557# flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_0/vinn VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=37269 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR8/a_n573_n557# flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_0/vinn VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=38641 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/res_ladder_vref_0/XR9/a_n573_n557# flashADC_3bit_0/comp_p_1/vinn VGND VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=40013 sky130_fd_pr__res_xhigh_po_5p73
+x flashADC_3bit_0/comp_p_1/latch_left VGND flashADC_3bit_0/comp_p_1/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/out_left uo_out[3] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=15123 y=42947 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/latch_left VGND flashADC_3bit_0/comp_p_1/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=11806 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/latch_right VGND flashADC_3bit_0/comp_p_1/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/latch_right VGND flashADC_3bit_0/comp_p_1/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=15708 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=13191 y=42947 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/latch_left VGND flashADC_3bit_0/comp_p_1/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=39837 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/latch_right VGND uo_out[3] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=39837 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=14379 y=42373 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=41608 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=41368 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=41848 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=41128 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=41608 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=41368 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=41848 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=41128 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/latch_left VGND flashADC_3bit_0/comp_p_0/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=7792 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/out_left uo_out[4] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=9739 y=42947 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/latch_left VGND flashADC_3bit_0/comp_p_0/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=6422 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/latch_right VGND flashADC_3bit_0/comp_p_0/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9186 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/latch_right VGND flashADC_3bit_0/comp_p_0/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=10324 y=40323 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=7807 y=42947 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/latch_left VGND flashADC_3bit_0/comp_p_0/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=7792 y=39837 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/latch_right VGND uo_out[4] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9186 y=39837 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=8995 y=42373 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=41608 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=41368 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=41848 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=41128 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=41608 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=41368 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=41848 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=41128 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/latch_left VGND flashADC_3bit_0/comp_p_2/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=7792 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/out_left uo_out[5] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=9739 y=36332 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/latch_left VGND flashADC_3bit_0/comp_p_2/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=6422 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/latch_right VGND flashADC_3bit_0/comp_p_2/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9186 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/latch_right VGND flashADC_3bit_0/comp_p_2/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=10324 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=7807 y=36332 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/latch_left VGND flashADC_3bit_0/comp_p_2/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=7792 y=39442 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/latch_right VGND uo_out[5] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9186 y=39442 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=8995 y=36906 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=37671 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=37911 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=37431 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=38151 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=37671 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=37911 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=37431 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=38151 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/latch_left VGND flashADC_3bit_0/comp_p_3/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/out_left uo_out[6] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=15123 y=36332 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/latch_left VGND flashADC_3bit_0/comp_p_3/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=11806 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/latch_right VGND flashADC_3bit_0/comp_p_3/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/latch_right VGND flashADC_3bit_0/comp_p_3/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=15708 y=38956 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=13191 y=36332 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/latch_left VGND flashADC_3bit_0/comp_p_3/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=39442 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/latch_right VGND uo_out[6] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=39442 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=14379 y=36906 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=37671 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=37911 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=37431 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=38151 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=37671 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=37911 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=37431 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=38151 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/latch_left VGND flashADC_3bit_0/comp_p_4/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=7792 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/out_left uo_out[7] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=9739 y=35543 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/latch_left VGND flashADC_3bit_0/comp_p_4/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=6422 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/latch_right VGND flashADC_3bit_0/comp_p_4/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9186 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/latch_right VGND flashADC_3bit_0/comp_p_4/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=10324 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=7807 y=35543 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/latch_left VGND flashADC_3bit_0/comp_p_4/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=7792 y=32433 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/latch_right VGND uo_out[7] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9186 y=32433 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=8995 y=34969 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=34204 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=33964 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=34444 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=33724 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=34204 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=33964 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=5840 y=34444 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=8112 y=33724 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/latch_left VGND flashADC_3bit_0/comp_p_5/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/out_left uio_out[0] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=15123 y=35543 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/latch_left VGND flashADC_3bit_0/comp_p_5/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=11806 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/latch_right VGND flashADC_3bit_0/comp_p_5/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/latch_right VGND flashADC_3bit_0/comp_p_5/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=15708 y=32919 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=13191 y=35543 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/latch_left VGND flashADC_3bit_0/comp_p_5/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=32433 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/latch_right VGND uio_out[0] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=32433 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=14379 y=34969 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=34204 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=33964 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=34444 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=33724 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=34204 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=33964 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=34444 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=33724 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/latch_left VGND flashADC_3bit_0/comp_p_6/latch_right VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=31552 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/out_left uio_out[1] VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=15123 y=28928 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/latch_left VGND flashADC_3bit_0/comp_p_6/latch_left VGND s=46400,1716 d=46400,1716 l=200 w=800 x=11806 y=31552 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/latch_right VGND flashADC_3bit_0/comp_p_6/latch_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=31552 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/latch_right VGND flashADC_3bit_0/comp_p_6/latch_right VGND s=46400,1716 d=46400,1716 l=200 w=800 x=15708 y=31552 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/out_left VDPWR VDPWR s=92800,3316 d=92800,3316 l=200 w=1600 x=13191 y=28928 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/latch_left VGND flashADC_3bit_0/comp_p_6/out_left VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=13176 y=32038 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/latch_right VGND uio_out[1] VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=14570 y=32038 sky130_fd_pr__nfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/tail VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=14379 y=29502 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=30267 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=30507 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=30027 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=30747 sky130_fd_pr__pfet_01v8_lvt
+x ua[0] flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=30267 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=30507 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=11224 y=30027 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/tail VDPWR s=115942,4114 d=115942,4114 l=70 w=1999 x=13496 y=30747 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18075 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G VGND s=11600,516 d=11600,516 l=30 w=200 x=18075 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18391 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND s=11600,516 d=11600,516 l=30 w=200 x=18391 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18707 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VGND s=11600,516 d=11600,516 l=30 w=200 x=18707 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18075 y=39808 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G VGND s=11600,516 d=11600,516 l=30 w=200 x=18075 y=39179 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18391 y=39808 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VGND s=11600,516 d=11600,516 l=30 w=200 x=18391 y=39179 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18707 y=39808 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out VGND s=11600,516 d=11600,516 l=30 w=200 x=18707 y=39179 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G VDPWR s=23200,916 d=23200,916 l=30 w=400 x=19129 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G VGND s=11600,516 d=11600,516 l=30 w=200 x=19129 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VDPWR s=23200,916 d=23200,916 l=30 w=400 x=19445 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VGND s=11600,516 d=11600,516 l=30 w=200 x=19445 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VDPWR s=23200,916 d=23200,916 l=30 w=400 x=19761 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VGND s=11600,516 d=11600,516 l=30 w=200 x=19761 y=41672 sky130_fd_pr__nfet_01v8
+r flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 0.000000
+x uo_out[3] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=42095 sky130_fd_pr__nfet_01v8
+x uo_out[3] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=42724 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=42095 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=42724 sky130_fd_pr__pfet_01v8
+x uo_out[4] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=41672 sky130_fd_pr__nfet_01v8
+x uo_out[4] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=41043 sky130_fd_pr__pfet_01v8
+x uo_out[5] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=39179 sky130_fd_pr__nfet_01v8
+x uo_out[5] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=39808 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=39179 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=39808 sky130_fd_pr__pfet_01v8
+x uo_out[6] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=38756 sky130_fd_pr__nfet_01v8
+x uo_out[6] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=38127 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=38756 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=38127 sky130_fd_pr__pfet_01v8
+x uo_out[7] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=36263 sky130_fd_pr__nfet_01v8
+x uo_out[7] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=36892 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=36263 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=36892 sky130_fd_pr__pfet_01v8
+x uio_out[0] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=35840 sky130_fd_pr__nfet_01v8
+x uio_out[0] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=35211 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=35840 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=35211 sky130_fd_pr__pfet_01v8
+x uio_out[1] VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=17233 y=33347 sky130_fd_pr__nfet_01v8
+x uio_out[1] VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17233 y=33976 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out VGND s=11600,516 d=11600,516 l=30 w=200 x=17653 y=33347 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=17653 y=33976 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=20183 y=42095 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=20183 y=42724 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VGND uo_out[0] VGND s=11600,516 d=11600,516 l=30 w=200 x=20603 y=42095 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VDPWR uo_out[0] VDPWR s=23200,916 d=23200,916 l=30 w=400 x=20603 y=42724 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=20183 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=20183 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VGND uo_out[0] VGND s=11600,516 d=11600,516 l=30 w=200 x=20603 y=41672 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VDPWR uo_out[0] VDPWR s=23200,916 d=23200,916 l=30 w=400 x=20603 y=41043 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VGND s=11600,516 d=11600,516 l=30 w=200 x=20183 y=39179 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VDPWR s=23200,916 d=23200,916 l=30 w=400 x=20183 y=39808 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VGND uo_out[0] VGND s=11600,516 d=11600,516 l=30 w=200 x=20603 y=39179 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VDPWR uo_out[0] VDPWR s=23200,916 d=23200,916 l=30 w=400 x=20603 y=39808 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18075 y=42724 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G VGND s=11600,516 d=11600,516 l=30 w=200 x=18075 y=42095 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18391 y=42724 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VGND s=11600,516 d=11600,516 l=30 w=200 x=18391 y=42095 sky130_fd_pr__nfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18707 y=42724 sky130_fd_pr__pfet_01v8
+x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VGND s=11600,516 d=11600,516 l=30 w=200 x=18707 y=42095 sky130_fd_pr__nfet_01v8
+C uo_out[6] uo_out[5] 3.3
+C flashADC_3bit_0/comp_p_0/vinn ua[0] 2.1
+C uo_out[6] VDPWR 6.0
+C ua[1] ua[0] 4.6
+C VDPWR flashADC_3bit_0/comp_p_6/latch_right 3.8
+C flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/latch_right 8.9
+C flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/vinn 3.5
+C flashADC_3bit_0/comp_p_1/tail ua[0] 2.9
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR 2.2
+C flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/latch_left 8.8
+C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/vinn 3.5
+C flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/tail 8.8
+C VDPWR flashADC_3bit_0/comp_p_1/vinn 4.9
+C VDPWR flashADC_3bit_0/comp_p_6/tail 3.8
+C flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/latch_right 5.4
+C uo_out[4] uo_out[5] 4.1
+C flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_right 8.9
+C VDPWR flashADC_3bit_0/comp_p_4/tail 4.1
+C VDPWR uo_out[4] 4.9
+C uo_out[6] uo_out[7] 3.7
+C flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_left 8.8
+C flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/latch_left 5.4
+C flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/tail 8.8
+C flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/tail 8.9
+C VDPWR flashADC_3bit_0/comp_p_3/latch_right 3.7
+C VDPWR flashADC_3bit_0/comp_p_5/latch_left 3.8
+C flashADC_3bit_0/comp_p_0/tail VDPWR 3.4
+C VDPWR flashADC_3bit_0/comp_p_5/tail 4.5
+C uio_out[1] VDPWR 10.3
+C VDPWR uo_out[5] 5.5
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VDPWR 2.4
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VDPWR 3.9
+C flashADC_3bit_0/comp_p_1/out_left VDPWR 7.1
+C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 5.9
+C VDPWR flashADC_3bit_0/comp_p_4/out_left 5.6
+C uio_out[1] uio_out[0] 5.4
+C flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/vinn 3.5
+C VDPWR uio_out[0] 6.5
+C flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_left 8.8
+C flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_right 3.5
+C ua[0] flashADC_3bit_0/comp_p_1/vinn 2.2
+C flashADC_3bit_0/comp_p_6/tail ua[0] 2.9
+C flashADC_3bit_0/comp_p_5/out_left VDPWR 7.5
+C flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/tail 8.8
+C flashADC_3bit_0/comp_p_4/tail ua[0] 2.9
+C VDPWR flashADC_3bit_0/comp_p_6/out_left 7.3
+C uo_out[7] VDPWR 6.2
+C VDPWR flashADC_3bit_0/comp_p_1/latch_right 3.6
+C flashADC_3bit_0/comp_p_0/tail ua[0] 2.9
+C VDPWR flashADC_3bit_0/comp_p_6/latch_left 3.9
+C ua[0] flashADC_3bit_0/comp_p_5/tail 2.9
+C VDPWR flashADC_3bit_0/comp_p_2/out_left 5.3
+C flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/tail 8.8
+C flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/latch_right 8.9
+C VDPWR ua[0] 46.9
+C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/latch_left 5.4
+C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/tail 8.9
+C flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_right 3.5
+C VDPWR flashADC_3bit_0/comp_p_1/latch_left 3.7
+C VDPWR flashADC_3bit_0/comp_p_2/tail 3.4
+C flashADC_3bit_0/comp_p_6/vbias_p VDPWR 39.4
+C flashADC_3bit_0/comp_p_5/latch_right VDPWR 3.8
+C flashADC_3bit_0/comp_p_3/vinn VDPWR 5.4
+C uo_out[7] uio_out[0] 5.5
+C flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/latch_right 8.9
+C flashADC_3bit_0/comp_p_0/out_left VDPWR 5.3
+C flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/vinn 3.5
+C VDPWR flashADC_3bit_0/comp_p_3/out_left 7.1
+C VDPWR flashADC_3bit_0/comp_p_3/tail 3.8
+C VDPWR flashADC_3bit_0/comp_p_6/vinn 4.2
+C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out 5.1
+C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out 3.1
+C flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_right 3.5
+C VDPWR flashADC_3bit_0/comp_p_0/vinn 4.2
+C flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/latch_right 5.4
+C VDPWR flashADC_3bit_0/comp_p_4/vinn 2.9
+C flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/latch_left 5.4
+C VDPWR uo_out[0] 2.0
+C flashADC_3bit_0/comp_p_3/latch_left VDPWR 3.7
+C flashADC_3bit_0/comp_p_2/tail ua[0] 2.9
+C VDPWR uo_out[3] 6.0
+C VDPWR flashADC_3bit_0/comp_p_5/vinn 6.9
+C VDPWR flashADC_3bit_0/comp_p_1/tail 3.8
+C flashADC_3bit_0/comp_p_3/tail ua[0] 2.9
+C flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/latch_right 5.4
+C flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_right 8.9
+C flashADC_3bit_0/comp_p_6/vinn ua[0] 2.3
+C VDPWR flashADC_3bit_0/comp_p_2/vinn 2.4
+C flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/latch_right 5.4
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G 3877
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM4/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_580_n464#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_896_696#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_324_n364#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A 7597
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_1446_776#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM4/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/Y
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM4/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM6/D
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/m1_160_1240#
+C uo_out[0]0 5.3
+R uo_out[0] 7607
+= uo_out[0] flashADC_3bit_0/dout0
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/q0
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/out
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vout
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMn/S
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/S
+= uo_out[0] flashADC_3bit_0/dout1
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/q1
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/out
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vout
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/S
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/S
+= uo_out[0] uo_out[1]
+= uo_out[0] uo_out[2]
+= uo_out[0] flashADC_3bit_0/dout2
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/q2
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/out
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vout
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMn/S
+= uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/S
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in 6669
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/Y
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_2506_n480#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM4/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM6/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/vin
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out 4836
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/m3_13146_n5640#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/B
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM6/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_642_n7858#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/S
+C uio_out[1]0 8.0
+R uio_out[1] 10377
+= uio_out[1] flashADC_3bit_0/d6
+= uio_out[1] flashADC_3bit_0/comp_p_6/vout
+= uio_out[1] flashADC_3bit_0/comp_p_6/XMp_out/a_n158_n800#
+= uio_out[1] flashADC_3bit_0/comp_p_6/XMn_out_right/a_100_n500#
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/d6
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/in
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/vin
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMn/G
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/m1_160_80#
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/G
+= uio_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/m1_160_1240#
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out0 2.1
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out 4836
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/B
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM6/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_642_n7010#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/S
+C VDPWR0 498.4
+R VDPWR 1044036
+= VDPWR flashADC_3bit_0/vdd
+= VDPWR flashADC_3bit_0/comp_p_1/vdd
+= VDPWR flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_1/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_1/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_1/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_1/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/comp_p_0/vdd
+= VDPWR flashADC_3bit_0/comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_0/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_0/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_0/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_0/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/w_5078_1070#
+= VDPWR flashADC_3bit_0/comp_p_3/vdd
+= VDPWR flashADC_3bit_0/comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_3/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_3/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_3/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_3/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/comp_p_2/vdd
+= VDPWR flashADC_3bit_0/comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_2/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_2/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_2/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_2/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/comp_p_5/vdd
+= VDPWR flashADC_3bit_0/comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_5/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_5/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_5/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_5/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/comp_p_4/vdd
+= VDPWR flashADC_3bit_0/comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_4/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_4/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_4/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_4/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/w_5078_n6334#
+= VDPWR flashADC_3bit_0/w_2138_n11114#
+= VDPWR flashADC_3bit_0/vbias_generation_0/vdd
+= VDPWR flashADC_3bit_0/vbias_generation_0/XMp_bias/S
+= VDPWR flashADC_3bit_0/vbias_generation_0/XMp_bias/B
+= VDPWR flashADC_3bit_0/vbias_generation_0/w_n284_3674#
+= VDPWR flashADC_3bit_0/comp_p_6/vdd
+= VDPWR flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_6/XMp_out/a_100_n800#
+= VDPWR flashADC_3bit_0/comp_p_6/XMp_out/w_n296_n1019#
+= VDPWR flashADC_3bit_0/comp_p_6/XMp_tail/a_100_n1000#
+= VDPWR flashADC_3bit_0/comp_p_6/XMp_tail/w_n296_n1219#
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/w_1854_622#
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/w_3060_n1502#
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/w_1854_n2294#
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/w_800_n5210#
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/w_800_n8126#
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/B
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vdd
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/D
+= VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/B
+R VGND 1492581
+= VGND VSUBS
+= VGND flashADC_3bit_0/vss
+= VGND flashADC_3bit_0/VSUBS
+= VGND flashADC_3bit_0/res_ladder_vref_0/vss
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR1/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR2/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR3/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR4/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR5/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR6/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR7/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR8/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR10/R2
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR10/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR9/R2
+= VGND flashADC_3bit_0/res_ladder_vref_0/VSUBS
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR9/B
+= VGND flashADC_3bit_0/comp_p_1/vss
+= VGND flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_1/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_1/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_1/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_1/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_1/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_1/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_1/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_1/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_1/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_1/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_1/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_1/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_1/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_1/VSUBS
+= VGND flashADC_3bit_0/comp_p_1/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_0/vss
+= VGND flashADC_3bit_0/comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_0/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_0/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_0/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_0/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_0/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_0/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_0/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_0/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_0/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_0/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_0/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_0/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_0/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_0/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_3/vss
+= VGND flashADC_3bit_0/comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_3/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_3/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_3/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_3/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_3/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_3/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_3/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_3/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_3/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_3/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_3/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_3/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_3/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_3/VSUBS
+= VGND flashADC_3bit_0/comp_p_3/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_2/vss
+= VGND flashADC_3bit_0/comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_2/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_2/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_2/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_2/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_2/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_2/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_2/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_2/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_2/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_2/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_2/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_2/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_2/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_2/VSUBS
+= VGND flashADC_3bit_0/comp_p_2/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_6/vss
+= VGND flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_6/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_6/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_6/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_6/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_6/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_6/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_6/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_6/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_6/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_6/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_6/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_6/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_6/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_6/VSUBS
+= VGND flashADC_3bit_0/comp_p_6/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_5/vss
+= VGND flashADC_3bit_0/comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_5/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_5/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_5/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_5/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_5/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_5/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_5/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_5/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_5/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_5/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_5/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_5/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_5/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_5/VSUBS
+= VGND flashADC_3bit_0/comp_p_5/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/vbias_generation_0/vss
+= VGND flashADC_3bit_0/vbias_generation_0/XMn_bias/S
+= VGND flashADC_3bit_0/vbias_generation_0/XMn_bias/B
+= VGND flashADC_3bit_0/vbias_generation_0/VSUBS
+= VGND flashADC_3bit_0/vbias_generation_0/XMp_bias/VSUBS
+= VGND flashADC_3bit_0/vbias_generation_0/XR_bias_1/B
+= VGND flashADC_3bit_0/vbias_generation_0/XR_bias_2/B
+= VGND flashADC_3bit_0/vbias_generation_0/XR_bias_3/B
+= VGND flashADC_3bit_0/vbias_generation_0/XR_bias_4/B
+= VGND flashADC_3bit_0/vbias_generation_0/li_n224_1496#
+= VGND flashADC_3bit_0/comp_p_4/vss
+= VGND flashADC_3bit_0/comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
+= VGND flashADC_3bit_0/comp_p_4/XMp_out/VSUBS
+= VGND flashADC_3bit_0/comp_p_4/XMn_diode_right/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_4/XMn_diode_right/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_4/XMn_cs_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_4/XMn_cs_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_4/XMn_cs_right1/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_4/XMn_cs_right1/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_4/XMn_diode_left1/a_n158_n400#
+= VGND flashADC_3bit_0/comp_p_4/XMn_diode_left1/a_n260_n574#
+= VGND flashADC_3bit_0/comp_p_4/XMn_out_left/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_4/XMn_out_left/a_n260_n698#
+= VGND flashADC_3bit_0/comp_p_4/XMn_out_right/a_n158_n500#
+= VGND flashADC_3bit_0/comp_p_4/XMp_tail/VSUBS
+= VGND flashADC_3bit_0/comp_p_4/VSUBS
+= VGND flashADC_3bit_0/comp_p_4/XMn_out_right/a_n260_n698#
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM4/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM6/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM2/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM2/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM4/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM6/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM4/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM6/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM4/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM6/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMn/B
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vss
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/D
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/VSUBS
+= VGND flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/B
+C uio_out[0]0 6.0
+R uio_out[0] 10375
+= uio_out[0] flashADC_3bit_0/d5
+= uio_out[0] flashADC_3bit_0/comp_p_5/vout
+= uio_out[0] flashADC_3bit_0/comp_p_5/XMp_out/a_n158_n800#
+= uio_out[0] flashADC_3bit_0/comp_p_5/XMn_out_right/a_100_n500#
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/d5
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/in
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/vin
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMn/G
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/m1_160_80#
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/XMp/G
+= uio_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/m1_160_1240#
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out0 2.2
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out 4836
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/B
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM6/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_646_n4942#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/XMp/S
+C uo_out[7]0 12.6
+R uo_out[7] 10376
+= uo_out[7] flashADC_3bit_0/d4
+= uo_out[7] flashADC_3bit_0/comp_p_4/vout
+= uo_out[7] flashADC_3bit_0/comp_p_4/XMp_out/a_n158_n800#
+= uo_out[7] flashADC_3bit_0/comp_p_4/XMn_out_right/a_100_n500#
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/d4
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/in
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/vin
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMn/G
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/m1_160_80#
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/XMp/G
+= uo_out[7] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 2034
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/out
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_698_n3574#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/XMp/S
+C uo_out[6]0 5.4
+R uo_out[6] 10373
+= uo_out[6] flashADC_3bit_0/d3
+= uo_out[6] flashADC_3bit_0/m2_10384_n3312#
+= uo_out[6] flashADC_3bit_0/comp_p_3/vout
+= uo_out[6] flashADC_3bit_0/comp_p_3/XMp_out/a_n158_n800#
+= uo_out[6] flashADC_3bit_0/comp_p_3/XMn_out_right/a_100_n500#
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/d3
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/in
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/vin
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMn/G
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/m1_160_80#
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/XMp/G
+= uo_out[6] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out 4832
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/A
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM4/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_644_n2040#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/XMp/S
+C uo_out[5]0 9.8
+R uo_out[5] 10375
+= uo_out[5] flashADC_3bit_0/d2
+= uo_out[5] flashADC_3bit_0/comp_p_2/vout
+= uo_out[5] flashADC_3bit_0/comp_p_2/XMp_out/a_n158_n800#
+= uo_out[5] flashADC_3bit_0/comp_p_2/XMn_out_right/a_100_n500#
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/d2
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/in
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/vin
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMn/G
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/m1_160_80#
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/XMp/G
+= uo_out[5] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out 4833
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/A
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM4/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_642_n1196#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/XMp/S
+C uo_out[4]0 9.9
+R uo_out[4] 10376
+= uo_out[4] flashADC_3bit_0/d1
+= uo_out[4] flashADC_3bit_0/comp_p_0/vout
+= uo_out[4] flashADC_3bit_0/comp_p_0/XMp_out/a_n158_n800#
+= uo_out[4] flashADC_3bit_0/comp_p_0/XMn_out_right/a_100_n500#
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/d1
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/in
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/vin
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMn/G
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/m1_160_80#
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/XMp/G
+= uo_out[4] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_0/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin 3876
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/m1_160_600#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/m1_160_1240#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out 4833
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/A
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM4/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_640_872#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vout
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMn/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/XMp/S
+C uo_out[3]0 5.9
+R uo_out[3] 10371
+= uo_out[3] flashADC_3bit_0/d0
+= uo_out[3] flashADC_3bit_0/comp_p_1/vout
+= uo_out[3] flashADC_3bit_0/comp_p_1/XMp_out/a_n158_n800#
+= uo_out[3] flashADC_3bit_0/comp_p_1/XMn_out_right/a_100_n500#
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/d0
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/in
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/vin
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMn/G
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/m1_160_80#
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/XMp/G
+= uo_out[3] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_0/m1_160_1240#
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in0 2.6
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in 10558
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/vin
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_0/m1_160_1240#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/Y
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_1446_n900#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM4/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM6/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM3/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_580_156#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_264_694#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM2/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM6/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_896_n140#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_244_n476#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G 3877
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM1/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM2/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM4/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_580_n464#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_896_696#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/m1_324_n364#
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R10 6.2
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 13549
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM3/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_580_156#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_264_694#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM6/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_896_n140#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/m1_244_n476#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM3/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_580_156#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_264_694#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM6/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_896_n140#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_244_n476#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/in
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/vin
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMn/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/m1_160_80#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/XMp/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_0/m1_160_1240#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_916_n3216#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_580_156#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_264_694#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM6/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_896_n140#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_244_n476#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G 3877
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM1/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM4/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_580_n464#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_896_696#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/m1_324_n364#
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B 7598
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM6/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/Y
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/m1_1434_n1900#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM3/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM4/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/D
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM6/D
+R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G 3877
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM1/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/S
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM4/G
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_580_n464#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_896_696#
+= flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_324_n364#
+C ua[0]0 43.8
+R ua[0] 48336
+= ua[0] flashADC_3bit_0/vin
+= ua[0] flashADC_3bit_0/comp_p_1/vinp
+= ua[0] flashADC_3bit_0/comp_p_0/vinp
+= ua[0] flashADC_3bit_0/comp_p_3/vinp
+= ua[0] flashADC_3bit_0/comp_p_2/vinp
+= ua[0] flashADC_3bit_0/comp_p_5/vinp
+= ua[0] flashADC_3bit_0/comp_p_4/vinp
+= ua[0] flashADC_3bit_0/comp_p_6/vinp
+R flashADC_3bit_0/comp_p_6/tail 55795
+= flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_6/latch_right0 5.9
+R flashADC_3bit_0/comp_p_6/latch_right 36587
+= flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_6/out_left0 3.9
+R flashADC_3bit_0/comp_p_6/out_left 9923
+= flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_6/latch_left0 6.2
+R flashADC_3bit_0/comp_p_6/latch_left 37855
+= flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/XMn_out_left/a_n100_n588#
+R flashADC_3bit_0/comp_p_5/tail 55795
+= flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_5/latch_right0 5.6
+R flashADC_3bit_0/comp_p_5/latch_right 36587
+= flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_5/out_left0 3.8
+R flashADC_3bit_0/comp_p_5/out_left 9923
+= flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_5/latch_left0 5.9
+R flashADC_3bit_0/comp_p_5/latch_left 37855
+= flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/XMn_out_left/a_n100_n588#
+R flashADC_3bit_0/comp_p_4/tail 55795
+= flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_4/latch_right0 7.6
+R flashADC_3bit_0/comp_p_4/latch_right 36587
+= flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_4/out_left0 6.0
+R flashADC_3bit_0/comp_p_4/out_left 9923
+= flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_4/latch_left0 8.3
+R flashADC_3bit_0/comp_p_4/latch_left 37855
+= flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/XMn_out_left/a_n100_n588#
+R flashADC_3bit_0/comp_p_3/tail 55795
+= flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_3/latch_right0 5.6
+R flashADC_3bit_0/comp_p_3/latch_right 36587
+= flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_3/out_left0 4.2
+R flashADC_3bit_0/comp_p_3/out_left 9923
+= flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_3/latch_left0 6.0
+R flashADC_3bit_0/comp_p_3/latch_left 37855
+= flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/XMn_out_left/a_n100_n588#
+R flashADC_3bit_0/comp_p_2/tail 55795
+= flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_2/latch_right0 7.6
+R flashADC_3bit_0/comp_p_2/latch_right 36587
+= flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_2/out_left0 6.3
+R flashADC_3bit_0/comp_p_2/out_left 9923
+= flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_2/latch_left0 8.3
+R flashADC_3bit_0/comp_p_2/latch_left 37855
+= flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/XMn_out_left/a_n100_n588#
+R flashADC_3bit_0/comp_p_0/tail 55795
+= flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_0/latch_right0 7.6
+R flashADC_3bit_0/comp_p_0/latch_right 36587
+= flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_0/out_left0 6.3
+R flashADC_3bit_0/comp_p_0/out_left 9923
+= flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_0/latch_left0 8.3
+R flashADC_3bit_0/comp_p_0/latch_left 37855
+= flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/XMn_out_left/a_n100_n588#
+R flashADC_3bit_0/comp_p_1/tail 55795
+= flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_1/latch_right0 5.6
+R flashADC_3bit_0/comp_p_1/latch_right 36587
+= flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/XMn_diode_right/a_n100_n488#
+= flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/XMn_diode_right/a_100_n400#
+= flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/XMn_cs_left/a_100_n500#
+= flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/XMn_cs_right1/a_n100_n588#
+= flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/XMn_out_right/a_n100_n588#
+C flashADC_3bit_0/comp_p_1/out_left0 4.1
+R flashADC_3bit_0/comp_p_1/out_left 9923
+= flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#
+= flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#
+= flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/XMp_out/a_n100_n897#
+= flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/XMn_out_left/a_100_n500#
+C flashADC_3bit_0/comp_p_1/latch_left0 5.9
+R flashADC_3bit_0/comp_p_1/latch_left 37855
+= flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_cs_left/a_n100_n588#
+= flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_cs_right1/a_100_n500#
+= flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_diode_left1/a_n100_n488#
+= flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_diode_left1/a_100_n400#
+= flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_out_left/a_n100_n588#
+C flashADC_3bit_0/comp_p_1/vinn0 8.6
+R flashADC_3bit_0/comp_p_1/vinn 6777
+= flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/res_ladder_vref_0/ref0
+= flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/m1_n1358_n1008#
+= flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/res_ladder_vref_0/XR8/R1
+= flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/res_ladder_vref_0/XR10/R1
+= flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/res_ladder_vref_0/XR9/R1
+R flashADC_3bit_0/res_ladder_vref_0/XR9/a_n573_n557# 2057
+C flashADC_3bit_0/comp_p_0/vinn0 6.3
+R flashADC_3bit_0/comp_p_0/vinn 6651
+= flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/res_ladder_vref_0/ref1
+= flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/m1_n2904_n2380#
+= flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/res_ladder_vref_0/XR7/R2
+= flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/res_ladder_vref_0/XR8/R2
+R flashADC_3bit_0/res_ladder_vref_0/XR8/a_n573_n557# 2057
+C flashADC_3bit_0/comp_p_2/vinn0 4.9
+R flashADC_3bit_0/comp_p_2/vinn 6648
+= flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/res_ladder_vref_0/ref2
+= flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/m1_n1358_n3752#
+= flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/res_ladder_vref_0/XR6/R1
+= flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/res_ladder_vref_0/XR7/R1
+R flashADC_3bit_0/res_ladder_vref_0/XR7/a_n573_n557# 2057
+C flashADC_3bit_0/comp_p_3/vinn0 9.6
+R flashADC_3bit_0/comp_p_3/vinn 6650
+= flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/res_ladder_vref_0/ref3
+= flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/m1_n2904_n5124#
+= flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/res_ladder_vref_0/XR5/R2
+= flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/res_ladder_vref_0/XR6/R2
+R flashADC_3bit_0/res_ladder_vref_0/XR6/a_n573_n557# 2057
+C flashADC_3bit_0/comp_p_4/vinn0 4.6
+R flashADC_3bit_0/comp_p_4/vinn 6648
+= flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/res_ladder_vref_0/ref4
+= flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/m1_n1358_n6496#
+= flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/res_ladder_vref_0/XR4/R1
+= flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/res_ladder_vref_0/XR5/R1
+R flashADC_3bit_0/res_ladder_vref_0/XR5/a_n573_n557# 2057
+C flashADC_3bit_0/comp_p_5/vinn0 7.1
+R flashADC_3bit_0/comp_p_5/vinn 6650
+= flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/res_ladder_vref_0/ref5
+= flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/m1_n2904_n7868#
+= flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/res_ladder_vref_0/XR3/R2
+= flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/res_ladder_vref_0/XR4/R2
+R flashADC_3bit_0/res_ladder_vref_0/XR4/a_n573_n557# 2057
+C flashADC_3bit_0/comp_p_6/vinn0 9.3
+R flashADC_3bit_0/comp_p_6/vinn 6779
+= flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/res_ladder_vref_0/ref6
+= flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/m1_n1358_n10612#
+= flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/res_ladder_vref_0/XR1/R1
+= flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/res_ladder_vref_0/XR2/R1
+= flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/res_ladder_vref_0/XR3/R1
+R flashADC_3bit_0/res_ladder_vref_0/XR3/a_n573_n557# 2057
+R flashADC_3bit_0/res_ladder_vref_0/XR10/a_n573_n557# 2057
+C ua[1]0 25.2
+R ua[1] 243
+= ua[1] flashADC_3bit_0/m3_n3070_n10912#
+= ua[1] flashADC_3bit_0/vref
+= ua[1] flashADC_3bit_0/res_ladder_vref_0/vref
+= ua[1] flashADC_3bit_0/res_ladder_vref_0/XR1/R2
+= ua[1] flashADC_3bit_0/res_ladder_vref_0/XR2/R2
+R flashADC_3bit_0/res_ladder_vref_0/XR2/a_n573_n557# 2057
+R flashADC_3bit_0/res_ladder_vref_0/XR1/a_n573_n557# 2057
+C flashADC_3bit_0/vbias_generation_0/bias_n0 3.4
+R flashADC_3bit_0/vbias_generation_0/bias_n 2707
+= flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/XMn_bias/G
+= flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/XMn_bias/D
+= flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/XR_bias_4/R2
+= flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/m1_n162_1174#
+R flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 188
+= flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R1
+= flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/m1_1682_1702#
+R flashADC_3bit_0/vbias_generation_0/XR_bias_4/a_n141_n684# 9702
+C flashADC_3bit_0/vbias_generation_0/XR_bias_3/R20 2.0
+R flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 188
+= flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R1
+= flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/m1_n118_2210#
+R flashADC_3bit_0/vbias_generation_0/XR_bias_3/a_n141_n684# 9702
+R flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 188
+= flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_1/R1
+= flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/vbias_generation_0/m1_1682_2718#
+R flashADC_3bit_0/vbias_generation_0/XR_bias_2/a_n141_n684# 9702
+C flashADC_3bit_0/comp_p_6/vbias_p0 20.7
+R flashADC_3bit_0/comp_p_6/vbias_p 13357
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_1376_n10760#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_4466_n10772#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/bias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XMp_bias/D
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XMp_bias/G
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XR_bias_1/R2
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/m1_n118_3226#
+R flashADC_3bit_0/vbias_generation_0/XR_bias_1/a_n141_n684# 9702
