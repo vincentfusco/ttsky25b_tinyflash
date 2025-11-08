@@ -1,331 +1,337 @@
 * SPICE3 file created from tt_um_tinyflash.ext - technology: sky130A
 
-X0 vbias_generation_0/XR_bias_2/R2 vbias_generation_0/bias_p VSUBS sky130_fd_pr__res_xhigh_po_1p41 l=7
-X1 vbias_generation_0/XR_bias_3/R2 vbias_generation_0/XR_bias_2/R2 VSUBS sky130_fd_pr__res_xhigh_po_1p41 l=7
-X2 vbias_generation_0/XR_bias_4/R1 vbias_generation_0/XR_bias_3/R2 VSUBS sky130_fd_pr__res_xhigh_po_1p41 l=7
-X3 vbias_generation_0/XR_bias_4/R1 vbias_generation_0/bias_n VSUBS sky130_fd_pr__res_xhigh_po_1p41 l=7
-X4 VSUBS vbias_generation_0/bias_n vbias_generation_0/bias_n VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
-X5 comp_p_6/vdd vbias_generation_0/bias_p vbias_generation_0/bias_p comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
-X6 res_ladder_vref_0/ref6 res_ladder_vref_0/vref VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X7 res_ladder_vref_0/ref6 res_ladder_vref_0/vref VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X8 res_ladder_vref_0/ref0 VSUBS VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X9 res_ladder_vref_0/ref6 res_ladder_vref_0/ref5 VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X10 res_ladder_vref_0/ref4 res_ladder_vref_0/ref5 VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X11 res_ladder_vref_0/ref4 res_ladder_vref_0/ref3 VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X12 res_ladder_vref_0/ref2 res_ladder_vref_0/ref3 VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X13 res_ladder_vref_0/ref2 res_ladder_vref_0/ref1 VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X14 res_ladder_vref_0/ref0 res_ladder_vref_0/ref1 VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X15 res_ladder_vref_0/ref0 VSUBS VSUBS sky130_fd_pr__res_xhigh_po_5p73 l=5.73
-X16 comp_p_1/latch_right comp_p_1/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
-X17 comp_p_5/vdd comp_p_1/out_left comp_p_1/vout comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
-X18 comp_p_1/latch_left comp_p_1/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
-X19 comp_p_1/latch_left comp_p_1/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=65.25 ps=488.86 w=5 l=1
-X20 comp_p_1/latch_right comp_p_1/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X21 comp_p_5/vdd comp_p_1/out_left comp_p_1/out_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=30.16 pd=214.96 as=2.32 ps=16.58 w=8 l=1
-X22 comp_p_1/out_left comp_p_1/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X23 comp_p_1/vout comp_p_1/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X24 comp_p_5/vdd comp_p_1/vbias_p comp_p_1/tail comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
-X25 comp_p_1/tail comp_p_1/vinn comp_p_1/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X26 comp_p_1/tail comp_p_1/vinp comp_p_1/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X27 comp_p_1/tail comp_p_1/vinp comp_p_1/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X28 comp_p_1/tail comp_p_1/vinp comp_p_1/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X29 comp_p_1/tail comp_p_1/vinp comp_p_1/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X30 comp_p_1/tail comp_p_1/vinn comp_p_1/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X31 comp_p_1/tail comp_p_1/vinn comp_p_1/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X32 comp_p_1/tail comp_p_1/vinn comp_p_1/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
-X33 comp_p_0/latch_right comp_p_0/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
-X34 comp_p_3/vdd comp_p_0/out_left comp_p_0/vout comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=15.08 pd=107.48 as=2.32 ps=16.58 w=8 l=1
-X35 comp_p_0/latch_left comp_p_0/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X36 comp_p_0/latch_left comp_p_0/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
-X37 comp_p_0/latch_right comp_p_0/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
-X38 comp_p_3/vdd comp_p_0/out_left comp_p_0/out_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X39 comp_p_0/out_left comp_p_0/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X40 comp_p_0/vout comp_p_0/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X41 comp_p_3/vdd comp_p_0/vbias_p comp_p_0/tail comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
-X42 comp_p_0/tail comp_p_0/vinn comp_p_0/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
-X43 comp_p_0/tail comp_p_0/vinp comp_p_0/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
-X44 comp_p_0/tail comp_p_0/vinp comp_p_0/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X45 comp_p_0/tail comp_p_0/vinp comp_p_0/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X46 comp_p_0/tail comp_p_0/vinp comp_p_0/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X47 comp_p_0/tail comp_p_0/vinn comp_p_0/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X48 comp_p_0/tail comp_p_0/vinn comp_p_0/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X49 comp_p_0/tail comp_p_0/vinn comp_p_0/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X50 comp_p_2/latch_right comp_p_2/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
-X51 comp_p_5/vdd comp_p_2/out_left comp_p_2/vout comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X52 comp_p_2/latch_left comp_p_2/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X53 comp_p_2/latch_left comp_p_2/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
-X54 comp_p_2/latch_right comp_p_2/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
-X55 comp_p_5/vdd comp_p_2/out_left comp_p_2/out_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X56 comp_p_2/out_left comp_p_2/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X57 comp_p_2/vout comp_p_2/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X58 comp_p_5/vdd comp_p_2/vbias_p comp_p_2/tail comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
-X59 comp_p_2/tail comp_p_2/vinn comp_p_2/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
-X60 comp_p_2/tail comp_p_2/vinp comp_p_2/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
-X61 comp_p_2/tail comp_p_2/vinp comp_p_2/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X62 comp_p_2/tail comp_p_2/vinp comp_p_2/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X63 comp_p_2/tail comp_p_2/vinp comp_p_2/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X64 comp_p_2/tail comp_p_2/vinn comp_p_2/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X65 comp_p_2/tail comp_p_2/vinn comp_p_2/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X66 comp_p_2/tail comp_p_2/vinn comp_p_2/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X67 comp_p_3/latch_right comp_p_3/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
-X68 comp_p_3/vdd comp_p_3/out_left comp_p_3/vout comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X69 comp_p_3/latch_left comp_p_3/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X70 comp_p_3/latch_left comp_p_3/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
-X71 comp_p_3/latch_right comp_p_3/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
-X72 comp_p_3/vdd comp_p_3/out_left comp_p_3/out_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X73 comp_p_3/out_left comp_p_3/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X74 comp_p_3/vout comp_p_3/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X75 comp_p_3/vdd comp_p_3/vbias_p comp_p_3/tail comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
-X76 comp_p_3/tail comp_p_3/vinn comp_p_3/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
-X77 comp_p_3/tail comp_p_3/vinp comp_p_3/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
-X78 comp_p_3/tail comp_p_3/vinp comp_p_3/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X79 comp_p_3/tail comp_p_3/vinp comp_p_3/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X80 comp_p_3/tail comp_p_3/vinp comp_p_3/latch_right comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X81 comp_p_3/tail comp_p_3/vinn comp_p_3/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X82 comp_p_3/tail comp_p_3/vinn comp_p_3/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X83 comp_p_3/tail comp_p_3/vinn comp_p_3/latch_left comp_p_3/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X84 comp_p_4/latch_right comp_p_4/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
-X85 comp_p_5/vdd comp_p_4/out_left comp_p_4/vout comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X86 comp_p_4/latch_left comp_p_4/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X87 comp_p_4/latch_left comp_p_4/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
-X88 comp_p_4/latch_right comp_p_4/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
-X89 comp_p_5/vdd comp_p_4/out_left comp_p_4/out_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X90 comp_p_4/out_left comp_p_4/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X91 comp_p_4/vout comp_p_4/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X92 comp_p_5/vdd comp_p_4/vbias_p comp_p_4/tail comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
-X93 comp_p_4/tail comp_p_4/vinn comp_p_4/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
-X94 comp_p_4/tail comp_p_4/vinp comp_p_4/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
-X95 comp_p_4/tail comp_p_4/vinp comp_p_4/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X96 comp_p_4/tail comp_p_4/vinp comp_p_4/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X97 comp_p_4/tail comp_p_4/vinp comp_p_4/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X98 comp_p_4/tail comp_p_4/vinn comp_p_4/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X99 comp_p_4/tail comp_p_4/vinn comp_p_4/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X100 comp_p_4/tail comp_p_4/vinn comp_p_4/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X101 comp_p_5/latch_right comp_p_5/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
-X102 comp_p_5/vdd comp_p_5/out_left comp_p_5/vout comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X103 comp_p_5/latch_left comp_p_5/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X104 comp_p_5/latch_left comp_p_5/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
-X105 comp_p_5/latch_right comp_p_5/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
-X106 comp_p_5/vdd comp_p_5/out_left comp_p_5/out_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X107 comp_p_5/out_left comp_p_5/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X108 comp_p_5/vout comp_p_5/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X109 comp_p_5/vdd comp_p_5/vbias_p comp_p_5/tail comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
-X110 comp_p_5/tail comp_p_5/vinn comp_p_5/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
-X111 comp_p_5/tail comp_p_5/vinp comp_p_5/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
-X112 comp_p_5/tail comp_p_5/vinp comp_p_5/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X113 comp_p_5/tail comp_p_5/vinp comp_p_5/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X114 comp_p_5/tail comp_p_5/vinp comp_p_5/latch_right comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X115 comp_p_5/tail comp_p_5/vinn comp_p_5/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X116 comp_p_5/tail comp_p_5/vinn comp_p_5/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X117 comp_p_5/tail comp_p_5/vinn comp_p_5/latch_left comp_p_5/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X118 comp_p_6/latch_right comp_p_6/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
-X119 comp_p_6/vdd comp_p_6/out_left comp_p_6/vout comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=10.44 pd=74.32 as=2.32 ps=16.58 w=8 l=1
-X120 comp_p_6/latch_left comp_p_6/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
-X121 comp_p_6/latch_left comp_p_6/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
-X122 comp_p_6/latch_right comp_p_6/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
-X123 comp_p_6/vdd comp_p_6/out_left comp_p_6/out_left comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
-X124 comp_p_6/out_left comp_p_6/latch_left VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X125 comp_p_6/vout comp_p_6/latch_right VSUBS VSUBS sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
-X126 comp_p_6/vdd comp_p_6/vbias_p comp_p_6/tail comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
-X127 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_left comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
-X128 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_right comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
-X129 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_right comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X130 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_right comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X131 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_right comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X132 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_left comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X133 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_left comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X134 comp_p_6/tail comp_p_6/vdd comp_p_6/latch_left comp_p_6/vdd sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
-X135 tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
-X136 tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/R1/R1 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
-X137 tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/buffer_1/out tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=1.16 ps=9.16 w=2 l=0.15
-X138 tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/buffer_1/out VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.58 ps=5.16 w=1 l=0.15
-X139 tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
-X140 tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/buffer_8/in VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
-X141 tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=13.92 ps=109.92 w=2 l=0.15
-X142 tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G tmux_7therm_to_3bin_0/R1/R1 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X143 tmux_7therm_to_3bin_0/tmux_2to1_3/B tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/buffer_2/out tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.74 pd=13.74 as=1.16 ps=9.16 w=2 l=0.15
-X144 tmux_7therm_to_3bin_0/tmux_2to1_3/B tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G tmux_7therm_to_3bin_0/buffer_2/out VSUBS sky130_fd_pr__nfet_01v8 ad=0.87 pd=7.74 as=0.58 ps=5.16 w=1 l=0.15
-X145 tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_3/B tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
-X146 tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/tmux_2to1_3/B VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
-X147 tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X148 tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G tmux_7therm_to_3bin_0/buffer_8/in VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X149 tmux_7therm_to_3bin_0/buffer_7/in tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/tmux_2to1_3/A tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=1.74 ps=13.74 w=2 l=0.15
-X150 tmux_7therm_to_3bin_0/buffer_7/in tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_3/A VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.87 ps=7.74 w=1 l=0.15
-X151 tmux_7therm_to_3bin_0/tmux_2to1_3/B tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G tmux_7therm_to_3bin_0/buffer_7/in tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X152 tmux_7therm_to_3bin_0/tmux_2to1_3/B tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/buffer_7/in VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-R0 tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/R1/R2 sky130_fd_pr__res_generic_m1 w=1 l=1
-X153 tmux_7therm_to_3bin_0/buffer_0/inv_1/vin tmux_7therm_to_3bin_0/d0 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X154 tmux_7therm_to_3bin_0/buffer_0/inv_1/vin tmux_7therm_to_3bin_0/d0 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X155 tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
-X156 tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/buffer_0/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
-X157 tmux_7therm_to_3bin_0/buffer_1/inv_1/vin tmux_7therm_to_3bin_0/d1 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X158 tmux_7therm_to_3bin_0/buffer_1/inv_1/vin tmux_7therm_to_3bin_0/d1 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X159 tmux_7therm_to_3bin_0/buffer_1/out tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-X160 tmux_7therm_to_3bin_0/buffer_1/out tmux_7therm_to_3bin_0/buffer_1/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X161 tmux_7therm_to_3bin_0/buffer_2/inv_1/vin tmux_7therm_to_3bin_0/d2 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X162 tmux_7therm_to_3bin_0/buffer_2/inv_1/vin tmux_7therm_to_3bin_0/d2 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X163 tmux_7therm_to_3bin_0/buffer_2/out tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-X164 tmux_7therm_to_3bin_0/buffer_2/out tmux_7therm_to_3bin_0/buffer_2/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X165 tmux_7therm_to_3bin_0/buffer_3/inv_1/vin tmux_7therm_to_3bin_0/d3 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X166 tmux_7therm_to_3bin_0/buffer_3/inv_1/vin tmux_7therm_to_3bin_0/d3 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X167 tmux_7therm_to_3bin_0/R1/R2 tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X168 tmux_7therm_to_3bin_0/R1/R2 tmux_7therm_to_3bin_0/buffer_3/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X169 tmux_7therm_to_3bin_0/buffer_4/inv_1/vin tmux_7therm_to_3bin_0/d4 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X170 tmux_7therm_to_3bin_0/buffer_4/inv_1/vin tmux_7therm_to_3bin_0/d4 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X171 tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
-X172 tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/buffer_4/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
-X173 tmux_7therm_to_3bin_0/buffer_5/inv_1/vin tmux_7therm_to_3bin_0/d5 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X174 tmux_7therm_to_3bin_0/buffer_5/inv_1/vin tmux_7therm_to_3bin_0/d5 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X175 tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-X176 tmux_7therm_to_3bin_0/buffer_5/out tmux_7therm_to_3bin_0/buffer_5/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X177 tmux_7therm_to_3bin_0/buffer_6/inv_1/vin tmux_7therm_to_3bin_0/d6 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X178 tmux_7therm_to_3bin_0/buffer_6/inv_1/vin tmux_7therm_to_3bin_0/d6 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X179 tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-X180 tmux_7therm_to_3bin_0/buffer_6/out tmux_7therm_to_3bin_0/buffer_6/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X181 tmux_7therm_to_3bin_0/buffer_7/inv_1/vin tmux_7therm_to_3bin_0/buffer_7/in VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X182 tmux_7therm_to_3bin_0/buffer_7/inv_1/vin tmux_7therm_to_3bin_0/buffer_7/in tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X183 tmux_7therm_to_3bin_0/q0 tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X184 tmux_7therm_to_3bin_0/q0 tmux_7therm_to_3bin_0/buffer_7/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X185 tmux_7therm_to_3bin_0/buffer_8/inv_1/vin tmux_7therm_to_3bin_0/buffer_8/in VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X186 tmux_7therm_to_3bin_0/buffer_8/inv_1/vin tmux_7therm_to_3bin_0/buffer_8/in tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X187 tmux_7therm_to_3bin_0/q1 tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X188 tmux_7therm_to_3bin_0/q1 tmux_7therm_to_3bin_0/buffer_8/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X189 tmux_7therm_to_3bin_0/buffer_9/inv_1/vin tmux_7therm_to_3bin_0/R1/R1 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X190 tmux_7therm_to_3bin_0/buffer_9/inv_1/vin tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X191 tmux_7therm_to_3bin_0/q2 tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X192 tmux_7therm_to_3bin_0/q2 tmux_7therm_to_3bin_0/buffer_9/inv_1/vin tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X193 tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
-X194 tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/R1/R1 VSUBS VSUBS sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
-X195 tmux_7therm_to_3bin_0/tmux_2to1_3/A tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/buffer_0/out tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X196 tmux_7therm_to_3bin_0/tmux_2to1_3/A tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/buffer_0/out VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-X197 tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G tmux_7therm_to_3bin_0/tmux_2to1_3/A tmux_7therm_to_3bin_0/vdd sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
-X198 tmux_7therm_to_3bin_0/buffer_4/out tmux_7therm_to_3bin_0/R1/R1 tmux_7therm_to_3bin_0/tmux_2to1_3/A VSUBS sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
-C0 comp_p_5/vdd comp_p_4/vout 2.617276f
-C1 comp_p_0/latch_right comp_p_0/latch_left 5.38251f
-C2 comp_p_3/vdd comp_p_3/vout 2.578808f
-C3 comp_p_5/vdd comp_p_2/vinp 4.313035f
-C4 comp_p_5/vdd comp_p_4/vinn 2.373474f
-C5 comp_p_5/vdd comp_p_5/tail 3.411526f
-C6 comp_p_0/vinp comp_p_3/vdd 4.312794f
-C7 comp_p_6/tail comp_p_6/latch_left 8.829929f
-C8 comp_p_4/latch_left comp_p_4/latch_right 5.38251f
-C9 comp_p_5/vdd comp_p_4/out_left 5.305601f
-C10 comp_p_5/vdd comp_p_2/vinn 2.314978f
-C11 comp_p_3/out_left comp_p_3/vdd 5.287586f
-C12 comp_p_2/vout comp_p_5/vdd 2.733427f
-C13 comp_p_5/tail comp_p_5/latch_left 8.829929f
-C14 comp_p_3/tail comp_p_3/latch_left 8.829929f
-C15 comp_p_3/tail comp_p_3/latch_right 8.894202f
-C16 comp_p_2/latch_left comp_p_2/tail 8.829929f
-C17 comp_p_6/latch_right comp_p_6/latch_left 5.38251f
-C18 comp_p_5/vdd comp_p_5/vout 2.617276f
-C19 comp_p_1/vinn comp_p_5/vdd 2.314978f
-C20 comp_p_0/tail comp_p_3/vdd 3.411564f
-C21 comp_p_5/vbias_p comp_p_5/vdd 2.952065f
-C22 comp_p_6/vbias_p comp_p_6/vdd 2.824307f
-C23 comp_p_3/tail comp_p_3/vdd 3.411526f
-C24 comp_p_6/tail comp_p_6/vdd 7.160751f
-C25 comp_p_6/vdd comp_p_6/vout 2.745139f
-C26 comp_p_3/tail comp_p_3/vinp 2.917567f
-C27 comp_p_6/out_left comp_p_6/vdd 6.072516f
-C28 comp_p_5/vdd comp_p_5/vinn 2.373474f
-C29 comp_p_5/vdd comp_p_5/out_left 5.305601f
-C30 comp_p_3/vdd comp_p_3/vbias_p 2.779419f
-C31 comp_p_1/vinp comp_p_1/tail 2.917567f
-C32 comp_p_0/vbias_p comp_p_3/vdd 2.774037f
-C33 comp_p_3/vdd comp_p_0/vout 2.694959f
-C34 comp_p_2/vinp comp_p_2/tail 2.917567f
-C35 comp_p_5/vdd comp_p_4/tail 3.411526f
-C36 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/R1/R1 4.994596f
-C37 comp_p_1/latch_right comp_p_1/latch_left 5.38251f
-C38 comp_p_6/latch_right comp_p_6/vdd 5.497649f
-C39 comp_p_2/latch_right comp_p_2/tail 8.894202f
-C40 comp_p_3/latch_right comp_p_3/latch_left 5.38251f
-C41 comp_p_0/tail comp_p_0/latch_left 8.829929f
-C42 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/buffer_4/out 2.632235f
-C43 comp_p_1/latch_left comp_p_1/tail 8.829929f
-C44 comp_p_5/vdd comp_p_4/vinp 4.274329f
-C45 comp_p_3/vinn comp_p_3/latch_right 3.535073f
-C46 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/buffer_8/in 2.213448f
-C47 comp_p_4/tail comp_p_4/vinp 2.917567f
-C48 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/buffer_6/out 3.853206f
-C49 comp_p_3/vinn comp_p_3/vdd 2.373234f
-C50 comp_p_3/vdd comp_p_3/vinp 4.274088f
-C51 comp_p_5/vdd comp_p_2/tail 3.411564f
-C52 comp_p_0/tail comp_p_0/latch_right 8.894202f
-C53 comp_p_4/latch_left comp_p_4/tail 8.829929f
-C54 comp_p_5/tail comp_p_5/vinp 2.917567f
-C55 comp_p_6/latch_left comp_p_6/vdd 3.246245f
-C56 comp_p_1/latch_right comp_p_1/tail 8.894202f
-C57 comp_p_1/vinp comp_p_5/vdd 4.313035f
-C58 comp_p_0/out_left comp_p_3/vdd 5.17178f
-C59 comp_p_0/vinn comp_p_3/vdd 2.314738f
-C60 comp_p_5/vdd comp_p_1/vout 2.733427f
-C61 VDPWR VGND 12.918099f
-C62 comp_p_4/vinn comp_p_4/latch_right 3.535073f
-C63 comp_p_5/tail comp_p_5/latch_right 8.894202f
-C64 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/buffer_5/out 2.808032f
-C65 tmux_7therm_to_3bin_0/vdd tmux_7therm_to_3bin_0/tmux_2to1_3/B 2.178872f
-C66 comp_p_1/out_left comp_p_5/vdd 5.189793f
-C67 comp_p_2/latch_right comp_p_2/latch_left 5.38251f
-C68 comp_p_5/vdd comp_p_5/vinp 4.274329f
-C69 comp_p_4/vbias_p comp_p_5/vdd 2.952065f
-C70 comp_p_0/tail comp_p_0/vinp 2.917567f
-C71 comp_p_1/vbias_p comp_p_5/vdd 2.946684f
-C72 comp_p_1/latch_right comp_p_1/vinn 3.535073f
-C73 comp_p_5/latch_right comp_p_5/vinn 3.535073f
-C74 comp_p_6/latch_right comp_p_6/tail 8.894202f
-C75 comp_p_4/tail comp_p_4/latch_right 8.894202f
-C76 comp_p_2/latch_right comp_p_2/vinn 3.535073f
-C77 comp_p_5/latch_left comp_p_5/latch_right 5.38251f
-C78 comp_p_5/vdd comp_p_2/vbias_p 2.946684f
-C79 comp_p_2/out_left comp_p_5/vdd 5.189793f
-C80 vbias_generation_0/bias_p comp_p_6/vdd 2.079773f
-C81 comp_p_0/vinn comp_p_0/latch_right 3.535073f
-C82 comp_p_5/vdd comp_p_1/tail 3.411564f
-C83 ua[7] VSUBS 15.774332f
-C84 VGND VSUBS 12.5347f
-C85 VDPWR VSUBS 12.5347f
-C86 tmux_7therm_to_3bin_0/vdd VSUBS 84.84419f
-C87 tmux_7therm_to_3bin_0/buffer_8/in VSUBS 2.59254f
-C88 tmux_7therm_to_3bin_0/R1/R1 VSUBS 6.182856f
-C89 comp_p_6/vdd VSUBS 48.690853f
-C90 comp_p_6/vout VSUBS 3.548873f
-C91 comp_p_6/latch_right VSUBS 5.5604f **FLOATING
-C92 comp_p_6/out_left VSUBS 3.702688f **FLOATING
-C93 comp_p_6/latch_left VSUBS 5.929792f **FLOATING
-C94 comp_p_5/vout VSUBS 3.568746f
-C95 comp_p_5/latch_right VSUBS 5.572134f **FLOATING
-C96 comp_p_5/out_left VSUBS 3.696591f **FLOATING
-C97 comp_p_5/latch_left VSUBS 5.933087f **FLOATING
-C98 comp_p_4/vout VSUBS 3.584179f
-C99 comp_p_4/latch_right VSUBS 5.583902f **FLOATING
-C100 comp_p_4/out_left VSUBS 3.696582f **FLOATING
-C101 comp_p_4/latch_left VSUBS 5.932082f **FLOATING
-C102 comp_p_3/vout VSUBS 3.585887f
-C103 comp_p_3/latch_right VSUBS 5.560431f **FLOATING
-C104 comp_p_3/out_left VSUBS 3.696328f **FLOATING
-C105 comp_p_3/latch_left VSUBS 5.930741f **FLOATING
-C106 comp_p_5/vdd VSUBS 0.148537p
-C107 comp_p_2/vout VSUBS 3.514401f
-C108 comp_p_2/latch_right VSUBS 5.557951f **FLOATING
-C109 comp_p_2/out_left VSUBS 3.678031f **FLOATING
-C110 comp_p_2/latch_left VSUBS 5.926768f **FLOATING
-C111 comp_p_3/vdd VSUBS 85.22089f
-C112 comp_p_0/vout VSUBS 3.550102f
-C113 comp_p_0/latch_right VSUBS 5.561553f **FLOATING
-C114 comp_p_0/out_left VSUBS 3.714165f **FLOATING
-C115 comp_p_0/latch_left VSUBS 5.930565f **FLOATING
-C116 comp_p_1/vout VSUBS 3.550102f
-C117 comp_p_1/latch_right VSUBS 5.561554f **FLOATING
-C118 comp_p_1/out_left VSUBS 3.717053f **FLOATING
-C119 comp_p_1/latch_left VSUBS 5.930414f **FLOATING
-C120 res_ladder_vref_0/ref0 VSUBS 5.514806f
-C121 res_ladder_vref_0/ref1 VSUBS 3.488897f
-C122 res_ladder_vref_0/ref2 VSUBS 3.420028f
-C123 res_ladder_vref_0/ref3 VSUBS 3.420028f
-C124 res_ladder_vref_0/ref4 VSUBS 3.428707f
-C125 res_ladder_vref_0/ref5 VSUBS 3.420028f
-C126 res_ladder_vref_0/ref6 VSUBS 5.242744f
-C127 res_ladder_vref_0/vref VSUBS 4.573766f
-C128 vbias_generation_0/bias_n VSUBS 2.899121f
+X0 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/comp_p_6/vbias_p VGND sky130_fd_pr__res_xhigh_po_1p41 l=7
+X1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 VGND sky130_fd_pr__res_xhigh_po_1p41 l=7
+X2 flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 VGND sky130_fd_pr__res_xhigh_po_1p41 l=7
+X3 flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/bias_n VGND sky130_fd_pr__res_xhigh_po_1p41 l=7
+X4 VGND flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/bias_n VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+X5 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/vbias_p VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+X6 flashADC_3bit_0/comp_p_6/vinn ua[1] VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X7 flashADC_3bit_0/comp_p_6/vinn ua[1] VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X8 flashADC_3bit_0/comp_p_1/vinn VGND VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X9 flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_5/vinn VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X10 flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_5/vinn VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X11 flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_3/vinn VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X12 flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_3/vinn VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X13 flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_0/vinn VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X14 flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_0/vinn VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X15 flashADC_3bit_0/comp_p_1/vinn VGND VGND sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+X16 flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+X17 VDPWR flashADC_3bit_0/comp_p_1/out_left uo_out[3] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+X18 flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X19 flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=65.25 ps=488.86 w=5 l=1
+X20 flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X21 VDPWR flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=69.6 pd=506.68 as=2.32 ps=16.58 w=8 l=1
+X22 flashADC_3bit_0/comp_p_1/out_left flashADC_3bit_0/comp_p_1/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X23 uo_out[3] flashADC_3bit_0/comp_p_1/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X24 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+X25 flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X26 flashADC_3bit_0/comp_p_1/tail ua[0] flashADC_3bit_0/comp_p_1/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X27 flashADC_3bit_0/comp_p_1/tail ua[0] flashADC_3bit_0/comp_p_1/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X28 flashADC_3bit_0/comp_p_1/tail ua[0] flashADC_3bit_0/comp_p_1/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X29 flashADC_3bit_0/comp_p_1/tail ua[0] flashADC_3bit_0/comp_p_1/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X30 flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X31 flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X32 flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X33 flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
+X34 VDPWR flashADC_3bit_0/comp_p_0/out_left uo_out[4] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X35 flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X36 flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
+X37 flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
+X38 VDPWR flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X39 flashADC_3bit_0/comp_p_0/out_left flashADC_3bit_0/comp_p_0/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X40 uo_out[4] flashADC_3bit_0/comp_p_0/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X41 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
+X42 flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
+X43 flashADC_3bit_0/comp_p_0/tail ua[0] flashADC_3bit_0/comp_p_0/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
+X44 flashADC_3bit_0/comp_p_0/tail ua[0] flashADC_3bit_0/comp_p_0/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X45 flashADC_3bit_0/comp_p_0/tail ua[0] flashADC_3bit_0/comp_p_0/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X46 flashADC_3bit_0/comp_p_0/tail ua[0] flashADC_3bit_0/comp_p_0/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X47 flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X48 flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X49 flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X50 flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
+X51 VDPWR flashADC_3bit_0/comp_p_2/out_left uo_out[5] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X52 flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X53 flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
+X54 flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
+X55 VDPWR flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X56 flashADC_3bit_0/comp_p_2/out_left flashADC_3bit_0/comp_p_2/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X57 uo_out[5] flashADC_3bit_0/comp_p_2/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X58 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
+X59 flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
+X60 flashADC_3bit_0/comp_p_2/tail ua[0] flashADC_3bit_0/comp_p_2/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
+X61 flashADC_3bit_0/comp_p_2/tail ua[0] flashADC_3bit_0/comp_p_2/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X62 flashADC_3bit_0/comp_p_2/tail ua[0] flashADC_3bit_0/comp_p_2/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X63 flashADC_3bit_0/comp_p_2/tail ua[0] flashADC_3bit_0/comp_p_2/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X64 flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X65 flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X66 flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X67 flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
+X68 VDPWR flashADC_3bit_0/comp_p_3/out_left uo_out[6] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X69 flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X70 flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
+X71 flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
+X72 VDPWR flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X73 flashADC_3bit_0/comp_p_3/out_left flashADC_3bit_0/comp_p_3/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X74 uo_out[6] flashADC_3bit_0/comp_p_3/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X75 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
+X76 flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
+X77 flashADC_3bit_0/comp_p_3/tail ua[0] flashADC_3bit_0/comp_p_3/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
+X78 flashADC_3bit_0/comp_p_3/tail ua[0] flashADC_3bit_0/comp_p_3/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X79 flashADC_3bit_0/comp_p_3/tail ua[0] flashADC_3bit_0/comp_p_3/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X80 flashADC_3bit_0/comp_p_3/tail ua[0] flashADC_3bit_0/comp_p_3/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X81 flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X82 flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X83 flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X84 flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
+X85 VDPWR flashADC_3bit_0/comp_p_4/out_left uo_out[7] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X86 flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X87 flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
+X88 flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
+X89 VDPWR flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X90 flashADC_3bit_0/comp_p_4/out_left flashADC_3bit_0/comp_p_4/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X91 uo_out[7] flashADC_3bit_0/comp_p_4/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X92 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
+X93 flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
+X94 flashADC_3bit_0/comp_p_4/tail ua[0] flashADC_3bit_0/comp_p_4/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
+X95 flashADC_3bit_0/comp_p_4/tail ua[0] flashADC_3bit_0/comp_p_4/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X96 flashADC_3bit_0/comp_p_4/tail ua[0] flashADC_3bit_0/comp_p_4/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X97 flashADC_3bit_0/comp_p_4/tail ua[0] flashADC_3bit_0/comp_p_4/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X98 flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X99 flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X100 flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X101 flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
+X102 VDPWR flashADC_3bit_0/comp_p_5/out_left uio_out[0] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X103 flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X104 flashADC_3bit_0/comp_p_5/latch_left flashADC_3bit_0/comp_p_5/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
+X105 flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
+X106 VDPWR flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X107 flashADC_3bit_0/comp_p_5/out_left flashADC_3bit_0/comp_p_5/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X108 uio_out[0] flashADC_3bit_0/comp_p_5/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X109 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
+X110 flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
+X111 flashADC_3bit_0/comp_p_5/tail ua[0] flashADC_3bit_0/comp_p_5/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
+X112 flashADC_3bit_0/comp_p_5/tail ua[0] flashADC_3bit_0/comp_p_5/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X113 flashADC_3bit_0/comp_p_5/tail ua[0] flashADC_3bit_0/comp_p_5/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X114 flashADC_3bit_0/comp_p_5/tail ua[0] flashADC_3bit_0/comp_p_5/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X115 flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X116 flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X117 flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X118 flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=5 l=1
+X119 VDPWR flashADC_3bit_0/comp_p_6/out_left uio_out[1] VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X120 flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=2.61 pd=19.16 as=0 ps=0 w=4 l=1
+X121 flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=5 l=1
+X122 flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=4 l=1
+X123 VDPWR flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/out_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=2.32 ps=16.58 w=8 l=1
+X124 flashADC_3bit_0/comp_p_6/out_left flashADC_3bit_0/comp_p_6/latch_left VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X125 uio_out[1] flashADC_3bit_0/comp_p_6/latch_right VGND VGND sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=0 ps=0 w=5 l=1
+X126 VDPWR flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/tail VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=20.433426 ps=144.985 w=10 l=1
+X127 flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.5942 ps=82.28 w=9.995 l=0.35
+X128 flashADC_3bit_0/comp_p_6/tail ua[0] flashADC_3bit_0/comp_p_6/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=11.295525 ps=79.645 w=9.995 l=0.35
+X129 flashADC_3bit_0/comp_p_6/tail ua[0] flashADC_3bit_0/comp_p_6/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X130 flashADC_3bit_0/comp_p_6/tail ua[0] flashADC_3bit_0/comp_p_6/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X131 flashADC_3bit_0/comp_p_6/tail ua[0] flashADC_3bit_0/comp_p_6/latch_right VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X132 flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X133 flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X134 flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_left VDPWR sky130_fd_pr__pfet_01v8_lvt ad=0 pd=0 as=0 ps=0 w=9.995 l=0.35
+X135 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+X136 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+X137 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=1.16 ps=9.16 w=2 l=0.15
+X138 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.58 ps=5.16 w=1 l=0.15
+X139 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
+X140 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
+X141 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X142 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X143 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out VDPWR sky130_fd_pr__pfet_01v8 ad=1.74 pd=13.74 as=1.16 ps=9.16 w=2 l=0.15
+X144 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out VGND sky130_fd_pr__nfet_01v8 ad=0.87 pd=7.74 as=0.58 ps=5.16 w=1 l=0.15
+X145 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_2/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
+X146 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
+X147 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X148 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X149 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=1.74 ps=13.74 w=2 l=0.15
+X150 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0.87 ps=7.74 w=1 l=0.15
+X151 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X152 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+R0 flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 sky130_fd_pr__res_generic_m1 w=1 l=1
+X153 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin uo_out[3] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X154 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin uo_out[3] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X155 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
+X156 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
+X157 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin uo_out[4] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X158 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin uo_out[4] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X159 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X160 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_1/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X161 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin uo_out[5] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X162 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin uo_out[5] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X163 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X164 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_2/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X165 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin uo_out[6] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X166 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin uo_out[6] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X167 flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X168 flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R2 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_3/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X169 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin uo_out[7] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X170 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin uo_out[7] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X171 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0.58 pd=5.16 as=0 ps=0 w=1 l=0.15
+X172 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=1.16 pd=9.16 as=0 ps=0 w=2 l=0.15
+X173 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin uio_out[0] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X174 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin uio_out[0] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X175 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X176 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X177 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin uio_out[1] VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X178 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin uio_out[1] VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X179 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X180 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X181 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X182 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/in VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X183 uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X184 uo_out[0] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_7/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X185 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X186 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X187 uo_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X188 uo_out[1] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X189 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X190 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X191 uo_out[2] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X192 uo_out[2] flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_9/inv_1/vin VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X193 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR VDPWR sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0 ps=0 w=2 l=0.15
+X194 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND VGND sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0 ps=0 w=1 l=0.15
+X195 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X196 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+X197 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VDPWR sky130_fd_pr__pfet_01v8 ad=0 pd=0 as=0 ps=0 w=2 l=0.15
+X198 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VGND sky130_fd_pr__nfet_01v8 ad=0 pd=0 as=0 ps=0 w=1 l=0.15
+C0 flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_right 3.543126f
+C1 flashADC_3bit_0/comp_p_0/vinn flashADC_3bit_0/comp_p_0/latch_right 3.537437f
+C2 flashADC_3bit_0/comp_p_0/tail VDPWR 3.412349f
+C3 flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_right 3.535519f
+C4 flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/tail 8.894202f
+C5 uo_out[7] VDPWR 6.225174f
+C6 VDPWR flashADC_3bit_0/comp_p_5/latch_left 3.828259f
+C7 ua[0] flashADC_3bit_0/comp_p_0/vinn 2.071417f
+C8 VDPWR flashADC_3bit_0/comp_p_5/tail 4.549301f
+C9 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B 2.389502f
+C10 flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/latch_right 8.894202f
+C11 flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/latch_right 5.38251f
+C12 flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/tail 8.829929f
+C13 VDPWR flashADC_3bit_0/comp_p_3/latch_left 3.721098f
+C14 flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/latch_right 5.38251f
+C15 VDPWR flashADC_3bit_0/comp_p_4/tail 4.078566f
+C16 uio_out[0] uo_out[7] 5.514357f
+C17 VDPWR flashADC_3bit_0/comp_p_3/out_left 7.147648f
+C18 flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/tail 8.894202f
+C19 flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/latch_left 5.38251f
+C20 flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/tail 8.894202f
+C21 ua[0] flashADC_3bit_0/comp_p_2/tail 2.927971f
+C22 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out 3.099386f
+C23 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out 5.14186f
+C24 uo_out[7] uo_out[6] 3.730491f
+C25 flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_right 3.538029f
+C26 ua[0] flashADC_3bit_0/comp_p_6/vinn 2.274422f
+C27 uio_out[0] VDPWR 6.487221f
+C28 VDPWR flashADC_3bit_0/comp_p_0/vinn 4.181973f
+C29 VDPWR flashADC_3bit_0/comp_p_6/latch_left 3.86486f
+C30 VDPWR flashADC_3bit_0/comp_p_1/latch_right 3.635097f
+C31 ua[0] flashADC_3bit_0/comp_p_1/vinn 2.227492f
+C32 flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/latch_left 5.38251f
+C33 flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/latch_right 8.894202f
+C34 VDPWR flashADC_3bit_0/comp_p_2/vinn 2.400864f
+C35 VDPWR uo_out[6] 6.047353f
+C36 VDPWR flashADC_3bit_0/comp_p_1/out_left 7.112554f
+C37 flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/latch_right 5.38251f
+C38 flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/latch_left 5.38251f
+C39 flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_right 8.894202f
+C40 ua[0] flashADC_3bit_0/comp_p_6/tail 2.917751f
+C41 VDPWR flashADC_3bit_0/comp_p_4/vinn 2.9131f
+C42 flashADC_3bit_0/comp_p_2/tail VDPWR 3.412596f
+C43 VDPWR uo_out[4] 4.888728f
+C44 VDPWR flashADC_3bit_0/comp_p_5/vinn 6.938992f
+C45 VDPWR flashADC_3bit_0/comp_p_3/latch_right 3.668148f
+C46 VDPWR uio_out[1] 10.264361f
+C47 VDPWR uo_out[5] 5.495997f
+C48 VDPWR flashADC_3bit_0/comp_p_5/latch_right 3.785408f
+C49 flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/vinn 3.536513f
+C50 ua[0] flashADC_3bit_0/comp_p_1/tail 2.919898f
+C51 VDPWR flashADC_3bit_0/comp_p_6/vinn 3.827528f
+C52 flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/tail 8.829929f
+C53 flashADC_3bit_0/comp_p_6/vbias_p VDPWR 38.487663f
+C54 flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/tail 8.829929f
+C55 uio_out[0] uio_out[1] 5.40212f
+C56 flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/latch_left 8.829929f
+C57 ua[0] flashADC_3bit_0/comp_p_3/tail 2.919896f
+C58 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in 2.240643f
+C59 VDPWR flashADC_3bit_0/comp_p_1/vinn 4.93284f
+C60 flashADC_3bit_0/comp_p_3/vinn VDPWR 5.39465f
+C61 VDPWR uo_out[3] 6.002129f
+C62 VDPWR flashADC_3bit_0/comp_p_2/out_left 5.337812f
+C63 VDPWR flashADC_3bit_0/comp_p_4/out_left 5.559441f
+C64 flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_right 8.894202f
+C65 flashADC_3bit_0/comp_p_6/out_left VDPWR 7.102404f
+C66 ua[0] flashADC_3bit_0/comp_p_0/tail 2.929379f
+C67 VDPWR flashADC_3bit_0/comp_p_6/tail 3.765405f
+C68 uo_out[1] uo_out[2] 2.072569f
+C69 uo_out[6] uo_out[5] 3.339223f
+C70 ua[0] flashADC_3bit_0/comp_p_5/tail 2.919896f
+C71 ua[0] ua[1] 4.587688f
+C72 VDPWR flashADC_3bit_0/comp_p_1/tail 3.793449f
+C73 uo_out[4] uo_out[5] 4.141313f
+C74 flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/vinn 3.543092f
+C75 VDPWR flashADC_3bit_0/comp_p_5/out_left 7.450001f
+C76 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 5.877276f
+C77 flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/latch_left 8.829929f
+C78 ua[0] flashADC_3bit_0/comp_p_4/tail 2.929377f
+C79 flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_right 3.543062f
+C80 flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/latch_right 5.38251f
+C81 VDPWR flashADC_3bit_0/comp_p_3/tail 3.799379f
+C82 VDPWR flashADC_3bit_0/comp_p_6/latch_right 3.794241f
+C83 ua[0] VDPWR 46.25895f
+C84 VDPWR flashADC_3bit_0/comp_p_0/out_left 5.310384f
+C85 VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out 3.855608f
+C86 VDPWR flashADC_3bit_0/comp_p_1/latch_left 3.674756f
+C87 flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/latch_left 8.829929f
+C88 flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_left 8.829929f
+C89 uo_out[2] VGND 2.349572f
+C90 uio_out[1] VGND 7.953496f
+C91 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VGND 2.050039f
+C92 VDPWR VGND 0.491881p
+C93 uio_out[0] VGND 6.02942f
+C94 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VGND 2.162482f
+C95 uo_out[7] VGND 12.596722f
+C96 uo_out[6] VGND 5.369418f
+C97 uo_out[5] VGND 9.80866f
+C98 uo_out[4] VGND 9.897362f
+C99 uo_out[3] VGND 5.921635f
+C100 flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VGND 2.604635f
+C101 flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VGND 6.241027f
+C102 ua[0] VGND 44.503277f
+C103 flashADC_3bit_0/comp_p_6/vbias_p VGND 21.721624f
+C104 flashADC_3bit_0/comp_p_6/latch_right VGND 5.891696f **FLOATING
+C105 flashADC_3bit_0/comp_p_6/out_left VGND 3.852109f **FLOATING
+C106 flashADC_3bit_0/comp_p_6/latch_left VGND 6.228204f **FLOATING
+C107 flashADC_3bit_0/comp_p_5/latch_right VGND 5.563138f **FLOATING
+C108 flashADC_3bit_0/comp_p_5/out_left VGND 3.765435f **FLOATING
+C109 flashADC_3bit_0/comp_p_5/latch_left VGND 5.928939f **FLOATING
+C110 flashADC_3bit_0/comp_p_4/latch_right VGND 7.574977f **FLOATING
+C111 flashADC_3bit_0/comp_p_4/out_left VGND 6.007029f **FLOATING
+C112 flashADC_3bit_0/comp_p_4/latch_left VGND 8.27735f **FLOATING
+C113 flashADC_3bit_0/comp_p_3/latch_right VGND 5.619755f **FLOATING
+C114 flashADC_3bit_0/comp_p_3/out_left VGND 4.205698f **FLOATING
+C115 flashADC_3bit_0/comp_p_3/latch_left VGND 5.97815f **FLOATING
+C116 flashADC_3bit_0/comp_p_2/latch_right VGND 7.590996f **FLOATING
+C117 flashADC_3bit_0/comp_p_2/out_left VGND 6.327859f **FLOATING
+C118 flashADC_3bit_0/comp_p_2/latch_left VGND 8.297646f **FLOATING
+C119 flashADC_3bit_0/comp_p_0/latch_right VGND 7.581673f **FLOATING
+C120 flashADC_3bit_0/comp_p_0/out_left VGND 6.310432f **FLOATING
+C121 flashADC_3bit_0/comp_p_0/latch_left VGND 8.287999f **FLOATING
+C122 flashADC_3bit_0/comp_p_1/latch_right VGND 5.574546f **FLOATING
+C123 flashADC_3bit_0/comp_p_1/out_left VGND 4.11581f **FLOATING
+C124 flashADC_3bit_0/comp_p_1/latch_left VGND 5.944707f **FLOATING
+C125 flashADC_3bit_0/comp_p_1/vinn VGND 8.658644f
+C126 flashADC_3bit_0/comp_p_0/vinn VGND 6.298379f
+C127 flashADC_3bit_0/comp_p_2/vinn VGND 4.906179f
+C128 flashADC_3bit_0/comp_p_3/vinn VGND 9.608513f
+C129 flashADC_3bit_0/comp_p_4/vinn VGND 4.568717f
+C130 flashADC_3bit_0/comp_p_5/vinn VGND 7.112859f
+C131 flashADC_3bit_0/comp_p_6/vinn VGND 9.79437f
+C132 ua[1] VGND 25.594332f
+C133 flashADC_3bit_0/vbias_generation_0/bias_n VGND 3.404843f
+C134 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 VGND 2.006146f

@@ -16,24 +16,24 @@ node "m1_160_600#" 0 37.2059 160 600 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "in" 0 46.9747 -180 600 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6400 320 0 0 0 0 0 0 0 0 0 0
 node "vdd" 1 379.537 -220 1400 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67360 1844 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "in" "vdd" 4.58333
-cap "m1_160_600#" "vdd" 4.58333
-cap "vdd" "out" 4.58333
-cap "in" "m1_160_600#" 11.3548
+cap "vdd" "in" 4.58333
+cap "out" "vss" 6.4
 cap "m1_160_600#" "out" 10.6667
+cap "m1_160_600#" "vss" 6.4
+cap "vdd" "out" 4.58333
 cap "vdd" "vss" 19.6499
 cap "in" "vss" 6.4
-cap "m1_160_600#" "vss" 6.4
-cap "out" "vss" 6.4
-cap "inv_1/vss" "inv_1/vdd" -27.1164
-cap "inv_1/vin" "inv_1/vss" 69.471
+cap "m1_160_600#" "vdd" 4.58333
+cap "m1_160_600#" "in" 11.3548
 cap "inv_1/vin" "inv_1/vdd" 160.173
 cap "inv_1/vss" "inv_1/vout" -2.57832
-cap "inv_1/vin" "inv_1/vout" -3.5639
-cap "inv_1/vdd" "inv_1/vout" 1.31018
+cap "inv_1/vss" "inv_1/vdd" -27.1164
+cap "inv_0/vin" "inv_1/vin" 4.92608
+cap "inv_1/vout" "inv_1/vdd" 1.31018
 cap "inv_1/vss" "inv_0/vin" 4.93092
-cap "inv_1/vin" "inv_0/vin" 4.92608
-cap "inv_1/vdd" "inv_0/vin" 15.0661
+cap "inv_1/vss" "inv_1/vin" 69.471
+cap "inv_0/vin" "inv_1/vdd" 15.0661
+cap "inv_1/vin" "inv_1/vout" -3.5639
 merge "inv_0/VSUBS" "inv_1/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "inv_1/VSUBS" "VSUBS"
 merge "inv_0/vout" "inv_1/vin" -285.696 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -320 0 0 0 0 0 0 0 0 0 0
