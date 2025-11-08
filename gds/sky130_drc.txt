@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>SKY130 DRC runset</description>
- <original-file>tt_um_tinyflash.gds</original-file>
+ <original-file>/home/vincef/projects/ttsky25b_tinyflash/gds/tt_um_tinyflash.gds</original-file>
  <generator>drc: script='/usr/local/share/pdk/sky130A/libs.tech/klayout/macros/run_drc_full.lydrc'</generator>
  <top-cell>tt_um_tinyflash</top-cell>
  <tags>
@@ -1554,65 +1554,5 @@
   </cell>
  </cells>
  <items>
-  <item>
-   <tags/>
-   <category>'nwell.1'</category>
-   <cell>tt_um_tinyflash</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (147.776,209.068;141.757,209.068)|(141.757,209.299;147.776,209.299)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>nwell_OFFGRID</category>
-   <cell>tt_um_tinyflash</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (141.757,209.068;141.757,209.068)/(141.757,209.068;141.757,209.068)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>nwell_OFFGRID</category>
-   <cell>tt_um_tinyflash</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (141.757,209.299;141.757,209.299)/(141.757,209.299;141.757,209.299)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>nwell_OFFGRID</category>
-   <cell>tt_um_tinyflash</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (147.776,209.299;147.776,209.299)/(147.776,209.299;147.776,209.299)</value>
-   </values>
-  </item>
-  <item>
-   <tags/>
-   <category>nwell_OFFGRID</category>
-   <cell>tt_um_tinyflash</cell>
-   <visited>false</visited>
-   <multiplicity>1</multiplicity>
-   <comment/>
-   <image/>
-   <values>
-    <value>edge-pair: (147.776,209.068;147.776,209.068)/(147.776,209.068;147.776,209.068)</value>
-   </values>
-  </item>
  </items>
 </report-database>

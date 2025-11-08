@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<report-database>
+ <description>SKY130 DRC runset</description>
+ <original-file/>
+ <generator>drc: script='tech-files/nwell_urpm.drc'</generator>
+ <top-cell>tt_um_tinyflash</top-cell>
+ <tags>
+ </tags>
+ <categories>
+  <category>
+   <name>nwell space to urpm</name>
+   <description>nwell space to urpm: min. nwell spacing to urpm 0.7um</description>
+   <categories>
+   </categories>
+  </category>
+ </categories>
+ <cells>
+  <cell>
+   <name>tt_um_tinyflash</name>
+   <variant/>
+   <layout-name/>
+   <references>
+   </references>
+  </cell>
+  <cell>
+   <name>flashADC_3bit</name>
+   <variant/>
+   <layout-name>flashADC_3bit</layout-name>
+   <references>
+    <ref>
+     <parent>tt_um_tinyflash</parent>
+     <trans>r0 *1 27.29,198.24</trans>
+    </ref>
+   </references>
+  </cell>
+ </cells>
+ <items>
+  <item>
+   <tags/>
+   <category>'nwell space to urpm'</category>
+   <cell>flashADC_3bit</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (11.015,-51.96;23.185,-51.96)/(22.88,-51.33;11.32,-51.33)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'nwell space to urpm'</category>
+   <cell>flashADC_3bit</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (23.51,-51.635;23.51,-42.45)/(22.88,-42.145;22.88,-51.33)</value>
+   </values>
+  </item>
+ </items>
+</report-database>
