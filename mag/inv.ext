@@ -17,22 +17,22 @@ node "m1_160_1240#" 0 23.7282 160 1240 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "vss" 110 430.761 -20 -40 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13600 760 67360 1804 0 0 0 0 0 0 0 0 0 0
 node "vdd" 110 503.187 -20 1340 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13600 760 96440 2240 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_160_80#" "vin" 8.51613
-cap "vss" "m1_160_80#" 49.641
-cap "m1_160_1240#" "vin" 4.98113
 cap "vdd" "m1_160_1240#" 50.3077
-cap "vout" "vin" 121.846
-cap "vout" "vss" 101.389
-cap "vss" "vin" 26.7826
-cap "vdd" "vout" 178.53
 cap "vdd" "vin" 26.7826
+cap "m1_160_80#" "vin" 8.51613
+cap "vin" "vout" 121.846
+cap "vdd" "vout" 178.53
+cap "vss" "vin" 26.7826
 cap "vdd" "vss" 9.10831
-cap "XMp/B" "XMp/S" -58.5496
-cap "XMp/G" "XMp/S" 4.72989
-cap "XMp/B" "XMp/G" 60.6676
-cap "XMn/B" "XMp/S" -21.4333
+cap "vin" "m1_160_1240#" 4.98113
+cap "m1_160_80#" "vss" 49.641
+cap "vss" "vout" 101.389
+cap "XMp/S" "XMp/B" -58.5496
 cap "XMn/B" "XMp/B" 89.369
-cap "XMn/B" "XMp/G" 42.7234
+cap "XMp/G" "XMp/S" 4.72989
+cap "XMp/G" "XMn/B" 42.7234
+cap "XMp/S" "XMn/B" -21.4333
+cap "XMp/G" "XMp/B" 60.6676
 merge "XMn/D" "XMp/VSUBS" -305.372 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11560 -748 -6480 -432 0 0 0 0 0 0 0 0 0 0
 merge "XMp/VSUBS" "VSUBS"
 merge "VSUBS" "XMn/B"

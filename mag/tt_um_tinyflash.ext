@@ -1,0 +1,1245 @@
+timestamp 1762619231
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use vbias_generation vbias_generation_0 0 1 15840 -1 0 30598
+use comp_p comp_p_0 1 0 17748 0 1 37900
+use comp_p comp_p_1 1 0 17748 0 -1 40828
+use comp_p comp_p_2 1 0 17748 0 1 30496
+use res_ladder_vref res_ladder_vref_0 1 0 11014 0 1 33164
+use comp_p comp_p_3 1 0 23110 0 1 37900
+use comp_p comp_p_4 1 0 23110 0 -1 40828
+use comp_p comp_p_5 1 0 23110 0 1 30496
+use comp_p comp_p_6 1 0 23108 0 -1 33424
+use tmux_7therm_to_3bin tmux_7therm_to_3bin_0 1 0 25620 0 1 41550
+port "ua[0]" 3 30362 0 30542 200 m4
+port "ua[1]" 4 26498 0 26678 200 m4
+port "ua[2]" 5 22634 0 22814 200 m4
+port "ua[3]" 6 18770 0 18950 200 m4
+port "ua[4]" 7 14906 0 15086 200 m4
+port "ua[5]" 8 11042 0 11222 200 m4
+port "ua[6]" 9 7178 0 7358 200 m4
+port "ua[7]" 10 3314 0 3494 200 m4
+port "VGND" 52 800 1000 1200 44152 m4
+port "VDPWR" 51 200 1000 600 44152 m4
+port "ena" 1 29318 44952 29378 45152 m4
+port "clk" 0 28766 44952 28826 45152 m4
+port "rst_n" 2 28214 44952 28274 45152 m4
+port "ui_in[0]" 11 27662 44952 27722 45152 m4
+port "ui_in[1]" 12 27110 44952 27170 45152 m4
+port "ui_in[2]" 13 26558 44952 26618 45152 m4
+port "ui_in[3]" 14 26006 44952 26066 45152 m4
+port "ui_in[4]" 15 25454 44952 25514 45152 m4
+port "ui_in[5]" 16 24902 44952 24962 45152 m4
+port "ui_in[6]" 17 24350 44952 24410 45152 m4
+port "ui_in[7]" 18 23798 44952 23858 45152 m4
+port "uio_in[0]" 19 23246 44952 23306 45152 m4
+port "uio_in[1]" 20 22694 44952 22754 45152 m4
+port "uio_in[2]" 21 22142 44952 22202 45152 m4
+port "uio_in[3]" 22 21590 44952 21650 45152 m4
+port "uio_in[4]" 23 21038 44952 21098 45152 m4
+port "uio_in[5]" 24 20486 44952 20546 45152 m4
+port "uio_in[6]" 25 19934 44952 19994 45152 m4
+port "uio_in[7]" 26 19382 44952 19442 45152 m4
+port "uo_out[0]" 43 18830 44952 18890 45152 m4
+port "uo_out[1]" 44 18278 44952 18338 45152 m4
+port "uo_out[2]" 45 17726 44952 17786 45152 m4
+port "uo_out[3]" 46 17174 44952 17234 45152 m4
+port "uo_out[4]" 47 16622 44952 16682 45152 m4
+port "uo_out[5]" 48 16070 44952 16130 45152 m4
+port "uo_out[6]" 49 15518 44952 15578 45152 m4
+port "uo_out[7]" 50 14966 44952 15026 45152 m4
+port "uio_out[0]" 35 14414 44952 14474 45152 m4
+port "uio_out[1]" 36 13862 44952 13922 45152 m4
+port "uio_out[2]" 37 13310 44952 13370 45152 m4
+port "uio_out[3]" 38 12758 44952 12818 45152 m4
+port "uio_out[4]" 39 12206 44952 12266 45152 m4
+port "uio_out[5]" 40 11654 44952 11714 45152 m4
+port "uio_out[6]" 41 11102 44952 11162 45152 m4
+port "uio_out[7]" 42 10550 44952 10610 45152 m4
+port "uio_oe[0]" 27 9998 44952 10058 45152 m4
+port "uio_oe[1]" 28 9446 44952 9506 45152 m4
+port "uio_oe[2]" 29 8894 44952 8954 45152 m4
+port "uio_oe[3]" 30 8342 44952 8402 45152 m4
+port "uio_oe[4]" 31 7790 44952 7850 45152 m4
+port "uio_oe[5]" 32 7238 44952 7298 45152 m4
+port "uio_oe[6]" 33 6686 44952 6746 45152 m4
+port "uio_oe[7]" 34 6134 44952 6194 45152 m4
+node "ua[0]" 0 146.962 30362 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[1]" 0 146.962 26498 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[2]" 0 146.962 22634 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[3]" 0 146.962 18770 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[4]" 0 146.962 14906 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[5]" 0 146.962 11042 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[6]" 0 146.962 7178 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36000 760 0 0 0 0
+node "ua[7]" 10 15702.4 3314 0 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6954840 77636 0 0 0 0
+node "VGND" 5 12534.7 800 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17260800 87104 0 0 0 0
+node "VDPWR" 5 12534.7 200 1000 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17260800 87104 0 0 0 0
+node "ena" 0 70.3847 29318 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "clk" 0 42.8754 28766 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "rst_n" 0 42.8754 28214 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[0]" 0 42.8754 27662 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[1]" 0 42.8754 27110 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[2]" 0 42.8754 26558 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[3]" 0 42.8754 26006 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[4]" 0 42.8754 25454 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[5]" 0 42.8754 24902 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[6]" 0 42.8754 24350 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "ui_in[7]" 0 42.8754 23798 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[0]" 0 42.8754 23246 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[1]" 0 42.8754 22694 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[2]" 0 42.8754 22142 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[3]" 0 42.8754 21590 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[4]" 0 42.8754 21038 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[5]" 0 42.8754 20486 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[6]" 0 42.8754 19934 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_in[7]" 0 42.8754 19382 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[0]" 0 42.8754 18830 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[1]" 0 42.8754 18278 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[2]" 0 42.8754 17726 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[3]" 0 42.8754 17174 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[4]" 0 42.8754 16622 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[5]" 0 42.8754 16070 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[6]" 0 42.8754 15518 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uo_out[7]" 0 42.8754 14966 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[0]" 0 42.8754 14414 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[1]" 0 42.8754 13862 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[2]" 0 42.8754 13310 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[3]" 0 42.8754 12758 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[4]" 0 42.8754 12206 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[5]" 0 42.8754 11654 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[6]" 0 42.8754 11102 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_out[7]" 0 42.8754 10550 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[0]" 0 42.8754 9998 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[1]" 0 42.8754 9446 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[2]" 0 42.8754 8894 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[3]" 0 42.8754 8342 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[4]" 0 42.8754 7790 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[5]" 0 42.8754 7238 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[6]" 0 42.8754 6686 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "uio_oe[7]" 0 70.3847 6134 44952 m4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12000 520 0 0 0 0
+node "w_19868_33038#" 20773 3778.56 19868 33038 nw 0 0 0 0 1259520 10976 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_19868_40442#" 9814 1999.49 19868 40442 nw 0 0 0 0 666496 5756 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "uio_oe[1]" "uio_oe[0]" 31.0231
+cap "uo_out[6]" "uo_out[5]" 31.0231
+cap "uio_oe[6]" "uio_oe[5]" 31.0231
+cap "uo_out[7]" "uio_out[0]" 31.0231
+cap "uio_in[2]" "uio_in[1]" 31.0231
+cap "uio_in[5]" "uio_in[4]" 31.0231
+cap "uio_in[1]" "uio_in[0]" 31.0231
+cap "ui_in[6]" "ui_in[7]" 31.0231
+cap "uio_out[4]" "uio_out[3]" 31.0231
+cap "uio_out[7]" "uio_oe[0]" 31.0231
+cap "VGND" "VDPWR" 12918.1
+cap "ui_in[5]" "ui_in[6]" 31.0231
+cap "uio_out[7]" "uio_out[6]" 31.0231
+cap "uo_out[3]" "uo_out[4]" 31.0231
+cap "uio_out[4]" "uio_out[5]" 31.0231
+cap "ui_in[0]" "rst_n" 31.0231
+cap "uo_out[5]" "uo_out[4]" 31.0231
+cap "uio_in[4]" "uio_in[3]" 31.0231
+cap "ui_in[0]" "ui_in[1]" 31.0231
+cap "uio_oe[3]" "uio_oe[2]" 31.0231
+cap "uio_oe[7]" "uio_oe[6]" 31.0231
+cap "ui_in[5]" "ui_in[4]" 31.0231
+cap "uio_in[6]" "uio_in[7]" 31.0231
+cap "uio_out[2]" "uio_out[3]" 31.0231
+cap "ui_in[3]" "ui_in[4]" 31.0231
+cap "uo_out[7]" "uo_out[6]" 31.0231
+cap "uio_out[2]" "uio_out[1]" 31.0231
+cap "uio_in[2]" "uio_in[3]" 31.0231
+cap "uio_oe[1]" "uio_oe[2]" 31.0231
+cap "uio_out[1]" "uio_out[0]" 31.0231
+cap "ui_in[2]" "ui_in[3]" 31.0231
+cap "uio_in[0]" "ui_in[7]" 31.0231
+cap "uio_oe[4]" "uio_oe[3]" 31.0231
+cap "ena" "clk" 31.0231
+cap "uio_out[5]" "uio_out[6]" 31.0231
+cap "uio_in[5]" "uio_in[6]" 31.0231
+cap "uio_oe[4]" "uio_oe[5]" 31.0231
+cap "ui_in[2]" "ui_in[1]" 31.0231
+cap "uo_out[1]" "uo_out[0]" 31.0231
+cap "clk" "rst_n" 31.0231
+cap "uo_out[0]" "uio_in[7]" 31.0231
+cap "uo_out[1]" "uo_out[2]" 31.0231
+cap "uo_out[3]" "uo_out[2]" 31.0231
+cap "res_ladder_vref_0/vss" "ua[7]" 1.98988
+cap "vbias_generation_0/vss" "vbias_generation_0/vdd" 1.6051
+cap "vbias_generation_0/XR_bias_2/B" "comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 2.38446
+cap "comp_p_6/tail" "vbias_generation_0/vdd" 0.703443
+cap "vbias_generation_0/XR_bias_2/R2" "comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 2.73099
+cap "vbias_generation_0/bias_p" "comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 34.7392
+cap "vbias_generation_0/XR_bias_2/B" "vbias_generation_0/vdd" 1.36739
+cap "vbias_generation_0/vdd" "comp_p_6/vbias_p" 15.7729
+cap "vbias_generation_0/XR_bias_2/B" "comp_p_6/vbias_p" 1.21201
+cap "comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "vbias_generation_0/vdd" 197.764
+cap "vbias_generation_0/bias_p" "vbias_generation_0/vdd" 8.65234
+cap "vbias_generation_0/vdd" "comp_p_6/tail" 0.700452
+cap "vbias_generation_0/vdd" "comp_p_6/vbias_p" 3.01363
+cap "comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "vbias_generation_0/vdd" -2.27374e-13
+cap "res_ladder_vref_0/ref0" "ua[7]" 1.1414
+cap "res_ladder_vref_0/vss" "ua[7]" 69.9402
+cap "vbias_generation_0/vss" "vbias_generation_0/bias_n" 0.00237696
+cap "comp_p_2/out_left" "vbias_generation_0/bias_n" 0.000107075
+cap "vbias_generation_0/bias_n" "comp_p_2/XMn_out_left/a_n100_n588#" 0.000537674
+cap "comp_p_2/out_left" "vbias_generation_0/bias_n" 0.00610328
+cap "comp_p_2/XMn_out_left/a_n100_n588#" "vbias_generation_0/bias_n" 0.446481
+cap "vbias_generation_0/vss" "vbias_generation_0/bias_n" 14.6467
+cap "vbias_generation_0/vss" "vbias_generation_0/XR_bias_3/R2" 5.95054
+cap "vbias_generation_0/XR_bias_3/R2" "vbias_generation_0/vss" 7.48479
+cap "comp_p_6/latch_left" "vbias_generation_0/vss" 0.0141
+cap "vbias_generation_0/vss" "vbias_generation_0/vdd" 2.80241
+cap "vbias_generation_0/vss" "comp_p_6/latch_right" 0.00184652
+cap "comp_p_6/out_left" "vbias_generation_0/vss" 0.01079
+cap "vbias_generation_0/bias_p" "vbias_generation_0/vss" 12.638
+cap "vbias_generation_0/XR_bias_2/B" "vbias_generation_0/bias_p" 1.28036
+cap "comp_p_6/latch_right" "vbias_generation_0/vdd" 3.33084
+cap "comp_p_6/out_left" "vbias_generation_0/XR_bias_2/R1" 1.02341
+cap "comp_p_6/out_left" "vbias_generation_0/vdd" 376.519
+cap "comp_p_6/latch_left" "vbias_generation_0/vdd" 0.919493
+cap "vbias_generation_0/bias_p" "vbias_generation_0/vdd" 9.38709
+cap "comp_p_6/tail" "vbias_generation_0/vdd" 4.97609
+cap "vbias_generation_0/bias_p" "comp_p_6/latch_right" 0.0761818
+cap "vbias_generation_0/XR_bias_2/B" "vbias_generation_0/vdd" 0.496323
+cap "comp_p_6/out_left" "vbias_generation_0/bias_p" 66.3835
+cap "comp_p_6/latch_left" "vbias_generation_0/bias_p" 0.122095
+cap "comp_p_6/out_left" "vbias_generation_0/XR_bias_2/B" 3.75617
+cap "vbias_generation_0/XR_bias_2/R1" "vbias_generation_0/vdd" 0.00139335
+cap "vbias_generation_0/vdd" "comp_p_6/latch_left" -7.10543e-15
+cap "comp_p_5/vss" "comp_p_6/tail" 0.010721
+cap "vbias_generation_0/vdd" "comp_p_6/vbias_p" -5.55112e-17
+cap "vbias_generation_0/vdd" "comp_p_5/vss" 0.0263412
+cap "vbias_generation_0/vdd" "comp_p_6/tail" -4.54747e-13
+cap "comp_p_6/latch_right" "vbias_generation_0/vdd" 1.36424e-12
+cap "comp_p_6/vinn" "comp_p_5/vss" 0.0400186
+cap "comp_p_5/vss" "comp_p_6/vinp" 0.0235586
+cap "comp_p_6/tail" "comp_p_5/vss" 0.0117722
+cap "comp_p_6/vinn" "comp_p_5/vss" 0.0424237
+cap "vbias_generation_0/vss" "res_ladder_vref_0/ref0" 19.5556
+cap "vbias_generation_0/bias_n" "vbias_generation_0/vss" 0.0127696
+cap "vbias_generation_0/bias_n" "vbias_generation_0/vss" 14.4809
+cap "vbias_generation_0/XR_bias_3/R2" "vbias_generation_0/vss" 5.95054
+cap "vbias_generation_0/bias_n" "comp_p_2/latch_right" 0.151364
+cap "vbias_generation_0/vss" "comp_p_2/latch_right" 0.072203
+cap "vbias_generation_0/bias_n" "comp_p_2/XMn_diode_left1/a_n100_n488#" 0.594692
+cap "vbias_generation_0/vss" "comp_p_2/XMn_diode_left1/a_n100_n488#" 0.0518821
+cap "comp_p_6/latch_left" "vbias_generation_0/vss" 0.142558
+cap "vbias_generation_0/vss" "vbias_generation_0/XR_bias_1/R2" 12.4985
+cap "comp_p_2/latch_right" "vbias_generation_0/XR_bias_3/R2" 0.0599849
+cap "comp_p_6/out_left" "vbias_generation_0/vss" 0.082723
+cap "vbias_generation_0/vss" "vbias_generation_0/vdd" 5.41067
+cap "comp_p_2/latch_right" "vbias_generation_0/vss" 0.0319036
+cap "vbias_generation_0/XR_bias_3/R2" "vbias_generation_0/vss" 7.48479
+cap "vbias_generation_0/vdd" "vbias_generation_0/XR_bias_1/B" 0.664139
+cap "vbias_generation_0/XR_bias_1/B" "comp_p_6/out_left" 22.0199
+cap "comp_p_5/latch_left" "comp_p_6/latch_left" 0.986136
+cap "vbias_generation_0/vdd" "comp_p_6/latch_left" 4.81159
+cap "comp_p_5/out_left" "comp_p_6/out_left" 30.9884
+cap "w_19868_33038#" "vbias_generation_0/XR_bias_1/B" 0.027779
+cap "vbias_generation_0/vdd" "comp_p_6/out_left" 22.8883
+cap "vbias_generation_0/vdd" "comp_p_6/latch_right" 0.0304664
+cap "vbias_generation_0/XR_bias_1/B" "comp_p_6/latch_left" 1.05353
+cap "w_19868_33038#" "comp_p_6/out_left" 0.00622524
+cap "vbias_generation_0/XR_bias_1/R2" "vbias_generation_0/XR_bias_1/B" 1.15789
+cap "comp_p_5/out_left" "comp_p_6/latch_left" 0.00484072
+cap "comp_p_5/latch_left" "comp_p_5/vss" 2.65399
+cap "comp_p_6/out_left" "comp_p_5/out_left" 37.7131
+cap "w_19868_33038#" "comp_p_6/latch_left" 0.01967
+cap "comp_p_5/latch_left" "vbias_generation_0/vdd" 0.0214911
+cap "comp_p_5/vinn" "comp_p_6/latch_left" 0.00182113
+cap "comp_p_5/latch_right" "comp_p_6/latch_left" 0.00323394
+cap "comp_p_5/latch_left" "comp_p_6/latch_left" 12.634
+cap "comp_p_6/out_left" "comp_p_5/latch_left" 14.6936
+cap "comp_p_6/latch_right" "vbias_generation_0/vdd" 2.66454e-14
+cap "comp_p_5/vss" "comp_p_6/latch_left" 2.66605
+cap "comp_p_6/latch_left" "vbias_generation_0/vdd" -1.42109e-14
+cap "comp_p_6/latch_right" "comp_p_5/latch_left" 0.00323394
+cap "comp_p_6/out_left" "comp_p_5/vss" 16.473
+cap "comp_p_5/latch_right" "comp_p_6/XMn_out_right/a_100_n500#" 14.7632
+cap "comp_p_5/vss" "comp_p_6/XMn_out_right/a_100_n500#" 14.2496
+cap "comp_p_5/latch_left" "comp_p_6/latch_right" 0.00348029
+cap "comp_p_5/latch_right" "comp_p_6/vinn" 0.00182113
+cap "comp_p_6/latch_left" "comp_p_5/latch_right" 0.00348029
+cap "comp_p_5/vinn" "comp_p_6/latch_right" 0.00182113
+cap "comp_p_6/vdd" "comp_p_5/latch_right" 0.01967
+cap "comp_p_6/latch_right" "comp_p_5/XMn_out_right/a_100_n500#" 0.00242173
+cap "comp_p_6/latch_right" "comp_p_5/vdd" 0.01967
+cap "comp_p_5/vss" "comp_p_5/latch_right" 2.64158
+cap "comp_p_5/latch_left" "comp_p_6/XMn_out_right/a_100_n500#" 0.00206809
+cap "comp_p_6/latch_right" "comp_p_5/latch_right" 12.61
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_6/XMn_out_right/a_100_n500#" 32.8326
+cap "comp_p_5/vdd" "comp_p_6/XMn_out_right/a_100_n500#" 0.00312246
+cap "comp_p_6/latch_right" "comp_p_5/vss" 2.64158
+cap "comp_p_6/XMn_out_right/a_100_n500#" "comp_p_5/vss" 22.6426
+cap "comp_p_5/latch_right" "comp_p_6/latch_right" 1.01142
+cap "comp_p_6/latch_right" "comp_p_5/vss" 1.06992
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_6/XMn_out_right/a_100_n500#" 34.9419
+cap "comp_p_2/latch_right" "res_ladder_vref_0/ref0" 2.07637
+cap "comp_p_2/vinn" "res_ladder_vref_0/ref2" 3.28358
+cap "comp_p_2/out_left" "vbias_generation_0/XMn_bias/B" 9.20118
+cap "res_ladder_vref_0/ref0" "vbias_generation_0/XMn_bias/B" 34.8105
+cap "comp_p_2/vdd" "vbias_generation_0/XMn_bias/B" 18.882
+cap "comp_p_2/vinn" "res_ladder_vref_0/ref0" 5.98828
+cap "comp_p_2/out_left" "res_ladder_vref_0/ref2" 0.9538
+cap "vbias_generation_0/XMn_bias/B" "comp_p_2/latch_left" 0.800228
+cap "comp_p_2/latch_right" "vbias_generation_0/XMn_bias/B" 0.0266693
+cap "comp_p_2/vdd" "res_ladder_vref_0/ref2" 0.81859
+cap "res_ladder_vref_0/ref0" "comp_p_2/out_left" 14.7505
+cap "vbias_generation_0/XMn_bias/B" "comp_p_2/vinp" 0.0398133
+cap "res_ladder_vref_0/ref0" "comp_p_2/vdd" 9.71038
+cap "comp_p_2/vinn" "vbias_generation_0/XMn_bias/B" 1.12463
+cap "res_ladder_vref_0/ref0" "comp_p_2/latch_left" 20.8543
+cap "vbias_generation_0/XR_bias_4/R2" "comp_p_2/out_left" 0.000395133
+cap "comp_p_2/out_left" "vbias_generation_0/XR_bias_4/B" 0.135053
+cap "vbias_generation_0/XR_bias_4/R2" "comp_p_2/XMn_out_right/a_100_n500#" 0.0182599
+cap "comp_p_2/out_left" "vbias_generation_0/XR_bias_4/B" 0.0637637
+cap "vbias_generation_0/XR_bias_4/R2" "comp_p_2/out_left" 0.00901932
+cap "comp_p_2/XMn_out_right/a_100_n500#" "vbias_generation_0/XR_bias_4/B" 0.518154
+cap "comp_p_2/latch_left" "comp_p_5/latch_left" 0.824207
+cap "comp_p_5/out_left" "comp_p_2/vinn" 0.125666
+cap "comp_p_2/tail" "comp_p_5/vinn" 1.03265
+cap "w_19868_33038#" "comp_p_2/latch_right" 3.03379
+cap "comp_p_2/latch_right" "comp_p_5/latch_left" 13.5932
+cap "comp_p_5/vinp" "comp_p_2/vinn" 0.624303
+cap "comp_p_2/vinn" "w_19868_33038#" 7.55343
+cap "comp_p_5/latch_right" "comp_p_2/latch_right" 0.824207
+cap "comp_p_5/out_left" "comp_p_2/tail" 0.0526665
+cap "comp_p_5/vinn" "comp_p_2/latch_left" 1.1405
+cap "comp_p_2/tail" "w_19868_33038#" 1.648
+cap "vbias_generation_0/XR_bias_4/B" "comp_p_2/XMn_out_right/a_100_n500#" 0.68319
+cap "comp_p_5/out_left" "comp_p_2/latch_left" 0.0898137
+cap "comp_p_5/out_left" "vbias_generation_0/XR_bias_4/B" 0.106682
+cap "comp_p_2/vinn" "comp_p_5/vinn" 3.64705
+cap "comp_p_6/vinn" "comp_p_2/XMn_out_right/a_100_n500#" 0.813473
+cap "comp_p_5/out_left" "comp_p_2/latch_right" 1.02733
+cap "w_19868_33038#" "comp_p_2/latch_left" 3.40227
+cap "vbias_generation_0/XR_bias_4/B" "comp_p_2/latch_right" 1.13334
+cap "comp_p_2/XMn_out_right/a_100_n500#" "comp_p_5/vinn" 1.20563
+cap "comp_p_2/vinn" "comp_p_5/vinn" 3.89421
+cap "w_19868_33038#" "vbias_generation_0/XR_bias_1/B" 1.06581e-14
+cap "comp_p_5/vinp" "w_19868_33038#" 2.4544
+cap "comp_p_5/latch_right" "w_19868_33038#" 1.63794
+cap "comp_p_5/latch_left" "vbias_generation_0/XR_bias_1/B" 2.1124
+cap "comp_p_6/out_left" "comp_p_5/out_left" 30.9884
+cap "comp_p_2/latch_right" "comp_p_5/vinn" 0.250982
+cap "comp_p_5/out_left" "vbias_generation_0/XR_bias_1/B" 21.7615
+cap "comp_p_2/XMn_out_right/a_100_n500#" "w_19868_33038#" 28.9438
+cap "comp_p_2/XMn_out_right/a_100_n500#" "comp_p_5/latch_left" 1.02766
+cap "comp_p_2/XMn_out_right/a_100_n500#" "comp_p_5/out_left" 176.136
+cap "comp_p_2/latch_right" "comp_p_5/latch_left" 13.5934
+cap "comp_p_2/XMn_out_right/a_100_n500#" "comp_p_6/vinn" 0.117838
+cap "comp_p_5/vinp" "vbias_generation_0/XR_bias_1/B" 0.0434382
+cap "comp_p_5/vinn" "w_19868_33038#" 28.1736
+cap "comp_p_5/vinp" "comp_p_2/vinn" 0.625276
+cap "comp_p_2/XMn_out_right/a_100_n500#" "vbias_generation_0/XR_bias_1/B" 1.21909
+cap "comp_p_5/vinp" "comp_p_2/XMn_out_right/a_100_n500#" 0.019335
+cap "comp_p_5/latch_right" "comp_p_2/XMn_out_right/a_100_n500#" 0.0334425
+cap "comp_p_2/XMn_cs_right1/a_100_n500#" "comp_p_5/vinn" 1.45448
+cap "comp_p_5/latch_right" "comp_p_2/latch_right" 0.824207
+cap "comp_p_5/latch_left" "w_19868_33038#" 3.04936
+cap "comp_p_5/vinn" "comp_p_2/tail" 1.20785
+cap "comp_p_5/out_left" "w_19868_33038#" 29.1054
+cap "comp_p_6/latch_left" "comp_p_5/latch_left" 0.986136
+cap "comp_p_2/XMn_cs_right1/a_100_n500#" "comp_p_5/latch_left" 0.824207
+cap "comp_p_6/XMn_cs_left/a_100_n500#" "comp_p_5/out_left" 0.00160925
+cap "comp_p_5/out_left" "comp_p_6/vinn" 0.00312246
+cap "comp_p_5/out_left" "comp_p_6/out_left" 37.7164
+cap "comp_p_5/out_left" "comp_p_6/latch_left" 14.7589
+cap "comp_p_5/latch_left" "comp_p_6/latch_left" 0.0252824
+cap "comp_p_5/tail" "comp_p_5/vss" 0.010721
+cap "comp_p_5/out_left" "comp_p_5/vss" 16.4897
+cap "comp_p_5/vinp" "comp_p_5/vss" 0.0246346
+cap "comp_p_5/vss" "comp_p_5/latch_left" 0.0806942
+cap "comp_p_5/vinp" "comp_p_5/vss" 0.0252652
+cap "comp_p_5/vinn" "comp_p_5/vss" 0.0400186
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_6/latch_right" 14.6912
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_6/XMn_out_right/a_100_n500#" 32.8293
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_5/vss" 14.2061
+cap "comp_p_5/tail" "comp_p_5/vss" 0.0117722
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/tail" 1.00937
+cap "comp_p_5/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 17.5324
+cap "comp_p_5/vinn" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 0.350226
+cap "comp_p_5/vdd" "tmux_7therm_to_3bin_0/buffer_5/vdd" 7.0575
+cap "comp_p_6/XMn_out_right/a_100_n500#" "comp_p_5/XMn_out_right/a_100_n500#" 34.9419
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_6/vdd" 0.00622524
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/vinn" 2.87199
+cap "comp_p_5/tail" "tmux_7therm_to_3bin_0/buffer_5/vdd" 0.406987
+cap "comp_p_5/vinn" "comp_p_5/vss" 0.0968391
+cap "comp_p_5/vdd" "comp_p_5/tail" -3.55271e-15
+cap "comp_p_5/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 2.73764
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/vinn" 0.00986407
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/vdd" 0.318639
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/XMn_out_right/a_100_n500#" 3.20927
+cap "comp_p_5/vss" "comp_p_5/latch_right" 6.85136
+cap "comp_p_5/vinn" "tmux_7therm_to_3bin_0/buffer_5/vdd" 1.82345
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/latch_left" 1.35175
+cap "comp_p_6/latch_right" "comp_p_5/latch_right" 1.0096
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_5/vss" 34.4527
+cap "comp_p_5/latch_left" "comp_p_5/vss" 1.03556
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/vdd" 0.690712
+cap "comp_p_5/vdd" "comp_p_5/vss" 2.44754
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/XMn_out_right/a_100_n500#" 0.625711
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/vdd" 0.0409329
+cap "comp_p_5/XMn_cs_right1/a_100_n500#" "comp_p_5/vss" 1.28834
+cap "comp_p_5/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d6" 0.9683
+cap "comp_p_5/latch_right" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 0.0192805
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/XMn_out_right/a_100_n500#" 2.4539
+cap "comp_p_5/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 0.034159
+cap "comp_p_5/latch_right" "comp_p_5/vss" 5.95373
+cap "comp_p_5/vdd" "tmux_7therm_to_3bin_0/d6" 13.3925
+cap "comp_p_5/vdd" "tmux_7therm_to_3bin_0/buffer_5/vdd" 21.8759
+cap "comp_p_5/tail" "tmux_7therm_to_3bin_0/d6" 1.26744
+cap "comp_p_5/XMn_out_right/a_100_n500#" "comp_p_5/vss" 6.05226
+cap "comp_p_5/tail" "tmux_7therm_to_3bin_0/buffer_5/vdd" 0.460901
+cap "comp_p_5/vdd" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 0.875268
+cap "comp_p_5/vdd" "comp_p_5/vss" 13.6386
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "tmux_7therm_to_3bin_0/d6" 2.84217e-14
+cap "comp_p_5/vinn" "tmux_7therm_to_3bin_0/d6" 3.43207
+cap "comp_p_5/vinn" "tmux_7therm_to_3bin_0/buffer_5/vdd" 2.78026
+cap "comp_p_5/vss" "tmux_7therm_to_3bin_0/d6" 0.358332
+cap "comp_p_5/vinn" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 0.294455
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/vss" 1.19521
+cap "comp_p_5/vinn" "comp_p_5/vss" 0.0194556
+cap "comp_p_5/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/d6" 1.86904
+cap "comp_p_5/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 1.93948
+cap "comp_p_5/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 0.0132769
+cap "comp_p_5/latch_right" "tmux_7therm_to_3bin_0/d6" 0.456791
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/latch_right" 6.72492
+cap "comp_p_2/vinp" "res_ladder_vref_0/XR9/B" 0.2359
+cap "comp_p_1/vdd" "res_ladder_vref_0/XR9/B" 85.472
+cap "comp_p_2/tail" "res_ladder_vref_0/XR9/B" 0.0398675
+cap "res_ladder_vref_0/ref2" "res_ladder_vref_0/XR9/B" 1.13687e-13
+cap "res_ladder_vref_0/ref2" "comp_p_2/vinp" 4.68513
+cap "comp_p_2/vinn" "res_ladder_vref_0/XR9/B" 0.931319
+cap "res_ladder_vref_0/XR9/B" "comp_p_2/out_left" 9.10191
+cap "comp_p_1/vdd" "res_ladder_vref_0/ref2" 27.3512
+cap "res_ladder_vref_0/ref2" "comp_p_2/tail" 2.31503
+cap "comp_p_2/vinn" "comp_p_1/vdd" 0.192334
+cap "comp_p_2/vinn" "res_ladder_vref_0/ref2" 35.2173
+cap "res_ladder_vref_0/ref2" "comp_p_2/out_left" 22.1516
+cap "comp_p_1/vdd" "comp_p_2/vbias_p" 1.34324
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/vbias_p" 0.101894
+cap "comp_p_2/vbias_p" "comp_p_1/vbias_p" 0.503896
+cap "comp_p_2/tail" "comp_p_1/vdd" 0.06057
+cap "comp_p_2/vinp" "comp_p_1/vdd" 0.049164
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.596607
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/vout" 0.0486409
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/XMp_tail/a_n100_n1097#" 0.368831
+cap "comp_p_2/vinn" "comp_p_1/XMp_tail/a_n100_n1097#" 0.00866595
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/vdd" 3.30157
+cap "comp_p_2/vinn" "comp_p_1/vdd" 0.0475252
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/XMp_tail/a_n100_n1097#" 0.013569
+cap "comp_p_1/vdd" "comp_p_2/vinp" 49.4677
+cap "comp_p_1/vdd" "comp_p_2/latch_right" 2.42856
+cap "comp_p_2/vinn" "comp_p_5/vinp" 0.624303
+cap "comp_p_2/vinn" "comp_p_5/out_left" 0.0154679
+cap "comp_p_5/vinn" "comp_p_2/vinp" 15.9076
+cap "comp_p_5/vinn" "comp_p_2/latch_right" 1.52452
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_2/XMp_tail/a_n100_n1097#" 0.135065
+cap "comp_p_1/vdd" "comp_p_2/XMp_tail/a_n100_n1097#" 1.20643
+cap "comp_p_2/vinp" "comp_p_5/vinp" 2.26665
+cap "comp_p_5/tail" "comp_p_2/vinp" 1.2471
+cap "comp_p_1/vdd" "comp_p_2/vinn" 2.44605
+cap "comp_p_5/out_left" "comp_p_2/latch_right" 0.0775791
+cap "comp_p_2/vinp" "comp_p_5/out_left" 1.4171
+cap "comp_p_1/vout" "comp_p_2/XMp_tail/a_n100_n1097#" 0.0137428
+cap "comp_p_2/vout" "comp_p_5/vinp" 0.621625
+cap "comp_p_2/vinp" "comp_p_5/vinp" 2.07246
+cap "comp_p_5/out_left" "comp_p_1/vdd" 73.0472
+cap "comp_p_5/vinn" "comp_p_2/vout" 1.23682
+cap "comp_p_5/vinn" "comp_p_2/vinp" 15.8495
+cap "comp_p_5/vinn" "comp_p_2/latch_right" 1.56828
+cap "comp_p_5/vinn" "comp_p_2/XMn_cs_right1/a_100_n500#" 0.0255013
+cap "comp_p_2/vout" "comp_p_5/tail" 0.0528121
+cap "comp_p_2/vinp" "comp_p_5/tail" 1.03582
+cap "comp_p_1/vdd" "comp_p_5/vinp" 8.11527
+cap "comp_p_5/vinn" "comp_p_1/vdd" 40.5142
+cap "comp_p_1/vdd" "comp_p_5/tail" 1.65438
+cap "comp_p_2/vinn" "comp_p_5/vinp" 0.625276
+cap "comp_p_1/vdd" "comp_p_2/vout" 73.1836
+cap "comp_p_5/out_left" "comp_p_2/vout" 198.864
+cap "comp_p_5/vinn" "comp_p_2/vinn" 0.0940876
+cap "comp_p_4/vdd" "comp_p_5/tail" 0.0162764
+cap "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_5/vbias_p" 0.101894
+cap "comp_p_5/vbias_p" "comp_p_4/vbias_p" 0.503896
+cap "comp_p_4/vdd" "comp_p_5/vbias_p" 1.94449
+cap "comp_p_5/XMp_tail/a_n100_n1097#" "comp_p_4/vdd" 3.66147
+cap "comp_p_5/XMp_tail/a_n100_n1097#" "comp_p_4/XMp_tail/a_n100_n1097#" 0.503896
+cap "comp_p_5/vinp" "comp_p_4/vdd" 0.049164
+cap "comp_p_5/XMp_tail/a_n100_n1097#" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.610176
+cap "comp_p_5/vinn" "comp_p_4/vdd" 0.0475252
+cap "comp_p_5/XMp_tail/a_n100_n1097#" "comp_p_4/vout" 0.0623837
+cap "comp_p_5/vinn" "comp_p_4/XMp_tail/a_n100_n1097#" 0.00866595
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/vinn" 0.0933238
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/latch_right" 0.366696
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/latch_right" 0.0184588
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" 2.85049
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/vinn" 0.0463767
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/d6" 1.79637
+cap "comp_p_5/vinp" "tmux_7therm_to_3bin_0/buffer_5/vdd" 29.7766
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/vdd" 49.9831
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/vout" 7.38564
+cap "comp_p_5/vinp" "comp_p_4/vdd" 0.192334
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/d5" 2.03795
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/buffer_5/out" 7.50423
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/vinp" 0.0933238
+cap "comp_p_5/vinn" "tmux_7therm_to_3bin_0/buffer_5/vdd" 1.33338
+cap "comp_p_5/latch_right" "tmux_7therm_to_3bin_0/buffer_5/vdd" 1.63392
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/vinp" 0.0931746
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/buffer_5/vdd" 75.0831
+cap "comp_p_4/vdd" "comp_p_5/latch_right" 2.84217e-14
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" 3.02906
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_6/out" 0.398424
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/vout" 17.3858
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/vinn" 3.29768
+cap "tmux_7therm_to_3bin_0/buffer_6/out" "comp_p_5/vout" 7.01993
+cap "comp_p_5/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 1.14183
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/tail" 0.70756
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/d5" 7.64869
+cap "comp_p_5/latch_right" "tmux_7therm_to_3bin_0/d6" 0.286348
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/d6" 3.66635
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/out" 0.40237
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_5/vout" 0.197929
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/tail" 0.460901
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/latch_right" 0.389496
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" 0.623465
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_4/vdd" 0.823101
+cap "comp_p_5/vinp" "tmux_7therm_to_3bin_0/buffer_5/vdd" 33.2769
+cap "tmux_7therm_to_3bin_0/buffer_5/out" "comp_p_5/vout" 7.09765
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/vout" 0.0488172
+cap "comp_p_5/tail" "tmux_7therm_to_3bin_0/buffer_5/vdd" 1.05761
+cap "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" "comp_p_5/vout" 0.0444066
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/vinn" 0.0460225
+cap "comp_p_5/latch_right" "tmux_7therm_to_3bin_0/buffer_5/vdd" 4.12967
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/vout" 0.0444066
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/vdd" 122.305
+cap "comp_p_5/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/d6" 0.0458793
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/vinn" 0.0277382
+cap "tmux_7therm_to_3bin_0/d6" "comp_p_5/tail" 0.0313641
+cap "tmux_7therm_to_3bin_0/buffer_6/inv_1/vin" "comp_p_5/XMn_cs_right1/a_100_n500#" 0.0165961
+cap "comp_p_2/vbias_p" "res_ladder_vref_0/XR8/B" 0.325768
+cap "comp_p_1/vdd" "res_ladder_vref_0/ref2" 82.3793
+cap "res_ladder_vref_0/ref4" "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 1.84401
+cap "comp_p_1/vbias_p" "comp_p_1/vdd" 55.2276
+cap "res_ladder_vref_0/ref4" "comp_p_1/vdd" 2.92147
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_1/vdd" 4.5033
+cap "res_ladder_vref_0/ref2" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 4.19519
+cap "comp_p_1/vbias_p" "res_ladder_vref_0/XR8/B" 0.325768
+cap "comp_p_1/vbias_p" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_2/vbias_p" "res_ladder_vref_0/ref2" 0.781796
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 3.95918
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "res_ladder_vref_0/XR8/B" 4.00728
+cap "comp_p_2/vbias_p" "comp_p_1/vbias_p" 184.052
+cap "comp_p_1/vdd" "res_ladder_vref_0/XR8/B" 87.0047
+cap "comp_p_2/vbias_p" "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_1/vdd" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 4.5033
+cap "comp_p_2/vbias_p" "comp_p_1/vdd" 55.2276
+cap "comp_p_1/vbias_p" "res_ladder_vref_0/ref2" 0.781796
+cap "res_ladder_vref_0/XR8/B" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 1.5687
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "res_ladder_vref_0/ref2" 0.384817
+cap "comp_p_1/vdd" "comp_p_2/vbias_p" 91.2743
+cap "comp_p_1/vdd" "comp_p_1/vbias_p" 91.2743
+cap "comp_p_2/vbias_p" "comp_p_1/vbias_p" 301.724
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/vout" 12.691
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/vdd" 21.14
+cap "comp_p_1/vdd" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 9.00659
+cap "comp_p_1/vout" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 12.691
+cap "comp_p_1/vdd" "comp_p_1/vout" 12.6459
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 7.91837
+cap "comp_p_1/vdd" "comp_p_2/vout" 12.6459
+cap "comp_p_1/vdd" "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 9.00659
+cap "comp_p_2/vout" "comp_p_1/vout" 54.7847
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_2/XMp_tail/a_n100_n1097#" 71.5517
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_1/vdd" 21.14
+cap "comp_p_1/vdd" "comp_p_2/vout" 24.6795
+cap "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "comp_p_1/vdd" 7.91026
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 3.95918
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_2/vout" 10.3946
+cap "comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_1/vdd" 7.91026
+cap "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "comp_p_1/vout" 10.3946
+cap "comp_p_2/vout" "comp_p_1/vout" 82.7016
+cap "comp_p_1/vdd" "comp_p_1/vout" 24.6795
+cap "comp_p_1/vout" "comp_p_1/vdd" 19.1515
+cap "comp_p_1/vout" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 48.8846
+cap "comp_p_1/vdd" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 21.564
+cap "comp_p_5/vbias_p" "comp_p_1/vdd" 76.3708
+cap "comp_p_4/vbias_p" "comp_p_1/vdd" 76.3708
+cap "comp_p_4/vbias_p" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 3.95918
+cap "comp_p_1/vdd" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 25.532
+cap "comp_p_4/vbias_p" "comp_p_5/vbias_p" 235.345
+cap "comp_p_5/vbias_p" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_2/vout" "comp_p_1/vout" 3.97196
+cap "comp_p_2/vout" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 38.0891
+cap "comp_p_2/vout" "comp_p_1/vdd" 15.1662
+cap "comp_p_4/vdd" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 4.5033
+cap "comp_p_4/vdd" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 4.5033
+cap "comp_p_4/vdd" "comp_p_4/vbias_p" 90.966
+cap "comp_p_4/vdd" "comp_p_5/vbias_p" 90.966
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 3.95918
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_4/vbias_p" 0.280066
+cap "comp_p_5/vbias_p" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.280066
+cap "comp_p_5/vbias_p" "comp_p_4/vbias_p" 301.724
+cap "comp_p_4/vdd" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 4.5033
+cap "comp_p_5/vout" "comp_p_4/vdd" 15.9306
+cap "comp_p_4/vout" "comp_p_4/vdd" 15.9306
+cap "comp_p_5/vout" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 15.9885
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "comp_p_4/vdd" 4.5033
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 3.95918
+cap "comp_p_5/vout" "comp_p_4/vout" 69.0191
+cap "comp_p_4/XMp_tail/a_n100_n1097#" "comp_p_4/vdd" 5.93165
+cap "comp_p_4/XMp_tail/a_n100_n1097#" "comp_p_5/XMp_tail/a_n100_n1097#" 20.2586
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "comp_p_4/vout" 15.9885
+cap "comp_p_5/XMp_tail/a_n100_n1097#" "comp_p_4/vdd" 5.93165
+cap "comp_p_4/vout" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 7.09718
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/d4" 2.13965
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" 1.24394
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_5/vout" 1.85399
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/d4" 4.46248
+cap "comp_p_4/vdd" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 4.5033
+cap "comp_p_4/vdd" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 4.5033
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_5/vss" 3.72344
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/vss" 73.5553
+cap "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" "comp_p_4/vdd" 1.24394
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 0.0858284
+cap "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 0.0723623
+cap "comp_p_4/vdd" "comp_p_4/vout" 22.5373
+cap "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_5/vout" 7.09718
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_4/out" 0.316848
+cap "tmux_7therm_to_3bin_0/buffer_5/vss" "comp_p_5/vout" 2.05411
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_4/out" 0.0409329
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/out" 0.0409329
+cap "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" "comp_p_5/vout" 1.02182
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_5/vdd" 6.05779
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/vdd" 7.79898
+cap "comp_p_4/vout" "comp_p_5/vout" 72.4391
+cap "comp_p_4/vdd" "comp_p_5/vout" 22.5373
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 0.285498
+cap "tmux_7therm_to_3bin_0/buffer_5/out" "comp_p_5/vout" 0.168492
+cap "tmux_7therm_to_3bin_0/buffer_5/vdd" "comp_p_5/vout" 7.67708
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_4/vdd" 10.1171
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 3.95918
+cap "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.0866301
+cap "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "tmux_7therm_to_3bin_0/d4" 0.468504
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "tmux_7therm_to_3bin_0/buffer_5/vss" 0.272172
+cap "comp_p_4/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "tmux_7therm_to_3bin_0/buffer_5/vss" 0.253683
+cap "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 0.108526
+cap "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" "comp_p_4/vout" 1.54713
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/vss" 84.2252
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_5/vss" 0.0363779
+cap "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" "comp_p_4/vdd" 0.91922
+cap "tmux_7therm_to_3bin_0/buffer_5/inv_1/vin" "comp_p_4/vdd" 0.91922
+cap "comp_p_4/XMp_out/a_n100_n897#" "tmux_7therm_to_3bin_0/d4" 0.468504
+cap "tmux_7therm_to_3bin_0/d4" "comp_p_4/vdd" 13.2326
+cap "tmux_7therm_to_3bin_0/d4" "tmux_7therm_to_3bin_0/buffer_5/vss" 5.68434e-14
+cap "comp_p_4/XMp_out/a_n100_n897#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 2.77829
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_5/vdd" 61.1753
+cap "tmux_7therm_to_3bin_0/d4" "comp_p_4/vout" 0.400745
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_4/vdd" 16.1874
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_5/vdd" 2.26744
+cap "comp_p_5/XMp_out/a_n100_n897#" "tmux_7therm_to_3bin_0/buffer_5/vdd" 2.77829
+cap "comp_p_5/vout" "tmux_7therm_to_3bin_0/buffer_5/vdd" 2.07041
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_5/XMp_out/a_n100_n897#" 0.247546
+cap "tmux_7therm_to_3bin_0/d5" "comp_p_5/vout" 0.249854
+cap "comp_p_1/vdd" "comp_p_1/vinn" 0.192334
+cap "comp_p_1/vinp" "res_ladder_vref_0/ref4" 4.68513
+cap "comp_p_1/vdd" "res_ladder_vref_0/ref4" 26.4741
+cap "comp_p_0/vss" "comp_p_1/vinp" 0.2359
+cap "comp_p_0/vss" "comp_p_1/vdd" 85.472
+cap "comp_p_1/tail" "res_ladder_vref_0/ref4" 2.31503
+cap "comp_p_0/vss" "comp_p_1/tail" 0.0398675
+cap "comp_p_1/vinn" "res_ladder_vref_0/ref4" 39.4615
+cap "comp_p_0/vss" "comp_p_1/vinn" 1.14121
+cap "comp_p_1/out_left" "res_ladder_vref_0/ref4" 22.1516
+cap "comp_p_0/vss" "comp_p_1/out_left" 9.10191
+cap "comp_p_1/vbias_p" "comp_p_1/vdd" 1.34324
+cap "comp_p_1/vbias_p" "comp_p_2/vbias_p" 0.503896
+cap "comp_p_1/vbias_p" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 0.101894
+cap "comp_p_1/vinn" "comp_p_1/vdd" 0.0475252
+cap "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_1/XMp_tail/a_n100_n1097#" 0.596607
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/XMp_tail/a_n100_n1097#" 0.368831
+cap "comp_p_1/vdd" "comp_p_1/tail" 0.06057
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_1/vdd" 3.30157
+cap "comp_p_2/vout" "comp_p_1/XMp_tail/a_n100_n1097#" 0.0486409
+cap "comp_p_2/XMp_tail/a_n100_n1097#" "comp_p_1/vinn" 0.00866595
+cap "comp_p_1/vinp" "comp_p_1/vdd" 0.049164
+cap "comp_p_1/latch_right" "comp_p_4/out_left" 0.0775791
+cap "comp_p_1/tail" "comp_p_1/vdd" 1.648
+cap "comp_p_1/vdd" "comp_p_1/vinp" 49.4677
+cap "comp_p_1/vinn" "comp_p_4/out_left" 0.0154679
+cap "comp_p_4/vinp" "comp_p_1/vinp" 2.26665
+cap "comp_p_4/vinn" "comp_p_1/tail" 1.03265
+cap "comp_p_4/vinn" "comp_p_1/vinp" 15.9076
+cap "comp_p_4/tail" "comp_p_1/vinp" 1.2471
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_2/vout" 0.0137428
+cap "comp_p_1/tail" "comp_p_4/out_left" 0.0526665
+cap "comp_p_4/out_left" "comp_p_1/vinp" 1.4171
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_1/vdd" 1.20643
+cap "comp_p_1/latch_right" "comp_p_1/vdd" 2.42856
+cap "comp_p_1/vinn" "comp_p_1/vdd" 2.44605
+cap "comp_p_1/vinn" "comp_p_4/vinp" 0.624303
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_2/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 0.013569
+cap "comp_p_1/latch_right" "comp_p_4/vinn" 1.52452
+cap "comp_p_1/XMp_tail/a_n100_n1097#" "comp_p_2/XMp_tail/a_n100_n1097#" 0.135065
+cap "comp_p_4/tail" "comp_p_1/vout" 0.0528121
+cap "comp_p_1/vdd" "comp_p_4/out_left" 73.0472
+cap "comp_p_4/vinn" "comp_p_1/vinp" 15.8495
+cap "comp_p_1/vdd" "comp_p_4/vinp" 8.11527
+cap "comp_p_1/vdd" "comp_p_4/tail" 1.65438
+cap "comp_p_4/vinn" "comp_p_1/vout" 1.38101
+cap "comp_p_1/vdd" "comp_p_4/vinn" 45.699
+cap "comp_p_4/vinp" "comp_p_1/vinn" 0.625276
+cap "comp_p_1/vdd" "comp_p_1/vout" 73.1836
+cap "comp_p_4/vinn" "comp_p_1/vinn" 0.170447
+cap "comp_p_1/vinp" "comp_p_4/vinp" 2.07246
+cap "comp_p_4/tail" "comp_p_1/vinp" 1.03582
+cap "comp_p_1/tail" "comp_p_4/vinn" 1.13881
+cap "comp_p_4/out_left" "comp_p_1/vout" 198.864
+cap "comp_p_4/vinn" "comp_p_1/latch_left" 0.0573779
+cap "comp_p_4/vinp" "comp_p_1/vout" 0.621625
+cap "comp_p_4/vinn" "comp_p_1/latch_right" 1.61717
+cap "comp_p_4/vdd" "comp_p_4/vbias_p" 1.94449
+cap "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "comp_p_4/vbias_p" 0.101894
+cap "comp_p_5/vbias_p" "comp_p_4/vbias_p" 0.503896
+cap "comp_p_4/vdd" "comp_p_4/tail" 0.0162764
+cap "comp_p_4/vinn" "comp_p_5/XMp_tail/a_n100_n1097#" 0.00866595
+cap "comp_p_4/XMp_tail/a_n100_n1097#" "comp_p_5/vout" 0.0623837
+cap "comp_p_4/XMp_tail/a_n100_n1097#" "comp_p_4/vdd" 3.66147
+cap "comp_p_4/XMp_tail/a_n100_n1097#" "comp_p_5/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 0.610176
+cap "comp_p_4/vinp" "comp_p_4/vdd" 0.049164
+cap "comp_p_4/vinn" "comp_p_4/vdd" 0.0475252
+cap "comp_p_5/XMp_tail/a_n100_n1097#" "comp_p_4/XMp_tail/a_n100_n1097#" 0.503896
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/vout" 1.63876
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 2.73095
+cap "comp_p_4/tail" "tmux_7therm_to_3bin_0/buffer_4/vdd" 1.23751
+cap "tmux_7therm_to_3bin_0/buffer_4/out" "comp_p_4/vout" 7.51655
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_4/vdd" 79.656
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/latch_right" 1.89294
+cap "tmux_7therm_to_3bin_0/buffer_3/out" "comp_p_4/vinp" 0.0463767
+cap "comp_p_4/vdd" "comp_p_4/vinp" 0.192334
+cap "comp_p_4/vinp" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 0.0933238
+cap "comp_p_4/vinn" "tmux_7therm_to_3bin_0/d3" 0.649183
+cap "comp_p_4/tail" "comp_p_4/vdd" -5.68434e-14
+cap "comp_p_4/vinp" "tmux_7therm_to_3bin_0/buffer_4/vdd" 29.7835
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" 3.11637
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/d4" 2.14861
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_3/out" 0.794
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/tail" 0.00292877
+cap "comp_p_4/tail" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 0.0592788
+cap "comp_p_4/vinn" "tmux_7therm_to_3bin_0/buffer_4/vdd" 0.441076
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_4/vdd" 49.9831
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/tail" 0.460901
+cap "comp_p_4/vout" "tmux_7therm_to_3bin_0/buffer_4/out" 7.07207
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/vdd" 121.564
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/vdd" 0.0428173
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/vdd" 2.12034
+cap "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" "comp_p_4/vdd" 0.623465
+cap "tmux_7therm_to_3bin_0/d4" "comp_p_4/vdd" 8.16844
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/tail" 1.05761
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/latch_right" 4.95622
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/vout" 17.4161
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/vout" 0.0300099
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/latch_right" 0.0530857
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/vout" 0.0034159
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/tail" 0.70756
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_4/out" 0.399993
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/tail" 0.0799515
+cap "tmux_7therm_to_3bin_0/buffer_4/inv_1/vin" "comp_p_4/vout" 0.0444066
+cap "comp_p_4/latch_left" "tmux_7therm_to_3bin_0/buffer_4/vdd" 1.36579
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/vinn" 3.58882
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/tail" 1.6285
+cap "tmux_7therm_to_3bin_0/d4" "comp_p_4/vout" 0.26776
+cap "tmux_7therm_to_3bin_0/d4" "comp_p_4/tail" 0.0871987
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/vinn" 0.450671
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/tail" 0.0139527
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/vinn" 0.00213371
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/tail" 0.0576923
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/vinp" 33.2769
+cap "comp_p_1/latch_right" "res_ladder_vref_0/ref4" 2.07637
+cap "res_ladder_vref_0/ref4" "comp_p_1/latch_left" 20.8543
+cap "res_ladder_vref_0/ref4" "comp_p_1/out_left" 15.8247
+cap "comp_p_0/vss" "comp_p_1/vinp" 0.0832516
+cap "comp_p_1/vinn" "comp_p_0/vss" 0.52232
+cap "comp_p_0/out_left" "comp_p_1/out_left" 24.0698
+cap "comp_p_0/vss" "comp_p_1/vdd" 13.4147
+cap "comp_p_1/latch_right" "comp_p_0/vss" 0.0266693
+cap "comp_p_0/vss" "comp_p_1/latch_left" 1.33919
+cap "comp_p_0/vss" "comp_p_1/out_left" 24.8354
+cap "res_ladder_vref_0/ref4" "comp_p_1/vinp" 0.24843
+cap "res_ladder_vref_0/ref4" "comp_p_0/vss" 8.67907
+cap "res_ladder_vref_0/ref4" "comp_p_1/vinn" 17.4808
+cap "res_ladder_vref_0/XR3/R1" "comp_p_0/vss" 14.0148
+cap "res_ladder_vref_0/ref4" "comp_p_1/vdd" 12.5755
+cap "comp_p_0/latch_left" "comp_p_1/latch_left" 0.516129
+cap "comp_p_1/out_left" "comp_p_0/out_left" 41.2976
+cap "comp_p_0/latch_left" "comp_p_1/latch_left" 2.31205
+cap "comp_p_0/vss" "comp_p_1/out_left" 19.5879
+cap "comp_p_0/latch_left" "comp_p_1/out_left" 13.1284
+cap "comp_p_0/vss" "comp_p_1/latch_left" 1.33966
+cap "comp_p_1/vinp" "comp_p_0/vss" 0.0498998
+cap "comp_p_1/tail" "comp_p_0/vss" 0.0224932
+cap "comp_p_0/XMn_out_right/a_100_n500#" "comp_p_1/XMn_out_right/a_100_n500#" 25.8333
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/latch_right" 12.1071
+cap "comp_p_0/XMn_diode_left1/a_n100_n488#" "comp_p_1/out_left" 1.5901
+cap "comp_p_0/XMn_diode_left1/a_n100_n488#" "comp_p_1/XMn_diode_left1/a_100_n400#" 4.64324
+cap "comp_p_1/out_left" "comp_p_0/out_left" 3.39286
+cap "comp_p_1/latch_right" "comp_p_0/vss" 1.81843
+cap "comp_p_1/vinn" "comp_p_0/vss" 0.0400186
+cap "comp_p_1/out_left" "comp_p_0/vss" 1.56055
+cap "comp_p_1/XMn_diode_left1/a_100_n400#" "comp_p_0/vss" 1.81843
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/vss" 11.8821
+cap "comp_p_1/latch_right" "comp_p_0/latch_right" 4.64324
+cap "comp_p_0/latch_right" "comp_p_1/latch_right" 2.82818
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/latch_right" 2.61142
+cap "comp_p_0/vss" "comp_p_1/latch_right" 3.02143
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/vss" 24.2077
+cap "w_19868_33038#" "comp_p_1/latch_right" 3.03379
+cap "comp_p_4/latch_left" "comp_p_1/latch_right" 13.5932
+cap "comp_p_0/vss" "comp_p_4/out_left" 0.106682
+cap "comp_p_1/vinn" "comp_p_4/out_left" 0.125666
+cap "comp_p_4/out_left" "comp_p_1/latch_left" 0.0898137
+cap "comp_p_4/vinn" "comp_p_1/vinn" 3.64705
+cap "comp_p_4/latch_right" "comp_p_1/latch_right" 0.824207
+cap "comp_p_0/vss" "comp_p_1/vinn" 0.0424237
+cap "comp_p_4/vinn" "comp_p_1/latch_left" 1.1405
+cap "comp_p_4/out_left" "comp_p_1/latch_right" 1.02733
+cap "comp_p_1/vinn" "comp_p_4/vinp" 0.624303
+cap "w_19868_33038#" "comp_p_1/vinn" 7.55343
+cap "w_19868_33038#" "comp_p_1/latch_left" 3.40227
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/XMn_out_right/a_100_n500#" 40.7758
+cap "comp_p_4/latch_left" "comp_p_1/latch_left" 0.824207
+cap "comp_p_4/latch_left" "comp_p_3/latch_left" 0.997067
+cap "comp_p_1/vinn" "comp_p_4/vinp" 0.625276
+cap "comp_p_4/vinp" "w_19868_33038#" 2.4544
+cap "comp_p_0/vss" "comp_p_4/latch_left" 2.11232
+cap "comp_p_1/tail" "comp_p_4/vinn" 0.069039
+cap "comp_p_4/latch_right" "comp_p_1/XMn_out_right/a_100_n500#" 0.0334425
+cap "comp_p_4/vinn" "comp_p_1/XMn_out_right/a_100_n500#" 1.06144
+cap "comp_p_0/vss" "w_19868_33038#" -3.55271e-15
+cap "comp_p_4/latch_left" "comp_p_1/XMn_out_right/a_100_n500#" 1.02766
+cap "comp_p_1/XMn_out_right/a_100_n500#" "w_19868_33038#" 24.9585
+cap "comp_p_4/latch_right" "comp_p_1/latch_right" 0.824207
+cap "comp_p_0/vss" "comp_p_4/out_left" 21.7615
+cap "comp_p_4/vinn" "comp_p_1/latch_right" 0.20209
+cap "comp_p_1/latch_right" "comp_p_4/latch_left" 13.5934
+cap "comp_p_4/out_left" "comp_p_1/XMn_out_right/a_100_n500#" 165.341
+cap "comp_p_4/latch_right" "w_19868_33038#" 1.63794
+cap "comp_p_0/vss" "comp_p_4/vinp" 0.0434382
+cap "comp_p_4/latch_left" "w_19868_33038#" 3.04936
+cap "comp_p_1/vinn" "comp_p_4/vinn" 3.81785
+cap "comp_p_4/vinn" "w_19868_33038#" 22.9889
+cap "comp_p_4/vinp" "comp_p_1/XMn_out_right/a_100_n500#" 0.019335
+cap "comp_p_1/latch_left" "comp_p_4/latch_left" 0.824207
+cap "comp_p_1/latch_left" "comp_p_4/vinn" 1.42261
+cap "comp_p_0/vss" "comp_p_1/XMn_out_right/a_100_n500#" 2.03143
+cap "comp_p_0/XMn_out_right/a_100_n500#" "comp_p_1/XMn_out_right/a_100_n500#" 1.22093
+cap "comp_p_3/out_left" "comp_p_4/out_left" 30.9884
+cap "comp_p_4/out_left" "w_19868_33038#" 25.1375
+cap "comp_p_0/vss" "comp_p_4/tail" 0.010721
+cap "comp_p_0/vss" "comp_p_4/vinp" 0.0246346
+cap "comp_p_3/latch_left" "comp_p_4/latch_left" 6.47434
+cap "comp_p_0/vss" "comp_p_4/latch_left" 2.71223
+cap "comp_p_4/out_left" "comp_p_3/out_left" 37.7719
+cap "comp_p_3/latch_left" "comp_p_4/out_left" 14.7185
+cap "comp_p_4/out_left" "comp_p_0/vss" 16.4995
+cap "comp_p_4/tail" "comp_p_3/vss" 0.0117722
+cap "comp_p_3/vss" "comp_p_4/latch_right" 2.61912
+cap "comp_p_4/XMn_out_right/a_100_n500#" "comp_p_3/vss" 14.2204
+cap "comp_p_4/vinn" "comp_p_3/vss" 0.0400186
+cap "comp_p_4/vinp" "comp_p_3/vss" 0.0252652
+cap "comp_p_4/XMn_out_right/a_100_n500#" "comp_p_3/XMn_out_right/a_100_n500#" 32.83
+cap "comp_p_3/latch_right" "comp_p_4/latch_right" 6.43915
+cap "comp_p_4/XMn_out_right/a_100_n500#" "comp_p_3/latch_right" 14.7185
+cap "tmux_7therm_to_3bin_0/buffer_3/out" "comp_p_4/XMn_out_right/a_100_n500#" 0.973499
+cap "tmux_7therm_to_3bin_0/R1/R1" "comp_p_4/XMn_out_right/a_100_n500#" 4.09114
+cap "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" "comp_p_3/vss" 0.925299
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_4/vdd" 8.31086
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/XMn_out_right/a_100_n500#" 2.85717
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/d3" 0.401541
+cap "tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/S" "comp_p_4/XMn_out_right/a_100_n500#" 0.100268
+cap "comp_p_4/latch_left" "tmux_7therm_to_3bin_0/buffer_4/vdd" 0.462239
+cap "comp_p_4/vinn" "tmux_7therm_to_3bin_0/buffer_4/vdd" 1.37902
+cap "comp_p_4/latch_right" "tmux_7therm_to_3bin_0/buffer_4/vdd" 0.31234
+cap "comp_p_4/latch_right" "comp_p_3/latch_right" 1.03226
+cap "comp_p_4/latch_left" "tmux_7therm_to_3bin_0/d3" 1.13151
+cap "comp_p_4/latch_left" "comp_p_3/vss" 0.559898
+cap "comp_p_4/latch_right" "tmux_7therm_to_3bin_0/d3" 1.35931
+cap "comp_p_4/vinn" "tmux_7therm_to_3bin_0/d3" 3.02067
+cap "comp_p_4/latch_right" "comp_p_3/vss" 13.3209
+cap "tmux_7therm_to_3bin_0/d2" "comp_p_4/XMn_out_right/a_100_n500#" 0.697572
+cap "comp_p_4/vinn" "comp_p_3/vss" 0.166867
+cap "tmux_7therm_to_3bin_0/buffer_3/out" "comp_p_4/vdd" 0.09752
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/vdd" 0.185873
+cap "comp_p_4/latch_left" "comp_p_4/vdd" -5.68434e-14
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/XMn_out_right/a_100_n500#" 23.0291
+cap "comp_p_3/XMn_out_right/a_100_n500#" "comp_p_4/XMn_out_right/a_100_n500#" 35
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/d2" 4.83751
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/XMn_out_right/a_100_n500#" 3.36688
+cap "tmux_7therm_to_3bin_0/buffer_2/out" "comp_p_4/XMn_out_right/a_100_n500#" 0.23261
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/latch_left" 0.381789
+cap "comp_p_3/vss" "comp_p_4/XMn_out_right/a_100_n500#" 42.6685
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/latch_right" 0.0101703
+cap "tmux_7therm_to_3bin_0/R1/R1" "comp_p_4/latch_right" 0.0305706
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/vinn" 0.67304
+cap "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" "comp_p_4/XMn_out_right/a_100_n500#" 0.882215
+cap "tmux_7therm_to_3bin_0/R1/m1_n100_n100#" "comp_p_4/XMn_out_right/a_100_n500#" 0.311665
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/buffer_4/vdd" 0.090287
+cap "comp_p_4/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/R1/R1" 3.74431
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_4/vinn" 3.00278
+cap "tmux_7therm_to_3bin_0/d2" "comp_p_3/vss" 6.5494
+cap "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" "comp_p_3/vss" 0.91922
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "tmux_7therm_to_3bin_0/d3" 2.84217e-14
+cap "comp_p_4/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d2" 0.0152169
+cap "comp_p_4/latch_left" "tmux_7therm_to_3bin_0/buffer_4/vdd" 1.78529
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/latch_right" 17.9833
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/tail" 0.0650994
+cap "comp_p_4/latch_left" "tmux_7therm_to_3bin_0/d3" 1.6325
+cap "comp_p_4/latch_right" "tmux_7therm_to_3bin_0/d3" 2.50889
+cap "comp_p_4/XMn_out_right/a_100_n500#" "comp_p_3/vss" 11.5495
+cap "comp_p_4/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 0.0751497
+cap "comp_p_4/vdd" "comp_p_3/vss" 9.2638
+cap "comp_p_4/vinn" "comp_p_3/vss" 0.31404
+cap "tmux_7therm_to_3bin_0/R1/R1" "tmux_7therm_to_3bin_0/buffer_2/out" -3.55271e-15
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 1.36648
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_3/vss" 21.7095
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/vinn" 0.675885
+cap "tmux_7therm_to_3bin_0/d3" "comp_p_3/vss" 0.0723794
+cap "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" "tmux_7therm_to_3bin_0/R1/R1" -1.77636e-15
+cap "comp_p_4/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_4/vdd" 4.65486
+cap "comp_p_4/latch_right" "comp_p_3/vss" 11.2744
+cap "comp_p_4/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d3" 0.98319
+cap "tmux_7therm_to_3bin_0/R1/R1" "comp_p_3/vss" 0.402134
+cap "comp_p_4/latch_left" "comp_p_3/vss" 0.78098
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/buffer_4/vdd" 20.846
+cap "tmux_7therm_to_3bin_0/buffer_4/vdd" "comp_p_4/vinn" 2.64426
+cap "comp_p_4/latch_right" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 0.0409711
+cap "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" "comp_p_4/tail" 0.0448374
+cap "comp_p_4/latch_left" "tmux_7therm_to_3bin_0/buffer_3/inv_1/vin" 0.388702
+cap "comp_p_4/vdd" "tmux_7therm_to_3bin_0/d3" 16.5365
+cap "comp_p_0/latch_left" "comp_p_1/latch_left" 0.516129
+cap "comp_p_0/vss" "comp_p_0/latch_right" 0.0235921
+cap "comp_p_0/vss" "comp_p_0/latch_left" 1.49131
+cap "comp_p_0/out_left" "comp_p_0/vss" 22.0748
+cap "res_ladder_vref_0/ref6" "comp_p_0/vdd" 7.21485
+cap "res_ladder_vref_0/ref6" "comp_p_0/latch_left" 20.9234
+cap "res_ladder_vref_0/ref6" "comp_p_0/out_left" 12.9784
+cap "res_ladder_vref_0/ref6" "comp_p_0/latch_right" 1.8274
+cap "res_ladder_vref_0/ref6" "comp_p_0/vss" 67.729
+cap "comp_p_0/out_left" "comp_p_1/out_left" 24.0698
+cap "comp_p_0/out_left" "comp_p_1/latch_left" 13.1284
+cap "comp_p_0/latch_left" "comp_p_0/vss" 1.33966
+cap "comp_p_1/out_left" "comp_p_0/out_left" 41.2976
+cap "comp_p_0/out_left" "comp_p_0/vss" 19.5879
+cap "comp_p_1/latch_left" "comp_p_0/latch_left" 2.31205
+cap "comp_p_0/out_left" "comp_p_0/vss" 1.56055
+cap "comp_p_0/out_left" "comp_p_1/out_left" 3.39286
+cap "comp_p_1/latch_right" "comp_p_0/XMn_out_right/a_100_n500#" 12.1071
+cap "comp_p_0/latch_right" "comp_p_0/vss" 1.81843
+cap "comp_p_0/XMn_diode_left1/a_n100_n488#" "comp_p_0/vss" 1.81843
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/XMn_out_right/a_100_n500#" 25.8333
+cap "comp_p_0/out_left" "comp_p_1/XMn_diode_left1/a_100_n400#" 1.5901
+cap "comp_p_0/latch_right" "comp_p_1/latch_right" 4.64324
+cap "comp_p_0/XMn_out_right/a_100_n500#" "comp_p_0/vss" 11.8821
+cap "comp_p_0/XMn_diode_left1/a_n100_n488#" "comp_p_1/XMn_diode_left1/a_100_n400#" 4.64324
+cap "comp_p_0/vss" "comp_p_3/out_left" 0.106682
+cap "comp_p_3/out_left" "comp_p_0/latch_right" 1.02054
+cap "comp_p_1/latch_right" "comp_p_0/latch_right" 2.82818
+cap "comp_p_0/latch_left" "comp_p_3/latch_left" 0.824207
+cap "comp_p_3/latch_right" "comp_p_0/latch_right" 0.729107
+cap "comp_p_0/vss" "comp_p_0/latch_right" 3.02143
+cap "comp_p_1/latch_right" "comp_p_0/XMn_out_right/a_100_n500#" 2.61142
+cap "comp_p_0/latch_right" "w_19868_40442#" 2.68374
+cap "comp_p_0/latch_left" "comp_p_3/out_left" 0.0333044
+cap "comp_p_0/XMn_out_right/a_100_n500#" "comp_p_1/XMn_out_right/a_100_n500#" 40.7758
+cap "comp_p_0/latch_right" "comp_p_3/latch_left" 13.586
+cap "comp_p_0/vss" "comp_p_0/XMn_out_right/a_100_n500#" 24.2077
+cap "comp_p_0/latch_left" "w_19868_40442#" 1.62923
+cap "comp_p_0/vss" "comp_p_0/XMn_out_right/a_100_n500#" 2.03143
+cap "comp_p_4/latch_left" "comp_p_3/latch_left" 0.997067
+cap "w_19868_40442#" "comp_p_3/out_left" 8.10761
+cap "comp_p_3/out_left" "comp_p_0/XMn_out_right/a_100_n500#" 118.75
+cap "comp_p_0/vss" "comp_p_3/out_left" 21.7615
+cap "comp_p_4/out_left" "comp_p_3/out_left" 30.9884
+cap "w_19868_40442#" "comp_p_3/latch_right" 1.44895
+cap "comp_p_0/latch_right" "comp_p_3/latch_right" 0.729107
+cap "comp_p_1/XMn_out_right/a_100_n500#" "comp_p_0/XMn_out_right/a_100_n500#" 1.22093
+cap "comp_p_0/XMn_out_right/a_100_n500#" "comp_p_3/latch_right" 0.0295838
+cap "w_19868_40442#" "comp_p_3/latch_left" 3.04936
+cap "comp_p_0/latch_right" "comp_p_3/latch_left" 13.5934
+cap "w_19868_40442#" "comp_p_0/XMn_out_right/a_100_n500#" 8.10761
+cap "comp_p_0/XMn_out_right/a_100_n500#" "comp_p_3/latch_left" 1.02766
+cap "comp_p_0/XMn_cs_right1/a_100_n500#" "comp_p_3/latch_left" 0.824207
+cap "comp_p_0/vss" "w_19868_40442#" -2.66454e-15
+cap "comp_p_0/vss" "comp_p_3/latch_left" 2.11232
+cap "comp_p_3/out_left" "comp_p_4/latch_left" 14.7185
+cap "comp_p_3/out_left" "comp_p_0/vss" 16.4995
+cap "comp_p_3/out_left" "comp_p_4/out_left" 37.7719
+cap "comp_p_3/latch_left" "comp_p_4/latch_left" 6.47434
+cap "comp_p_3/latch_left" "comp_p_0/vss" 2.71223
+cap "comp_p_3/vss" "comp_p_3/XMn_out_right/a_100_n500#" 14.2204
+cap "comp_p_4/XMn_out_right/a_100_n500#" "comp_p_3/XMn_out_right/a_100_n500#" 32.83
+cap "comp_p_4/latch_right" "comp_p_3/latch_right" 6.43915
+cap "comp_p_3/XMn_out_right/a_100_n500#" "comp_p_4/latch_right" 14.7185
+cap "comp_p_3/vss" "comp_p_3/latch_right" 2.61912
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/d2" 11.189
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d2" 0.71656
+cap "comp_p_3/vss" "comp_p_3/latch_right" 1.06985
+cap "comp_p_3/XMn_out_right/a_100_n500#" "comp_p_4/XMn_out_right/a_100_n500#" 35
+cap "comp_p_3/XMn_out_right/a_100_n500#" "comp_p_3/vss" 22.6817
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_1/out" 5.98656
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/R1/R1" 0.0252127
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/vdd" 65.5584
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/vdd" 45.2846
+cap "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" "comp_p_3/vss" 1.5197
+cap "tmux_7therm_to_3bin_0/R1/R1" "comp_p_3/latch_right" 0.0198103
+cap "comp_p_3/latch_right" "tmux_7therm_to_3bin_0/vdd" 18.7411
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/R1/R1" 0.581539
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/S" 0.0304166
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" 0.835082
+cap "comp_p_3/latch_left" "tmux_7therm_to_3bin_0/vdd" 1.1122
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/S" 0.0214833
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/tmux_2to1_2/XM2/S" 0.114307
+cap "comp_p_4/latch_right" "comp_p_3/latch_right" 1.03226
+cap "tmux_7therm_to_3bin_0/buffer_2/out" "comp_p_3/vss" 0.0409329
+cap "tmux_7therm_to_3bin_0/buffer_2/out" "comp_p_3/XMn_out_right/a_100_n500#" 0.2115
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/latch_right" 0.375934
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d1" 1.27241
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/latch_right" 0.00226006
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" 1.98023
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/buffer_2/inv_1/vin" 1.19499
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d1" 0.0502463
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/d2" 12.4411
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/XMn_cs_right1/a_100_n500#" 1.91394
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/d2" 0.0158256
+cap "comp_p_3/latch_right" "tmux_7therm_to_3bin_0/vdd" 29.2808
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/vdd" 94.6227
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/vdd" 15.1018
+cap "comp_p_3/XMn_out_right/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_1/out" 5.78662
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/vdd" 14.8425
+cap "tmux_7therm_to_3bin_0/R1/R1" "comp_p_3/vss" 0.391057
+cap "tmux_7therm_to_3bin_0/vdd" "tmux_7therm_to_3bin_0/d2" 5.68434e-14
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_1/out" 0.202466
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/buffer_2/out" 0.781878
+cap "comp_p_3/latch_right" "tmux_7therm_to_3bin_0/d1" 0.935518
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/d1" 0.0794573
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/buffer_2/out" 0.000697753
+cap "comp_p_0/vss" "comp_p_0/tail" 0.0987481
+cap "comp_p_0/vss" "comp_p_0/vdd" 79.0668
+cap "comp_p_0/vss" "comp_p_0/vinp" 0.319152
+cap "comp_p_0/vss" "comp_p_0/out_left" 9.10191
+cap "comp_p_0/vinn" "res_ladder_vref_0/ref6" 56.9424
+cap "comp_p_0/latch_right" "res_ladder_vref_0/ref6" 0.248974
+cap "comp_p_0/latch_left" "res_ladder_vref_0/ref6" 0.056986
+cap "comp_p_0/tail" "res_ladder_vref_0/ref6" 2.31503
+cap "comp_p_0/vdd" "res_ladder_vref_0/ref6" 23.574
+cap "res_ladder_vref_0/ref6" "comp_p_0/out_left" 22.0479
+cap "comp_p_0/vinp" "res_ladder_vref_0/ref6" 4.93356
+cap "comp_p_0/vinn" "comp_p_0/vss" 1.55609
+cap "comp_p_0/vss" "res_ladder_vref_0/ref6" 5.68434e-14
+cap "comp_p_0/vss" "comp_p_0/latch_right" 0.00307723
+cap "comp_p_0/tail" "comp_p_0/vss" 0.0224932
+cap "comp_p_0/vinp" "comp_p_0/vss" 0.0498998
+cap "comp_p_0/vinn" "comp_p_0/vss" 0.0400186
+cap "comp_p_3/out_left" "comp_p_0/vinp" 1.4171
+cap "comp_p_3/vinn" "comp_p_0/vinn" 3.64705
+cap "comp_p_0/vdd" "comp_p_0/vinp" 49.2754
+cap "comp_p_3/out_left" "comp_p_0/latch_right" 0.0843735
+cap "comp_p_0/latch_right" "comp_p_3/latch_left" 0.00720555
+cap "comp_p_3/out_left" "comp_p_0/latch_left" 0.0565093
+cap "comp_p_3/out_left" "comp_p_0/tail" 0.0526665
+cap "comp_p_0/vdd" "comp_p_0/latch_right" 2.77861
+cap "comp_p_0/vdd" "comp_p_0/latch_left" 1.77304
+cap "comp_p_3/latch_right" "comp_p_0/latch_right" 0.0951009
+cap "comp_p_0/vdd" "comp_p_0/tail" 1.648
+cap "comp_p_3/vinn" "comp_p_0/vinp" 15.9076
+cap "comp_p_3/vinn" "comp_p_0/latch_right" 1.52452
+cap "comp_p_3/vinp" "comp_p_0/vinn" 1.24861
+cap "comp_p_3/vinn" "comp_p_0/latch_left" 1.1405
+cap "comp_p_3/vinn" "comp_p_0/tail" 1.03265
+cap "comp_p_0/vss" "comp_p_0/vinn" 0.0424237
+cap "comp_p_3/out_left" "comp_p_0/vinn" 0.141134
+cap "comp_p_0/vinp" "comp_p_3/tail" 1.2471
+cap "comp_p_0/vdd" "comp_p_0/vinn" 9.99947
+cap "comp_p_3/vinp" "comp_p_0/vinp" 2.26665
+cap "comp_p_0/vdd" "comp_p_3/out_left" 72.9523
+cap "comp_p_0/vdd" "comp_p_3/tail" 1.65438
+cap "comp_p_0/vout" "comp_p_3/out_left" 198.864
+cap "comp_p_3/tail" "comp_p_0/vout" 0.0528121
+cap "comp_p_0/vout" "comp_p_3/vinp" 0.64096
+cap "comp_p_0/vdd" "comp_p_3/vinp" 10.5697
+cap "comp_p_0/vdd" "comp_p_3/latch_right" 0.188993
+cap "comp_p_0/vout" "comp_p_3/latch_right" 0.00385875
+cap "comp_p_0/latch_right" "comp_p_3/latch_right" 0.0951009
+cap "comp_p_3/vinn" "comp_p_0/XMn_cs_right1/a_100_n500#" 1.47999
+cap "comp_p_0/vss" "comp_p_3/vinp" 0.0434382
+cap "comp_p_3/tail" "comp_p_0/vinp" 1.03582
+cap "comp_p_0/vinn" "comp_p_3/vinp" 1.25055
+cap "comp_p_0/vdd" "comp_p_0/vout" 72.8349
+cap "comp_p_0/vinp" "comp_p_3/vinp" 2.07246
+cap "comp_p_3/vinn" "comp_p_0/tail" 1.20785
+cap "comp_p_0/vdd" "comp_p_0/vss" 5.55112e-15
+cap "comp_p_3/vinn" "comp_p_0/vdd" 68.4955
+cap "comp_p_3/vinn" "comp_p_0/latch_right" 1.81926
+cap "comp_p_3/vinn" "comp_p_0/vout" 2.44245
+cap "comp_p_3/vinn" "comp_p_0/vinn" 3.9883
+cap "comp_p_3/vinn" "comp_p_0/vinp" 15.8495
+cap "comp_p_3/tail" "comp_p_0/vss" 0.010721
+cap "comp_p_0/vss" "comp_p_3/vinp" 0.0246346
+cap "comp_p_3/tail" "comp_p_3/vss" 0.0117722
+cap "comp_p_3/vss" "comp_p_3/vinn" 0.0400186
+cap "comp_p_3/vss" "comp_p_3/vinp" 0.0252652
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/d1" 3.73324
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/latch_right" 0.166468
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/vdd" 0.318639
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/vdd" 8.74932
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_0/out" 0.416943
+cap "comp_p_3/vinp" "comp_p_3/vss" 24.0984
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_1/out" 2.8261
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/tmux_2to1_2/S" 0.0309635
+cap "comp_p_3/vinp" "tmux_7therm_to_3bin_0/d1" 0.913421
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/d0" 1.10875
+cap "comp_p_3/vinp" "tmux_7therm_to_3bin_0/buffer_1/out" 0.0107586
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/vout" 3.60789
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/vdd" 28.1104
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/S" 0.0214833
+cap "comp_p_3/vinp" "comp_p_3/vdd" -4.54747e-13
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_2/S" 8.81942
+cap "comp_p_3/vss" "comp_p_3/vinn" 0.139964
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/vinp" 0.698149
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/vinn" 2.61996
+cap "comp_p_3/vinp" "tmux_7therm_to_3bin_0/vdd" 0.131079
+cap "comp_p_3/latch_left" "tmux_7therm_to_3bin_0/d1" 1.11461
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" 1.52893
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_1/XM2/S" 0.263794
+cap "tmux_7therm_to_3bin_0/buffer_1/out" "comp_p_3/vinn" 0.0157838
+cap "comp_p_3/latch_right" "comp_p_3/vss" 0.0552922
+cap "comp_p_3/vdd" "comp_p_3/vinn" -1.13687e-13
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/latch_right" 1.49017
+cap "comp_p_3/vdd" "comp_p_3/vss" 29.1569
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/d1" 0.690712
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/vinn" 3.27328
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/vinn" 0.0907716
+cap "comp_p_3/tail" "comp_p_3/vss" 0.00611957
+cap "comp_p_3/tail" "tmux_7therm_to_3bin_0/d1" 1.21858
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S" 0.220571
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/latch_left" 0.442565
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_1/out" 0.0409329
+cap "comp_p_3/vout" "comp_p_3/vss" 22.6954
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" 1.01918
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/vdd" 54.9352
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_2/S" 7.92032
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/d0" 3.57378
+cap "comp_p_3/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" 0.0323624
+cap "comp_p_3/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/vdd" 2.49325
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" 0.034159
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/d1" 0.859979
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/latch_right" 1.92879
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/tail" 0.460901
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/vinn" 2.8987
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/vinp" 8.47187
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/vinp" 0.673469
+cap "tmux_7therm_to_3bin_0/tmux_2to1_2/S" "comp_p_3/vdd" 0.369971
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" 0.479589
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/d1" 15.4544
+cap "comp_p_3/tail" "tmux_7therm_to_3bin_0/vdd" 0.70756
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_1/out" 2.07957
+cap "comp_p_3/vss" "comp_p_3/vout" 11.9734
+cap "comp_p_3/XMn_cs_right1/a_100_n500#" "tmux_7therm_to_3bin_0/d1" 1.5072
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/tail" 1.42037
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/vinp" 0.778885
+cap "comp_p_3/tail" "tmux_7therm_to_3bin_0/vdd" 1.05761
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_1/out" 0.117892
+cap "comp_p_3/vss" "comp_p_3/vdd" 47.1615
+cap "tmux_7therm_to_3bin_0/d0" "comp_p_3/tail" 0.0799515
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" 0.0785656
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/vdd" 4.59883
+cap "tmux_7therm_to_3bin_0/d1" "comp_p_3/tail" 0.0871987
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/vinn" 0.0277382
+cap "tmux_7therm_to_3bin_0/buffer_1/inv_1/vin" "comp_p_3/latch_right" 0.0469963
+cap "comp_p_3/latch_right" "tmux_7therm_to_3bin_0/vdd" 4.3984
+cap "comp_p_3/vinn" "tmux_7therm_to_3bin_0/vdd" 7.54041
+cap "comp_p_3/vss" "tmux_7therm_to_3bin_0/d1" 2.84217e-14
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/d0" 0.051764
+cap "comp_p_3/vss" "comp_p_3/vinp" 23.3327
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/tail" 0.460901
+cap "res_ladder_vref_0/XR2/B" "res_ladder_vref_0/ref6" -5.68434e-14
+cap "res_ladder_vref_0/ref6" "comp_p_0/vdd" 48.2281
+cap "comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" "res_ladder_vref_0/ref6" 10.6174
+cap "res_ladder_vref_0/XR2/B" "comp_p_0/vdd" 66.2885
+cap "res_ladder_vref_0/vref" "comp_p_0/vdd" 8.47527
+cap "res_ladder_vref_0/XR2/B" "comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 3.87961
+cap "res_ladder_vref_0/XR2/B" "comp_p_0/vbias_p" 0.325768
+cap "comp_p_0/vdd" "comp_p_0/tail" 0.06057
+cap "comp_p_0/vdd" "comp_p_0/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 3.40696
+cap "comp_p_0/vdd" "comp_p_0/vout" 0.192151
+cap "comp_p_0/vdd" "comp_p_0/XMp_tail/a_n100_n1097#" 0.846526
+cap "comp_p_0/vdd" "comp_p_3/vbias_p" 5.62657
+cap "comp_p_0/vdd" "comp_p_0/vout" 35.0165
+cap "comp_p_0/vdd" "comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 38.1535
+cap "comp_p_0/vout" "comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n100_n897#" 95.4755
+cap "comp_p_3/tail" "comp_p_3/vdd" 0.0162764
+cap "comp_p_3/vdd" "comp_p_3/vbias_p" 0.601252
+cap "tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S" "comp_p_3/vout" 0.433749
+cap "tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S" "comp_p_3/vdd" 0.0214833
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/tmux_2to1_1/S" 0.0242038
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_1/S" 3.30825
+cap "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" "comp_p_3/vout" 3.18171
+cap "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" "comp_p_3/vdd" 0.318639
+cap "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" "comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 0.0774862
+cap "tmux_7therm_to_3bin_0/buffer_0/out" "comp_p_3/vout" 6.28648
+cap "tmux_7therm_to_3bin_0/buffer_0/out" "comp_p_3/vdd" 0.0409329
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/d0" 3.16053
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/d0" 0.690712
+cap "comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" "tmux_7therm_to_3bin_0/d0" 0.513403
+cap "tmux_7therm_to_3bin_0/buffer_1/vss" "comp_p_3/vout" 2.26304
+cap "tmux_7therm_to_3bin_0/buffer_1/vss" "comp_p_3/vdd" 3.87054
+cap "comp_p_3/vdd" "comp_p_3/vout" -2.27374e-13
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/vout" 26.2129
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/vdd" 60.2175
+cap "tmux_7therm_to_3bin_0/vdd" "comp_p_3/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_n158_n800#" 1.16361
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" 0.0444066
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S" 0.0151597
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_0/out" 0.657761
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_1/vss" 4.38669
+cap "tmux_7therm_to_3bin_0/d0" "comp_p_3/vout" 0.808215
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" 0.623465
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_1/S" 3.16369
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/d0" 16.3409
+cap "tmux_7therm_to_3bin_0/buffer_0/out" "tmux_7therm_to_3bin_0/buffer_0/inv_1/vin" 2.84217e-14
+cap "comp_p_3/XMp_out/a_n100_n897#" "tmux_7therm_to_3bin_0/d0" 0.513403
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/tmux_2to1_1/S" 0.147104
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/vdd" 3.54527
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S" 0.348542
+cap "comp_p_3/vout" "tmux_7therm_to_3bin_0/buffer_0/out" 5.87079
+cap "tmux_7therm_to_3bin_0/buffer_1/vss" "comp_p_3/vout" 0.0727558
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/vdd" 101.405
+cap "comp_p_3/XMp_out/a_n100_n897#" "tmux_7therm_to_3bin_0/vdd" 2.77829
+cap "comp_p_3/vdd" "tmux_7therm_to_3bin_0/buffer_0/out" 9.95545e-05
+merge "comp_p_3/VSUBS" "comp_p_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "comp_p_0/VSUBS" "comp_p_4/VSUBS"
+merge "comp_p_4/VSUBS" "comp_p_1/VSUBS"
+merge "comp_p_1/VSUBS" "tmux_7therm_to_3bin_0/VSUBS"
+merge "tmux_7therm_to_3bin_0/VSUBS" "comp_p_5/VSUBS"
+merge "comp_p_5/VSUBS" "comp_p_2/VSUBS"
+merge "comp_p_2/VSUBS" "comp_p_6/VSUBS"
+merge "comp_p_6/VSUBS" "vbias_generation_0/VSUBS"
+merge "vbias_generation_0/VSUBS" "res_ladder_vref_0/VSUBS"
+merge "res_ladder_vref_0/VSUBS" "VSUBS"
+merge "comp_p_1/vss" "comp_p_0/vss" -7130.17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4736 -15236 0 0 0 0 0 0 0 0 0 0
+merge "comp_p_4/vdd" "comp_p_5/vdd" -29881.2 0 0 0 0 -5868800 -52680 0 0 -373524 -21904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -620524 -22854 0 -20488 0 0 0 0 0 0 0 0 0 0
+merge "comp_p_5/vdd" "comp_p_1/vdd"
+merge "comp_p_1/vdd" "comp_p_2/vdd"
+merge "comp_p_2/vdd" "w_19868_33038#"
+merge "comp_p_4/vss" "comp_p_3/vss" -2599.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4736 -5268 0 0 0 0 0 0 0 0 0 0
+merge "comp_p_3/vdd" "comp_p_0/vdd" -4091.72 0 0 0 0 -921536 -16124 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "comp_p_0/vdd" "w_19868_40442#"
+merge "comp_p_6/vss" "comp_p_5/vss" -3141.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4732 -8064 0 0 0 0 0 0 0 0 0 0
+merge "comp_p_6/vinn" "vbias_generation_0/XMp_bias/B" -2582.43 0 0 0 0 0 -5128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1276 0 0 0 0 0 0 0 0 0 0
+merge "vbias_generation_0/XMp_bias/B" "comp_p_6/vinp"
+merge "comp_p_6/vinp" "comp_p_6/vdd"
+merge "comp_p_6/vdd" "vbias_generation_0/vdd"
