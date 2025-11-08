@@ -1,16 +1,15 @@
 magic
 tech sky130A
-magscale 1 2
 timestamp 1762640459
 << metal1 >>
-rect -100 100 100 157
-rect -100 -157 100 -100
+rect -50 50 50 78
+rect -50 -78 50 -50
 << rmetal1 >>
-rect -100 -100 100 100
+rect -50 -50 50 50
 << labels >>
-rlabel metal1 0 140 0 140 0 R1
+rlabel metal1 0 70 0 70 0 R1
 port 1 nsew
-rlabel metal1 0 -140 0 -140 0 R2
+rlabel metal1 0 -70 0 -70 0 R2
 port 2 nsew
 << properties >>
 string gencell sky130_fd_pr__res_generic_m1
