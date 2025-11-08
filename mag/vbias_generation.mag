@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1762640459
+timestamp 1762644791
 << nwell >>
 rect -284 4044 2280 4332
 rect -286 3838 2280 4044
@@ -36,29 +36,29 @@ rect -282 990 -212 1032
 rect 1072 990 1136 1032
 rect -282 962 1136 990
 use sky130_fd_pr__nfet_01v8_lvt_ELBHUY  XMn_bias
-timestamp 1762640459
+timestamp 1762644791
 transform 0 1 426 -1 0 1258
 box -296 -710 296 710
 use sky130_fd_pr__pfet_01v8_lvt_VTBKAA  XMp_bias
-timestamp 1762640459
+timestamp 1762644791
 transform 0 -1 987 1 0 4036
 box -200 -1220 296 1234
 use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_1
-timestamp 1762640459
+timestamp 1762644791
 transform 0 1 998 -1 0 3367
-box -307 -1282 307 1282
+box -306 -1282 306 1282
 use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_2
-timestamp 1762640459
+timestamp 1762644791
 transform 0 -1 998 1 0 2859
-box -307 -1282 307 1282
+box -306 -1282 306 1282
 use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_3
-timestamp 1762640459
+timestamp 1762644791
 transform 0 1 998 -1 0 2351
-box -307 -1282 307 1282
+box -306 -1282 306 1282
 use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_4
-timestamp 1762640459
+timestamp 1762644791
 transform 0 1 998 -1 0 1843
-box -307 -1282 307 1282
+box -306 -1282 306 1282
 << labels >>
 rlabel metal1 1114 1174 1136 1358 1 bias_n
 port 0 n

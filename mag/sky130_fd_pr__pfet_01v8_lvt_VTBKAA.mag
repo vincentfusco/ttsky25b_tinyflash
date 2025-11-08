@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1762640459
+timestamp 1762644791
 << nwell >>
 rect -100 -610 148 617
 << pmoslvt >>
@@ -23,38 +23,38 @@ rect 113 -574 130 -550
 << nsubdiffcont >>
 rect 113 -550 130 536
 << poly >>
-rect -50 540 50 548
-rect -50 523 -42 540
-rect 42 523 50 540
-rect -50 500 50 523
-rect -50 -523 50 -500
-rect -50 -540 -42 -523
-rect 42 -540 50 -523
-rect -50 -548 50 -540
+rect -50 541 50 549
+rect -50 524 -42 541
+rect 42 524 50 541
+rect -50 500 50 524
+rect -50 -524 50 -500
+rect -50 -541 -42 -524
+rect 42 -541 50 -524
+rect -50 -549 50 -541
 << polycont >>
-rect -42 523 42 540
-rect -42 -540 42 -523
+rect -42 524 42 541
+rect -42 -541 42 -524
 << locali >>
-rect -50 523 -42 540
-rect 42 523 50 540
+rect -50 524 -42 541
+rect 42 524 50 541
 rect 113 536 130 568
 rect -73 494 -56 502
 rect -73 -502 -56 -494
 rect 56 494 73 502
 rect 56 -502 73 -494
-rect -50 -540 -42 -523
-rect 42 -540 50 -523
+rect -50 -541 -42 -524
+rect 42 -541 50 -524
 rect 113 -574 130 -550
 << viali >>
-rect -42 523 42 540
+rect -42 524 42 541
 rect -73 -494 -56 494
 rect 56 -494 73 494
-rect -42 -540 42 -523
+rect -42 -541 42 -524
 << metal1 >>
-rect -48 540 48 543
-rect -48 523 -42 540
-rect 42 523 48 540
-rect -48 520 48 523
+rect -48 541 48 544
+rect -48 524 -42 541
+rect 42 524 48 541
+rect -48 521 48 524
 rect -76 494 -53 500
 rect -76 -494 -73 494
 rect -56 -494 -53 494
@@ -63,16 +63,16 @@ rect 53 494 76 500
 rect 53 -494 56 494
 rect 73 -494 76 494
 rect 53 -500 76 -494
-rect -48 -523 48 -520
-rect -48 -540 -42 -523
-rect 42 -540 48 -523
-rect -48 -543 48 -540
+rect -48 -524 48 -521
+rect -48 -541 -42 -524
+rect 42 -541 48 -524
+rect -48 -544 48 -541
 << labels >>
 rlabel pdiffc -64 0 -64 0 0 D
 port 2 nsew
 rlabel pdiffc 64 0 64 0 0 S
 port 3 nsew
-rlabel polycont 0 532 0 532 0 G
+rlabel polycont 0 533 0 533 0 G
 port 4 nsew
 << properties >>
 string FIXED_BBOX -121 -583 121 583

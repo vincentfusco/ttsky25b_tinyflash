@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1762640459
+timestamp 1762644791
 << metal1 >>
 rect -110 699 311 739
 rect -90 300 -50 340
@@ -8,11 +8,11 @@ rect 80 300 120 340
 rect 260 300 300 340
 rect -110 10 311 50
 use inv  inv_0
-timestamp 1762640459
+timestamp 1762644791
 transform 1 0 -100 0 1 30
 box -10 -20 201 709
 use inv  inv_1
-timestamp 1762640459
+timestamp 1762644791
 transform 1 0 110 0 1 30
 box -10 -20 201 709
 << labels >>
