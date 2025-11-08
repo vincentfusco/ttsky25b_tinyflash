@@ -1,11 +1,9 @@
 magic
 tech sky130A
-timestamp 1762632746
+timestamp 1762640459
 << nwell >>
 rect 2539 535 2670 1847
 rect 2539 -3167 2670 -543
-rect 2351 -5225 2670 -4245
-rect 1069 -5557 2688 -5225
 << pwell >>
 rect -1535 1847 7777 2296
 rect -1535 1524 -22 1847
@@ -253,19 +251,21 @@ rect 2369 -4970 2386 -4932
 rect 2557 -4936 2577 -4932
 rect 2557 -4962 2838 -4936
 rect 2557 -4970 2577 -4962
-rect 2369 -4983 2577 -4970
 rect -287 -5049 -156 -5031
 rect 688 -5191 890 -5159
 rect 688 -5309 724 -5191
-rect 853 -5294 890 -5191
-rect 853 -5309 1201 -5294
-rect -1535 -5456 -380 -5344
-rect 688 -5380 1201 -5309
+rect 853 -5309 890 -5191
+rect 2052 -5290 2268 -4972
+rect 2369 -4983 2577 -4970
+rect 688 -5336 890 -5309
 rect 2233 -5308 2337 -5293
+rect -1535 -5456 -380 -5344
+rect 688 -5422 1201 -5336
 rect 2233 -5373 2249 -5308
 rect 2318 -5373 2337 -5308
 rect 2233 -5386 2337 -5373
 rect 2670 -5406 2994 -5260
+rect 1214 -5454 2217 -5432
 rect 2670 -5442 2753 -5406
 rect 2937 -5442 2994 -5406
 rect 2670 -5454 2994 -5442
@@ -832,45 +832,45 @@ rect 2569 -3174 2579 -3104
 rect 2622 -3174 2633 -2952
 rect 2569 -3182 2633 -3174
 use comp_p  comp_p_0
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 1479 0 1 -736
 box -1501 731 1060 2583
 use comp_p  comp_p_1
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 4171 0 1 -736
 box -1501 731 1060 2583
 use comp_p  comp_p_2
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 1479 0 -1 728
 box -1501 731 1060 2583
 use comp_p  comp_p_3
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 4171 0 -1 728
 box -1501 731 1060 2583
 use comp_p  comp_p_4
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 1479 0 1 -4438
 box -1501 731 1060 2583
 use comp_p  comp_p_5
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 4171 0 1 -4438
 box -1501 731 1060 2583
 use comp_p  comp_p_6
-timestamp 1711855675
+timestamp 1762640459
 transform 1 0 4171 0 -1 -2974
 box -1501 731 1060 2583
 use res_ladder_vref  res_ladder_vref_0
-timestamp 1762308519
+timestamp 1762640459
 transform 1 0 -2084 0 -1 -429
 box 549 -1953 1704 4960
 use tmux_7therm_to_3bin  tmux_7therm_to_3bin_0
-timestamp 1762543019
+timestamp 1762640459
 transform 1 0 5810 0 1 1117
 box -21 -4373 1875 730
 use vbias_generation  vbias_generation_0
-timestamp 1762372802
+timestamp 1762640459
 transform -1 0 2209 0 -1 -3359
-box -142 481 1140 2133
+box -143 481 1140 2166
 << labels >>
 rlabel metal3 -287 -5622 -206 -4410 1 vin
 port 0 n

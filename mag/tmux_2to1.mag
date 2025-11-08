@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1762110937
+timestamp 1762640459
 << viali >>
 rect 128 802 1096 836
 rect 138 -566 1106 -532
@@ -80,27 +80,27 @@ rect 254 -470 892 -468
 rect 964 -470 970 -418
 rect 254 -472 970 -470
 use sky130_fd_pr__pfet_01v8_A6MZLZ  XM1
-timestamp 1762020513
+timestamp 1762640459
 transform 1 0 297 0 1 453
 box -211 -419 211 419
 use sky130_fd_pr__nfet_01v8_MH3LLV  XM2
-timestamp 1762020513
+timestamp 1762640459
 transform 1 0 297 0 1 -276
 box -211 -310 211 310
 use sky130_fd_pr__pfet_01v8_A6MZLZ  XM3
-timestamp 1762020513
+timestamp 1762640459
 transform 1 0 613 0 1 453
 box -211 -419 211 419
 use sky130_fd_pr__nfet_01v8_MH3LLV  XM4
-timestamp 1762020513
+timestamp 1762640459
 transform 1 0 613 0 1 -276
 box -211 -310 211 310
 use sky130_fd_pr__pfet_01v8_A6MZLZ  XM5
-timestamp 1762020513
+timestamp 1762640459
 transform 1 0 929 0 1 453
 box -211 -419 211 419
 use sky130_fd_pr__nfet_01v8_MH3LLV  XM6
-timestamp 1762020513
+timestamp 1762640459
 transform 1 0 929 0 1 -276
 box -211 -310 211 310
 << labels >>

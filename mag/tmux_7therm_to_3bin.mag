@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1762543019
+timestamp 1762640459
 << nwell >>
 rect 1854 622 2908 1460
 rect 1854 -2294 2908 -1456
@@ -468,63 +468,63 @@ rect 3016 -8736 3032 -8676
 rect 3522 -8736 3564 -8676
 rect 3016 -8746 3564 -8736
 use buffer  buffer_0
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 1 -18
 box -220 20 622 1478
 use buffer  buffer_1
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 -1 22
 box -220 20 622 1478
 use buffer  buffer_2
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 1 -2934
 box -220 20 622 1478
 use buffer  buffer_3
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 -1 -2894
 box -220 20 622 1478
 use buffer  buffer_4
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 1 -5850
 box -220 20 622 1478
 use buffer  buffer_5
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 -1 -5810
 box -220 20 622 1478
 use buffer  buffer_6
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 178 0 1 -8766
 box -220 20 622 1478
 use buffer  buffer_7
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 3128 0 1 -18
 box -220 20 622 1478
 use buffer  buffer_8
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 3128 0 -1 22
 box -220 20 622 1478
 use buffer  buffer_9
-timestamp 1762110336
+timestamp 1762640459
 transform 1 0 3128 0 1 -2934
 box -220 20 622 1478
 use sky130_fd_pr__res_generic_m1_SPQYYJ  R1
-timestamp 1762111823
+timestamp 1762640459
 transform 1 0 1016 0 1 -3335
 box -100 -157 100 157
 use tmux_2to1  tmux_2to1_0
-timestamp 1762110937
+timestamp 1762640459
 transform 1 0 714 0 1 588
 box 86 -586 1140 872
 use tmux_2to1  tmux_2to1_1
-timestamp 1762110937
+timestamp 1762640459
 transform 1 0 714 0 -1 -584
 box 86 -586 1140 872
 use tmux_2to1  tmux_2to1_2
-timestamp 1762110937
+timestamp 1762640459
 transform 1 0 714 0 1 -2328
 box 86 -586 1140 872
 use tmux_2to1  tmux_2to1_3
-timestamp 1762110937
+timestamp 1762640459
 transform 1 0 1768 0 -1 -584
 box 86 -586 1140 872
 << labels >>

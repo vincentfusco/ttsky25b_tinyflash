@@ -1,0 +1,10 @@
+* SPICE3 file created from vbias_generation.ext - technology: sky130A
+
+X0 XR_bias_2/R2 XR_bias_1/R2 vss sky130_fd_pr__res_xhigh_po_1p41 l=7
+X1 XR_bias_3/R2 XR_bias_2/R2 vss sky130_fd_pr__res_xhigh_po_1p41 l=7
+X2 XR_bias_4/R1 XR_bias_3/R2 vss sky130_fd_pr__res_xhigh_po_1p41 l=7
+X3 XR_bias_4/R1 bias_n vss sky130_fd_pr__res_xhigh_po_1p41 l=7
+X4 vss bias_n bias_n vss sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+X5 vdd bias_p bias_p vdd sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+C0 vdd vss 5.121396f
+C1 bias_n vss 2.888824f
