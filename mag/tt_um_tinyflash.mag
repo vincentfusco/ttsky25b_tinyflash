@@ -1,6 +1,6 @@
 magic
 tech sky130A
-timestamp 1762619231
+timestamp 1762624265
 << nwell >>
 rect 9934 20221 10061 21533
 rect 9934 16519 10054 19143
@@ -98,10 +98,6 @@ use tmux_7therm_to_3bin  tmux_7therm_to_3bin_0
 timestamp 1762543019
 transform 1 0 12810 0 1 20775
 box -21 -4373 1875 730
-use vbias_generation  vbias_generation_0
-timestamp 1762372802
-transform 0 1 7920 -1 0 15299
-box -142 481 1140 2133
 << labels >>
 flabel metal4 s 14383 22476 14413 22576 0 FreeSans 240 90 0 0 clk
 port 0 nsew signal input
