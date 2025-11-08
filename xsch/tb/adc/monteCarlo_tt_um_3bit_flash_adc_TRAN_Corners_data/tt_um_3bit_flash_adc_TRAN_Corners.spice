@@ -1,0 +1,198 @@
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/tb/adc/tt_um_3bit_flash_adc_TRAN_Corners.sch
+**.subckt tt_um_3bit_flash_adc_TRAN_Corners
+x1 d0 d1 vdd d2 GND vin vref flashADC_3bit
+V1 net1 GND sin(0.5 0.5 100k 0 0 0)
+V2 net2 GND 1
+E1 vout GND VOL=' 0.125*(v(d0)+2*v(d1)+4*v(d2))/v(vdd) '
+V3 net3 GND 1.8
+R1 vref net2 1 m=1
+R2 vdd net3 1 m=1
+R3 vin net1 1 m=1
+**** begin user architecture code
+
+
+.control
+tran 0.01 30u
+
+.endc
+.end
+
+
+.lib /opt/pdk/share/pdk/sky130A/libs.tech/combined/sky130.lib.spice tt
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/adc/flashADC_3bit.sym # of pins=7
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/adc/flashADC_3bit.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/adc/flashADC_3bit.sch
+.subckt flashADC_3bit dout0 dout1 vdd dout2 vss vin vref
+*.ipin vin
+*.ipin vref
+*.iopin vdd
+*.iopin vss
+*.opin dout0
+*.opin dout1
+*.opin dout2
+X2 vin ref0 bias_p d0 vdd vss comp_p
+X3 vin ref1 bias_p d1 vdd vss comp_p
+X4 vin ref2 bias_p d2 vdd vss comp_p
+X5 vin ref3 bias_p d3 vdd vss comp_p
+X6 vin ref4 bias_p d4 vdd vss comp_p
+X7 vin ref5 bias_p d5 vdd vss comp_p
+X8 vin ref6 bias_p d6 vdd vss comp_p
+x9 vdd bias_p bias_n vss vbias_generation
+x1 d0 d1 dout0 d2 vdd dout1 d3 vss dout2 d4 d5 d6 tmux_7therm_to_3bin
+XR12 ref6 vref vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR1 ref5 ref6 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR2 ref4 ref5 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR3 ref3 ref4 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR4 ref2 ref3 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR5 ref1 ref2 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR6 ref0 ref1 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR7 vss ref0 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR8 vss ref0 vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+XR9 ref6 vref vss sky130_fd_pr__res_xhigh_po_1p41 L=1.41 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym # of pins=6
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sch
+.subckt comp_p vinp vinn vbias_p vout vdd vss
+*.iopin vdd
+*.iopin vss
+*.ipin vbias_p
+*.ipin vinn
+*.ipin vinp
+*.opin vout
+XMp_inn1 latch_left vinn tail vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=4 m=4
+XMp_inp1 latch_right vinp tail vdd sky130_fd_pr__pfet_01v8_lvt L=0.35 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=4 m=4
+XMn_diode_left1 latch_left latch_left vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMn_cs_left latch_right latch_left vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMn_diode_right latch_right latch_right vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=4 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMn_cs_right1 latch_left latch_right vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMp_tail tail vbias_p vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMn_out_right vout latch_right vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMn_out_left out_left latch_left vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMp_diode_left1 out_left out_left vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMp_out vout out_left vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=8 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sym # of pins=4
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sch
+.subckt vbias_generation vdd bias_p bias_n vss
+*.opin bias_p
+*.iopin vdd
+*.iopin vss
+*.opin bias_n
+XR_bias_1 bias_1 bias_p vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+XMn_bias bias_n bias_n vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMp_bias bias_p bias_p vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XR_bias_2 bias_2 bias_1 vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+XR_bias_3 bias_3 bias_2 vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+XR_bias_4 bias_n bias_3 vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sym # of pins=12
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sch
+.subckt tmux_7therm_to_3bin d0 d1 q0 d2 vdd q1 d3 vss q2 d4 d5 d6
+*.ipin d0
+*.iopin vdd
+*.opin q0
+*.ipin d1
+*.ipin d2
+*.ipin d3
+*.ipin d4
+*.ipin d5
+*.ipin d6
+*.opin q1
+*.opin q2
+*.iopin vss
+R1 y2 x3 sky130_fd_pr__res_generic_m1 W=1 L=1 m=1
+x1 x2 vdd net2 y2 vss x6 tmux_2to1
+x2 x1 vdd y1 y2 vss x5 tmux_2to1
+x3 x0 vdd net1 y2 vss x4 tmux_2to1
+x4 net1 vdd y0 y1 vss net2 tmux_2to1
+x5 vdd d0 x0 vss buffer
+x6 vdd d1 x1 vss buffer
+x7 vdd d2 x2 vss buffer
+x8 vdd d3 x3 vss buffer
+x9 vdd d4 x4 vss buffer
+x10 vdd d5 x5 vss buffer
+x11 vdd d6 x6 vss buffer
+x12 vdd y0 q0 vss buffer
+x13 vdd y1 q1 vss buffer
+x14 vdd y2 q2 vss buffer
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym # of pins=6
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sch
+.subckt tmux_2to1 A vdd Y S vss B
+*.opin Y
+*.ipin S
+*.iopin vss
+*.iopin vdd
+*.ipin A
+*.ipin B
+XM1 net1 S vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=1 m=1
+XM2 net1 S vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
++ m=1
+XM3 B net1 Y vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0 mult=1
++ m=1
+XM4 B S Y vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1 m=1
+XM5 A S Y vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0 mult=1
++ m=1
+XM6 A net1 Y vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
++ m=1
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym # of pins=4
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sch
+.subckt buffer vdd in out vss
+*.ipin in
+*.opin out
+*.iopin vdd
+*.iopin vss
+X1 in net1 vdd vss inv
+X2 net1 out vdd vss inv
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/inv/inv.sym # of pins=4
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/inv/inv.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/inv/inv.sch
+.subckt inv vin vout vdd vss
+*.ipin vin
+*.opin vout
+*.ipin vdd
+*.ipin vss
+XMn vout vin vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1 m=1
+XMp vout vin vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=1 m=1
+.ends
+
+.GLOBAL GND
+.end

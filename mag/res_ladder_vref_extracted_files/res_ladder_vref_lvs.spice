@@ -1,0 +1,19 @@
+* NGSPICE file created from res_ladder_vref_lvs.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_5p73_JT48NU B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+.ends
+
+.subckt res_ladder_vref_lvs ref0 ref1 ref2 ref3 ref4 ref5 ref6 vref vss
+XXR1 vss ref6 vref sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR2 vss ref6 vref sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR10 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR3 vss ref6 ref5 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR4 vss ref4 ref5 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR5 vss ref4 ref3 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR6 vss ref2 ref3 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR7 vss ref2 ref1 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR8 vss ref0 ref1 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR9 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+.ends
+

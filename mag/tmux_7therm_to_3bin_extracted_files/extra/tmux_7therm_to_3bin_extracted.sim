@@ -1,0 +1,652 @@
+| units: 500000 tech: sky130A format: MIT
+x R1/R1 vdd tmux_2to1_1/XM5/G vdd s=23200,916 d=23200,916 l=30 w=400 x=997 y=-839 sky130_fd_pr__pfet_01v8
+x R1/R1 vss tmux_2to1_1/XM5/G vss s=11600,516 d=11600,516 l=30 w=200 x=997 y=-210 sky130_fd_pr__nfet_01v8
+x R1/R1 buffer_1/out buffer_8/in vdd s=23200,916 d=23200,916 l=30 w=400 x=1313 y=-839 sky130_fd_pr__pfet_01v8
+x tmux_2to1_1/XM5/G buffer_1/out buffer_8/in vss s=11600,516 d=11600,516 l=30 w=200 x=1313 y=-210 sky130_fd_pr__nfet_01v8
+x tmux_2to1_1/XM5/G buffer_8/in buffer_5/out vdd s=23200,916 d=23200,916 l=30 w=400 x=1629 y=-839 sky130_fd_pr__pfet_01v8
+x R1/R1 buffer_8/in buffer_5/out vss s=11600,516 d=11600,516 l=30 w=200 x=1629 y=-210 sky130_fd_pr__nfet_01v8
+x R1/R1 vdd tmux_2to1_2/XM5/G vdd s=23200,916 d=23200,916 l=30 w=400 x=997 y=-2074 sky130_fd_pr__pfet_01v8
+x R1/R1 vss tmux_2to1_2/XM5/G vss s=11600,516 d=11600,516 l=30 w=200 x=997 y=-2703 sky130_fd_pr__nfet_01v8
+x R1/R1 buffer_2/out tmux_2to1_3/B vdd s=23200,916 d=23200,916 l=30 w=400 x=1313 y=-2074 sky130_fd_pr__pfet_01v8
+x tmux_2to1_2/XM5/G buffer_2/out tmux_2to1_3/B vss s=11600,516 d=11600,516 l=30 w=200 x=1313 y=-2703 sky130_fd_pr__nfet_01v8
+x tmux_2to1_2/XM5/G tmux_2to1_3/B buffer_6/out vdd s=23200,916 d=23200,916 l=30 w=400 x=1629 y=-2074 sky130_fd_pr__pfet_01v8
+x R1/R1 tmux_2to1_3/B buffer_6/out vss s=11600,516 d=11600,516 l=30 w=200 x=1629 y=-2703 sky130_fd_pr__nfet_01v8
+x buffer_8/in vdd tmux_2to1_3/XM5/G vdd s=23200,916 d=23200,916 l=30 w=400 x=2051 y=-839 sky130_fd_pr__pfet_01v8
+x buffer_8/in vss tmux_2to1_3/XM5/G vss s=11600,516 d=11600,516 l=30 w=200 x=2051 y=-210 sky130_fd_pr__nfet_01v8
+x buffer_8/in tmux_2to1_3/A buffer_7/in vdd s=23200,916 d=23200,916 l=30 w=400 x=2367 y=-839 sky130_fd_pr__pfet_01v8
+x tmux_2to1_3/XM5/G tmux_2to1_3/A buffer_7/in vss s=11600,516 d=11600,516 l=30 w=200 x=2367 y=-210 sky130_fd_pr__nfet_01v8
+x tmux_2to1_3/XM5/G buffer_7/in tmux_2to1_3/B vdd s=23200,916 d=23200,916 l=30 w=400 x=2683 y=-839 sky130_fd_pr__pfet_01v8
+x buffer_8/in buffer_7/in tmux_2to1_3/B vss s=11600,516 d=11600,516 l=30 w=200 x=2683 y=-210 sky130_fd_pr__nfet_01v8
+r R1/R1 R1/R2 0.000000
+x d0 vss buffer_0/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=213 sky130_fd_pr__nfet_01v8
+x d0 vdd buffer_0/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=842 sky130_fd_pr__pfet_01v8
+x buffer_0/inv_1/vin vss buffer_0/out vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=213 sky130_fd_pr__nfet_01v8
+x buffer_0/inv_1/vin vdd buffer_0/out vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=842 sky130_fd_pr__pfet_01v8
+x d1 vss buffer_1/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=-210 sky130_fd_pr__nfet_01v8
+x d1 vdd buffer_1/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=-839 sky130_fd_pr__pfet_01v8
+x buffer_1/inv_1/vin vss buffer_1/out vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=-210 sky130_fd_pr__nfet_01v8
+x buffer_1/inv_1/vin vdd buffer_1/out vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=-839 sky130_fd_pr__pfet_01v8
+x d2 vss buffer_2/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=-2703 sky130_fd_pr__nfet_01v8
+x d2 vdd buffer_2/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=-2074 sky130_fd_pr__pfet_01v8
+x buffer_2/inv_1/vin vss buffer_2/out vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=-2703 sky130_fd_pr__nfet_01v8
+x buffer_2/inv_1/vin vdd buffer_2/out vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=-2074 sky130_fd_pr__pfet_01v8
+x d3 vss buffer_3/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=-3126 sky130_fd_pr__nfet_01v8
+x d3 vdd buffer_3/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=-3755 sky130_fd_pr__pfet_01v8
+x buffer_3/inv_1/vin vss R1/R2 vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=-3126 sky130_fd_pr__nfet_01v8
+x buffer_3/inv_1/vin vdd R1/R2 vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=-3755 sky130_fd_pr__pfet_01v8
+x d4 vss buffer_4/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=-5619 sky130_fd_pr__nfet_01v8
+x d4 vdd buffer_4/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=-4990 sky130_fd_pr__pfet_01v8
+x buffer_4/inv_1/vin vss buffer_4/out vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=-5619 sky130_fd_pr__nfet_01v8
+x buffer_4/inv_1/vin vdd buffer_4/out vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=-4990 sky130_fd_pr__pfet_01v8
+x d5 vss buffer_5/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=-6042 sky130_fd_pr__nfet_01v8
+x d5 vdd buffer_5/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=-6671 sky130_fd_pr__pfet_01v8
+x buffer_5/inv_1/vin vss buffer_5/out vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=-6042 sky130_fd_pr__nfet_01v8
+x buffer_5/inv_1/vin vdd buffer_5/out vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=-6671 sky130_fd_pr__pfet_01v8
+x d6 vss buffer_6/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=155 y=-8535 sky130_fd_pr__nfet_01v8
+x d6 vdd buffer_6/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=155 y=-7906 sky130_fd_pr__pfet_01v8
+x buffer_6/inv_1/vin vss buffer_6/out vss s=11600,516 d=11600,516 l=30 w=200 x=575 y=-8535 sky130_fd_pr__nfet_01v8
+x buffer_6/inv_1/vin vdd buffer_6/out vdd s=23200,916 d=23200,916 l=30 w=400 x=575 y=-7906 sky130_fd_pr__pfet_01v8
+x buffer_7/in vss buffer_7/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=3105 y=213 sky130_fd_pr__nfet_01v8
+x buffer_7/in vdd buffer_7/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=3105 y=842 sky130_fd_pr__pfet_01v8
+x buffer_7/inv_1/vin vss q0 vss s=11600,516 d=11600,516 l=30 w=200 x=3525 y=213 sky130_fd_pr__nfet_01v8
+x buffer_7/inv_1/vin vdd q0 vdd s=23200,916 d=23200,916 l=30 w=400 x=3525 y=842 sky130_fd_pr__pfet_01v8
+x buffer_8/in vss buffer_8/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=3105 y=-210 sky130_fd_pr__nfet_01v8
+x buffer_8/in vdd buffer_8/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=3105 y=-839 sky130_fd_pr__pfet_01v8
+x buffer_8/inv_1/vin vss q1 vss s=11600,516 d=11600,516 l=30 w=200 x=3525 y=-210 sky130_fd_pr__nfet_01v8
+x buffer_8/inv_1/vin vdd q1 vdd s=23200,916 d=23200,916 l=30 w=400 x=3525 y=-839 sky130_fd_pr__pfet_01v8
+x R1/R1 vss buffer_9/inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=3105 y=-2703 sky130_fd_pr__nfet_01v8
+x R1/R1 vdd buffer_9/inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=3105 y=-2074 sky130_fd_pr__pfet_01v8
+x buffer_9/inv_1/vin vss q2 vss s=11600,516 d=11600,516 l=30 w=200 x=3525 y=-2703 sky130_fd_pr__nfet_01v8
+x buffer_9/inv_1/vin vdd q2 vdd s=23200,916 d=23200,916 l=30 w=400 x=3525 y=-2074 sky130_fd_pr__pfet_01v8
+x R1/R1 vdd tmux_2to1_0/XM5/G vdd s=23200,916 d=23200,916 l=30 w=400 x=997 y=842 sky130_fd_pr__pfet_01v8
+x R1/R1 vss tmux_2to1_0/XM5/G vss s=11600,516 d=11600,516 l=30 w=200 x=997 y=213 sky130_fd_pr__nfet_01v8
+x R1/R1 buffer_0/out tmux_2to1_3/A vdd s=23200,916 d=23200,916 l=30 w=400 x=1313 y=842 sky130_fd_pr__pfet_01v8
+x tmux_2to1_0/XM5/G buffer_0/out tmux_2to1_3/A vss s=11600,516 d=11600,516 l=30 w=200 x=1313 y=213 sky130_fd_pr__nfet_01v8
+x tmux_2to1_0/XM5/G tmux_2to1_3/A buffer_4/out vdd s=23200,916 d=23200,916 l=30 w=400 x=1629 y=842 sky130_fd_pr__pfet_01v8
+x R1/R1 tmux_2to1_3/A buffer_4/out vss s=11600,516 d=11600,516 l=30 w=200 x=1629 y=213 sky130_fd_pr__nfet_01v8
+C vdd R1/R1 5.0
+C vdd buffer_8/in 2.2
+C tmux_2to1_3/B vdd 2.2
+C vdd buffer_5/out 2.8
+C buffer_4/out vdd 2.6
+C vdd buffer_6/out 3.8
+R tmux_2to1_0/XM5/G 3877
+= tmux_2to1_0/XM5/G tmux_2to1_0/XM1/S
+= tmux_2to1_0/XM5/G tmux_2to1_0/XM2/S
+= tmux_2to1_0/XM5/G tmux_2to1_0/XM4/G
+= tmux_2to1_0/XM5/G tmux_2to1_0/m1_580_n464#
+= tmux_2to1_0/XM5/G tmux_2to1_0/m1_896_696#
+= tmux_2to1_0/XM5/G tmux_2to1_0/m1_324_n364#
+R tmux_2to1_3/A 7597
+= tmux_2to1_3/A m1_1446_776#
+= tmux_2to1_3/A tmux_2to1_3/XM3/D
+= tmux_2to1_3/A tmux_2to1_3/XM4/D
+= tmux_2to1_3/A tmux_2to1_0/Y
+= tmux_2to1_3/A tmux_2to1_0/XM3/S
+= tmux_2to1_3/A tmux_2to1_0/XM4/S
+= tmux_2to1_3/A tmux_2to1_0/XM5/D
+= tmux_2to1_3/A tmux_2to1_0/XM6/D
+R buffer_9/inv_1/vin 3876
+= buffer_9/inv_1/vin buffer_9/inv_0/vout
+= buffer_9/inv_1/vin buffer_9/inv_0/XMn/S
+= buffer_9/inv_1/vin buffer_9/inv_0/XMp/S
+= buffer_9/inv_1/vin buffer_9/m1_160_600#
+= buffer_9/inv_1/vin buffer_9/inv_1/XMn/G
+= buffer_9/inv_1/vin buffer_9/inv_1/m1_160_80#
+= buffer_9/inv_1/vin buffer_9/inv_1/XMp/G
+= buffer_9/inv_1/vin buffer_9/inv_1/m1_160_1240#
+R q2 2034
+= q2 buffer_9/out
+= q2 buffer_9/inv_1/vout
+= q2 buffer_9/inv_1/XMn/S
+= q2 buffer_9/inv_1/XMp/S
+R buffer_8/inv_1/vin 3876
+= buffer_8/inv_1/vin buffer_8/inv_0/vout
+= buffer_8/inv_1/vin buffer_8/inv_0/XMn/S
+= buffer_8/inv_1/vin buffer_8/inv_0/XMp/S
+= buffer_8/inv_1/vin buffer_8/m1_160_600#
+= buffer_8/inv_1/vin buffer_8/inv_1/XMn/G
+= buffer_8/inv_1/vin buffer_8/inv_1/m1_160_80#
+= buffer_8/inv_1/vin buffer_8/inv_1/XMp/G
+= buffer_8/inv_1/vin buffer_8/inv_1/m1_160_1240#
+R q1 2034
+= q1 buffer_8/out
+= q1 buffer_8/inv_1/vout
+= q1 buffer_8/inv_1/XMn/S
+= q1 buffer_8/inv_1/XMp/S
+R buffer_7/inv_1/vin 3876
+= buffer_7/inv_1/vin buffer_7/inv_0/vout
+= buffer_7/inv_1/vin buffer_7/inv_0/XMn/S
+= buffer_7/inv_1/vin buffer_7/inv_0/XMp/S
+= buffer_7/inv_1/vin buffer_7/m1_160_600#
+= buffer_7/inv_1/vin buffer_7/inv_1/XMn/G
+= buffer_7/inv_1/vin buffer_7/inv_1/m1_160_80#
+= buffer_7/inv_1/vin buffer_7/inv_1/XMp/G
+= buffer_7/inv_1/vin buffer_7/inv_1/m1_160_1240#
+R q0 2034
+= q0 buffer_7/out
+= q0 buffer_7/inv_1/vout
+= q0 buffer_7/inv_1/XMn/S
+= q0 buffer_7/inv_1/XMp/S
+R buffer_7/in 6669
+= buffer_7/in tmux_2to1_3/Y
+= buffer_7/in m1_2506_n480#
+= buffer_7/in tmux_2to1_3/XM3/S
+= buffer_7/in tmux_2to1_3/XM4/S
+= buffer_7/in tmux_2to1_3/XM5/D
+= buffer_7/in tmux_2to1_3/XM6/D
+= buffer_7/in buffer_7/inv_0/vin
+= buffer_7/in buffer_7/inv_0/XMn/G
+= buffer_7/in buffer_7/inv_0/m1_160_80#
+= buffer_7/in buffer_7/inv_0/XMp/G
+= buffer_7/in buffer_7/inv_0/m1_160_1240#
+R buffer_6/inv_1/vin 3876
+= buffer_6/inv_1/vin buffer_6/inv_0/vout
+= buffer_6/inv_1/vin buffer_6/inv_0/XMn/S
+= buffer_6/inv_1/vin buffer_6/inv_0/XMp/S
+= buffer_6/inv_1/vin buffer_6/m1_160_600#
+= buffer_6/inv_1/vin buffer_6/inv_1/XMn/G
+= buffer_6/inv_1/vin buffer_6/inv_1/m1_160_80#
+= buffer_6/inv_1/vin buffer_6/inv_1/XMp/G
+= buffer_6/inv_1/vin buffer_6/inv_1/m1_160_1240#
+R buffer_6/out 4836
+= buffer_6/out tmux_2to1_2/B
+= buffer_6/out tmux_2to1_2/XM5/S
+= buffer_6/out tmux_2to1_2/XM6/S
+= buffer_6/out m1_642_n7858#
+= buffer_6/out buffer_6/inv_1/vout
+= buffer_6/out buffer_6/inv_1/XMn/S
+= buffer_6/out buffer_6/inv_1/XMp/S
+R d6 1827
+= d6 buffer_6/in
+= d6 buffer_6/inv_0/vin
+= d6 buffer_6/inv_0/XMn/G
+= d6 buffer_6/inv_0/m1_160_80#
+= d6 buffer_6/inv_0/XMp/G
+= d6 buffer_6/inv_0/m1_160_1240#
+R buffer_5/inv_1/vin 3876
+= buffer_5/inv_1/vin buffer_5/inv_0/vout
+= buffer_5/inv_1/vin buffer_5/inv_0/XMn/S
+= buffer_5/inv_1/vin buffer_5/inv_0/XMp/S
+= buffer_5/inv_1/vin buffer_5/m1_160_600#
+= buffer_5/inv_1/vin buffer_5/inv_1/XMn/G
+= buffer_5/inv_1/vin buffer_5/inv_1/m1_160_80#
+= buffer_5/inv_1/vin buffer_5/inv_1/XMp/G
+= buffer_5/inv_1/vin buffer_5/inv_1/m1_160_1240#
+R buffer_5/out 4836
+= buffer_5/out tmux_2to1_1/B
+= buffer_5/out tmux_2to1_1/XM5/S
+= buffer_5/out tmux_2to1_1/XM6/S
+= buffer_5/out m1_642_n7010#
+= buffer_5/out buffer_5/inv_1/vout
+= buffer_5/out buffer_5/inv_1/XMn/S
+= buffer_5/out buffer_5/inv_1/XMp/S
+C vdd0 84.6
+R vdd 296038
+= vdd buffer_7/vdd
+= vdd buffer_7/inv_0/vdd
+= vdd buffer_7/inv_0/XMp/D
+= vdd buffer_7/inv_0/XMp/B
+= vdd buffer_7/inv_1/vdd
+= vdd buffer_7/inv_1/XMp/D
+= vdd buffer_7/inv_1/XMp/B
+= vdd tmux_2to1_0/vdd
+= vdd tmux_2to1_0/XM1/D
+= vdd tmux_2to1_0/XM1/B
+= vdd tmux_2to1_0/XM3/B
+= vdd tmux_2to1_0/XM5/B
+= vdd w_1854_622#
+= vdd buffer_0/vdd
+= vdd buffer_0/inv_0/vdd
+= vdd buffer_0/inv_0/XMp/D
+= vdd buffer_0/inv_0/XMp/B
+= vdd buffer_0/inv_1/vdd
+= vdd buffer_0/inv_1/XMp/D
+= vdd buffer_0/inv_1/XMp/B
+= vdd w_3060_n1502#
+= vdd tmux_2to1_3/vdd
+= vdd tmux_2to1_3/XM1/D
+= vdd tmux_2to1_3/XM1/B
+= vdd tmux_2to1_3/XM3/B
+= vdd tmux_2to1_3/XM5/B
+= vdd buffer_8/vdd
+= vdd buffer_8/inv_0/vdd
+= vdd buffer_8/inv_0/XMp/D
+= vdd buffer_8/inv_0/XMp/B
+= vdd buffer_8/inv_1/vdd
+= vdd buffer_8/inv_1/XMp/D
+= vdd buffer_8/inv_1/XMp/B
+= vdd tmux_2to1_1/vdd
+= vdd tmux_2to1_1/XM1/D
+= vdd tmux_2to1_1/XM1/B
+= vdd tmux_2to1_1/XM3/B
+= vdd tmux_2to1_1/XM5/B
+= vdd buffer_1/vdd
+= vdd buffer_1/inv_0/vdd
+= vdd buffer_1/inv_0/XMp/D
+= vdd buffer_1/inv_0/XMp/B
+= vdd buffer_1/inv_1/vdd
+= vdd buffer_1/inv_1/XMp/D
+= vdd buffer_1/inv_1/XMp/B
+= vdd buffer_9/vdd
+= vdd buffer_9/inv_0/vdd
+= vdd buffer_9/inv_0/XMp/D
+= vdd buffer_9/inv_0/XMp/B
+= vdd buffer_9/inv_1/vdd
+= vdd buffer_9/inv_1/XMp/D
+= vdd buffer_9/inv_1/XMp/B
+= vdd tmux_2to1_2/vdd
+= vdd tmux_2to1_2/XM1/D
+= vdd tmux_2to1_2/XM1/B
+= vdd tmux_2to1_2/XM3/B
+= vdd tmux_2to1_2/XM5/B
+= vdd w_1854_n2294#
+= vdd buffer_2/vdd
+= vdd buffer_2/inv_0/vdd
+= vdd buffer_2/inv_0/XMp/D
+= vdd buffer_2/inv_0/XMp/B
+= vdd buffer_2/inv_1/vdd
+= vdd buffer_2/inv_1/XMp/D
+= vdd buffer_2/inv_1/XMp/B
+= vdd buffer_3/vdd
+= vdd buffer_3/inv_0/vdd
+= vdd buffer_3/inv_0/XMp/D
+= vdd buffer_3/inv_0/XMp/B
+= vdd buffer_3/inv_1/vdd
+= vdd buffer_3/inv_1/XMp/D
+= vdd buffer_3/inv_1/XMp/B
+= vdd buffer_4/vdd
+= vdd buffer_4/inv_0/vdd
+= vdd buffer_4/inv_0/XMp/D
+= vdd buffer_4/inv_0/XMp/B
+= vdd buffer_4/inv_1/vdd
+= vdd buffer_4/inv_1/XMp/D
+= vdd buffer_4/inv_1/XMp/B
+= vdd w_800_n5210#
+= vdd buffer_6/vdd
+= vdd buffer_6/inv_0/vdd
+= vdd buffer_6/inv_0/XMp/D
+= vdd buffer_6/inv_0/XMp/B
+= vdd buffer_6/inv_1/vdd
+= vdd buffer_6/inv_1/XMp/D
+= vdd buffer_6/inv_1/XMp/B
+= vdd w_800_n8126#
+= vdd buffer_5/vdd
+= vdd buffer_5/inv_0/vdd
+= vdd buffer_5/inv_0/XMp/D
+= vdd buffer_5/inv_0/XMp/B
+= vdd buffer_5/inv_1/vdd
+= vdd buffer_5/inv_1/XMp/D
+= vdd buffer_5/inv_1/XMp/B
+R vss 314860
+= vss R1/VSUBS
+= vss VSUBS
+= vss buffer_7/vss
+= vss buffer_7/VSUBS
+= vss buffer_7/inv_0/vss
+= vss buffer_7/inv_0/XMn/D
+= vss buffer_7/inv_0/XMp/VSUBS
+= vss buffer_7/inv_0/VSUBS
+= vss buffer_7/inv_0/XMn/B
+= vss buffer_7/inv_1/vss
+= vss buffer_7/inv_1/XMn/D
+= vss buffer_7/inv_1/XMp/VSUBS
+= vss buffer_7/inv_1/VSUBS
+= vss buffer_7/inv_1/XMn/B
+= vss tmux_2to1_0/vss
+= vss tmux_2to1_0/XM1/VSUBS
+= vss tmux_2to1_0/XM2/D
+= vss tmux_2to1_0/XM2/B
+= vss tmux_2to1_0/XM3/VSUBS
+= vss tmux_2to1_0/XM4/B
+= vss tmux_2to1_0/XM5/VSUBS
+= vss tmux_2to1_0/XM6/B
+= vss tmux_2to1_0/VSUBS
+= vss buffer_0/vss
+= vss buffer_0/VSUBS
+= vss buffer_0/inv_0/vss
+= vss buffer_0/inv_0/XMn/D
+= vss buffer_0/inv_0/XMp/VSUBS
+= vss buffer_0/inv_0/VSUBS
+= vss buffer_0/inv_0/XMn/B
+= vss buffer_0/inv_1/vss
+= vss buffer_0/inv_1/XMn/D
+= vss buffer_0/inv_1/XMp/VSUBS
+= vss buffer_0/inv_1/VSUBS
+= vss buffer_0/inv_1/XMn/B
+= vss tmux_2to1_3/vss
+= vss tmux_2to1_3/XM1/VSUBS
+= vss tmux_2to1_3/XM2/D
+= vss tmux_2to1_3/XM2/B
+= vss tmux_2to1_3/XM3/VSUBS
+= vss tmux_2to1_3/XM4/B
+= vss tmux_2to1_3/XM5/VSUBS
+= vss tmux_2to1_3/XM6/B
+= vss tmux_2to1_3/VSUBS
+= vss buffer_8/vss
+= vss buffer_8/VSUBS
+= vss buffer_8/inv_0/vss
+= vss buffer_8/inv_0/XMn/D
+= vss buffer_8/inv_0/XMp/VSUBS
+= vss buffer_8/inv_0/VSUBS
+= vss buffer_8/inv_0/XMn/B
+= vss buffer_8/inv_1/vss
+= vss buffer_8/inv_1/XMn/D
+= vss buffer_8/inv_1/XMp/VSUBS
+= vss buffer_8/inv_1/VSUBS
+= vss buffer_8/inv_1/XMn/B
+= vss tmux_2to1_1/vss
+= vss tmux_2to1_1/XM1/VSUBS
+= vss tmux_2to1_1/XM2/D
+= vss tmux_2to1_1/XM2/B
+= vss tmux_2to1_1/XM3/VSUBS
+= vss tmux_2to1_1/XM4/B
+= vss tmux_2to1_1/XM5/VSUBS
+= vss tmux_2to1_1/XM6/B
+= vss tmux_2to1_1/VSUBS
+= vss buffer_1/vss
+= vss buffer_1/VSUBS
+= vss buffer_1/inv_0/vss
+= vss buffer_1/inv_0/XMn/D
+= vss buffer_1/inv_0/XMp/VSUBS
+= vss buffer_1/inv_0/VSUBS
+= vss buffer_1/inv_0/XMn/B
+= vss buffer_1/inv_1/vss
+= vss buffer_1/inv_1/XMn/D
+= vss buffer_1/inv_1/XMp/VSUBS
+= vss buffer_1/inv_1/VSUBS
+= vss buffer_1/inv_1/XMn/B
+= vss buffer_9/vss
+= vss buffer_9/VSUBS
+= vss buffer_9/inv_0/vss
+= vss buffer_9/inv_0/XMn/D
+= vss buffer_9/inv_0/XMp/VSUBS
+= vss buffer_9/inv_0/VSUBS
+= vss buffer_9/inv_0/XMn/B
+= vss buffer_9/inv_1/vss
+= vss buffer_9/inv_1/XMn/D
+= vss buffer_9/inv_1/XMp/VSUBS
+= vss buffer_9/inv_1/VSUBS
+= vss buffer_9/inv_1/XMn/B
+= vss tmux_2to1_2/vss
+= vss tmux_2to1_2/XM1/VSUBS
+= vss tmux_2to1_2/XM2/D
+= vss tmux_2to1_2/XM2/B
+= vss tmux_2to1_2/XM3/VSUBS
+= vss tmux_2to1_2/XM4/B
+= vss tmux_2to1_2/XM5/VSUBS
+= vss tmux_2to1_2/XM6/B
+= vss tmux_2to1_2/VSUBS
+= vss buffer_2/vss
+= vss buffer_2/VSUBS
+= vss buffer_2/inv_0/vss
+= vss buffer_2/inv_0/XMn/D
+= vss buffer_2/inv_0/XMp/VSUBS
+= vss buffer_2/inv_0/VSUBS
+= vss buffer_2/inv_0/XMn/B
+= vss buffer_2/inv_1/vss
+= vss buffer_2/inv_1/XMn/D
+= vss buffer_2/inv_1/XMp/VSUBS
+= vss buffer_2/inv_1/VSUBS
+= vss buffer_2/inv_1/XMn/B
+= vss buffer_3/vss
+= vss buffer_3/VSUBS
+= vss buffer_3/inv_0/vss
+= vss buffer_3/inv_0/XMn/D
+= vss buffer_3/inv_0/XMp/VSUBS
+= vss buffer_3/inv_0/VSUBS
+= vss buffer_3/inv_0/XMn/B
+= vss buffer_3/inv_1/vss
+= vss buffer_3/inv_1/XMn/D
+= vss buffer_3/inv_1/XMp/VSUBS
+= vss buffer_3/inv_1/VSUBS
+= vss buffer_3/inv_1/XMn/B
+= vss buffer_4/vss
+= vss buffer_4/VSUBS
+= vss buffer_4/inv_0/vss
+= vss buffer_4/inv_0/XMn/D
+= vss buffer_4/inv_0/XMp/VSUBS
+= vss buffer_4/inv_0/VSUBS
+= vss buffer_4/inv_0/XMn/B
+= vss buffer_4/inv_1/vss
+= vss buffer_4/inv_1/XMn/D
+= vss buffer_4/inv_1/XMp/VSUBS
+= vss buffer_4/inv_1/VSUBS
+= vss buffer_4/inv_1/XMn/B
+= vss buffer_6/vss
+= vss buffer_6/VSUBS
+= vss buffer_6/inv_0/vss
+= vss buffer_6/inv_0/XMn/D
+= vss buffer_6/inv_0/XMp/VSUBS
+= vss buffer_6/inv_0/VSUBS
+= vss buffer_6/inv_0/XMn/B
+= vss buffer_6/inv_1/vss
+= vss buffer_6/inv_1/XMn/D
+= vss buffer_6/inv_1/XMp/VSUBS
+= vss buffer_6/inv_1/VSUBS
+= vss buffer_6/inv_1/XMn/B
+= vss buffer_5/vss
+= vss buffer_5/VSUBS
+= vss buffer_5/inv_0/vss
+= vss buffer_5/inv_0/XMn/D
+= vss buffer_5/inv_0/XMp/VSUBS
+= vss buffer_5/inv_0/VSUBS
+= vss buffer_5/inv_0/XMn/B
+= vss buffer_5/inv_1/vss
+= vss buffer_5/inv_1/XMn/D
+= vss buffer_5/inv_1/XMp/VSUBS
+= vss buffer_5/inv_1/VSUBS
+= vss buffer_5/inv_1/XMn/B
+R d5 1827
+= d5 buffer_5/in
+= d5 buffer_5/inv_0/vin
+= d5 buffer_5/inv_0/XMn/G
+= d5 buffer_5/inv_0/m1_160_80#
+= d5 buffer_5/inv_0/XMp/G
+= d5 buffer_5/inv_0/m1_160_1240#
+R buffer_4/inv_1/vin 3876
+= buffer_4/inv_1/vin buffer_4/inv_0/vout
+= buffer_4/inv_1/vin buffer_4/inv_0/XMn/S
+= buffer_4/inv_1/vin buffer_4/inv_0/XMp/S
+= buffer_4/inv_1/vin buffer_4/m1_160_600#
+= buffer_4/inv_1/vin buffer_4/inv_1/XMn/G
+= buffer_4/inv_1/vin buffer_4/inv_1/m1_160_80#
+= buffer_4/inv_1/vin buffer_4/inv_1/XMp/G
+= buffer_4/inv_1/vin buffer_4/inv_1/m1_160_1240#
+R buffer_4/out 4836
+= buffer_4/out tmux_2to1_0/B
+= buffer_4/out tmux_2to1_0/XM5/S
+= buffer_4/out tmux_2to1_0/XM6/S
+= buffer_4/out m1_646_n4942#
+= buffer_4/out buffer_4/inv_1/vout
+= buffer_4/out buffer_4/inv_1/XMn/S
+= buffer_4/out buffer_4/inv_1/XMp/S
+R d4 1827
+= d4 buffer_4/in
+= d4 buffer_4/inv_0/vin
+= d4 buffer_4/inv_0/XMn/G
+= d4 buffer_4/inv_0/m1_160_80#
+= d4 buffer_4/inv_0/XMp/G
+= d4 buffer_4/inv_0/m1_160_1240#
+R buffer_3/inv_1/vin 3876
+= buffer_3/inv_1/vin buffer_3/inv_0/vout
+= buffer_3/inv_1/vin buffer_3/inv_0/XMn/S
+= buffer_3/inv_1/vin buffer_3/inv_0/XMp/S
+= buffer_3/inv_1/vin buffer_3/m1_160_600#
+= buffer_3/inv_1/vin buffer_3/inv_1/XMn/G
+= buffer_3/inv_1/vin buffer_3/inv_1/m1_160_80#
+= buffer_3/inv_1/vin buffer_3/inv_1/XMp/G
+= buffer_3/inv_1/vin buffer_3/inv_1/m1_160_1240#
+R R1/R2 2034
+= R1/R2 buffer_3/out
+= R1/R2 m1_698_n3574#
+= R1/R2 buffer_3/inv_1/vout
+= R1/R2 buffer_3/inv_1/XMn/S
+= R1/R2 buffer_3/inv_1/XMp/S
+R d3 1827
+= d3 buffer_3/in
+= d3 buffer_3/inv_0/vin
+= d3 buffer_3/inv_0/XMn/G
+= d3 buffer_3/inv_0/m1_160_80#
+= d3 buffer_3/inv_0/XMp/G
+= d3 buffer_3/inv_0/m1_160_1240#
+R buffer_2/inv_1/vin 3876
+= buffer_2/inv_1/vin buffer_2/inv_0/vout
+= buffer_2/inv_1/vin buffer_2/inv_0/XMn/S
+= buffer_2/inv_1/vin buffer_2/inv_0/XMp/S
+= buffer_2/inv_1/vin buffer_2/m1_160_600#
+= buffer_2/inv_1/vin buffer_2/inv_1/XMn/G
+= buffer_2/inv_1/vin buffer_2/inv_1/m1_160_80#
+= buffer_2/inv_1/vin buffer_2/inv_1/XMp/G
+= buffer_2/inv_1/vin buffer_2/inv_1/m1_160_1240#
+R buffer_2/out 4832
+= buffer_2/out tmux_2to1_2/A
+= buffer_2/out tmux_2to1_2/XM3/D
+= buffer_2/out tmux_2to1_2/XM4/D
+= buffer_2/out m1_644_n2040#
+= buffer_2/out buffer_2/inv_1/vout
+= buffer_2/out buffer_2/inv_1/XMn/S
+= buffer_2/out buffer_2/inv_1/XMp/S
+R d2 1827
+= d2 buffer_2/in
+= d2 buffer_2/inv_0/vin
+= d2 buffer_2/inv_0/XMn/G
+= d2 buffer_2/inv_0/m1_160_80#
+= d2 buffer_2/inv_0/XMp/G
+= d2 buffer_2/inv_0/m1_160_1240#
+R buffer_1/inv_1/vin 3876
+= buffer_1/inv_1/vin buffer_1/inv_0/vout
+= buffer_1/inv_1/vin buffer_1/inv_0/XMn/S
+= buffer_1/inv_1/vin buffer_1/inv_0/XMp/S
+= buffer_1/inv_1/vin buffer_1/m1_160_600#
+= buffer_1/inv_1/vin buffer_1/inv_1/XMn/G
+= buffer_1/inv_1/vin buffer_1/inv_1/m1_160_80#
+= buffer_1/inv_1/vin buffer_1/inv_1/XMp/G
+= buffer_1/inv_1/vin buffer_1/inv_1/m1_160_1240#
+R buffer_1/out 4833
+= buffer_1/out tmux_2to1_1/A
+= buffer_1/out tmux_2to1_1/XM3/D
+= buffer_1/out tmux_2to1_1/XM4/D
+= buffer_1/out m1_642_n1196#
+= buffer_1/out buffer_1/inv_1/vout
+= buffer_1/out buffer_1/inv_1/XMn/S
+= buffer_1/out buffer_1/inv_1/XMp/S
+R d1 1827
+= d1 buffer_1/in
+= d1 buffer_1/inv_0/vin
+= d1 buffer_1/inv_0/XMn/G
+= d1 buffer_1/inv_0/m1_160_80#
+= d1 buffer_1/inv_0/XMp/G
+= d1 buffer_1/inv_0/m1_160_1240#
+R buffer_0/inv_1/vin 3876
+= buffer_0/inv_1/vin buffer_0/inv_0/vout
+= buffer_0/inv_1/vin buffer_0/inv_0/XMn/S
+= buffer_0/inv_1/vin buffer_0/inv_0/XMp/S
+= buffer_0/inv_1/vin buffer_0/m1_160_600#
+= buffer_0/inv_1/vin buffer_0/inv_1/XMn/G
+= buffer_0/inv_1/vin buffer_0/inv_1/m1_160_80#
+= buffer_0/inv_1/vin buffer_0/inv_1/XMp/G
+= buffer_0/inv_1/vin buffer_0/inv_1/m1_160_1240#
+R buffer_0/out 4833
+= buffer_0/out tmux_2to1_0/A
+= buffer_0/out tmux_2to1_0/XM3/D
+= buffer_0/out tmux_2to1_0/XM4/D
+= buffer_0/out m1_640_872#
+= buffer_0/out buffer_0/inv_1/vout
+= buffer_0/out buffer_0/inv_1/XMn/S
+= buffer_0/out buffer_0/inv_1/XMp/S
+R d0 1827
+= d0 buffer_0/in
+= d0 buffer_0/inv_0/vin
+= d0 buffer_0/inv_0/XMn/G
+= d0 buffer_0/inv_0/m1_160_80#
+= d0 buffer_0/inv_0/XMp/G
+= d0 buffer_0/inv_0/m1_160_1240#
+C buffer_8/in0 2.6
+R buffer_8/in 10558
+= buffer_8/in buffer_8/inv_0/vin
+= buffer_8/in buffer_8/inv_0/XMn/G
+= buffer_8/in buffer_8/inv_0/m1_160_80#
+= buffer_8/in buffer_8/inv_0/XMp/G
+= buffer_8/in buffer_8/inv_0/m1_160_1240#
+= buffer_8/in tmux_2to1_3/S
+= buffer_8/in tmux_2to1_1/Y
+= buffer_8/in m1_1446_n900#
+= buffer_8/in tmux_2to1_1/XM3/S
+= buffer_8/in tmux_2to1_1/XM4/S
+= buffer_8/in tmux_2to1_1/XM5/D
+= buffer_8/in tmux_2to1_1/XM6/D
+= buffer_8/in tmux_2to1_3/XM1/G
+= buffer_8/in tmux_2to1_3/XM3/G
+= buffer_8/in tmux_2to1_3/m1_580_156#
+= buffer_8/in tmux_2to1_3/m1_264_694#
+= buffer_8/in tmux_2to1_3/XM2/G
+= buffer_8/in tmux_2to1_3/XM6/G
+= buffer_8/in tmux_2to1_3/m1_896_n140#
+= buffer_8/in tmux_2to1_3/m1_244_n476#
+R tmux_2to1_3/XM5/G 3877
+= tmux_2to1_3/XM5/G tmux_2to1_3/XM1/S
+= tmux_2to1_3/XM5/G tmux_2to1_3/XM2/S
+= tmux_2to1_3/XM5/G tmux_2to1_3/XM4/G
+= tmux_2to1_3/XM5/G tmux_2to1_3/m1_580_n464#
+= tmux_2to1_3/XM5/G tmux_2to1_3/m1_896_696#
+= tmux_2to1_3/XM5/G tmux_2to1_3/m1_324_n364#
+C R1/R10 6.2
+R R1/R1 13549
+= R1/R1 tmux_2to1_0/S
+= R1/R1 tmux_2to1_0/XM1/G
+= R1/R1 tmux_2to1_0/XM3/G
+= R1/R1 tmux_2to1_0/m1_580_156#
+= R1/R1 tmux_2to1_0/m1_264_694#
+= R1/R1 tmux_2to1_0/XM2/G
+= R1/R1 tmux_2to1_0/XM6/G
+= R1/R1 tmux_2to1_0/m1_896_n140#
+= R1/R1 tmux_2to1_0/m1_244_n476#
+= R1/R1 tmux_2to1_1/S
+= R1/R1 tmux_2to1_1/XM1/G
+= R1/R1 tmux_2to1_1/XM3/G
+= R1/R1 tmux_2to1_1/m1_580_156#
+= R1/R1 tmux_2to1_1/m1_264_694#
+= R1/R1 tmux_2to1_1/XM2/G
+= R1/R1 tmux_2to1_1/XM6/G
+= R1/R1 tmux_2to1_1/m1_896_n140#
+= R1/R1 tmux_2to1_1/m1_244_n476#
+= R1/R1 buffer_9/in
+= R1/R1 buffer_9/inv_0/vin
+= R1/R1 buffer_9/inv_0/XMn/G
+= R1/R1 buffer_9/inv_0/m1_160_80#
+= R1/R1 buffer_9/inv_0/XMp/G
+= R1/R1 buffer_9/inv_0/m1_160_1240#
+= R1/R1 m1_916_n3216#
+= R1/R1 tmux_2to1_2/S
+= R1/R1 tmux_2to1_2/XM1/G
+= R1/R1 tmux_2to1_2/XM3/G
+= R1/R1 tmux_2to1_2/m1_580_156#
+= R1/R1 tmux_2to1_2/m1_264_694#
+= R1/R1 tmux_2to1_2/XM2/G
+= R1/R1 tmux_2to1_2/XM6/G
+= R1/R1 tmux_2to1_2/m1_896_n140#
+= R1/R1 tmux_2to1_2/m1_244_n476#
+R tmux_2to1_2/XM5/G 3877
+= tmux_2to1_2/XM5/G tmux_2to1_2/XM1/S
+= tmux_2to1_2/XM5/G tmux_2to1_2/XM2/S
+= tmux_2to1_2/XM5/G tmux_2to1_2/XM4/G
+= tmux_2to1_2/XM5/G tmux_2to1_2/m1_580_n464#
+= tmux_2to1_2/XM5/G tmux_2to1_2/m1_896_696#
+= tmux_2to1_2/XM5/G tmux_2to1_2/m1_324_n364#
+R tmux_2to1_3/B 7598
+= tmux_2to1_3/B tmux_2to1_3/XM5/S
+= tmux_2to1_3/B tmux_2to1_3/XM6/S
+= tmux_2to1_3/B tmux_2to1_2/Y
+= tmux_2to1_3/B m1_1434_n1900#
+= tmux_2to1_3/B tmux_2to1_2/XM3/S
+= tmux_2to1_3/B tmux_2to1_2/XM4/S
+= tmux_2to1_3/B tmux_2to1_2/XM5/D
+= tmux_2to1_3/B tmux_2to1_2/XM6/D
+R tmux_2to1_1/XM5/G 3877
+= tmux_2to1_1/XM5/G tmux_2to1_1/XM1/S
+= tmux_2to1_1/XM5/G tmux_2to1_1/XM2/S
+= tmux_2to1_1/XM5/G tmux_2to1_1/XM4/G
+= tmux_2to1_1/XM5/G tmux_2to1_1/m1_580_n464#
+= tmux_2to1_1/XM5/G tmux_2to1_1/m1_896_696#
+= tmux_2to1_1/XM5/G tmux_2to1_1/m1_324_n364#

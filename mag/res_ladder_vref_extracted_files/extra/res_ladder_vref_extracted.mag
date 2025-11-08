@@ -1,0 +1,81 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1762308519
+<< viali >>
+rect 1136 -3874 3356 -3832
+<< metal1 >>
+rect 1098 9830 3408 9920
+rect 1264 7236 1696 9830
+rect 1264 4492 1696 7010
+rect 2810 5864 3242 9754
+rect 1264 1748 1696 4266
+rect 2810 3120 3242 5638
+rect 1264 -996 1696 1522
+rect 2810 376 3242 2894
+rect 1264 -3816 1696 -1222
+rect 2810 -3740 3242 150
+rect 1098 -3832 3408 -3816
+rect 1098 -3874 1136 -3832
+rect 3356 -3874 3408 -3832
+rect 1098 -3906 3408 -3874
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR1
+timestamp 1762307801
+transform 0 1 2253 -1 0 9181
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR2
+timestamp 1762307801
+transform 0 1 2253 -1 0 7809
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR3
+timestamp 1762307801
+transform 0 1 2253 -1 0 6437
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR4
+timestamp 1762307801
+transform 0 1 2253 -1 0 5065
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR5
+timestamp 1762307801
+transform 0 1 2253 -1 0 3693
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR6
+timestamp 1762307801
+transform 0 1 2253 -1 0 2321
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR7
+timestamp 1762307801
+transform 0 1 2253 -1 0 949
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR8
+timestamp 1762307801
+transform 0 1 2253 -1 0 -423
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR9
+timestamp 1762307801
+transform 0 1 2253 -1 0 -1795
+box -739 -1155 739 1155
+use sky130_fd_pr__res_xhigh_po_5p73_JT48NU  XR10
+timestamp 1762307801
+transform 0 1 2253 -1 0 -3167
+box -739 -1155 739 1155
+<< labels >>
+rlabel metal1 2810 -3740 3242 150 1 ref0
+port 0 n
+rlabel metal1 1264 -996 1696 1522 1 ref1
+port 1 n
+rlabel metal1 2810 376 3242 2894 1 ref2
+port 2 n
+rlabel metal1 1264 1748 1696 4266 1 ref3
+port 3 n
+rlabel metal1 2810 3120 3242 5638 1 ref4
+port 4 n
+rlabel metal1 1264 4492 1696 7010 1 ref5
+port 5 n
+rlabel metal1 2810 5864 3242 9754 1 ref6
+port 6 n
+rlabel metal1 1098 9830 3408 9920 1 vref
+port 7 n
+rlabel metal1 1098 -3906 3408 -3874 1 vss
+port 8 n
+<< end >>

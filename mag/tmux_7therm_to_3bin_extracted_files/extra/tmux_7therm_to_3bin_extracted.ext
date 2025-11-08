@@ -1,0 +1,871 @@
+timestamp 1762392494
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+use buffer buffer_5 1 0 178 0 -1 -5810
+use buffer buffer_6 1 0 178 0 1 -8766
+use buffer buffer_4 1 0 178 0 1 -5850
+use buffer buffer_3 1 0 178 0 -1 -2894
+use buffer buffer_2 1 0 178 0 1 -2934
+use sky130_fd_pr__res_generic_m1_SPQYYJ R1 1 0 1016 0 1 -3335
+use tmux_2to1 tmux_2to1_2 1 0 714 0 1 -2328
+use buffer buffer_9 1 0 3128 0 1 -2934
+use buffer buffer_1 1 0 178 0 -1 22
+use tmux_2to1 tmux_2to1_1 1 0 714 0 -1 -584
+use buffer buffer_8 1 0 3128 0 -1 22
+use tmux_2to1 tmux_2to1_3 1 0 1768 0 -1 -584
+use buffer buffer_0 1 0 178 0 1 -18
+use tmux_2to1 tmux_2to1_0 1 0 714 0 1 588
+use buffer buffer_7 1 0 3128 0 1 -18
+port "d6" 6 -42 -8166 198 -8086 m1
+port "d5" 5 -42 -6490 198 -6410 m1
+port "d4" 4 -42 -5250 198 -5170 m1
+port "d3" 3 -42 -3574 198 -3494 m1
+port "q2" 9 3648 -2334 3740 -2254 m1
+port "d2" 2 -42 -2334 198 -2254 m1
+port "q1" 8 3648 -658 3740 -578 m1
+port "d1" 1 -42 -658 198 -578 m1
+port "vss" 11 3016 60 3536 1460 m3
+port "q0" 7 3648 582 3740 662 m1
+port "d0" 0 -42 582 198 662 m1
+port "vdd" 10 218 -1406 738 1390 m3
+node "d6" 0 104.667 -42 -8166 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "d5" 0 104.667 -42 -6490 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "d4" 0 104.667 -42 -5250 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "d3" 0 99.5785 -42 -3574 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "m1_698_n3574#" 1 109.512 698 -3574 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 42240 1084 0 0 0 0 0 0 0 0 0 0
+node "q2" 0 55.4172 3648 -2334 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7360 344 0 0 0 0 0 0 0 0 0 0
+node "d2" 0 101.659 -42 -2334 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "m1_642_n7858#" 7 619.626 642 -7858 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25296 1064 132136 3368 441632 12084 0 0 0 0 0 0
+node "m1_644_n2040#" 2 289.147 644 -2040 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16952 780 59304 1776 0 0 0 0 0 0 0 0
+node "m1_642_n7010#" 7 941.948 642 -7010 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 36664 1352 115488 3024 486168 12828 0 0 0 0 0 0
+node "m1_642_n1196#" 3 488.706 642 -1196 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41984 1568 98896 2552 0 0 0 0 0 0 0 0
+node "q1" 0 55.5222 3648 -658 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7360 344 0 0 0 0 0 0 0 0 0 0
+node "m1_1446_n900#" 6 772.997 1446 -900 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33920 1484 153372 4688 0 0 0 0 0 0 0 0
+node "m1_1434_n1900#" 4 505.431 1434 -1900 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23144 896 163764 3664 116920 3308 0 0 0 0 0 0
+node "d1" 0 101.638 -42 -658 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "vss" 29 13018.2 3016 60 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2123520 31456 2123520 31456 5592888 21508 0 0 0 0 0 0
+node "q0" 0 56.0771 3648 582 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 7360 344 0 0 0 0 0 0 0 0 0 0
+node "m1_2506_n480#" 3 414.808 2506 -480 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 23160 1004 70336 2100 101376 2480 0 0 0 0 0 0
+node "m1_916_n3216#" 12 1824.29 916 -3216 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 119000 3672 243452 7196 279020 7968 0 0 0 0 0 0
+node "d0" 0 103.903 -42 582 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19200 640 0 0 0 0 0 0 0 0 0 0
+node "m1_1446_776#" 4 410.946 1446 776 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15496 736 89608 2516 97280 2712 0 0 0 0 0 0
+node "m1_646_n4942#" 8 1045.21 646 -4942 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30044 1268 119040 3248 507500 13224 0 0 0 0 0 0
+node "m1_640_872#" 4 503.976 640 872 v 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 41984 1568 93348 2568 0 0 0 0 0 0 0 0
+node "vdd" 30 11494 218 -1406 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2110000 31508 2123520 31456 9655420 37372 0 0 0 0 0 0
+node "w_800_n8126#" 1672 14832.6 800 -8126 nw 0 0 0 0 4944200 9252 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_800_n5210#" 1672 14832.6 800 -5210 nw 0 0 0 0 4944200 9252 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_3060_n1502#" 3958 145.8 3060 -1502 nw 0 0 0 0 48600 1116 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1854_n2294#" 1195 2649.76 1854 -2294 nw 0 0 0 0 883252 3784 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_1854_622#" 1195 2649.76 1854 622 nw 0 0 0 0 883252 3784 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "vdd" "d2" 30.3887
+cap "w_1854_n2294#" "m1_1434_n1900#" 183
+cap "vdd" "m1_2506_n480#" 61.7618
+cap "vdd" "m1_1446_n900#" 155.521
+cap "q1" "vss" 16.6265
+cap "w_1854_622#" "m1_1446_776#" 127.288
+cap "w_800_n8126#" "m1_642_n7010#" 214.426
+cap "m1_644_n2040#" "m1_642_n7010#" 21.9849
+cap "vdd" "w_1854_622#" 310.818
+cap "vdd" "d5" 30.3887
+cap "w_800_n8126#" "vss" 892.133
+cap "w_800_n8126#" "m1_642_n7858#" 377.747
+cap "m1_644_n2040#" "vss" 27.9993
+cap "m1_698_n3574#" "m1_642_n7010#" 9.23996
+cap "vdd" "m1_1446_776#" 96.8724
+cap "m1_644_n2040#" "m1_642_n7858#" 26.4459
+cap "vdd" "m1_642_n1196#" 330.708
+cap "m1_698_n3574#" "d3" 6.4
+cap "m1_698_n3574#" "vss" 18.5416
+cap "m1_698_n3574#" "m1_642_n7858#" 0.491996
+cap "m1_644_n2040#" "m1_916_n3216#" 119.468
+cap "m1_698_n3574#" "m1_916_n3216#" 39.8286
+cap "vdd" "q2" 5.47365
+cap "vss" "d2" 20.2355
+cap "m1_642_n7010#" "m1_1446_n900#" 55.3438
+cap "m1_2506_n480#" "vss" 486.952
+cap "vss" "m1_1446_n900#" 281.201
+cap "m1_916_n3216#" "d2" 4.61285
+cap "m1_644_n2040#" "m1_646_n4942#" 1.79619
+cap "m1_916_n3216#" "m1_2506_n480#" 2.05693
+cap "m1_916_n3216#" "m1_1446_n900#" 36.3912
+cap "m1_2506_n480#" "q0" 4.61979
+cap "m1_698_n3574#" "m1_646_n4942#" 0.810062
+cap "w_1854_n2294#" "m1_644_n2040#" 0.106639
+cap "d5" "m1_642_n7010#" 0.0957553
+cap "vss" "d5" 20.2355
+cap "w_1854_622#" "vss" 130.682
+cap "m1_642_n1196#" "m1_642_n7010#" 74.9998
+cap "d5" "m1_642_n7858#" 0.0599854
+cap "m1_1446_776#" "vss" 257.836
+cap "m1_642_n1196#" "vss" 38.6723
+cap "w_1854_622#" "m1_640_872#" 3.97695
+cap "w_1854_622#" "m1_916_n3216#" 0.354968
+cap "q1" "m1_1434_n1900#" 0.0574116
+cap "w_1854_622#" "q0" 0.442861
+cap "m1_1446_776#" "m1_640_872#" 6.1158
+cap "m1_1446_776#" "m1_916_n3216#" 0.251348
+cap "m1_646_n4942#" "m1_2506_n480#" 12.8772
+cap "vdd" "m1_642_n7010#" 1037.59
+cap "m1_646_n4942#" "m1_1446_n900#" 116.556
+cap "m1_642_n1196#" "m1_916_n3216#" 110.484
+cap "vdd" "d3" 30.1664
+cap "m1_1446_776#" "q0" 0.0273877
+cap "vdd" "vss" 8282.77
+cap "q2" "vss" 17.274
+cap "vdd" "m1_642_n7858#" 1997.55
+cap "vdd" "d1" 30.3887
+cap "vdd" "w_3060_n1502#" 31.3227
+cap "vdd" "m1_640_872#" 328.236
+cap "m1_698_n3574#" "w_800_n5210#" 58.9178
+cap "vdd" "m1_916_n3216#" 1585.49
+cap "q2" "m1_916_n3216#" 4.99532
+cap "vdd" "q0" 5.47365
+cap "m1_644_n2040#" "m1_1434_n1900#" 8.84615
+cap "w_1854_622#" "m1_646_n4942#" 85.6369
+cap "m1_646_n4942#" "m1_1446_776#" 391.672
+cap "m1_642_n1196#" "m1_646_n4942#" 0.322347
+cap "vdd" "d4" 30.3887
+cap "w_800_n8126#" "d6" 1.72805
+cap "vdd" "m1_646_n4942#" 851.94
+cap "m1_2506_n480#" "m1_1434_n1900#" 133.66
+cap "vdd" "w_1854_n2294#" 408.904
+cap "m1_1446_n900#" "m1_1434_n1900#" 96.963
+cap "vss" "m1_642_n7010#" 353.573
+cap "m1_642_n7010#" "m1_642_n7858#" 485.48
+cap "vss" "d3" 20.2355
+cap "vss" "m1_642_n7858#" 361.182
+cap "vss" "d1" 20.2355
+cap "m1_916_n3216#" "m1_642_n7010#" 476.49
+cap "vss" "m1_640_872#" 40.3022
+cap "m1_916_n3216#" "vss" 896.627
+cap "m1_916_n3216#" "m1_642_n7858#" 73.604
+cap "m1_916_n3216#" "d1" 4.63479
+cap "vss" "q0" 16.7603
+cap "w_1854_622#" "m1_1434_n1900#" 2.55951
+cap "m1_916_n3216#" "m1_640_872#" 9.97112
+cap "vdd" "w_800_n5210#" 2218.51
+cap "m1_1446_776#" "m1_1434_n1900#" 0.969819
+cap "m1_642_n1196#" "m1_1434_n1900#" 0.0194003
+cap "d4" "m1_642_n7010#" 0.0957553
+cap "vdd" "m1_1434_n1900#" 1003.14
+cap "m1_646_n4942#" "m1_642_n7010#" 1900.71
+cap "vss" "d4" 20.2355
+cap "d4" "m1_642_n7858#" 0.0599854
+cap "m1_646_n4942#" "vss" 363.441
+cap "m1_646_n4942#" "m1_642_n7858#" 1391.79
+cap "q1" "m1_1446_n900#" 5.47449
+cap "m1_646_n4942#" "m1_640_872#" 54.3557
+cap "w_1854_n2294#" "vss" 61.1751
+cap "m1_646_n4942#" "m1_916_n3216#" 189.715
+cap "w_1854_n2294#" "m1_642_n7858#" 27.9504
+cap "vdd" "d6" 30.3887
+cap "w_1854_n2294#" "m1_916_n3216#" 121.807
+cap "vdd" "d0" 30.3887
+cap "w_800_n5210#" "m1_642_n7010#" 176.469
+cap "w_800_n5210#" "vss" 891.469
+cap "w_800_n5210#" "m1_642_n7858#" 126.133
+cap "w_800_n5210#" "m1_916_n3216#" 23.0435
+cap "vdd" "q1" 5.47365
+cap "w_1854_n2294#" "m1_646_n4942#" 12.9952
+cap "m1_642_n7010#" "m1_1434_n1900#" 62.8664
+cap "w_800_n8126#" "d5" 1.72805
+cap "vss" "m1_1434_n1900#" 486.993
+cap "m1_642_n7858#" "m1_1434_n1900#" 38.8079
+cap "m1_2506_n480#" "m1_1446_n900#" 21.0998
+cap "m1_916_n3216#" "m1_1434_n1900#" 92.8662
+cap "w_800_n5210#" "d4" 1.72805
+cap "vdd" "w_800_n8126#" 2312.03
+cap "vdd" "m1_644_n2040#" 196.592
+cap "w_800_n5210#" "m1_646_n4942#" 234.032
+cap "vss" "d6" 20.2355
+cap "vdd" "m1_698_n3574#" 61.585
+cap "d0" "vss" 20.2355
+cap "w_1854_622#" "m1_2506_n480#" 65.6636
+cap "m1_1446_776#" "m1_2506_n480#" 375.825
+cap "d0" "m1_916_n3216#" 2.48604
+cap "m1_646_n4942#" "m1_1434_n1900#" 189.213
+cap "m1_1446_776#" "m1_1446_n900#" 10.1403
+cap "m1_642_n1196#" "m1_1446_n900#" 16.9439
+cap "buffer_5/vss" "buffer_6/out" 8.37449
+cap "buffer_5/vss" "buffer_5/vdd" 81.6079
+cap "buffer_6/out" "buffer_5/vdd" 268.584
+cap "buffer_6/in" "buffer_6/out" 1.3204
+cap "buffer_6/in" "buffer_5/vss" -4.71691
+cap "buffer_6/in" "buffer_5/in" 2.19019
+cap "buffer_6/in" "buffer_5/vdd" 40.5332
+cap "buffer_6/inv_1/vin" "buffer_5/vss" 21.0702
+cap "buffer_6/inv_1/vin" "buffer_6/out" 7.85739
+cap "buffer_6/inv_1/vin" "buffer_5/inv_1/vin" 2.19019
+cap "buffer_6/inv_1/vin" "buffer_5/vdd" 328.349
+cap "buffer_5/vdd" "buffer_5/vss" 0.496578
+cap "buffer_6/out" "buffer_5/vdd" 1.86203
+cap "buffer_5/vdd" "buffer_5/vss" 99.6962
+cap "buffer_5/out" "buffer_6/out" 1.76241
+cap "buffer_6/out" "buffer_5/inv_1/vin" 0.472627
+cap "buffer_5/vss" "buffer_6/out" 0.202281
+cap "buffer_6/inv_1/vin" "buffer_5/inv_1/vin" 2.19019
+cap "buffer_5/vdd" "buffer_6/out" 0.304926
+cap "buffer_5/out" "buffer_5/in" 1.23519
+cap "buffer_5/vss" "buffer_5/in" -5.4708
+cap "buffer_4/in" "buffer_5/in" 2.177
+cap "buffer_5/out" "buffer_5/inv_1/vin" 8.26796
+cap "buffer_5/vdd" "buffer_5/in" 40.5332
+cap "buffer_5/vss" "buffer_5/out" 0.368572
+cap "buffer_5/vss" "buffer_5/inv_1/vin" 0.983121
+cap "buffer_4/inv_1/vin" "buffer_5/inv_1/vin" 2.177
+cap "buffer_5/vdd" "buffer_5/out" 265.747
+cap "buffer_5/vdd" "buffer_5/inv_1/vin" 328.459
+cap "buffer_6/out" "buffer_5/in" -0.0599854
+cap "buffer_6/in" "buffer_5/in" 2.19019
+cap "buffer_6/out" "buffer_5/vdd" 1.24304
+cap "buffer_5/out" "buffer_5/vdd" 2.39243
+cap "buffer_5/vss" "buffer_5/out" 1.38727
+cap "buffer_4/in" "buffer_5/out" -0.0957553
+cap "buffer_5/vdd" "buffer_4/out" 269.067
+cap "buffer_5/out" "buffer_4/out" 3.29092
+cap "m1_642_n7858#" "buffer_5/vss" 0.387692
+cap "m1_642_n7858#" "buffer_4/inv_1/vin" 0.351832
+cap "buffer_5/vdd" "buffer_5/out" 0.33784
+cap "m1_642_n7858#" "buffer_4/in" -0.0599854
+cap "m1_642_n7858#" "buffer_4/out" 1.76241
+cap "buffer_5/inv_1/vin" "buffer_5/vss" 21.0702
+cap "buffer_5/inv_1/vin" "buffer_4/inv_1/vin" 2.177
+cap "buffer_5/vss" "buffer_4/inv_1/vin" 22.0533
+cap "buffer_5/in" "buffer_5/vss" 1.73702
+cap "buffer_4/in" "buffer_5/vss" -3.73378
+cap "m1_642_n7858#" "buffer_5/vdd" 0.186478
+cap "buffer_5/in" "buffer_4/in" 2.177
+cap "buffer_5/vss" "buffer_4/out" 8.14192
+cap "buffer_4/inv_1/vin" "buffer_4/out" 7.6973
+cap "buffer_4/in" "buffer_4/out" 1.31807
+cap "buffer_5/vdd" "buffer_5/vss" 71.2348
+cap "buffer_5/vdd" "buffer_4/inv_1/vin" 283.759
+cap "buffer_5/out" "buffer_5/vss" 8.45688
+cap "buffer_5/out" "buffer_4/inv_1/vin" 0.596514
+cap "buffer_5/vdd" "buffer_4/in" 26.4552
+cap "buffer_5/out" "buffer_5/vdd" 3.75856
+cap "buffer_4/out" "buffer_5/vdd" 7.10543e-15
+cap "buffer_5/out" "buffer_5/vss" 1.60254
+cap "m1_642_n7858#" "buffer_5/vdd" 2.84217e-14
+cap "buffer_5/vss" "buffer_5/vdd" -8.52651e-14
+cap "buffer_5/out" "buffer_4/out" 0.347263
+cap "buffer_5/vss" "m1_642_n7010#" 0.257922
+cap "tmux_2to1_2/B" "buffer_4/inv_1/vin" 0.120795
+cap "R1/m1_n100_n100#" "buffer_4/vdd" 15.4418
+cap "buffer_3/out" "R1/m1_n100_n100#" 38.5965
+cap "buffer_4/vdd" "tmux_2to1_2/B" 0.423373
+cap "buffer_3/out" "tmux_2to1_2/B" 1.04451
+cap "buffer_3/inv_1/vin" "m1_642_n7010#" 0.537828
+cap "buffer_4/vdd" "buffer_4/inv_1/vin" 44.6998
+cap "buffer_5/vss" "R1/m1_n100_n100#" 3.49627
+cap "buffer_5/vss" "tmux_2to1_2/B" 0.141201
+cap "buffer_3/out" "buffer_4/vdd" 200.301
+cap "R1/R1" "m1_642_n7010#" 0.20627
+cap "buffer_3/inv_1/vin" "R1/m1_n100_n100#" 1.03406
+cap "buffer_3/inv_1/vin" "tmux_2to1_2/B" 0.316689
+cap "buffer_5/vss" "buffer_4/vdd" 63.214
+cap "R1/m1_n100_n100#" "buffer_4/out" 1.30655
+cap "buffer_3/out" "buffer_5/vss" -0.135146
+cap "buffer_3/inv_1/vin" "buffer_4/inv_1/vin" 4.38038
+cap "R1/m1_n100_n100#" "R1/R1" 45.1858
+cap "buffer_3/inv_1/vin" "buffer_4/vdd" 308.077
+cap "R1/R1" "tmux_2to1_2/B" 0.0753865
+cap "buffer_4/out" "buffer_4/inv_1/vin" 0.16456
+cap "buffer_3/out" "buffer_4/out" 1.50872
+cap "buffer_4/out" "buffer_4/vdd" -0.98111
+cap "buffer_4/in" "buffer_4/vdd" 14.078
+cap "buffer_3/out" "buffer_3/in" -6.4
+cap "R1/R1" "buffer_4/vdd" -2.26999
+cap "buffer_3/out" "R1/R1" -10.6842
+cap "buffer_3/in" "buffer_4/vdd" 35.6037
+cap "buffer_5/vss" "buffer_4/out" 0.194667
+cap "buffer_5/vss" "R1/R1" 2.96458
+cap "buffer_3/inv_1/vin" "buffer_4/out" 0.421896
+cap "buffer_3/in" "buffer_5/vss" -6.45392
+cap "buffer_3/inv_1/vin" "R1/R1" 0.540944
+cap "R1/m1_n100_n100#" "m1_642_n7010#" 2.17126
+cap "m1_642_n7010#" "buffer_4/inv_1/vin" 0.216994
+cap "R1/R1" "buffer_4/out" 0.124122
+cap "buffer_3/in" "R1/R1" 0.109522
+cap "buffer_3/out" "m1_642_n7010#" 2.15591
+cap "m1_642_n7010#" "buffer_4/vdd" 0.765395
+cap "buffer_3/in" "buffer_4/in" 4.38038
+cap "R1/m1_n100_n100#" "tmux_2to1_2/B" 0.793543
+cap "m1_642_n7010#" "buffer_5/vss" 0.908903
+cap "buffer_4/vdd" "m1_642_n7010#" 5.49159
+cap "m1_642_n7010#" "buffer_3/out" 0.725707
+cap "buffer_4/vdd" "buffer_4/out" 4.9738e-14
+cap "m1_642_n7010#" "R1/m1_n100_n100#" 9.6761
+cap "m1_642_n7010#" "R1/R1" 0.919229
+cap "tmux_2to1_2/B" "buffer_2/out" -5.51622
+cap "buffer_4/vdd" "tmux_2to1_2/XM5/G" -1.97026
+cap "tmux_2to1_2/B" "buffer_3/inv_1/vin" 0.0868582
+cap "buffer_3/inv_1/vin" "R1/R1" 8.39934
+cap "buffer_2/out" "R1/R1" 155.901
+cap "tmux_2to1_2/XM5/G" "buffer_2/out" 143.65
+cap "m1_646_n4942#" "buffer_3/inv_1/vin" 0.115018
+cap "buffer_2/in" "buffer_3/in" 4.35401
+cap "buffer_2/in" "buffer_4/vdd" 26.2
+cap "tmux_2to1_2/Y" "buffer_2/out" 21.2393
+cap "buffer_2/in" "buffer_2/out" 0.623901
+cap "tmux_2to1_1/B" "buffer_3/vss" 0.984545
+cap "buffer_4/vdd" "buffer_2/inv_1/vin" 257.052
+cap "buffer_3/out" "buffer_4/vdd" 7.4739
+cap "tmux_2to1_2/B" "buffer_3/vss" 0.262251
+cap "tmux_2to1_1/B" "R1/R1" -0.451596
+cap "buffer_2/out" "buffer_2/inv_1/vin" 3.56006
+cap "buffer_4/vdd" "buffer_3/in" 6.87981
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_1/B" 0.162592
+cap "buffer_3/inv_1/vin" "buffer_2/inv_1/vin" 4.35401
+cap "R1/R1" "buffer_3/vss" 183.927
+cap "tmux_2to1_2/XM5/G" "buffer_3/vss" -0.427901
+cap "tmux_2to1_2/B" "R1/R1" 0.552491
+cap "m1_646_n4942#" "buffer_3/vss" 0.377394
+cap "buffer_4/vdd" "buffer_2/out" 408.352
+cap "buffer_4/vdd" "buffer_3/inv_1/vin" 20.2845
+cap "buffer_3/vss" "R1/m1_n100_n100#" 0.623437
+cap "m1_646_n4942#" "R1/R1" -0.193368
+cap "tmux_2to1_2/XM5/G" "R1/R1" 229.209
+cap "buffer_2/in" "buffer_3/vss" -3.73378
+cap "m1_646_n4942#" "tmux_2to1_2/XM5/G" 0.14884
+cap "tmux_2to1_2/Y" "R1/R1" 18.5466
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_2/Y" -0.499078
+cap "buffer_2/in" "R1/R1" -3.41863
+cap "R1/R1" "R1/m1_n100_n100#" 0.464883
+cap "buffer_3/vss" "buffer_2/inv_1/vin" 33.7548
+cap "buffer_3/out" "buffer_3/vss" 6.72
+cap "buffer_4/vdd" "tmux_2to1_1/B" 0.237892
+cap "buffer_3/in" "buffer_3/vss" 2.72014
+cap "R1/R1" "buffer_2/inv_1/vin" 17.5572
+cap "buffer_4/vdd" "buffer_3/vss" 123.489
+cap "buffer_3/out" "R1/R1" 4.5128
+cap "buffer_2/out" "tmux_2to1_1/B" 1.63
+cap "tmux_2to1_1/B" "buffer_3/inv_1/vin" 0.145232
+cap "buffer_3/in" "R1/R1" 0.20105
+cap "buffer_2/out" "buffer_3/vss" 75.9194
+cap "buffer_3/inv_1/vin" "buffer_3/vss" 22.0533
+cap "buffer_4/vdd" "R1/R1" 90.4759
+cap "buffer_9/inv_1/vin" "R1/R1" 1.56929
+cap "buffer_4/vdd" "tmux_2to1_2/XM5/G" 12.6042
+cap "buffer_2/inv_1/vin" "tmux_2to1_2/Y" 0.497769
+cap "tmux_2to1_2/B" "m1_646_n4942#" 13.3149
+cap "tmux_2to1_1/B" "tmux_2to1_2/XM5/G" 94.4755
+cap "buffer_2/out" "tmux_2to1_1/B" 24.7694
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/B" 1.20048
+cap "tmux_2to1_2/Y" "buffer_2/in" 0.129158
+cap "R1/R1" "tmux_2to1_2/XM5/G" 28.2069
+cap "buffer_2/out" "R1/R1" 0.09256
+cap "buffer_4/vdd" "tmux_2to1_1/B" 13.8284
+cap "buffer_3/vss" "tmux_2to1_2/XM5/G" -0.216454
+cap "tmux_2to1_2/Y" "m1_646_n4942#" 80.7979
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/Y" 0.0114857
+cap "tmux_2to1_2/B" "tmux_2to1_2/XM5/G" 23.3301
+cap "buffer_4/vdd" "R1/R1" 12.9674
+cap "buffer_2/out" "tmux_2to1_2/B" -5.53894
+cap "buffer_3/vss" "buffer_4/vdd" 8.48388
+cap "R1/R1" "tmux_2to1_1/B" 47.0368
+cap "buffer_4/vdd" "tmux_2to1_2/B" 146.337
+cap "R1/R1" "buffer_9/out" 0.36021
+cap "buffer_3/vss" "tmux_2to1_1/B" -7.48468
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_2/Y" 26.3558
+cap "buffer_2/out" "tmux_2to1_2/Y" 8.3055
+cap "buffer_3/vss" "R1/R1" 93.2341
+cap "tmux_2to1_2/XM5/G" "m1_646_n4942#" 66.8577
+cap "buffer_4/vdd" "tmux_2to1_2/Y" 18.6048
+cap "R1/R1" "tmux_2to1_2/B" 129.711
+cap "buffer_3/vss" "tmux_2to1_2/B" 9.26296
+cap "tmux_2to1_1/B" "tmux_2to1_2/Y" 88.3157
+cap "buffer_4/vdd" "m1_646_n4942#" 7.02593
+cap "R1/R1" "tmux_2to1_2/Y" 130.142
+cap "buffer_3/vss" "tmux_2to1_2/Y" -4.00648
+cap "tmux_2to1_2/B" "tmux_2to1_2/Y" 108.746
+cap "R1/R1" "m1_646_n4942#" 38.8077
+cap "buffer_3/vss" "m1_646_n4942#" -10.7503
+cap "w_800_n5210#" "buffer_9/in" 0.783609
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/vdd" 4.34514
+cap "tmux_2to1_2/XM6/B" "tmux_2to1_2/B" 3.78841
+cap "tmux_2to1_2/XM6/G" "buffer_9/in" 0.998092
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/Y" 1.18611
+cap "w_800_n5210#" "tmux_2to1_2/XM6/B" 0.579125
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/XM6/B" 282.859
+cap "tmux_2to1_2/XM6/B" "tmux_2to1_2/XM6/G" 1.17184
+cap "buffer_9/in" "tmux_2to1_2/XM5/G" 0.545976
+cap "buffer_9/in" "tmux_2to1_2/vdd" 39.0135
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/B" 1.02291
+cap "tmux_2to1_2/Y" "buffer_9/in" 0.430793
+cap "tmux_2to1_2/XM6/B" "buffer_9/in" 94.1471
+cap "tmux_2to1_2/XM6/B" "tmux_2to1_2/XM5/G" 0.00153725
+cap "tmux_2to1_2/Y" "tmux_2to1_2/vdd" 13.8322
+cap "buffer_9/out" "buffer_9/in" -4.75559
+cap "w_800_n5210#" "buffer_9/inv_1/vin" 0.783609
+cap "tmux_2to1_2/XM6/B" "tmux_2to1_2/vdd" 190.919
+cap "buffer_9/out" "tmux_2to1_2/vdd" -0.417781
+cap "tmux_2to1_2/XM6/B" "m1_646_n4942#" 0.0604322
+cap "tmux_2to1_2/XM6/B" "tmux_2to1_2/Y" 0.00213859
+cap "tmux_2to1_2/XM6/B" "tmux_2to1_1/B" 0.0475663
+cap "buffer_9/out" "tmux_2to1_2/Y" 0.248441
+cap "buffer_9/out" "tmux_2to1_2/XM6/B" 55.3977
+cap "buffer_9/in" "tmux_2to1_2/B" 2.99149
+cap "tmux_2to1_2/vdd" "tmux_2to1_2/B" 6.01018
+cap "buffer_9/inv_1/vin" "buffer_9/in" 1.92459
+cap "buffer_1/inv_1/vin" "R1/R1" 16.2731
+cap "buffer_3/vss" "buffer_2/vdd" 21.6899
+cap "buffer_2/vdd" "buffer_2/out" 40.9405
+cap "R1/R1" "tmux_2to1_0/B" -0.66896
+cap "tmux_2to1_1/XM5/G" "R1/R1" 120.656
+cap "buffer_2/inv_1/vin" "buffer_1/inv_1/vin" 4.38038
+cap "buffer_1/out" "tmux_2to1_3/XM5/G" 0.141278
+cap "buffer_1/out" "buffer_3/vss" 19.4324
+cap "buffer_2/vdd" "R1/R1" 237.945
+cap "tmux_2to1_1/B" "R1/R1" 4.31118
+cap "tmux_2to1_2/Y" "buffer_2/vdd" 1.19091
+cap "tmux_2to1_2/XM5/G" "R1/R1" 6.26555
+cap "buffer_2/vdd" "buffer_1/in" 34.0389
+cap "buffer_2/inv_1/vin" "buffer_2/vdd" 69.4344
+cap "tmux_2to1_3/Y" "R1/R1" -0.20839
+cap "tmux_2to1_1/Y" "buffer_2/vdd" 1.19091
+cap "buffer_1/out" "tmux_2to1_3/A" 0.070585
+cap "buffer_1/out" "R1/R1" 107.233
+cap "buffer_2/vdd" "buffer_1/inv_1/vin" 289.721
+cap "buffer_1/out" "tmux_2to1_2/Y" 0.0392322
+cap "buffer_1/out" "buffer_1/in" 1.48026
+cap "buffer_2/in" "buffer_1/in" 4.38038
+cap "buffer_2/vdd" "tmux_2to1_0/B" 0.818337
+cap "buffer_1/out" "tmux_2to1_1/Y" 46.9539
+cap "tmux_2to1_1/XM5/G" "buffer_2/vdd" 7.05779
+cap "buffer_1/out" "buffer_1/inv_1/vin" 8.60235
+cap "tmux_2to1_1/B" "buffer_2/vdd" 1.53229
+cap "tmux_2to1_2/XM5/G" "buffer_2/vdd" 11.2031
+cap "buffer_1/out" "tmux_2to1_1/XM5/G" 185.875
+cap "buffer_3/vss" "R1/R1" 26.7349
+cap "buffer_2/out" "R1/R1" 3.44072
+cap "buffer_1/out" "buffer_2/vdd" 484.407
+cap "buffer_1/out" "tmux_2to1_1/B" -10.7973
+cap "buffer_3/vss" "buffer_1/in" -6.45392
+cap "buffer_2/vdd" "buffer_2/in" 16.0612
+cap "buffer_1/out" "tmux_2to1_3/Y" 0.116661
+cap "R1/R1" "buffer_1/in" -3.83076
+cap "tmux_2to1_2/Y" "R1/R1" 0.630766
+cap "buffer_3/vss" "buffer_1/inv_1/vin" 0.391152
+cap "buffer_2/inv_1/vin" "R1/R1" 4.26287
+cap "tmux_2to1_1/Y" "R1/R1" 17.3956
+cap "tmux_2to1_1/XM5/G" "buffer_3/vss" 0.102236
+cap "R1/R1" "tmux_2to1_3/A" 0.125281
+cap "R1/R1" "tmux_2to1_1/B" 28.7273
+cap "tmux_2to1_3/A" "tmux_2to1_1/B" 3.68006
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_1/B" 3.64464
+cap "tmux_2to1_2/XM5/G" "R1/R1" 0.545976
+cap "buffer_2/vdd" "tmux_2to1_2/Y" 32.4988
+cap "tmux_2to1_0/B" "tmux_2to1_1/XM5/G" 23.5877
+cap "tmux_2to1_1/Y" "tmux_2to1_3/XM5/G" 344.139
+cap "buffer_2/vdd" "tmux_2to1_3/Y" 45.8432
+cap "tmux_2to1_0/B" "tmux_2to1_2/B" 7.37426
+cap "tmux_2to1_0/B" "tmux_2to1_3/A" 14.0621
+cap "tmux_2to1_3/A" "buffer_3/vss" 4.49199
+cap "tmux_2to1_0/B" "R1/R1" 5.6642
+cap "R1/R1" "buffer_3/vss" 0.391152
+cap "buffer_2/inv_1/vin" "tmux_2to1_2/Y" 0.113776
+cap "tmux_2to1_0/B" "tmux_2to1_1/B" 44.5344
+cap "buffer_2/vdd" "buffer_1/out" 0.00607936
+cap "tmux_2to1_1/B" "buffer_3/vss" 24.9297
+cap "tmux_2to1_2/XM5/G" "buffer_3/vss" 0.0569811
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_0/B" 9.81945
+cap "buffer_2/vdd" "tmux_2to1_1/Y" 262.663
+cap "tmux_2to1_0/B" "buffer_3/vss" 27.1409
+cap "tmux_2to1_1/XM5/G" "tmux_2to1_3/Y" 0.131564
+cap "buffer_2/vdd" "tmux_2to1_3/XM5/G" 43.6303
+cap "tmux_2to1_2/Y" "tmux_2to1_3/A" 9.42362
+cap "tmux_2to1_3/Y" "R1/R1" -0.0153426
+cap "tmux_2to1_2/Y" "tmux_2to1_2/B" 35.2578
+cap "R1/R1" "tmux_2to1_2/Y" 0.444508
+cap "buffer_0/inv_1/XMp/B" "tmux_2to1_1/B" 0.129294
+cap "tmux_2to1_3/Y" "tmux_2to1_1/B" 2.63903
+cap "tmux_2to1_2/Y" "tmux_2to1_1/B" 13.0131
+cap "tmux_2to1_3/Y" "tmux_2to1_3/A" 4.68451
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_2/Y" 8.30137
+cap "tmux_2to1_1/Y" "tmux_2to1_1/XM5/G" 124.571
+cap "buffer_1/out" "tmux_2to1_1/B" -7.51458
+cap "buffer_8/inv_1/vin" "tmux_2to1_1/B" 0.335848
+cap "buffer_1/out" "tmux_2to1_3/A" 0.0836055
+cap "buffer_2/out" "tmux_2to1_1/B" 3.74871
+cap "tmux_2to1_0/B" "tmux_2to1_2/Y" 9.37395
+cap "tmux_2to1_2/Y" "buffer_3/vss" 3.73812
+cap "tmux_2to1_3/Y" "buffer_3/vss" 4.73802
+cap "tmux_2to1_1/Y" "tmux_2to1_3/A" 57.0977
+cap "tmux_2to1_1/Y" "R1/R1" 1.10738
+cap "tmux_2to1_0/B" "tmux_2to1_3/Y" 17.0339
+cap "tmux_2to1_1/Y" "tmux_2to1_1/B" 284.121
+cap "tmux_2to1_2/Y" "buffer_2/in" 0.0295219
+cap "buffer_1/out" "tmux_2to1_0/B" 2.52264
+cap "R1/R1" "tmux_2to1_3/XM5/G" 0.247924
+cap "tmux_2to1_1/B" "tmux_2to1_3/XM5/G" 12.621
+cap "tmux_2to1_3/A" "tmux_2to1_3/XM5/G" 13.5872
+cap "tmux_2to1_1/Y" "tmux_2to1_0/B" 44.5196
+cap "tmux_2to1_1/Y" "buffer_3/vss" -6.13717
+cap "buffer_2/vdd" "tmux_2to1_1/XM5/G" 33.5354
+cap "tmux_2to1_3/Y" "buffer_8/out" 0.103008
+cap "buffer_3/vss" "tmux_2to1_3/XM5/G" 0.356428
+cap "tmux_2to1_0/B" "tmux_2to1_3/XM5/G" 40.2459
+cap "tmux_2to1_3/Y" "tmux_2to1_2/Y" 64.0222
+cap "buffer_2/vdd" "tmux_2to1_2/B" 12.4813
+cap "buffer_2/vdd" "tmux_2to1_3/A" 20.7722
+cap "buffer_2/vdd" "R1/R1" -0.737703
+cap "tmux_2to1_3/Y" "buffer_8/inv_1/vin" 0.439879
+cap "buffer_2/vdd" "tmux_2to1_1/B" 204.302
+cap "buffer_2/vdd" "tmux_2to1_2/XM5/G" 31.4749
+cap "buffer_1/in" "tmux_2to1_1/Y" 0.0660402
+cap "buffer_1/out" "tmux_2to1_3/Y" 0.0548731
+cap "buffer_2/out" "tmux_2to1_2/Y" 1.86837
+cap "tmux_2to1_1/Y" "buffer_8/out" -0.333444
+cap "tmux_2to1_1/Y" "buffer_1/inv_1/vin" 0.199826
+cap "tmux_2to1_1/Y" "tmux_2to1_2/Y" 28.6662
+cap "buffer_2/vdd" "buffer_3/vss" -23.0446
+cap "tmux_2to1_1/Y" "tmux_2to1_3/Y" 148.296
+cap "tmux_2to1_1/Y" "buffer_8/inv_1/vin" 0.083625
+cap "buffer_2/vdd" "tmux_2to1_0/B" 146.114
+cap "tmux_2to1_1/Y" "buffer_1/out" 0.135277
+cap "tmux_2to1_1/XM5/G" "tmux_2to1_3/A" 0.105473
+cap "tmux_2to1_2/Y" "tmux_2to1_3/XM5/G" 45.6201
+cap "tmux_2to1_2/XM5/G" "tmux_2to1_1/XM5/G" 4.32787
+cap "tmux_2to1_1/XM5/G" "tmux_2to1_1/B" 25.7938
+cap "tmux_2to1_3/Y" "tmux_2to1_3/XM5/G" 10.8151
+cap "buffer_9/in" "tmux_2to1_2/XM6/B" 16.8426
+cap "tmux_2to1_2/vdd" "tmux_2to1_3/XM5/G" 5.06925
+cap "tmux_2to1_2/vdd" "tmux_2to1_2/XM6/B" 276.174
+cap "tmux_2to1_2/Y" "buffer_9/inv_1/vin" 0.558169
+cap "buffer_8/inv_1/vin" "buffer_9/inv_1/vin" 4.38038
+cap "buffer_9/out" "tmux_2to1_2/Y" 0.116913
+cap "tmux_2to1_2/vdd" "tmux_2to1_2/XM3/G" 0.00153725
+cap "tmux_2to1_2/vdd" "buffer_9/in" 21.9681
+cap "tmux_2to1_2/vdd" "tmux_2to1_3/Y" 0.031912
+cap "buffer_8/out" "tmux_2to1_2/XM6/B" 43.069
+cap "tmux_2to1_2/Y" "tmux_2to1_2/XM6/B" 48.7708
+cap "buffer_8/inv_1/vin" "tmux_2to1_2/XM6/B" 250.299
+cap "buffer_8/out" "tmux_2to1_2/vdd" 7.46272
+cap "tmux_2to1_3/A" "tmux_2to1_1/Y" 0.125186
+cap "tmux_2to1_2/Y" "buffer_9/in" 0.474407
+cap "tmux_2to1_2/vdd" "tmux_2to1_2/Y" 193.511
+cap "tmux_2to1_2/vdd" "buffer_8/inv_1/vin" 25.3809
+cap "tmux_2to1_3/XM5/G" "tmux_2to1_1/Y" 11.889
+cap "tmux_2to1_1/Y" "tmux_2to1_2/XM6/B" 80.0873
+cap "tmux_2to1_2/B" "buffer_9/in" 0.000572484
+cap "buffer_9/in" "tmux_2to1_2/XM5/G" 0.545976
+cap "tmux_2to1_2/vdd" "tmux_2to1_2/XM5/G" 0.962093
+cap "tmux_2to1_2/vdd" "tmux_2to1_2/B" 1.28732
+cap "tmux_2to1_1/Y" "buffer_9/in" 4.38038
+cap "tmux_2to1_3/Y" "tmux_2to1_1/Y" 1.21198
+cap "buffer_8/out" "tmux_2to1_2/Y" 0.0747545
+cap "buffer_9/inv_1/vin" "tmux_2to1_2/XM6/B" 28.2648
+cap "tmux_2to1_2/vdd" "tmux_2to1_1/Y" 103.682
+cap "buffer_9/out" "tmux_2to1_2/XM6/B" 5.59586
+cap "buffer_8/inv_1/vin" "tmux_2to1_2/Y" 7.73649
+cap "tmux_2to1_0/B" "tmux_2to1_2/vdd" 0.0809011
+cap "tmux_2to1_2/vdd" "buffer_9/inv_1/vin" 25.0828
+cap "buffer_8/out" "tmux_2to1_1/Y" -4.50913
+cap "tmux_2to1_2/vdd" "buffer_9/out" 7.8805
+cap "tmux_2to1_2/vdd" "tmux_2to1_3/A" 0.00592427
+cap "buffer_8/inv_1/vin" "tmux_2to1_1/Y" 13.6589
+cap "tmux_2to1_2/Y" "tmux_2to1_1/Y" 153.049
+cap "tmux_2to1_2/vdd" "tmux_2to1_1/B" 0.0636775
+cap "buffer_1/vss" "buffer_0/out" 61.1519
+cap "buffer_1/in" "buffer_1/vss" 2.72014
+cap "buffer_0/in" "buffer_0/out" 0.826316
+cap "buffer_1/inv_1/vin" "buffer_0/inv_1/vin" 4.35401
+cap "tmux_2to1_1/S" "buffer_0/inv_1/vin" 14.6307
+cap "tmux_2to1_0/B" "tmux_2to1_1/S" 3.65319
+cap "tmux_2to1_3/A" "buffer_2/vdd" 5.29397
+cap "buffer_2/vdd" "buffer_1/inv_1/vin" 36.7649
+cap "buffer_1/in" "buffer_0/in" 4.35401
+cap "tmux_2to1_1/S" "tmux_2to1_0/XM5/G" 67.4022
+cap "tmux_2to1_1/S" "buffer_2/vdd" 21.5416
+cap "buffer_1/out" "buffer_2/vdd" 21.9614
+cap "buffer_1/vss" "buffer_0/in" -3.73378
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_1/XM5/G" 4.19672
+cap "buffer_0/inv_1/vin" "buffer_0/out" 4.81503
+cap "tmux_2to1_0/B" "buffer_0/out" -3.42308
+cap "buffer_2/vdd" "buffer_0/out" 398.045
+cap "tmux_2to1_0/XM5/G" "buffer_0/out" 156.951
+cap "tmux_2to1_1/S" "buffer_1/inv_1/vin" 4.34615
+cap "tmux_2to1_3/A" "tmux_2to1_1/S" 15.9678
+cap "buffer_1/in" "buffer_2/vdd" 8.22235
+cap "buffer_1/vss" "buffer_0/inv_1/vin" 33.7548
+cap "tmux_2to1_1/S" "tmux_2to1_1/Y" 7.03261
+cap "tmux_2to1_0/B" "buffer_1/vss" 0.129096
+cap "buffer_1/out" "tmux_2to1_1/S" 7.47692
+cap "buffer_2/vdd" "buffer_1/vss" 166.527
+cap "tmux_2to1_0/XM5/G" "buffer_1/vss" 1.11476
+cap "tmux_2to1_1/S" "tmux_2to1_1/XM5/G" 13.5337
+cap "tmux_2to1_0/XM5/G" "buffer_0/in" 0.080955
+cap "tmux_2to1_3/A" "buffer_0/out" 25.3563
+cap "tmux_2to1_1/S" "buffer_0/out" 94.1313
+cap "buffer_2/vdd" "buffer_0/in" 24.8575
+cap "tmux_2to1_1/S" "buffer_1/in" 0.0952649
+cap "tmux_2to1_3/A" "buffer_1/vss" 0.0558003
+cap "buffer_1/inv_1/vin" "buffer_1/vss" 33.3636
+cap "tmux_2to1_1/S" "buffer_1/vss" 362.008
+cap "tmux_2to1_0/B" "buffer_2/vdd" 0.812935
+cap "tmux_2to1_0/XM5/G" "buffer_0/inv_1/vin" 0.294516
+cap "buffer_2/vdd" "buffer_0/inv_1/vin" 240.44
+cap "tmux_2to1_1/S" "buffer_0/in" -1.92627
+cap "buffer_1/out" "buffer_1/vss" 41.9442
+cap "tmux_2to1_0/XM5/G" "buffer_2/vdd" 8.22871
+cap "tmux_2to1_1/B" "tmux_2to1_1/S" 1.67302
+cap "tmux_2to1_1/S" "tmux_2to1_3/Y" -0.727513
+cap "tmux_2to1_1/XM5/G" "buffer_1/vss" 1.01252
+cap "tmux_2to1_1/Y" "buffer_2/vdd" -0.0493134
+cap "tmux_2to1_3/A" "tmux_2to1_0/XM5/G" 80.6762
+cap "tmux_2to1_3/A" "buffer_7/inv_1/vin" 0.266327
+cap "tmux_2to1_0/B" "buffer_0/out" 1.02711
+cap "buffer_2/vdd" "buffer_1/vss" -20.0787
+cap "tmux_2to1_1/Y" "tmux_2to1_1/S" 11.61
+cap "tmux_2to1_3/A" "tmux_2to1_3/XM5/G" 27.8698
+cap "buffer_1/vss" "tmux_2to1_1/S" 290.894
+cap "tmux_2to1_2/XM5/D" "tmux_2to1_1/S" 0.00694767
+cap "buffer_2/vdd" "tmux_2to1_0/B" 99.61
+cap "tmux_2to1_1/Y" "tmux_2to1_3/Y" 71.3207
+cap "tmux_2to1_1/S" "tmux_2to1_0/B" 27.1864
+cap "buffer_1/vss" "tmux_2to1_3/Y" -30.9117
+cap "tmux_2to1_1/Y" "tmux_2to1_1/B" 0.00809429
+cap "tmux_2to1_1/S" "tmux_2to1_1/XM5/G" 0.00103565
+cap "tmux_2to1_0/XM5/G" "buffer_2/vdd" 7.86244
+cap "buffer_1/vss" "tmux_2to1_1/B" 48.2501
+cap "buffer_2/vdd" "tmux_2to1_3/XM5/G" 0.800852
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_1/S" 0.00103565
+cap "tmux_2to1_3/A" "buffer_1/out" 0.282169
+cap "tmux_2to1_3/A" "buffer_0/inv_1/vin" 0.270444
+cap "tmux_2to1_3/Y" "tmux_2to1_2/XM5/D" 11.0913
+cap "tmux_2to1_1/Y" "buffer_1/vss" 275.974
+cap "tmux_2to1_1/B" "tmux_2to1_2/XM5/D" 0.0135025
+cap "tmux_2to1_3/Y" "tmux_2to1_0/B" 8.06002
+cap "tmux_2to1_1/B" "tmux_2to1_0/B" 10.1053
+cap "tmux_2to1_3/A" "buffer_0/out" 2.76444
+cap "tmux_2to1_1/Y" "tmux_2to1_2/XM5/D" 2.37416
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_3/Y" 4.33083
+cap "buffer_1/vss" "tmux_2to1_2/XM5/D" 0.217989
+cap "tmux_2to1_1/Y" "tmux_2to1_0/B" 22.0686
+cap "buffer_1/vss" "tmux_2to1_0/B" 43.7497
+cap "tmux_2to1_3/Y" "tmux_2to1_3/XM5/G" 3.21591
+cap "tmux_2to1_1/Y" "buffer_8/inv_1/vin" 0.0944277
+cap "tmux_2to1_3/A" "buffer_2/vdd" 39.7782
+cap "buffer_1/vss" "tmux_2to1_1/XM5/G" 0.158291
+cap "tmux_2to1_0/XM5/G" "buffer_1/vss" 0.0886225
+cap "tmux_2to1_2/XM5/D" "tmux_2to1_1/XM5/G" 0.00486116
+cap "tmux_2to1_1/Y" "tmux_2to1_3/XM5/G" -9.60757
+cap "tmux_2to1_3/A" "tmux_2to1_1/S" 5.8605
+cap "buffer_1/vss" "tmux_2to1_3/XM5/G" 0.825246
+cap "tmux_2to1_0/B" "tmux_2to1_1/XM5/G" 2.39647
+cap "tmux_2to1_3/XM5/G" "tmux_2to1_2/XM5/D" 0.0799934
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_1/XM5/G" 0.131148
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_0/B" 21.2069
+cap "tmux_2to1_3/A" "buffer_7/out" 0.0866394
+cap "tmux_2to1_0/B" "buffer_7/inv_1/vin" 1.14876
+cap "tmux_2to1_3/A" "tmux_2to1_3/Y" 2.30587
+cap "tmux_2to1_3/XM5/G" "tmux_2to1_0/B" 6.8852
+cap "tmux_2to1_3/A" "tmux_2to1_1/B" 0.875116
+cap "buffer_2/vdd" "tmux_2to1_1/S" -0.0952047
+cap "tmux_2to1_3/Y" "buffer_0/out" 0.00348116
+cap "tmux_2to1_3/A" "tmux_2to1_1/Y" 70.8325
+cap "tmux_2to1_3/A" "buffer_0/in" 0.0936506
+cap "buffer_1/vss" "buffer_1/out" 0.00619967
+cap "tmux_2to1_3/A" "buffer_1/vss" -44.594
+cap "tmux_2to1_2/XM5/D" "buffer_1/out" 0.00563648
+cap "tmux_2to1_3/A" "tmux_2to1_2/XM5/D" -0.288854
+cap "buffer_2/vdd" "tmux_2to1_3/Y" 0.552739
+cap "buffer_1/out" "tmux_2to1_0/B" 1.7196
+cap "tmux_2to1_3/Y" "tmux_2to1_1/S" 0.842464
+cap "tmux_2to1_3/A" "tmux_2to1_1/XM5/G" 0.355972
+cap "tmux_2to1_3/A" "tmux_2to1_0/B" 161.92
+cap "tmux_2to1_1/B" "tmux_2to1_1/S" -0.0372844
+cap "tmux_2to1_3/Y" "tmux_2to1_1/Y" 4.35401
+cap "tmux_2to1_3/Y" "tmux_2to1_1/XM6/B" 83.4577
+cap "tmux_2to1_3/Y" "buffer_7/inv_1/vin" 7.95981
+cap "tmux_2to1_2/vdd" "tmux_2to1_1/XM6/B" 4.41437
+cap "tmux_2to1_0/B" "tmux_2to1_1/XM6/B" 4.41121
+cap "buffer_7/inv_1/vin" "tmux_2to1_0/B" 1.06465
+cap "buffer_8/out" "tmux_2to1_2/XM5/D" 0.418526
+cap "buffer_8/out" "tmux_2to1_1/XM6/B" 18.572
+cap "tmux_2to1_3/Y" "tmux_2to1_0/XM5/G" 0.545976
+cap "tmux_2to1_3/Y" "tmux_2to1_0/vdd" 49.6798
+cap "tmux_2to1_3/Y" "tmux_2to1_3/A" 1.56387
+cap "tmux_2to1_3/Y" "tmux_2to1_0/XM6/G" 0.998092
+cap "tmux_2to1_0/vdd" "tmux_2to1_0/B" 4.32623
+cap "buffer_7/out" "tmux_2to1_1/XM6/B" 45.6553
+cap "tmux_2to1_2/XM5/D" "tmux_2to1_1/XM6/B" 45.8939
+cap "tmux_2to1_2/XM5/D" "tmux_2to1_1/Y" 0.733669
+cap "tmux_2to1_1/Y" "tmux_2to1_1/XM6/B" 28.4538
+cap "buffer_7/inv_1/vin" "tmux_2to1_1/XM6/B" 262.651
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_1/XM6/B" 0.00153725
+cap "buffer_7/out" "tmux_2to1_0/vdd" -0.860642
+cap "tmux_2to1_3/A" "buffer_7/out" -0.0273877
+cap "tmux_2to1_3/A" "tmux_2to1_1/XM6/B" 1.84152
+cap "tmux_2to1_0/vdd" "tmux_2to1_1/XM6/B" 135.054
+cap "tmux_2to1_3/A" "buffer_7/inv_1/vin" 0.217902
+cap "tmux_2to1_0/vdd" "buffer_7/inv_1/vin" 3.09263
+cap "tmux_2to1_0/XM6/G" "tmux_2to1_1/XM6/B" 1.17184
+cap "tmux_2to1_3/Y" "tmux_2to1_0/B" 6.78717
+cap "tmux_2to1_3/XM5/G" "tmux_2to1_1/XM6/B" 0.121327
+cap "buffer_8/inv_1/vin" "tmux_2to1_1/XM6/B" 59.5058
+cap "tmux_2to1_2/XM5/D" "buffer_8/inv_1/vin" 2.00677
+cap "tmux_2to1_3/A" "tmux_2to1_0/vdd" 0.72061
+cap "buffer_8/inv_1/vin" "buffer_7/inv_1/vin" 4.35401
+cap "tmux_2to1_3/Y" "buffer_7/out" -4.27555
+cap "tmux_2to1_0/B" "buffer_0/vdd" 0.516666
+cap "buffer_0/out" "buffer_0/in" 0.674776
+cap "buffer_0/out" "tmux_2to1_1/XM6/G" 9.85509
+cap "tmux_2to1_1/XM6/G" "buffer_0/inv_1/vin" 4.2316
+cap "buffer_1/vss" "buffer_0/vdd" -15.164
+cap "tmux_2to1_1/XM6/G" "buffer_0/vdd" 49.1281
+cap "buffer_0/in" "buffer_0/vdd" 13.0524
+cap "buffer_0/out" "buffer_0/inv_1/vin" 3.91545
+cap "buffer_0/out" "tmux_2to1_3/XM4/D" 24.0204
+cap "buffer_0/out" "buffer_0/vdd" 105.902
+cap "tmux_2to1_0/XM5/G" "buffer_0/out" 24.3952
+cap "buffer_0/inv_1/vin" "buffer_0/vdd" 81.5895
+cap "tmux_2to1_3/XM4/D" "buffer_0/vdd" 5.40627
+cap "tmux_2to1_0/XM5/G" "buffer_0/vdd" 16.8701
+cap "buffer_0/out" "tmux_2to1_0/B" -5.57399
+cap "tmux_2to1_3/Y" "tmux_2to1_0/B" 0.118095
+cap "tmux_2to1_0/XM5/G" "buffer_1/vss" 0.0569811
+cap "buffer_0/vdd" "tmux_2to1_0/B" 37.0243
+cap "tmux_2to1_0/B" "tmux_2to1_3/XM4/D" 35.6457
+cap "tmux_2to1_1/XM6/G" "tmux_2to1_0/B" 2.99867
+cap "buffer_0/vdd" "tmux_2to1_3/XM4/D" 14.8458
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_0/B" 5.3308
+cap "tmux_2to1_3/Y" "tmux_2to1_0/XM5/G" 0.545976
+cap "tmux_2to1_1/XM6/G" "buffer_0/vdd" 0.186819
+cap "buffer_7/inv_1/vin" "tmux_2to1_0/B" 0.17003
+cap "tmux_2to1_0/XM5/G" "buffer_0/vdd" 24.6165
+cap "buffer_1/vss" "buffer_0/vdd" -7.16403
+cap "tmux_2to1_0/XM5/G" "tmux_2to1_3/XM4/D" 0.338117
+cap "buffer_0/out" "tmux_2to1_0/B" -4.98345
+cap "tmux_2to1_0/vdd" "tmux_2to1_0/XM5/G" 0.962093
+cap "buffer_7/inv_1/vin" "tmux_2to1_0/vdd" 20.7314
+cap "tmux_2to1_1/XM6/B" "tmux_2to1_0/XM5/G" 0.25476
+cap "buffer_7/inv_1/vin" "tmux_2to1_1/XM6/B" 47.1717
+cap "buffer_7/out" "tmux_2to1_0/vdd" 7.8805
+cap "tmux_2to1_3/Y" "tmux_2to1_0/vdd" 11.8602
+cap "buffer_7/out" "tmux_2to1_1/XM6/B" 15.852
+cap "tmux_2to1_3/Y" "tmux_2to1_0/B" 0.000572484
+cap "tmux_2to1_1/XM6/B" "tmux_2to1_3/Y" 17.9725
+cap "tmux_2to1_0/XM3/G" "tmux_2to1_0/vdd" 0.00153725
+cap "tmux_2to1_3/XM4/D" "tmux_2to1_0/vdd" 0.00213859
+cap "tmux_2to1_0/B" "tmux_2to1_0/vdd" 3.40692
+cap "tmux_2to1_3/XM4/D" "tmux_2to1_1/XM6/B" 0.163427
+cap "tmux_2to1_1/XM6/B" "tmux_2to1_0/vdd" 94.9775
+cap "tmux_2to1_1/XM6/B" "tmux_2to1_0/B" 0.255156
+cap "tmux_2to1_3/Y" "tmux_2to1_0/XM5/G" 0.545976
+merge "tmux_2to1_0/B" "buffer_4/inv_1/XMp/S" -985.563 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -30044 -1268 0 0 -109200 -2800 0 0 0 0 0 0
+merge "buffer_4/inv_1/XMp/S" "buffer_4/out"
+merge "buffer_4/out" "m1_646_n4942#"
+merge "buffer_7/VSUBS" "tmux_2to1_0/VSUBS" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_0/VSUBS" "buffer_0/VSUBS"
+merge "buffer_0/VSUBS" "tmux_2to1_3/VSUBS"
+merge "tmux_2to1_3/VSUBS" "buffer_8/VSUBS"
+merge "buffer_8/VSUBS" "tmux_2to1_1/VSUBS"
+merge "tmux_2to1_1/VSUBS" "buffer_1/VSUBS"
+merge "buffer_1/VSUBS" "buffer_9/VSUBS"
+merge "buffer_9/VSUBS" "tmux_2to1_2/VSUBS"
+merge "tmux_2to1_2/VSUBS" "buffer_2/VSUBS"
+merge "buffer_2/VSUBS" "R1/VSUBS"
+merge "R1/VSUBS" "buffer_3/VSUBS"
+merge "buffer_3/VSUBS" "buffer_4/VSUBS"
+merge "buffer_4/VSUBS" "buffer_6/VSUBS"
+merge "buffer_6/VSUBS" "buffer_5/VSUBS"
+merge "buffer_5/VSUBS" "VSUBS"
+merge "R1/R2" "buffer_3/out" -281.402 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14800 -804 0 0 0 0 0 0 0 0 0 0
+merge "buffer_3/out" "m1_698_n3574#"
+merge "buffer_7/vdd" "buffer_7/inv_0/vdd" -22526 0 0 0 0 -2600024 -39404 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1292976 -30838 -295616 -3274 0 0 0 0 0 0 0 0
+merge "buffer_7/inv_0/vdd" "tmux_2to1_0/vdd"
+merge "tmux_2to1_0/vdd" "buffer_7/inv_1/XMp/B"
+merge "buffer_7/inv_1/XMp/B" "buffer_7/inv_0/XMp/B"
+merge "buffer_7/inv_0/XMp/B" "tmux_2to1_0/XM5/B"
+merge "tmux_2to1_0/XM5/B" "w_1854_622#"
+merge "w_1854_622#" "buffer_0/inv_1/XMp/B"
+merge "buffer_0/inv_1/XMp/B" "buffer_0/vdd"
+merge "buffer_0/vdd" "buffer_8/vdd"
+merge "buffer_8/vdd" "buffer_9/vdd"
+merge "buffer_9/vdd" "w_3060_n1502#"
+merge "w_3060_n1502#" "tmux_2to1_3/vdd"
+merge "tmux_2to1_3/vdd" "buffer_8/inv_0/vdd"
+merge "buffer_8/inv_0/vdd" "tmux_2to1_1/vdd"
+merge "tmux_2to1_1/vdd" "buffer_1/vdd"
+merge "buffer_1/vdd" "buffer_9/inv_0/vdd"
+merge "buffer_9/inv_0/vdd" "tmux_2to1_2/vdd"
+merge "tmux_2to1_2/vdd" "buffer_9/inv_1/XMp/B"
+merge "buffer_9/inv_1/XMp/B" "buffer_9/inv_0/XMp/B"
+merge "buffer_9/inv_0/XMp/B" "tmux_2to1_2/XM5/B"
+merge "tmux_2to1_2/XM5/B" "w_1854_n2294#"
+merge "w_1854_n2294#" "buffer_2/inv_1/XMp/B"
+merge "buffer_2/inv_1/XMp/B" "buffer_2/vdd"
+merge "buffer_2/vdd" "buffer_3/vdd"
+merge "buffer_3/vdd" "buffer_3/inv_1/XMp/B"
+merge "buffer_3/inv_1/XMp/B" "buffer_4/vdd"
+merge "buffer_4/vdd" "w_800_n5210#"
+merge "w_800_n5210#" "buffer_6/vdd"
+merge "buffer_6/vdd" "buffer_5/vdd"
+merge "buffer_5/vdd" "vdd"
+merge "vdd" "w_800_n8126#"
+merge "buffer_7/in" "tmux_2to1_3/Y" -326.822 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23160 -1004 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_3/Y" "m1_2506_n480#"
+merge "buffer_8/out" "q1" -53.6417 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6400 -320 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_0/A" "buffer_0/out" -643.403 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41984 -1568 0 0 0 0 0 0 0 0 0 0
+merge "buffer_0/out" "m1_640_872#"
+merge "tmux_2to1_3/XM4/D" "tmux_2to1_0/Y" -292.631 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -15496 -736 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_0/Y" "tmux_2to1_3/A"
+merge "tmux_2to1_3/A" "m1_1446_776#"
+merge "tmux_2to1_0/XM6/B" "tmux_2to1_1/XM6/B" -11815.6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1169600 -29656 -158720 -2144 -1534400 -5600 0 0 0 0 0 0
+merge "tmux_2to1_1/XM6/B" "buffer_7/vss"
+merge "buffer_7/vss" "buffer_8/vss"
+merge "buffer_8/vss" "buffer_7/inv_0/vss"
+merge "buffer_7/inv_0/vss" "tmux_2to1_0/vss"
+merge "tmux_2to1_0/vss" "buffer_0/vss"
+merge "buffer_0/vss" "tmux_2to1_3/vss"
+merge "tmux_2to1_3/vss" "buffer_8/inv_0/vss"
+merge "buffer_8/inv_0/vss" "tmux_2to1_1/vss"
+merge "tmux_2to1_1/vss" "buffer_1/vss"
+merge "buffer_1/vss" "tmux_2to1_2/XM6/B"
+merge "tmux_2to1_2/XM6/B" "buffer_9/vss"
+merge "buffer_9/vss" "buffer_9/inv_0/vss"
+merge "buffer_9/inv_0/vss" "tmux_2to1_2/vss"
+merge "tmux_2to1_2/vss" "buffer_2/vss"
+merge "buffer_2/vss" "buffer_3/vss"
+merge "buffer_3/vss" "buffer_4/vss"
+merge "buffer_4/vss" "buffer_6/vss"
+merge "buffer_6/vss" "buffer_5/vss"
+merge "buffer_5/vss" "vss"
+merge "tmux_2to1_3/XM6/S" "tmux_2to1_2/XM5/D" -658.11 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -23144 -1026 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_2/XM5/D" "tmux_2to1_3/B"
+merge "tmux_2to1_3/B" "tmux_2to1_2/Y"
+merge "tmux_2to1_2/Y" "m1_1434_n1900#"
+merge "tmux_2to1_3/XM6/G" "buffer_8/in" -1041.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -33920 -1484 0 0 0 0 0 0 0 0 0 0
+merge "buffer_8/in" "tmux_2to1_3/S"
+merge "tmux_2to1_3/S" "tmux_2to1_1/Y"
+merge "tmux_2to1_1/Y" "m1_1446_n900#"
+merge "tmux_2to1_1/A" "buffer_1/out" -630.957 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -41984 -1568 0 0 0 0 0 0 0 0 0 0
+merge "buffer_1/out" "m1_642_n1196#"
+merge "buffer_7/out" "q0" -54.1966 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6400 -320 0 0 0 0 0 0 0 0 0 0
+merge "buffer_0/in" "d0" -102.391 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "buffer_3/in" "d3" -105.702 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "buffer_9/out" "q2" -53.5366 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6400 -320 0 0 0 0 0 0 0 0 0 0
+merge "buffer_6/in" "d6" -106.512 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_1/XM6/G" "tmux_2to1_0/S" -1993.52 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -54952 -2624 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_0/S" "tmux_2to1_1/S"
+merge "tmux_2to1_1/S" "buffer_9/in"
+merge "buffer_9/in" "tmux_2to1_2/S"
+merge "tmux_2to1_2/S" "R1/R1"
+merge "R1/R1" "m1_916_n3216#"
+merge "tmux_2to1_1/B" "buffer_5/out" -913.389 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -36664 -1352 0 0 -106400 -2800 0 0 0 0 0 0
+merge "buffer_5/out" "m1_642_n7010#"
+merge "buffer_2/inv_1/XMp/S" "tmux_2to1_2/A" -448.825 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16952 -780 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_2/A" "buffer_2/out"
+merge "buffer_2/out" "m1_644_n2040#"
+merge "buffer_1/in" "d1" -107.762 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "buffer_4/in" "d4" -110.791 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "buffer_2/in" "d2" -107.783 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0
+merge "tmux_2to1_2/B" "buffer_6/out" -616.093 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25296 -1064 0 0 -103600 -2800 0 0 0 0 0 0
+merge "buffer_6/out" "m1_642_n7858#"
+merge "buffer_5/in" "d5" -110.791 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16000 -560 0 0 0 0 0 0 0 0 0 0

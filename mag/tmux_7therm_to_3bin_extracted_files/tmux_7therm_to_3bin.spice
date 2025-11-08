@@ -1,0 +1,83 @@
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sch
+.subckt tmux_7therm_to_3bin d0 d1 d2 d3 d4 d5 d6 q0 q1 q2 vdd vss
+*.ipin d0
+*.iopin vdd
+*.opin q0
+*.ipin d1
+*.ipin d2
+*.ipin d3
+*.ipin d4
+*.ipin d5
+*.ipin d6
+*.opin q1
+*.opin q2
+*.iopin vss
+R1 y2 x3 sky130_fd_pr__res_generic_m1 W=1 L=1 m=1
+x1 x2 x6 y2 net2 vdd vss tmux_2to1
+x2 x1 x5 y2 y1 vdd vss tmux_2to1
+x3 x0 x4 y2 net1 vdd vss tmux_2to1
+x4 net1 net2 y1 y0 vdd vss tmux_2to1
+x5 d0 x0 vdd vss buffer
+x6 d1 x1 vdd vss buffer
+x7 d2 x2 vdd vss buffer
+x8 d3 x3 vdd vss buffer
+x9 d4 x4 vdd vss buffer
+x10 d5 x5 vdd vss buffer
+x11 d6 x6 vdd vss buffer
+x12 y0 q0 vdd vss buffer
+x13 y1 q1 vdd vss buffer
+x14 y2 q2 vdd vss buffer
+**.ends
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym # of pins=6
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sch
+.subckt tmux_2to1 A B S Y vdd vss
+*.opin Y
+*.ipin S
+*.iopin vss
+*.iopin vdd
+*.ipin A
+*.ipin B
+XM1 net1 S vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=1 m=1
+XM2 net1 S vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
++ m=1
+XM3 B net1 Y vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0 mult=1
++ m=1
+XM4 B S Y vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1 m=1
+XM5 A S Y vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0 mult=1
++ m=1
+XM6 A net1 Y vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0 mult=1
++ m=1
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym # of pins=4
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sch
+.subckt buffer in out vdd vss
+*.ipin in
+*.opin out
+*.iopin vdd
+*.iopin vss
+X1 in net1 vdd vss inv
+X2 net1 out vdd vss inv
+.ends
+
+
+* expanding   symbol:  /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/inv/inv.sym # of pins=4
+** sym_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/inv/inv.sym
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/inv/inv.sch
+.subckt inv vin vout vdd vss
+*.ipin vin
+*.opin vout
+*.ipin vdd
+*.ipin vss
+XMn vout vin vss vss sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad=0.29 as=0.29 pd=2.58 ps=2.58 nrd=0.29 nrs=0.29 sa=0 sb=0 sd=0
++ mult=1 m=1
+XMp vout vin vdd vdd sky130_fd_pr__pfet_01v8 L=0.15 W=2 nf=1 ad=0.58 as=0.58 pd=4.58 ps=4.58 nrd=0.145 nrs=0.145 sa=0 sb=0 sd=0
++ mult=1 m=1
+.ends
+
+.end

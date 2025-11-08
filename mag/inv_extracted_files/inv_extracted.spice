@@ -1,0 +1,87 @@
+* NGSPICE file created from inv_extracted.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_MH3LLV B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+C0 S G 0.02545f
+C1 S D 0.16211f
+C2 D G 0.02545f
+C3 S B 0.1317f
+C4 D B 0.1317f
+C5 G B 0.34289f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_A6MZLZ B D S G VSUBS
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+C0 D G 0.02934f
+C1 G S 0.02934f
+C2 G B 0.24043f
+C3 D S 0.32105f
+C4 D B 0.14266f
+C5 B S 0.14266f
+C6 S VSUBS 0.09023f
+C7 D VSUBS 0.09023f
+C8 G VSUBS 0.11914f
+C9 B VSUBS 1.5811f
+.ends
+
+.subckt inv_extracted vin vout vdd vss
+XXMn vss vss vout vin sky130_fd_pr__nfet_01v8_MH3LLV
+XXMp vdd vdd vout vin vss sky130_fd_pr__pfet_01v8_A6MZLZ
+X0 vout vin.t0 vss vss sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=0 l=0
+X1 vout vin.t1 vdd vdd sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=0 l=0
+R0 vin.t1 vin.n0 556.78
+R1 vin vin.t1 547.24
+R2 vin vin.t0 372.113
+R3 vin.n0 vin 9.54008
+R4 vin.n0 vin 0.266125
+R5 vss.n9 vss.n1 2306.06
+R6 vss.n9 vss.n2 2306.06
+R7 vss.n4 vss.n2 2306.06
+R8 vss.n8 vss.n6 1121.29
+R9 vss.n5 vss.n4 744.25
+R10 vss.n1 vss.n0 292.5
+R11 vss.n2 vss 292.5
+R12 vss.n6 vss.n2 292.5
+R13 vss.n8 vss.n7 234.195
+R14 vss.n5 vss.n1 175.803
+R15 vss.n3 vss.n0 149.835
+R16 vss.n3 vss 149.835
+R17 vss.n10 vss.n0 149.835
+R18 vss.n11 vss.n10 149.459
+R19 vss.n4 vss.n3 117.001
+R20 vss.n10 vss.n9 117.001
+R21 vss.n9 vss.n8 117.001
+R22 vss.n6 vss.n5 94.4014
+R23 vss vss.n12 5.01717
+R24 vss.n12 vss.n11 2.07925
+R25 vss.n11 vss 0.376971
+R26 vss.n12 vss 0.109875
+R27 vout vout 5.30089
+R28 vout vout 2.784
+R29 vdd.n4 vdd.n2 1789.41
+R30 vdd.n7 vdd.n1 1789.41
+R31 vdd.n5 vdd.n1 600.915
+R32 vdd.n6 vdd.n2 600.915
+R33 vdd.n8 vdd 190.871
+R34 vdd.n3 vdd 190.871
+R35 vdd.n3 vdd.n0 190.871
+R36 vdd.n9 vdd.n8 190.494
+R37 vdd.n1 vdd 92.5005
+R38 vdd.n2 vdd.n0 92.5005
+R39 vdd.n8 vdd.n7 23.1255
+R40 vdd.n4 vdd.n3 23.1255
+R41 vdd.n6 vdd.n5 15.533
+R42 vdd.n5 vdd.n4 15.1643
+R43 vdd.n7 vdd.n6 15.1643
+R44 vdd vdd.n10 2.3405
+R45 vdd.n10 vdd.n9 2.07925
+R46 vdd.n9 vdd.n0 0.376971
+R47 vdd.n10 vdd 0.109875
+C0 vin vdd 0.13776f
+C1 vin vout 0.12658f
+C2 vout vdd 0.11998f
+C3 vout vss 0.40687f
+C4 vin vss 0.56678f
+C5 vdd vss 1.84972f
+.ends
+

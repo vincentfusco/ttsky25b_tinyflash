@@ -1,0 +1,20 @@
+* NGSPICE file created from buffer_lvs.ext - technology: sky130A
+
+.subckt sky130_fd_pr__nfet_01v8_MH3LLV B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_A6MZLZ B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt inv vin vout vdd vss
+XXMn vss vss vout vin sky130_fd_pr__nfet_01v8_MH3LLV
+XXMp vdd vdd vout vin sky130_fd_pr__pfet_01v8_A6MZLZ
+.ends
+
+.subckt buffer_lvs in out vdd vss
+Xinv_0 in inv_1/vin vdd vss inv
+Xinv_1 inv_1/vin out vdd vss inv
+.ends
+

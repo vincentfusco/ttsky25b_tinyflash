@@ -1,0 +1,51 @@
+* NGSPICE file created from tmux_7therm_to_3bin_lvs.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_A6MZLZ B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_MH3LLV B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt tmux_2to1 S Y vdd B A vss
+XXM1 vdd vdd XM5/G S sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM2 vss vss XM5/G S sky130_fd_pr__nfet_01v8_MH3LLV
+XXM3 vdd A Y S sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM4 vss A Y XM5/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM5 vdd Y B XM5/G sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM6 vss Y B S sky130_fd_pr__nfet_01v8_MH3LLV
+.ends
+
+.subckt sky130_fd_pr__res_generic_m1_SPQYYJ R1 R2
+R0 R1 R2 sky130_fd_pr__res_generic_m1 w=1 l=1
+.ends
+
+.subckt inv vin vdd vout vss
+XXMn vss vss vout vin sky130_fd_pr__nfet_01v8_MH3LLV
+XXMp vdd vdd vout vin sky130_fd_pr__pfet_01v8_A6MZLZ
+.ends
+
+.subckt buffer in out vdd vss
+Xinv_0 in vdd inv_1/vin vss inv
+Xinv_1 inv_1/vin vdd out vss inv
+.ends
+
+.subckt tmux_7therm_to_3bin_lvs d0 d1 d2 d3 d4 d5 d6 q0 q1 q2 vdd vss
+Xtmux_2to1_1 R1/R1 buffer_8/in vdd buffer_5/out buffer_1/out vss tmux_2to1
+Xtmux_2to1_2 R1/R1 tmux_2to1_3/B vdd buffer_6/out buffer_2/out vss tmux_2to1
+Xtmux_2to1_3 buffer_8/in buffer_7/in vdd tmux_2to1_3/B tmux_2to1_3/A vss tmux_2to1
+XR1 R1/R1 R1/R2 sky130_fd_pr__res_generic_m1_SPQYYJ
+Xbuffer_0 d0 buffer_0/out vdd vss buffer
+Xbuffer_1 d1 buffer_1/out vdd vss buffer
+Xbuffer_2 d2 buffer_2/out vdd vss buffer
+Xbuffer_3 d3 R1/R2 vdd vss buffer
+Xbuffer_4 d4 buffer_4/out vdd vss buffer
+Xbuffer_5 d5 buffer_5/out vdd vss buffer
+Xbuffer_6 d6 buffer_6/out vdd vss buffer
+Xbuffer_7 buffer_7/in q0 vdd vss buffer
+Xbuffer_8 buffer_8/in q1 vdd vss buffer
+Xbuffer_9 R1/R1 q2 vdd vss buffer
+Xtmux_2to1_0 R1/R1 tmux_2to1_3/A vdd buffer_4/out buffer_0/out vss tmux_2to1
+.ends
+

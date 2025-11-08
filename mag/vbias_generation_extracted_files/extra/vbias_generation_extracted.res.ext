@@ -1,0 +1,271 @@
+scale 1000 1 500000
+rnode "vdd" 0 -133.735 -284 4234 0
+rnode "vdd" 0 141.622 998 4266 0
+rnode "vdd" 0 188.294 998 4266 0
+rnode "XMp_bias/S" 0 -43.7516 987 4099 0
+rnode "vdd.n0" 0 2.17713 987 4099 0
+rnode "vdd.n1" 0 20.2734 987 4213 0
+rnode "vdd.n2" 0 39.7004 987 3727 0
+rnode "vdd.n3" 0 43.557 987 3727 0
+rnode "vdd.n4" 0 323.737 987 3727 0
+rnode "vdd.n5" 0 24.3203 2137 4196 0
+rnode "vdd.n6" 0 22.2066 2137 3744 0
+rnode "XMp_bias/B" 0 7.57232 2153 3970 0
+rnode "vdd.n7" 0 422.103 2153 3970 0
+rnode "vdd.n8" 0 43.557 987 4213 0
+rnode "vdd.n9" 0 323.737 987 4213 0
+rnode "vdd.n10" 0 410.395 -179 3970 0
+rnode "vdd.n11" 0 45.4727 -179 3970 0
+rnode "vdd.n12" 0 24.657 973 4215 0
+rnode "vdd.n13" 0 86.3014 973 4215 0
+rnode "vdd" 0 -24.3839 -284 4234 0
+rnode "vdd" 0 11.5502 -284 4234 0
+rnode "vdd.n14" 0 161.97 -4 4221 0
+rnode "vdd" 0 -41.3334 998 4266 0
+resist "vdd.n0" "vdd" 0.00723684
+resist "vdd.n13" "vdd.n0" 0.00921053
+resist "vdd.n14" "vdd" 0.184211
+resist "vdd.n13" "vdd.n12" 0.290625
+resist "vdd.n0" "XMp_bias/S" 0.344444
+resist "vdd.n14" "vdd" 0.388889
+resist "vdd.n14" "vdd.n13" 0.642763
+resist "vdd" "vdd.n14" 1.39167
+resist "vdd" "vdd" 1.78056
+resist "vdd" "vdd" 2.00585
+resist "vdd.n9" "vdd.n4" 3.23274
+resist "vdd.n4" "vdd.n3" 4.16098
+resist "vdd.n9" "vdd.n8" 4.16098
+resist "vdd.n12" "vdd.n1" 4.71579
+resist "vdd.n8" "vdd.n1" 5.78125
+resist "vdd.n3" "vdd.n2" 5.78125
+resist "vdd.n11" "vdd.n10" 37
+resist "vdd.n7" "XMp_bias/B" 37
+resist "XMp_bias/B" "vdd.n5" 97.5368
+resist "XMp_bias/B" "vdd.n6" 97.5765
+resist "vdd.n5" "vdd.n1" 387.368
+resist "vdd.n6" "vdd.n2" 432.941
+resist "vdd.n12" "vdd.n11" 473.219
+resist "vdd.n11" "vdd.n2" 524.069
+resist "vdd.n10" "vdd.n9" 1373.18
+resist "vdd.n7" "vdd.n4" 1373.18
+resist "XMp_bias/B" "vdd.n6" 1446.4
+resist "XMp_bias/B" "vdd.n5" 1446.4
+resist "vdd.n10" "vdd.n3" 4912.94
+resist "vdd.n8" "vdd.n7" 4912.94
+rnode "bias_n" 0 0 958 1158 0
+rnode "XR_bias_4/R2" 0 0 -83 1843 0
+rnode "bias_n.t1" 0 0 426 1358 0
+rnode "XMn_bias/D" 0 0 426 1387 0
+rnode "bias_n.n0" 0 0 -74 1676 0
+rnode "bias_n.t0" 0 0 426 1258 0
+rnode "XMn_bias/G" 0 0 981 1258 0
+rnode "bias_n.n1" 0 0 981 1258 0
+rnode "bias_n" 0 0 1047 1358 0
+resist "bias_n.n1" "bias_n" 0.0702247
+resist "bias_n" "bias_n.n1" 0.0702247
+resist "bias_n.n0" "XMn_bias/D" 1.06174
+resist "bias_n.n1" "XMn_bias/G" 4.65
+resist "bias_n.n0" "XR_bias_4/R2" 8.6569
+resist "XMn_bias/D" "bias_n.t1" 16.6943
+resist "XMn_bias/G" "bias_n.t0" 209.755
+resist "bias_n.t0" "bias_n.n0" 215.072
+rnode "vss" 0 -0 -282 962 0
+rnode "vss" 0 0 427 990 0
+rnode "vss.n0" 0 0 1072 1258 0
+rnode "XMn_bias/B" 0 0 -224 1258 0
+rnode "vss.n1" 0 0 1083 1258 0
+rnode "vss.n2" 0 0 -231 1258 0
+rnode "vss.n3" 0 0 998 1589 0
+rnode "vss.n4" 0 0 998 1589 0
+rnode "vss.n5" 0 0 -231 2114 0
+rnode "vss.n6" 0 0 -231 2114 0
+rnode "vss.n7" 0 0 998 1589 0
+rnode "vss.n8" 0 0 998 2097 0
+rnode "vss.n9" 0 0 2227 2114 0
+rnode "vss.n10" 0 0 998 2097 0
+rnode "vss.n11" 0 0 998 2097 0
+rnode "vss.n12" 0 0 2227 2622 0
+rnode "vss.n13" 0 0 2227 2622 0
+rnode "vss.n14" 0 0 998 2605 0
+rnode "vss.n15" 0 0 -231 2622 0
+rnode "vss.n16" 0 0 998 2605 0
+rnode "vss.n17" 0 0 998 2605 0
+rnode "vss.n18" 0 0 -231 3130 0
+rnode "vss.n19" 0 0 -231 3130 0
+rnode "vss.n20" 0 0 998 3113 0
+rnode "vss.n21" 0 0 2227 3130 0
+rnode "vss.n22" 0 0 998 3621 0
+rnode "vss.n23" 0 0 998 3621 0
+rnode "XR_bias_1/B" 0 0 -231 3367 0
+rnode "vss.n24" 0 0 -231 3367 0
+rnode "vss.n25" 0 0 2227 3367 0
+rnode "vss.n26" 0 0 2227 3367 0
+rnode "vss.n27" 0 0 2227 3367 0
+rnode "vss.n28" 0 0 2227 3367 0
+rnode "vss.n29" 0 0 998 3113 0
+rnode "vss.n30" 0 0 998 3113 0
+rnode "vss.n31" 0 0 2227 3130 0
+rnode "XR_bias_2/B" 0 0 2227 2859 0
+rnode "vss.n32" 0 0 2227 2859 0
+rnode "vss.n33" 0 0 2227 2859 0
+rnode "vss.n34" 0 0 -231 2859 0
+rnode "vss.n35" 0 0 -231 2859 0
+rnode "vss.n36" 0 0 -231 2622 0
+rnode "XR_bias_3/B" 0 0 -231 2351 0
+rnode "vss.n37" 0 0 -231 2351 0
+rnode "vss.n38" 0 0 2227 2351 0
+rnode "vss.n39" 0 0 2227 2351 0
+rnode "vss.n40" 0 0 2227 2351 0
+rnode "vss.n41" 0 0 2227 2114 0
+rnode "vss.n42" 0 0 2227 1843 0
+rnode "vss.n43" 0 0 2227 1843 0
+rnode "vss.n44" 0 0 2227 1843 0
+rnode "vss.n45" 0 0 -231 1843 0
+rnode "XR_bias_4/B" 0 0 -231 1843 0
+rnode "vss.n46" 0 0 -219 1484 0
+rnode "vss.n47" 0 0 422 1572 0
+rnode "vss.n48" 0 0 426 1501 0
+rnode "vss.n49" 0 0 426 1501 0
+rnode "vss.n50" 0 0 426 1501 0
+rnode "vss.n51" 0 0 1083 1258 0
+rnode "vss.n52" 0 0 1083 1258 0
+rnode "vss.n53" 0 0 426 1015 0
+rnode "vss.n54" 0 0 426 1015 0
+rnode "vss.n55" 0 0 430 1011 0
+rnode "vss.n56" 0 0 430 1011 0
+rnode "vss" 0 0 427 990 0
+rnode "XMn_bias/S" 0 -0 426 1129 0
+rnode "vss.n57" 0 0 426 1129 0
+rnode "vss" 0 -0 -282 962 0
+rnode "vss" 0 0 -282 962 0
+rnode "vss.n58" 0 0 -62 1007 0
+rnode "vss" 0 -0 427 990 0
+resist "vss.n57" "vss" 0.000657895
+resist "vss" "vss.n56" 0.00197368
+resist "vss.n58" "vss" 0.144737
+resist "vss.n58" "vss" 0.305556
+resist "vss.n58" "vss.n57" 0.321053
+resist "vss.n56" "vss.n55" 0.516667
+resist "vss.n48" "vss.n47" 0.581818
+resist "vss.n57" "XMn_bias/S" 0.664286
+resist "vss" "vss.n58" 0.679167
+resist "vss" "vss" 0.984722
+resist "vss.n56" "vss" 0.99481
+resist "vss.n55" "vss.n54" 1.21905
+resist "vss.n26" "vss.n25" 5.84888
+resist "vss.n52" "vss.n51" 9.29148
+resist "vss.n23" "vss.n22" 17.2059
+resist "vss.n7" "vss.n3" 17.2059
+resist "vss.n7" "vss.n4" 17.2059
+resist "vss.n10" "vss.n8" 17.2059
+resist "vss.n11" "vss.n10" 17.2059
+resist "vss.n16" "vss.n14" 17.2059
+resist "vss.n17" "vss.n16" 17.2059
+resist "vss.n29" "vss.n20" 17.2059
+resist "vss.n30" "vss.n29" 17.2059
+resist "vss.n54" "vss.n53" 34.4118
+resist "vss.n50" "vss.n49" 34.4118
+resist "vss.n49" "vss.n48" 34.4118
+resist "vss.n36" "vss.n35" 89.2235
+resist "vss.n35" "vss.n18" 89.2235
+resist "XR_bias_1/B" "vss.n18" 89.2235
+resist "vss.n31" "vss.n28" 89.2235
+resist "vss.n41" "vss.n40" 89.2235
+resist "vss.n40" "vss.n12" 89.2235
+resist "XR_bias_2/B" "vss.n12" 89.2235
+resist "XR_bias_2/B" "vss.n31" 89.2235
+resist "XR_bias_4/B" "vss.n5" 89.2235
+resist "XR_bias_3/B" "vss.n5" 89.2235
+resist "XR_bias_3/B" "vss.n36" 89.2235
+resist "vss.n42" "vss.n41" 89.2235
+resist "vss.n47" "vss.n46" 93.2364
+resist "vss.n52" "vss.n2" 105.301
+resist "vss.n25" "vss.n24" 109.642
+resist "vss.n2" "XMn_bias/B" 117
+resist "vss.n51" "vss.n1" 117
+resist "vss.n27" "vss.n26" 117
+resist "vss.n28" "vss.n27" 117
+resist "vss.n33" "vss.n32" 117
+resist "vss.n32" "XR_bias_2/B" 117
+resist "vss.n39" "vss.n38" 117
+resist "vss.n40" "vss.n39" 117
+resist "vss.n44" "vss.n43" 117
+resist "vss.n43" "vss.n42" 117
+resist "vss.n45" "vss.n44" 117
+resist "XR_bias_4/B" "vss.n45" 117
+resist "vss.n38" "vss.n37" 117
+resist "vss.n37" "XR_bias_3/B" 117
+resist "vss.n34" "vss.n33" 117
+resist "vss.n35" "vss.n34" 117
+resist "vss.n24" "XR_bias_1/B" 117
+resist "vss.n1" "vss.n0" 117.271
+resist "vss.n46" "XMn_bias/B" 130.327
+resist "vss.n50" "vss.n3" 151.014
+resist "vss.n47" "vss.n4" 216.847
+resist "vss.n54" "XMn_bias/B" 285.604
+resist "vss.n46" "XMn_bias/B" 289.28
+resist "vss.n47" "XR_bias_4/B" 335.059
+resist "vss.n53" "vss.n52" 406.279
+resist "vss.n51" "vss.n50" 417.005
+resist "vss.n25" "vss.n23" 424.591
+resist "vss.n44" "vss.n3" 435.881
+resist "vss.n44" "vss.n8" 435.881
+resist "vss.n38" "vss.n8" 435.881
+resist "vss.n38" "vss.n14" 435.881
+resist "vss.n33" "vss.n14" 435.881
+resist "vss.n33" "vss.n20" 435.881
+resist "vss.n26" "vss.n20" 435.881
+resist "vss.n30" "vss.n18" 462.682
+resist "vss.n31" "vss.n30" 462.682
+resist "vss.n36" "vss.n17" 462.682
+resist "vss.n17" "vss.n12" 462.682
+resist "vss.n11" "vss.n5" 462.682
+resist "vss.n41" "vss.n11" 462.682
+resist "XR_bias_1/B" "vss.n22" 551.906
+resist "vss.n28" "vss.n22" 551.906
+resist "vss.n42" "vss.n4" 551.906
+resist "vss.n48" "vss.n0" 599.019
+resist "vss.n55" "vss.n0" 705.365
+resist "vss.n34" "vss.n15" 1373.21
+resist "vss.n34" "vss.n19" 1373.21
+resist "vss.n24" "vss.n19" 1373.21
+resist "vss.n27" "vss.n21" 1373.21
+resist "vss.n39" "vss.n9" 1373.21
+resist "vss.n39" "vss.n13" 1373.21
+resist "vss.n32" "vss.n13" 1373.21
+resist "vss.n32" "vss.n21" 1373.21
+resist "vss.n45" "vss.n6" 1373.21
+resist "vss.n37" "vss.n6" 1373.21
+resist "vss.n37" "vss.n15" 1373.21
+resist "vss.n43" "vss.n9" 1373.21
+resist "vss.n53" "vss.n1" 5116.21
+resist "vss.n49" "vss.n2" 5116.21
+resist "vss.n49" "vss.n1" 5116.21
+resist "vss.n29" "vss.n19" 7120.97
+resist "vss.n29" "vss.n21" 7120.97
+resist "vss.n16" "vss.n15" 7120.97
+resist "vss.n16" "vss.n13" 7120.97
+resist "vss.n10" "vss.n6" 7120.97
+resist "vss.n10" "vss.n9" 7120.97
+resist "vss.n27" "vss.n23" 8494.18
+resist "vss.n45" "vss.n7" 8494.18
+resist "vss.n43" "vss.n7" 8494.18
+rnode "bias_p" 0 12.6536 2016 3870 0
+rnode "bias_p.t1" 0 172.891 987 3870 0
+rnode "XMp_bias/D" 0 221.646 987 3841 0
+rnode "XR_bias_1/R2" 0 77.0426 -83 3367 0
+rnode "bias_p.n0" 0 829.964 -13 3542 0
+rnode "XMp_bias/G" 0 158.82 -77 3970 0
+rnode "bias_p.t0" 0 436.737 987 3970 0
+rnode "bias_p.n1" 0 177.592 2051 3970 0
+rnode "bias_p" 0 12.6536 2093 4070 0
+resist "bias_p.n1" "bias_p" 0.0811688
+resist "bias_p" "bias_p.n1" 0.0811688
+resist "bias_p.n0" "XMp_bias/D" 2.28755
+resist "XMp_bias/G" "bias_p.n0" 5.22619
+resist "bias_p.n0" "XR_bias_1/R2" 8.67
+resist "XMp_bias/D" "bias_p.t1" 23.0289
+resist "bias_p.t0" "XMp_bias/G" 332.424
+resist "bias_p.n1" "bias_p.t0" 337.074
+device msubckt sky130_fd_pr__pfet_01v8_lvt -13 3870 -12 3871  "vdd" "bias_p.t0" 400 0 "bias_p.t1" 2000 116000,4116 "vdd" 2000 116000,4116
+device msubckt sky130_fd_pr__nfet_01v8_lvt -74 1158 -73 1159  "vss" "bias_n.t0" 400 0 "bias_n.t1" 1000 58000,2116 "vss" 1000 58000,2116

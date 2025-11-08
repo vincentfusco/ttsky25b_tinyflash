@@ -1,0 +1,19 @@
+* NGSPICE file created from tmux_2to1_lvs.ext - technology: sky130A
+
+.subckt sky130_fd_pr__pfet_01v8_A6MZLZ B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_MH3LLV B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt tmux_2to1_lvs A B S Y vdd vss
+XXM1 vdd vdd XM5/G S sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM2 vss vss XM5/G S sky130_fd_pr__nfet_01v8_MH3LLV
+XXM3 vdd A Y S sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM4 vss A Y XM5/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM5 vdd Y B XM5/G sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM6 vss Y B S sky130_fd_pr__nfet_01v8_MH3LLV
+.ends
+

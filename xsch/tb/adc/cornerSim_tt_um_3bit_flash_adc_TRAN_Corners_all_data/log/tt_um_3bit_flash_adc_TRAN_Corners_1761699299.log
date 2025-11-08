@@ -1,0 +1,680 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/tb/adc/tt_um_3bit_flash_adc_tran_corners.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.x2.latch_left                      0.628746
+x1.ref0                              0.0714687
+x1.x2.tail                            0.670663
+vdd                                    1.79984
+x1.x2.latch_right                  3.48338e-05
+vin                                        0.5
+x1.bias_p                              1.12631
+x1.d0                                  1.79984
+x1.x2.out_left                         1.05208
+x1.x3.latch_left                      0.627347
+x1.ref1                               0.214332
+x1.x3.tail                            0.750397
+x1.x3.latch_right                   0.00054398
+x1.d1                                  1.79984
+x1.x3.out_left                         1.05424
+x1.x4.latch_left                      0.613868
+x1.ref2                               0.357185
+x1.x4.tail                            0.849048
+x1.x4.latch_right                    0.0116268
+x1.d2                                  1.79984
+x1.x4.out_left                         1.07509
+x1.x5.latch_left                      0.525051
+x1.ref3                               0.500028
+x1.x5.tail                            0.928919
+x1.x5.latch_right                     0.524096
+x1.d3                                  1.25751
+x1.x5.out_left                         1.21125
+x1.x6.latch_left                    0.00968913
+x1.ref4                               0.642861
+x1.x6.tail                            0.963106
+x1.x6.latch_right                     0.614756
+x1.d4                              2.74206e-07
+x1.x6.out_left                         1.78901
+x1.x7.latch_left                   0.000270871
+x1.ref5                               0.785684
+x1.x7.tail                            0.970571
+x1.x7.latch_right                     0.625508
+x1.d5                               2.4272e-07
+x1.x7.out_left                         1.79064
+x1.x8.latch_left                   4.14458e-06
+x1.ref6                               0.928497
+x1.x8.tail                            0.970796
+x1.x8.latch_right                     0.625838
+x1.d6                              2.41892e-07
+x1.x8.out_left                         1.79068
+x1.x9.bias_1                          0.995609
+x1.x9.xr_bias_1.x0.t1                 0.996466
+x1.x9.xr_bias_1.x0.t2                  1.12545
+x1.bias_n                             0.603461
+x1.x9.bias_2                          0.864902
+x1.x9.xr_bias_2.x0.t1                 0.865758
+x1.x9.xr_bias_2.x0.t2                 0.994753
+x1.x9.bias_3                          0.734186
+x1.x9.xr_bias_3.x0.t1                 0.735042
+x1.x9.xr_bias_3.x0.t2                 0.864046
+x1.x9.xr_bias_4.x0.t1                 0.604317
+x1.x9.xr_bias_4.x0.t2                 0.733329
+x1.x1.y2                               1.79984
+x1.x1.x3                               1.79984
+x1.x1.x1.net1                      4.13644e-07
+x1.x1.x6                           8.34007e-07
+x1.x1.net2                         1.25261e-06
+x1.x1.x2                               1.79983
+x1.x1.x2.net1                      4.13644e-07
+x1.x1.x5                           8.31019e-07
+x1.x1.y1                           1.24664e-06
+x1.x1.x1                               1.79983
+x1.x1.x3.net1                      4.13644e-07
+x1.x1.x4                           8.37518e-07
+x1.x1.net1                         1.25964e-06
+x1.x1.x0                               1.79983
+x1.x1.x4.net1                          1.79984
+x1.x1.y0                           1.26438e-06
+x1.x1.x5.net1                      4.13645e-07
+x1.x1.x6.net1                      4.13645e-07
+x1.x1.x7.net1                      4.13645e-07
+x1.x1.x8.net1                       0.00213114
+x1.x1.x9.net1                          1.79984
+x1.x1.x10.net1                         1.79984
+x1.x1.x11.net1                         1.79984
+x1.x1.x12.net1                         1.79984
+d0                                 4.13644e-07
+x1.x1.x13.net1                         1.79984
+d1                                 4.13644e-07
+x1.x1.x14.net1                     4.13644e-07
+d2                                     1.79984
+x1.xr12.x0.t1                         0.930779
+x1.xr12.x0.t2                         0.997651
+vref                                  0.999933
+x1.xr1.x0.t1                          0.790247
+x1.xr1.x0.t2                          0.923934
+x1.xr2.x0.t1                          0.647424
+x1.xr2.x0.t2                          0.781121
+x1.xr3.x0.t1                          0.504591
+x1.xr3.x0.t2                          0.638298
+x1.xr4.x0.t1                          0.361748
+x1.xr4.x0.t2                          0.495465
+x1.xr5.x0.t1                          0.218895
+x1.xr5.x0.t2                          0.352622
+x1.xr6.x0.t1                         0.0760318
+x1.xr6.x0.t2                          0.209769
+x1.xr7.x0.t1                        0.00228156
+x1.xr7.x0.t2                         0.0691872
+x1.xr8.x0.t1                        0.00228156
+x1.xr8.x0.t2                         0.0691872
+x1.xr9.x0.t1                          0.930779
+x1.xr9.x0.t2                          0.997651
+net1                                       0.5
+net2                                         1
+vout                                       0.5
+e1_int1                                    0.5
+net3                                       1.8
+be1#branch                                   0
+e1#branch                                    0
+v3#branch                         -0.000164435
+v2#branch                         -6.70774e-05
+v1#branch                                    0
+
+ Reference value :  0.00000e+00 Reference value :  1.19679e-07 Reference value :  2.26331e-07 Reference value :  4.04633e-07 Reference value :  5.20773e-07 Reference value :  6.86563e-07 Reference value :  1.01631e-06 Reference value :  1.09718e-06 Reference value :  1.40250e-06 Reference value :  1.50785e-06 Reference value :  1.61044e-06 Reference value :  1.98311e-06 Reference value :  2.07653e-06 Reference value :  2.34799e-06 Reference value :  2.47907e-06 Reference value :  2.68320e-06 Reference value :  2.97578e-06
+No. of Data Rows : 253
+Note: Simulation executed from .control section 
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/tb/adc/tt_um_3bit_flash_adc_tran_corners.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.x2.latch_left                      0.638201
+x1.ref0                              0.0714687
+x1.x2.tail                            0.722198
+vdd                                    1.79986
+x1.x2.latch_right                  8.66681e-06
+vin                                        0.5
+x1.bias_p                              1.06217
+x1.d0                                  1.79986
+x1.x2.out_left                        0.995047
+x1.x3.latch_left                      0.636823
+x1.ref1                               0.214332
+x1.x3.tail                            0.823898
+x1.x3.latch_right                  0.000309672
+x1.d1                                  1.79986
+x1.x3.out_left                        0.997106
+x1.x4.latch_left                      0.625867
+x1.ref2                               0.357185
+x1.x4.tail                            0.928372
+x1.x4.latch_right                   0.00889119
+x1.d2                                  1.79986
+x1.x4.out_left                          1.0135
+x1.x5.latch_left                      0.575718
+x1.ref3                               0.500028
+x1.x5.tail                             1.00737
+x1.x5.latch_right                      0.42152
+x1.d3                                  1.79446
+x1.x5.out_left                         1.08823
+x1.x6.latch_left                    0.00757441
+x1.ref4                               0.642861
+x1.x6.tail                             1.04308
+x1.x6.latch_right                     0.626107
+x1.d4                              7.61761e-08
+x1.x6.out_left                         1.75349
+x1.x7.latch_left                   0.000186694
+x1.ref5                               0.785684
+x1.x7.tail                             1.04906
+x1.x7.latch_right                     0.634678
+x1.d5                              6.67432e-08
+x1.x7.out_left                         1.75612
+x1.x8.latch_left                   2.85966e-06
+x1.ref6                               0.928497
+x1.x8.tail                             1.04922
+x1.x8.latch_right                     0.634906
+x1.d6                               6.6528e-08
+x1.x8.out_left                         1.75618
+x1.x9.bias_1                          0.950281
+x1.x9.xr_bias_1.x0.t1                 0.951014
+x1.x9.xr_bias_1.x0.t2                  1.06144
+x1.bias_n                             0.614575
+x1.x9.bias_2                          0.838385
+x1.x9.xr_bias_2.x0.t1                 0.839118
+x1.x9.xr_bias_2.x0.t2                 0.949547
+x1.x9.bias_3                          0.726484
+x1.x9.xr_bias_3.x0.t1                 0.727217
+x1.x9.xr_bias_3.x0.t2                 0.837652
+x1.x9.xr_bias_4.x0.t1                 0.615308
+x1.x9.xr_bias_4.x0.t2                  0.72575
+x1.x1.y2                               1.79986
+x1.x1.x3                               1.79986
+x1.x1.x1.net1                       2.9077e-08
+x1.x1.x6                           6.52687e-08
+x1.x1.net2                         9.94878e-08
+x1.x1.x2                               1.79986
+x1.x1.x2.net1                       2.9077e-08
+x1.x1.x5                           6.21308e-08
+x1.x1.y1                           9.32122e-08
+x1.x1.x1                               1.79986
+x1.x1.x3.net1                       2.9077e-08
+x1.x1.x4                           6.92137e-08
+x1.x1.net1                         1.07378e-07
+x1.x1.x0                               1.79986
+x1.x1.x4.net1                          1.79986
+x1.x1.y0                           1.12488e-07
+x1.x1.x5.net1                       2.9077e-08
+x1.x1.x6.net1                       2.9077e-08
+x1.x1.x7.net1                       2.9077e-08
+x1.x1.x8.net1                      3.28959e-08
+x1.x1.x9.net1                          1.79986
+x1.x1.x10.net1                         1.79986
+x1.x1.x11.net1                         1.79986
+x1.x1.x12.net1                         1.79986
+d0                                  2.9077e-08
+x1.x1.x13.net1                         1.79986
+d1                                  2.9077e-08
+x1.x1.x14.net1                      2.9077e-08
+d2                                     1.79986
+x1.xr12.x0.t1                         0.930779
+x1.xr12.x0.t2                         0.997651
+vref                                  0.999933
+x1.xr1.x0.t1                          0.790247
+x1.xr1.x0.t2                          0.923934
+x1.xr2.x0.t1                          0.647424
+x1.xr2.x0.t2                          0.781121
+x1.xr3.x0.t1                          0.504591
+x1.xr3.x0.t2                          0.638298
+x1.xr4.x0.t1                          0.361748
+x1.xr4.x0.t2                          0.495465
+x1.xr5.x0.t1                          0.218895
+x1.xr5.x0.t2                          0.352622
+x1.xr6.x0.t1                         0.0760318
+x1.xr6.x0.t2                          0.209769
+x1.xr7.x0.t1                        0.00228156
+x1.xr7.x0.t2                         0.0691872
+x1.xr8.x0.t1                        0.00228156
+x1.xr8.x0.t2                         0.0691872
+x1.xr9.x0.t1                          0.930779
+x1.xr9.x0.t2                          0.997651
+net1                                       0.5
+net2                                         1
+vout                                       0.5
+e1_int1                                    0.5
+net3                                       1.8
+be1#branch                                   0
+e1#branch                                    0
+v3#branch                          -0.00013785
+v2#branch                         -6.70774e-05
+v1#branch                                    0
+
+ Reference value :  0.00000e+00 Reference value :  1.92855e-07 Reference value :  4.86449e-07 Reference value :  6.89180e-07 Reference value :  9.71313e-07 Reference value :  1.11737e-06 Reference value :  1.35272e-06 Reference value :  1.58284e-06 Reference value :  1.91868e-06 Reference value :  2.09207e-06 Reference value :  2.38670e-06 Reference value :  2.52808e-06 Reference value :  2.87094e-06
+No. of Data Rows : 256
+Note: Simulation executed from .control section 
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/tb/adc/tt_um_3bit_flash_adc_tran_corners.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.x2.latch_left                      0.617616
+x1.ref0                              0.0714687
+x1.x2.tail                            0.639936
+vdd                                    1.79981
+x1.x2.latch_right                  0.000291165
+vin                                        0.5
+x1.bias_p                              1.18932
+x1.d0                                  1.79981
+x1.x2.out_left                         1.10813
+x1.x3.latch_left                      0.615959
+x1.ref1                               0.214332
+x1.x3.tail                            0.685548
+x1.x3.latch_right                   0.00128788
+x1.d1                                  1.79981
+x1.x3.out_left                         1.11079
+x1.x4.latch_left                      0.599737
+x1.ref2                               0.357185
+x1.x4.tail                            0.769479
+x1.x4.latch_right                    0.0153882
+x1.d2                                  1.79981
+x1.x4.out_left                         1.13686
+x1.x5.latch_left                      0.536375
+x1.ref3                               0.500028
+x1.x5.tail                            0.846414
+x1.x5.latch_right                     0.468834
+x1.d3                                  1.75473
+x1.x5.out_left                         1.23901
+x1.x6.latch_left                     0.0123419
+x1.ref4                               0.642861
+x1.x6.tail                            0.882033
+x1.x6.latch_right                     0.601696
+x1.d4                              2.15668e-06
+x1.x6.out_left                         1.79782
+x1.x7.latch_left                   0.000403763
+x1.ref5                               0.785684
+x1.x7.tail                            0.891336
+x1.x7.latch_right                     0.615075
+x1.d5                              1.93921e-06
+x1.x7.out_left                         1.79831
+x1.x8.latch_left                   6.27345e-06
+x1.ref6                               0.928497
+x1.x8.tail                            0.891671
+x1.x8.latch_right                     0.615566
+x1.d6                              1.93215e-06
+x1.x8.out_left                         1.79832
+x1.x9.bias_1                           1.03982
+x1.x9.xr_bias_1.x0.t1                   1.0408
+x1.x9.xr_bias_1.x0.t2                  1.18835
+x1.bias_n                             0.591236
+x1.x9.bias_2                          0.890304
+x1.x9.xr_bias_2.x0.t1                 0.891283
+x1.x9.xr_bias_2.x0.t2                  1.03884
+x1.x9.bias_3                          0.740776
+x1.x9.xr_bias_3.x0.t1                 0.741755
+x1.x9.xr_bias_3.x0.t2                 0.889324
+x1.x9.xr_bias_4.x0.t1                 0.592215
+x1.x9.xr_bias_4.x0.t2                 0.739796
+x1.x1.y2                               1.79981
+x1.x1.x3                               1.79981
+x1.x1.x1.net1                      4.63302e-06
+x1.x1.x6                           9.27278e-06
+x1.x1.net2                          1.3911e-05
+x1.x1.x2                                1.7998
+x1.x1.x2.net1                      4.63302e-06
+x1.x1.x5                           9.26995e-06
+x1.x1.y1                           1.39054e-05
+x1.x1.x1                                1.7998
+x1.x1.x3.net1                      4.63302e-06
+x1.x1.x4                           9.27592e-06
+x1.x1.net1                         1.39173e-05
+x1.x1.x0                                1.7998
+x1.x1.x4.net1                          1.79981
+x1.x1.y0                           1.39217e-05
+x1.x1.x5.net1                      4.63302e-06
+x1.x1.x6.net1                      4.63302e-06
+x1.x1.x7.net1                      4.63303e-06
+x1.x1.x8.net1                      8.77117e-06
+x1.x1.x9.net1                          1.79981
+x1.x1.x10.net1                         1.79981
+x1.x1.x11.net1                         1.79981
+x1.x1.x12.net1                         1.79981
+d0                                 4.63302e-06
+x1.x1.x13.net1                         1.79981
+d1                                 4.63302e-06
+x1.x1.x14.net1                     4.63302e-06
+d2                                     1.79981
+x1.xr12.x0.t1                         0.930779
+x1.xr12.x0.t2                         0.997651
+vref                                  0.999933
+x1.xr1.x0.t1                          0.790247
+x1.xr1.x0.t2                          0.923934
+x1.xr2.x0.t1                          0.647424
+x1.xr2.x0.t2                          0.781121
+x1.xr3.x0.t1                          0.504591
+x1.xr3.x0.t2                          0.638298
+x1.xr4.x0.t1                          0.361748
+x1.xr4.x0.t2                          0.495465
+x1.xr5.x0.t1                          0.218895
+x1.xr5.x0.t2                          0.352622
+x1.xr6.x0.t1                         0.0760318
+x1.xr6.x0.t2                          0.209769
+x1.xr7.x0.t1                        0.00228156
+x1.xr7.x0.t2                         0.0691872
+x1.xr8.x0.t1                        0.00228156
+x1.xr8.x0.t2                         0.0691872
+x1.xr9.x0.t1                          0.930779
+x1.xr9.x0.t2                          0.997651
+net1                                       0.5
+net2                                         1
+vout                                  0.500001
+e1_int1                               0.500001
+net3                                       1.8
+be1#branch                                   0
+e1#branch                                    0
+v3#branch                         -0.000188181
+v2#branch                         -6.70774e-05
+v1#branch                                    0
+
+ Reference value :  0.00000e+00 Reference value :  6.80320e-08 Reference value :  2.27704e-07 Reference value :  4.69366e-07 Reference value :  7.10941e-07 Reference value :  1.02556e-06 Reference value :  1.21107e-06 Reference value :  1.40749e-06 Reference value :  1.51390e-06 Reference value :  1.87251e-06 Reference value :  2.07145e-06 Reference value :  2.33709e-06 Reference value :  2.47459e-06 Reference value :  2.69182e-06 Reference value :  2.88615e-06 Reference value :  2.91307e-06
+No. of Data Rows : 244
+Note: Simulation executed from .control section 
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/tb/adc/tt_um_3bit_flash_adc_tran_corners.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.x2.latch_left                      0.583676
+x1.ref0                              0.0714687
+x1.x2.tail                            0.743899
+vdd                                    1.79986
+x1.x2.latch_right                  4.36117e-06
+vin                                        0.5
+x1.bias_p                              1.01085
+x1.d0                                  1.79986
+x1.x2.out_left                        0.946791
+x1.x3.latch_left                      0.582279
+x1.ref1                               0.214332
+x1.x3.tail                            0.853795
+x1.x3.latch_right                  0.000212882
+x1.d1                                  1.79986
+x1.x3.out_left                        0.948853
+x1.x4.latch_left                         0.573
+x1.ref2                               0.357185
+x1.x4.tail                            0.961429
+x1.x4.latch_right                   0.00719022
+x1.d2                                  1.79986
+x1.x4.out_left                        0.962548
+x1.x5.latch_left                      0.522511
+x1.ref3                               0.500028
+x1.x5.tail                             1.04143
+x1.x5.latch_right                     0.359039
+x1.d3                                  1.79566
+x1.x5.out_left                         1.03667
+x1.x6.latch_left                    0.00623138
+x1.ref4                               0.642861
+x1.x6.tail                             1.07686
+x1.x6.latch_right                     0.572801
+x1.d4                              1.46288e-07
+x1.x6.out_left                         1.66984
+x1.x7.latch_left                   0.000141159
+x1.ref5                               0.785684
+x1.x7.tail                             1.08176
+x1.x7.latch_right                     0.579914
+x1.d5                              1.21037e-07
+x1.x7.out_left                         1.67508
+x1.x8.latch_left                   2.15787e-06
+x1.ref6                               0.928497
+x1.x8.tail                             1.08187
+x1.x8.latch_right                     0.580086
+x1.d6                              1.20518e-07
+x1.x8.out_left                          1.6752
+x1.x9.bias_1                          0.898514
+x1.x9.xr_bias_1.x0.t1                  0.89925
+x1.x9.xr_bias_1.x0.t2                  1.01012
+x1.bias_n                             0.561461
+x1.x9.bias_2                           0.78617
+x1.x9.xr_bias_2.x0.t1                 0.786906
+x1.x9.xr_bias_2.x0.t2                 0.897778
+x1.x9.bias_3                          0.673819
+x1.x9.xr_bias_3.x0.t1                 0.674555
+x1.x9.xr_bias_3.x0.t2                 0.785434
+x1.x9.xr_bias_4.x0.t1                 0.562197
+x1.x9.xr_bias_4.x0.t2                 0.673083
+x1.x1.y2                               1.79986
+x1.x1.x3                               1.79986
+x1.x1.x1.net1                       6.1832e-08
+x1.x1.x6                           1.30976e-07
+x1.x1.net2                         1.98445e-07
+x1.x1.x2                               1.79986
+x1.x1.x2.net1                       6.1832e-08
+x1.x1.x5                           1.28125e-07
+x1.x1.y1                           1.92743e-07
+x1.x1.x1                               1.79986
+x1.x1.x3.net1                       6.1832e-08
+x1.x1.x4                           1.34325e-07
+x1.x1.net1                         2.05144e-07
+x1.x1.x0                               1.79986
+x1.x1.x4.net1                          1.79986
+x1.x1.y0                            2.0967e-07
+x1.x1.x5.net1                      6.18321e-08
+x1.x1.x6.net1                      6.18321e-08
+x1.x1.x7.net1                      6.18321e-08
+x1.x1.x8.net1                      6.79055e-08
+x1.x1.x9.net1                          1.79986
+x1.x1.x10.net1                         1.79986
+x1.x1.x11.net1                         1.79986
+x1.x1.x12.net1                         1.79986
+d0                                  6.1832e-08
+x1.x1.x13.net1                         1.79986
+d1                                  6.1832e-08
+x1.x1.x14.net1                      6.1832e-08
+d2                                     1.79986
+x1.xr12.x0.t1                         0.930779
+x1.xr12.x0.t2                         0.997651
+vref                                  0.999933
+x1.xr1.x0.t1                          0.790247
+x1.xr1.x0.t2                          0.923934
+x1.xr2.x0.t1                          0.647424
+x1.xr2.x0.t2                          0.781121
+x1.xr3.x0.t1                          0.504591
+x1.xr3.x0.t2                          0.638298
+x1.xr4.x0.t1                          0.361748
+x1.xr4.x0.t2                          0.495465
+x1.xr5.x0.t1                          0.218895
+x1.xr5.x0.t2                          0.352622
+x1.xr6.x0.t1                         0.0760318
+x1.xr6.x0.t2                          0.209769
+x1.xr7.x0.t1                        0.00228156
+x1.xr7.x0.t2                         0.0691872
+x1.xr8.x0.t1                        0.00228156
+x1.xr8.x0.t2                         0.0691872
+x1.xr9.x0.t1                          0.930779
+x1.xr9.x0.t2                          0.997651
+net1                                       0.5
+net2                                         1
+vout                                       0.5
+e1_int1                                    0.5
+net3                                       1.8
+be1#branch                                   0
+e1#branch                                    0
+v3#branch                         -0.000137188
+v2#branch                         -6.70774e-05
+v1#branch                                    0
+
+ Reference value :  0.00000e+00 Reference value :  8.91067e-08 Reference value :  2.30896e-07 Reference value :  5.39014e-07 Reference value :  8.60645e-07 Reference value :  1.02398e-06 Reference value :  1.11608e-06 Reference value :  1.42210e-06 Reference value :  1.58112e-06 Reference value :  1.93377e-06 Reference value :  2.11795e-06 Reference value :  2.42293e-06 Reference value :  2.52263e-06 Reference value :  2.84497e-06
+No. of Data Rows : 253
+Note: Simulation executed from .control section 
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/tb/adc/tt_um_3bit_flash_adc_tran_corners.sch
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+x1.x2.latch_left                      0.667478
+x1.ref0                              0.0714687
+x1.x2.tail                            0.679379
+vdd                                    1.79979
+x1.x2.latch_right                   0.00398205
+vin                                        0.5
+x1.bias_p                              1.24146
+x1.d0                                  1.79979
+x1.x2.out_left                          1.1638
+x1.x3.latch_left                      0.664901
+x1.ref1                               0.214332
+x1.x3.tail                            0.694248
+x1.x3.latch_right                   0.00608824
+x1.d1                                  1.79979
+x1.x3.out_left                         1.16804
+x1.x4.latch_left                      0.648146
+x1.ref2                               0.357185
+x1.x4.tail                            0.740545
+x1.x4.latch_right                    0.0224515
+x1.d2                                  1.79979
+x1.x4.out_left                         1.19575
+x1.x5.latch_left                      0.561177
+x1.ref3                               0.500028
+x1.x5.tail                            0.813248
+x1.x5.latch_right                     0.566474
+x1.d3                                  1.07227
+x1.x5.out_left                         1.33887
+x1.x6.latch_left                     0.0155919
+x1.ref4                               0.642861
+x1.x6.tail                            0.847666
+x1.x6.latch_right                     0.653486
+x1.d4                               1.0682e-05
+x1.x6.out_left                         1.79965
+x1.x7.latch_left                   0.000608129
+x1.ref5                               0.785684
+x1.x7.tail                            0.859327
+x1.x7.latch_right                     0.669934
+x1.d5                              9.52689e-06
+x1.x7.out_left                         1.79968
+x1.x8.latch_left                   9.90291e-06
+x1.ref6                               0.928497
+x1.x8.tail                            0.859843
+x1.x8.latch_right                     0.670676
+x1.d6                              9.48028e-06
+x1.x8.out_left                         1.79968
+x1.x9.bias_1                           1.09228
+x1.x9.xr_bias_1.x0.t1                  1.09326
+x1.x9.xr_bias_1.x0.t2                  1.24048
+x1.bias_n                             0.644703
+x1.x9.bias_2                          0.943103
+x1.x9.xr_bias_2.x0.t1                  0.94408
+x1.x9.xr_bias_2.x0.t2                  1.09131
+x1.x9.bias_3                          0.793909
+x1.x9.xr_bias_3.x0.t1                 0.794886
+x1.x9.xr_bias_3.x0.t2                 0.942125
+x1.x9.xr_bias_4.x0.t1                  0.64568
+x1.x9.xr_bias_4.x0.t2                 0.792931
+x1.x1.y2                               1.79979
+x1.x1.x3                               1.79979
+x1.x1.x1.net1                      1.97041e-06
+x1.x1.x6                           3.94753e-06
+x1.x1.net2                         5.92282e-06
+x1.x1.x2                               1.79979
+x1.x1.x2.net1                      1.97041e-06
+x1.x1.x5                           3.94439e-06
+x1.x1.y1                           5.91653e-06
+x1.x1.x1                               1.79979
+x1.x1.x3.net1                      1.97041e-06
+x1.x1.x4                           3.95123e-06
+x1.x1.net1                         5.93021e-06
+x1.x1.x0                               1.79979
+x1.x1.x4.net1                          1.79979
+x1.x1.y0                            5.9352e-06
+x1.x1.x5.net1                      1.97041e-06
+x1.x1.x6.net1                      1.97041e-06
+x1.x1.x7.net1                      1.97041e-06
+x1.x1.x8.net1                        0.0670863
+x1.x1.x9.net1                          1.79979
+x1.x1.x10.net1                         1.79979
+x1.x1.x11.net1                         1.79979
+x1.x1.x12.net1                         1.79979
+d0                                 1.97041e-06
+x1.x1.x13.net1                         1.79979
+d1                                 1.97041e-06
+x1.x1.x14.net1                     1.97041e-06
+d2                                     1.79979
+x1.xr12.x0.t1                         0.930779
+x1.xr12.x0.t2                         0.997651
+vref                                  0.999933
+x1.xr1.x0.t1                          0.790247
+x1.xr1.x0.t2                          0.923934
+x1.xr2.x0.t1                          0.647424
+x1.xr2.x0.t2                          0.781121
+x1.xr3.x0.t1                          0.504591
+x1.xr3.x0.t2                          0.638298
+x1.xr4.x0.t1                          0.361748
+x1.xr4.x0.t2                          0.495465
+x1.xr5.x0.t1                          0.218895
+x1.xr5.x0.t2                          0.352622
+x1.xr6.x0.t1                         0.0760318
+x1.xr6.x0.t2                          0.209769
+x1.xr7.x0.t1                        0.00228156
+x1.xr7.x0.t2                         0.0691872
+x1.xr8.x0.t1                        0.00228156
+x1.xr8.x0.t2                         0.0691872
+x1.xr9.x0.t1                          0.930779
+x1.xr9.x0.t2                          0.997651
+net1                                       0.5
+net2                                         1
+vout                                       0.5
+e1_int1                                    0.5
+net3                                       1.8
+be1#branch                                   0
+e1#branch                                    0
+v3#branch                         -0.000206511
+v2#branch                         -6.70774e-05
+v1#branch                                    0
+
+ Reference value :  0.00000e+00 Reference value :  1.87290e-07 Reference value :  4.21498e-07 Reference value :  5.19990e-07 Reference value :  7.62686e-07 Reference value :  1.06427e-06 Reference value :  1.21748e-06 Reference value :  1.48199e-06 Reference value :  1.87723e-06 Reference value :  2.12092e-06 Reference value :  2.36195e-06 Reference value :  2.46702e-06 Reference value :  2.72895e-06
+No. of Data Rows : 216
+Note: Simulation executed from .control section 

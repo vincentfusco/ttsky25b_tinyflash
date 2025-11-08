@@ -1,0 +1,45 @@
+
+Circuit 1 cell sky130_fd_pr__res_xhigh_po_5p73 and Circuit 2 cell sky130_fd_pr__res_xhigh_po_5p73 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__res_xhigh_po_5p73 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__res_xhigh_po_5p73 |Circuit 2: sky130_fd_pr__res_xhigh_po_5p73 
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__res_xhigh_po_5p73 and sky130_fd_pr__res_xhigh_po_5p73 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_JT48NU in circuit res_ladder_vref_lvs (0)(10 instances)
+
+Class res_ladder_vref_lvs (0):  Merged 2 parallel devices.
+Class res_ladder_vref (1):  Merged 2 parallel devices.
+Subcircuit summary:
+Circuit 1: res_ladder_vref_lvs             |Circuit 2: res_ladder_vref                 
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__res_xhigh_po_5p73 (10->8)    |sky130_fd_pr__res_xhigh_po_5p73 (10->8)    
+Number of devices: 8                       |Number of devices: 8                       
+Number of nets: 9                          |Number of nets: 9                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: res_ladder_vref_lvs             |Circuit 2: res_ladder_vref                 
+-------------------------------------------|-------------------------------------------
+vref                                       |vref                                       
+ref6                                       |ref6                                       
+ref1                                       |ref1                                       
+ref4                                       |ref4                                       
+ref3                                       |ref3                                       
+ref2                                       |ref2                                       
+ref5                                       |ref5                                       
+ref0                                       |ref0                                       
+vss                                        |vss                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes res_ladder_vref_lvs and res_ladder_vref are equivalent.
+
+Final result: Circuits match uniquely.
+.

@@ -1,0 +1,23 @@
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/res_ladder_vref/res_ladder_vref.sch
+.subckt res_ladder_vref ref0 ref1 ref2 ref3 ref4 ref5 ref6 vref vss
+*.iopin vref
+*.iopin vss
+*.opin ref0
+*.opin ref1
+*.opin ref2
+*.opin ref3
+*.opin ref4
+*.opin ref5
+*.opin ref6
+XR1 ref6 vref vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR2 ref6 vref vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR3 ref5 ref6 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR4 ref4 ref5 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR5 ref3 ref4 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR6 ref2 ref3 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR7 ref1 ref2 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR8 ref0 ref1 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR9 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+XR10 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73 L=5.73 mult=1 m=1
+**.ends
+.end

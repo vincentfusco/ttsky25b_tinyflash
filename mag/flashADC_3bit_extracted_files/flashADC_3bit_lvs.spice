@@ -1,0 +1,142 @@
+* NGSPICE file created from flashADC_3bit_lvs.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_1p41 l=7
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_ELBHUY B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_VTBKAA B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+.ends
+
+.subckt vbias_generation bias_n bias_p vdd vss
+XXR_bias_1 vss XR_bias_2/R2 bias_p sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_2 vss XR_bias_3/R2 XR_bias_2/R2 sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_3 vss XR_bias_4/R1 XR_bias_3/R2 sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_4 vss XR_bias_4/R1 bias_n sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXMn_bias vss bias_n vss bias_n sky130_fd_pr__nfet_01v8_lvt_ELBHUY
+XXMp_bias vdd bias_p vdd bias_p sky130_fd_pr__pfet_01v8_lvt_VTBKAA
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_5p73_JT48NU B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_5p73 l=5.73
+.ends
+
+.subckt res_ladder_vref ref2 ref5 ref6 vref ref3 ref1 ref0 ref4 vss
+XXR1 vss ref6 vref sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR2 vss ref6 vref sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR10 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR3 vss ref6 ref5 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR4 vss ref4 ref5 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR5 vss ref4 ref3 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR6 vss ref2 ref3 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR7 vss ref2 ref1 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR8 vss ref0 ref1 sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+XXR9 vss ref0 vss sky130_fd_pr__res_xhigh_po_5p73_JT48NU
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_MMMA4V a_n260_n698# a_100_n500# a_n158_n500# a_n100_n588#
+X0 a_100_n500# a_n100_n588# a_n158_n500# a_n260_n698# sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_5VNMZ8 a_n100_n897# a_100_n800# w_n296_n1019#
++ a_n158_n800#
+X0 a_100_n800# a_n100_n897# a_n158_n800# w_n296_n1019# sky130_fd_pr__pfet_01v8_lvt ad=2.32 pd=16.58 as=2.32 ps=16.58 w=8 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_AHMAL2 a_n260_n574# a_100_n400# a_n158_n400# a_n100_n488#
+X0 a_100_n400# a_n100_n488# a_n158_n400# a_n260_n574# sky130_fd_pr__nfet_01v8_lvt ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_GUWLND a_n158_n1000# a_n100_n1097# w_n296_n1219#
++ a_100_n1000#
+X0 a_100_n1000# a_n100_n1097# a_n158_n1000# w_n296_n1219# sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+.ends
+
+.subckt comp_p vinp vinn vbias_p vout vdd vss
+XXMn_cs_left vss latch_right vss latch_left sky130_fd_pr__nfet_01v8_lvt_MMMA4V
+XXMp_out out_left vdd vdd vout sky130_fd_pr__pfet_01v8_lvt_5VNMZ8
+XXMn_diode_left1 vss latch_left vss latch_left sky130_fd_pr__nfet_01v8_lvt_AHMAL2
+XXMn_cs_right1 vss latch_left vss latch_right sky130_fd_pr__nfet_01v8_lvt_MMMA4V
+XXMn_diode_right vss latch_right vss latch_right sky130_fd_pr__nfet_01v8_lvt_AHMAL2
+Xsky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0 out_left vdd vdd out_left sky130_fd_pr__pfet_01v8_lvt_5VNMZ8
+XXMn_out_left vss out_left vss latch_left sky130_fd_pr__nfet_01v8_lvt_MMMA4V
+XXMn_out_right vss vout vss latch_right sky130_fd_pr__nfet_01v8_lvt_MMMA4V
+XXMp_tail tail vbias_p vdd vdd sky130_fd_pr__pfet_01v8_lvt_GUWLND
+X0 tail vinn latch_left vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X1 tail vinp latch_right vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X2 tail vinp latch_right vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X3 tail vinp latch_right vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X4 tail vinp latch_right vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X5 tail vinn latch_left vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X6 tail vinn latch_left vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+X7 tail vinn latch_left vdd sky130_fd_pr__pfet_01v8_lvt ad=2.89855 pd=20.57 as=2.89855 ps=20.57 w=9.995 l=0.35
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_A6MZLZ B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=0.15
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_MH3LLV B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.15
+.ends
+
+.subckt tmux_2to1 S Y vdd B A vss
+XXM1 vdd vdd XM5/G S sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM2 vss vss XM5/G S sky130_fd_pr__nfet_01v8_MH3LLV
+XXM3 vdd A Y S sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM4 vss A Y XM5/G sky130_fd_pr__nfet_01v8_MH3LLV
+XXM5 vdd Y B XM5/G sky130_fd_pr__pfet_01v8_A6MZLZ
+XXM6 vss Y B S sky130_fd_pr__nfet_01v8_MH3LLV
+.ends
+
+.subckt sky130_fd_pr__res_generic_m1_SPQYYJ R1 R2
+R0 R1 R2 sky130_fd_pr__res_generic_m1 w=1 l=1
+.ends
+
+.subckt inv vin vdd vout vss
+XXMn vss vss vout vin sky130_fd_pr__nfet_01v8_MH3LLV
+XXMp vdd vdd vout vin sky130_fd_pr__pfet_01v8_A6MZLZ
+.ends
+
+.subckt buffer in out vdd vss
+Xinv_0 in vdd inv_1/vin vss inv
+Xinv_1 inv_1/vin vdd out vss inv
+.ends
+
+.subckt tmux_7therm_to_3bin d0 d1 d2 d3 d4 d5 d6 q0 q1 q2 buffer_6/out vdd vss
+Xtmux_2to1_1 R1/R1 buffer_8/in vdd buffer_5/out buffer_1/out vss tmux_2to1
+Xtmux_2to1_2 R1/R1 tmux_2to1_3/B vdd buffer_6/out buffer_2/out vss tmux_2to1
+Xtmux_2to1_3 buffer_8/in buffer_7/in vdd tmux_2to1_3/B tmux_2to1_3/A vss tmux_2to1
+XR1 R1/R1 R1/R2 sky130_fd_pr__res_generic_m1_SPQYYJ
+Xbuffer_0 d0 buffer_0/out vdd vss buffer
+Xbuffer_1 d1 buffer_1/out vdd vss buffer
+Xbuffer_2 d2 buffer_2/out vdd vss buffer
+Xbuffer_3 d3 R1/R2 vdd vss buffer
+Xbuffer_4 d4 buffer_4/out vdd vss buffer
+Xbuffer_5 d5 buffer_5/out vdd vss buffer
+Xbuffer_6 d6 buffer_6/out vdd vss buffer
+Xbuffer_7 buffer_7/in q0 vdd vss buffer
+Xbuffer_8 buffer_8/in q1 vdd vss buffer
+Xbuffer_9 R1/R1 q2 vdd vss buffer
+Xtmux_2to1_0 R1/R1 tmux_2to1_3/A vdd buffer_4/out buffer_0/out vss tmux_2to1
+.ends
+
+.subckt flashADC_3bit_lvs vin vref dout0 dout1 dout2 d0 d1 d2 d3 d4 d5 d6 vdd vss
+Xvbias_generation_0 vbias_generation_0/bias_n comp_p_6/vbias_p vdd vss vbias_generation
+Xres_ladder_vref_0 comp_p_2/vinn comp_p_5/vinn comp_p_6/vinn vref comp_p_3/vinn comp_p_0/vinn
++ comp_p_1/vinn comp_p_4/vinn vss res_ladder_vref
+Xcomp_p_1 vin comp_p_1/vinn comp_p_6/vbias_p d0 vdd vss comp_p
+Xcomp_p_0 vin comp_p_0/vinn comp_p_6/vbias_p d1 vdd vss comp_p
+Xcomp_p_2 vin comp_p_2/vinn comp_p_6/vbias_p d2 vdd vss comp_p
+Xcomp_p_3 vin comp_p_3/vinn comp_p_6/vbias_p d3 vdd vss comp_p
+Xcomp_p_4 vin comp_p_4/vinn comp_p_6/vbias_p d4 vdd vss comp_p
+Xcomp_p_5 vin comp_p_5/vinn comp_p_6/vbias_p d5 vdd vss comp_p
+Xcomp_p_6 vin comp_p_6/vinn comp_p_6/vbias_p d6 vdd vss comp_p
+Xtmux_7therm_to_3bin_0 d0 d1 d2 d3 d4 d5 d6 dout0 dout1 dout2 tmux_7therm_to_3bin_0/buffer_6/out
++ vdd vss tmux_7therm_to_3bin
+.ends
+

@@ -1,0 +1,44 @@
+| units: 500000 tech: sky130A format: MIT
+x in vss inv_1/vin vss s=11600,516 d=11600,516 l=30 w=200 x=-23 y=231 sky130_fd_pr__nfet_01v8
+x in vdd inv_1/vin vdd s=23200,916 d=23200,916 l=30 w=400 x=-23 y=860 sky130_fd_pr__pfet_01v8
+x inv_1/vin vss out vss s=11600,516 d=11600,516 l=30 w=200 x=397 y=231 sky130_fd_pr__nfet_01v8
+x inv_1/vin vdd out vdd s=23200,916 d=23200,916 l=30 w=400 x=397 y=860 sky130_fd_pr__pfet_01v8
+R inv_1/vin 3876
+= inv_1/vin inv_0/vout
+= inv_1/vin inv_0/XMn/S
+= inv_1/vin inv_0/XMp/S
+= inv_1/vin m1_160_600#
+= inv_1/vin inv_1/XMn/G
+= inv_1/vin inv_1/m1_160_80#
+= inv_1/vin inv_1/XMp/G
+= inv_1/vin inv_1/m1_160_1240#
+R out 2034
+= out inv_1/vout
+= out inv_1/XMn/S
+= out inv_1/XMp/S
+C vdd0 3.3
+R vdd 20575
+= vdd inv_0/vdd
+= vdd inv_0/XMp/D
+= vdd inv_0/XMp/B
+= vdd inv_1/vdd
+= vdd inv_1/XMp/D
+= vdd inv_1/XMp/B
+R vss 21364
+= vss VSUBS
+= vss inv_0/vss
+= vss inv_0/XMn/D
+= vss inv_0/XMp/VSUBS
+= vss inv_0/VSUBS
+= vss inv_0/XMn/B
+= vss inv_1/vss
+= vss inv_1/XMn/D
+= vss inv_1/XMp/VSUBS
+= vss inv_1/VSUBS
+= vss inv_1/XMn/B
+R in 1827
+= in inv_0/vin
+= in inv_0/XMn/G
+= in inv_0/m1_160_80#
+= in inv_0/XMp/G
+= in inv_0/m1_160_1240#

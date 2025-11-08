@@ -1,0 +1,23 @@
+* NGSPICE file created from vbias_generation_lvs.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_1p41 l=7
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_ELBHUY B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_VTBKAA B D S G
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+.ends
+
+.subckt vbias_generation_lvs bias_n bias_p vdd vss
+XXR_bias_1 vss XR_bias_2/R2 bias_p sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_2 vss XR_bias_3/R2 XR_bias_2/R2 sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_3 vss XR_bias_4/R1 XR_bias_3/R2 sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_4 vss XR_bias_4/R1 bias_n sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXMn_bias vss bias_n vss bias_n sky130_fd_pr__nfet_01v8_lvt_ELBHUY
+XXMp_bias vdd bias_p vdd bias_p sky130_fd_pr__pfet_01v8_lvt_VTBKAA
+.ends
+

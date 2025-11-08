@@ -1,0 +1,2385 @@
+scale 1000 1 500000
+rnode "buffer_9/inv_1/XMp/S" 0 0 3583 -1875 0
+rnode "buffer_9/inv_1/XMn/S" 0 -0 3583 -2604 0
+rnode "q2" 0 0 3648 -2334 0
+rnode "q2" 0 0 3668 -2254 0
+resist "q2" "q2" 0.108696
+resist "q2" "buffer_9/inv_1/XMp/S" 2.61684
+resist "q2" "buffer_9/inv_1/XMn/S" 5.30039
+rnode "buffer_8/inv_1/XMn/S" 0 -0 3583 -308 0
+rnode "buffer_8/inv_1/XMp/S" 0 0 3583 -1037 0
+rnode "q1" 0 0 3648 -658 0
+rnode "q1" 0 0 3668 -578 0
+resist "q1" "q1" 0.108696
+resist "q1" "buffer_8/inv_1/XMp/S" 2.61684
+resist "q1" "buffer_8/inv_1/XMn/S" 5.30039
+rnode "buffer_7/inv_1/XMp/S" 0 0 3583 1041 0
+rnode "buffer_7/inv_1/XMn/S" 0 -0 3583 312 0
+rnode "q0" 0 0 3648 582 0
+rnode "q0" 0 0 3668 662 0
+resist "q0" "q0" 0.108696
+resist "q0" "buffer_7/inv_1/XMp/S" 2.61684
+resist "q0" "buffer_7/inv_1/XMn/S" 5.30039
+rnode "buffer_6/inv_0/XMp/G" 0 0 169 -7443 0
+rnode "d6.t1" 0 0 169 -7707 0
+rnode "d6.t0" 0 0 169 -8436 0
+rnode "buffer_6/inv_0/XMn/G" 0 0 169 -8281 0
+rnode "d6.n0" 0 0 168 -8086 0
+rnode "d6" 0 0 -42 -8166 0
+rnode "buffer_6/inv_0/vin" 0 0 -2 -8166 0
+rnode "d6" 0 0 78 -8086 0
+resist "buffer_6/inv_0/vin" "d6" 0.0625
+resist "d6" "buffer_6/inv_0/vin" 0.125
+resist "d6" "d6.n0" 0.140625
+resist "d6.n0" "buffer_6/inv_0/XMn/G" 9.53958
+resist "buffer_6/inv_0/XMn/G" "d6.t0" 372.113
+resist "d6.t1" "buffer_6/inv_0/XMp/G" 547.24
+resist "d6.n0" "d6.t1" 556.78
+rnode "d5.t0" 0 0 169 -6140 0
+rnode "buffer_5/inv_0/XMn/G" 0 0 169 -6295 0
+rnode "buffer_5/inv_0/XMp/G" 0 0 169 -7133 0
+rnode "d5.t1" 0 0 169 -6869 0
+rnode "d5.n0" 0 0 168 -6410 0
+rnode "d5" 0 0 -42 -6490 0
+rnode "buffer_5/inv_0/vin" 0 0 -2 -6490 0
+rnode "d5" 0 0 78 -6410 0
+resist "buffer_5/inv_0/vin" "d5" 0.0625
+resist "d5" "buffer_5/inv_0/vin" 0.125
+resist "d5" "d5.n0" 0.140625
+resist "d5.n0" "buffer_5/inv_0/XMn/G" 9.53958
+resist "buffer_5/inv_0/XMn/G" "d5.t0" 372.113
+resist "d5.t1" "buffer_5/inv_0/XMp/G" 547.24
+resist "d5.n0" "d5.t1" 556.78
+rnode "buffer_4/inv_0/XMp/G" 0 0 169 -4527 0
+rnode "d4.t1" 0 0 169 -4791 0
+rnode "d4.t0" 0 0 169 -5520 0
+rnode "buffer_4/inv_0/XMn/G" 0 0 169 -5365 0
+rnode "d4.n0" 0 0 168 -5170 0
+rnode "d4" 0 0 -42 -5250 0
+rnode "buffer_4/inv_0/vin" 0 0 -2 -5250 0
+rnode "d4" 0 0 78 -5170 0
+resist "buffer_4/inv_0/vin" "d4" 0.0625
+resist "d4" "buffer_4/inv_0/vin" 0.125
+resist "d4" "d4.n0" 0.140625
+resist "d4.n0" "buffer_4/inv_0/XMn/G" 9.53958
+resist "buffer_4/inv_0/XMn/G" "d4.t0" 372.113
+resist "d4.t1" "buffer_4/inv_0/XMp/G" 547.24
+resist "d4.n0" "d4.t1" 556.78
+rnode "d3.t0" 0 0 169 -3224 0
+rnode "buffer_3/inv_0/XMn/G" 0 0 169 -3379 0
+rnode "buffer_3/inv_0/XMp/G" 0 0 169 -4217 0
+rnode "d3.t1" 0 0 169 -3953 0
+rnode "d3.n0" 0 0 168 -3494 0
+rnode "d3" 0 0 -42 -3574 0
+rnode "buffer_3/inv_0/vin" 0 0 -2 -3574 0
+rnode "d3" 0 0 78 -3494 0
+resist "buffer_3/inv_0/vin" "d3" 0.0625
+resist "d3" "buffer_3/inv_0/vin" 0.125
+resist "d3" "d3.n0" 0.140625
+resist "d3.n0" "buffer_3/inv_0/XMn/G" 9.53958
+resist "buffer_3/inv_0/XMn/G" "d3.t0" 372.113
+resist "d3.t1" "buffer_3/inv_0/XMp/G" 547.24
+resist "d3.n0" "d3.t1" 556.78
+rnode "buffer_2/inv_0/XMp/G" 0 0 169 -1611 0
+rnode "d2.t1" 0 0 169 -1875 0
+rnode "d2.t0" 0 0 169 -2604 0
+rnode "buffer_2/inv_0/XMn/G" 0 0 169 -2449 0
+rnode "d2.n0" 0 0 168 -2254 0
+rnode "d2" 0 0 -42 -2334 0
+rnode "buffer_2/inv_0/vin" 0 0 -2 -2334 0
+rnode "d2" 0 0 78 -2254 0
+resist "buffer_2/inv_0/vin" "d2" 0.0625
+resist "d2" "buffer_2/inv_0/vin" 0.125
+resist "d2" "d2.n0" 0.140625
+resist "d2.n0" "buffer_2/inv_0/XMn/G" 9.53958
+resist "buffer_2/inv_0/XMn/G" "d2.t0" 372.113
+resist "d2.t1" "buffer_2/inv_0/XMp/G" 547.24
+resist "d2.n0" "d2.t1" 556.78
+rnode "d1.t0" 0 0 169 -308 0
+rnode "buffer_1/inv_0/XMn/G" 0 0 169 -463 0
+rnode "buffer_1/inv_0/XMp/G" 0 0 169 -1301 0
+rnode "d1.t1" 0 0 169 -1037 0
+rnode "d1.n0" 0 0 168 -578 0
+rnode "d1" 0 0 -42 -658 0
+rnode "buffer_1/inv_0/vin" 0 0 -2 -658 0
+rnode "d1" 0 0 78 -578 0
+resist "buffer_1/inv_0/vin" "d1" 0.0625
+resist "d1" "buffer_1/inv_0/vin" 0.125
+resist "d1" "d1.n0" 0.140625
+resist "d1.n0" "buffer_1/inv_0/XMn/G" 9.53958
+resist "buffer_1/inv_0/XMn/G" "d1.t0" 372.113
+resist "d1.t1" "buffer_1/inv_0/XMp/G" 547.24
+resist "d1.n0" "d1.t1" 556.78
+rnode "buffer_0/inv_0/XMp/G" 0 0 169 1305 0
+rnode "d0.t1" 0 0 169 1041 0
+rnode "d0.t0" 0 0 169 312 0
+rnode "buffer_0/inv_0/XMn/G" 0 0 169 467 0
+rnode "d0.n0" 0 0 168 662 0
+rnode "d0" 0 0 -42 582 0
+rnode "buffer_0/inv_0/vin" 0 0 -2 582 0
+rnode "d0" 0 0 78 662 0
+resist "buffer_0/inv_0/vin" "d0" 0.0625
+resist "d0" "buffer_0/inv_0/vin" 0.125
+resist "d0" "d0.n0" 0.140625
+resist "d0.n0" "buffer_0/inv_0/XMn/G" 9.53958
+resist "buffer_0/inv_0/XMn/G" "d0.t0" 372.113
+resist "d0.t1" "buffer_0/inv_0/XMp/G" 547.24
+resist "d0.n0" "d0.t1" 556.78
+rnode "buffer_6/inv_1/XMn/D" 0 -0 545 -8436 0
+rnode "vss.n0" 0 0 448 -8666 0
+rnode "buffer_6/inv_1/XMn/B" 0 0 589 -8693 0
+rnode "vss.n1" 0 0 589 -8179 0
+rnode "vss.n2" 0 0 589 -8179 0
+rnode "vss.n3" 0 0 589 -8693 0
+rnode "vss.n4" 0 0 747 -8436 0
+rnode "vss.n5" 0 0 747 -8436 0
+rnode "vss.n6" 0 0 589 -8179 0
+rnode "vss.n7" 0 0 589 -8693 0
+rnode "vss.n8" 0 0 169 -8179 0
+rnode "vss.n9" 0 0 169 -8179 0
+rnode "vss.n10" 0 0 169 -8693 0
+rnode "vss.n11" 0 0 169 -8179 0
+rnode "vss.n12" 0 0 169 -8693 0
+rnode "vss.n13" 0 0 11 -8436 0
+rnode "vss.n14" 0 0 11 -8436 0
+rnode "buffer_6/inv_1/vss" 0 0 378 -8746 0
+rnode "buffer_6/inv_0/XMn/D" 0 -0 125 -8436 0
+rnode "buffer_6/inv_0/vss" 0 0 -42 -8746 0
+rnode "vss.n15" 0 0 28 -8666 0
+rnode "vss.n16" 0 0 168 -8696 0
+rnode "vss.n17" 0 0 168 -8696 0
+rnode "buffer_6/inv_0/XMn/B" 0 0 169 -8693 0
+rnode "vss.n18" 0 0 327 -8436 0
+rnode "vss.n19" 0 0 327 -8436 0
+rnode "vss.n20" 0 0 327 -8436 0
+rnode "vss.n21" 0 0 431 -8436 0
+rnode "vss.n22" 0 0 431 -8436 0
+rnode "vss.n23" 0 0 431 -8436 0
+rnode "vss.n24" 0 0 588 -8696 0
+rnode "vss.n25" 0 0 588 -8696 0
+rnode "buffer_4/inv_1/XMn/D" 0 -0 545 -5520 0
+rnode "buffer_5/inv_1/XMn/D" 0 -0 545 -6140 0
+rnode "vss.n26" 0 0 448 -5750 0
+rnode "vss.n27" 0 0 588 -5880 0
+rnode "buffer_4/inv_1/XMn/B" 0 0 589 -5777 0
+rnode "vss.n28" 0 0 589 -5263 0
+rnode "vss.n29" 0 0 589 -5263 0
+rnode "vss.n30" 0 0 589 -5777 0
+rnode "vss.n31" 0 0 169 -5263 0
+rnode "vss.n32" 0 0 11 -5520 0
+rnode "vss.n33" 0 0 169 -5777 0
+rnode "vss.n34" 0 0 747 -5520 0
+rnode "vss.n35" 0 0 747 -5520 0
+rnode "vss.n36" 0 0 169 -5263 0
+rnode "vss.n37" 0 0 169 -5777 0
+rnode "vss.n38" 0 0 169 -5263 0
+rnode "vss.n39" 0 0 11 -5520 0
+rnode "buffer_4/inv_1/vss" 0 0 378 -5830 0
+rnode "buffer_5/inv_0/XMn/B" 0 0 169 -5883 0
+rnode "vss.n40" 0 0 169 -6397 0
+rnode "vss.n41" 0 0 169 -5883 0
+rnode "vss.n42" 0 0 169 -6397 0
+rnode "vss.n43" 0 0 589 -5883 0
+rnode "vss.n44" 0 0 747 -6140 0
+rnode "vss.n45" 0 0 327 -6140 0
+rnode "vss.n46" 0 0 327 -6140 0
+rnode "vss.n47" 0 0 589 -6397 0
+rnode "vss.n48" 0 0 589 -5883 0
+rnode "vss.n49" 0 0 589 -6397 0
+rnode "buffer_5/inv_1/XMn/B" 0 0 589 -5883 0
+rnode "vss.n50" 0 0 747 -6140 0
+rnode "vss.n51" 0 0 589 -6397 0
+rnode "vss.n52" 0 0 431 -6140 0
+rnode "vss.n53" 0 0 431 -6140 0
+rnode "vss.n54" 0 0 431 -6140 0
+rnode "vss.n55" 0 0 11 -6140 0
+rnode "vss.n56" 0 0 11 -6140 0
+rnode "vss.n57" 0 0 168 -5880 0
+rnode "buffer_4/inv_0/XMn/D" 0 -0 125 -5520 0
+rnode "buffer_5/inv_0/XMn/D" 0 -0 125 -6140 0
+rnode "buffer_4/inv_0/vss" 0 0 -42 -5830 0
+rnode "vss.n58" 0 0 28 -5750 0
+rnode "vss.n59" 0 0 168 -5780 0
+rnode "vss.n60" 0 0 168 -5780 0
+rnode "buffer_4/inv_0/XMn/B" 0 0 169 -5777 0
+rnode "vss.n61" 0 0 327 -5520 0
+rnode "vss.n62" 0 0 327 -5520 0
+rnode "vss.n63" 0 0 327 -5520 0
+rnode "vss.n64" 0 0 431 -5520 0
+rnode "vss.n65" 0 0 431 -5520 0
+rnode "vss.n66" 0 0 588 -5780 0
+rnode "vss.n67" 0 0 588 -5780 0
+rnode "vss.n68" 0 0 588 -5780 0
+rnode "vss.n69" 0 0 3270 -5828 0
+rnode "vss.n70" 0 0 469 -2861 0
+rnode "buffer_9/inv_0/vss" 0 0 2908 -2914 0
+rnode "tmux_2to1_2/XM2/D" 0 -0 967 -2604 0
+rnode "vss.n71" 0 0 855 -2834 0
+rnode "vss.n72" 0 0 1485 -2844 0
+rnode "vss.n73" 0 0 1169 -2844 0
+rnode "vss.n74" 0 0 1485 -2844 0
+rnode "vss.n75" 0 0 1169 -2844 0
+rnode "vss.n76" 0 0 1485 -2604 0
+rnode "vss.n77" 0 0 1169 -2604 0
+rnode "vss.n78" 0 0 1485 -2364 0
+rnode "vss.n79" 0 0 1169 -2364 0
+rnode "vss.n80" 0 0 1801 -2604 0
+rnode "vss.n81" 0 0 1801 -2604 0
+rnode "vss.n82" 0 0 3119 -2347 0
+rnode "vss.n83" 0 0 3119 -2347 0
+rnode "vss.n84" 0 0 3119 -2861 0
+rnode "vss.n85" 0 0 3119 -2347 0
+rnode "buffer_9/inv_0/XMn/B" 0 0 3119 -2861 0
+rnode "buffer_9/inv_1/XMn/D" 0 -0 3495 -2604 0
+rnode "buffer_9/inv_1/XMn/B" 0 0 3539 -2861 0
+rnode "vss.n86" 0 0 3539 -2347 0
+rnode "vss.n87" 0 0 3539 -2347 0
+rnode "vss.n88" 0 0 3539 -2861 0
+rnode "vss.n89" 0 0 3697 -2604 0
+rnode "vss.n90" 0 0 3697 -2604 0
+rnode "vss.n91" 0 0 3539 -2347 0
+rnode "vss.n92" 0 0 3539 -2347 0
+rnode "vss.n93" 0 0 3277 -2604 0
+rnode "vss.n94" 0 0 3277 -2604 0
+rnode "vss.n95" 0 0 3277 -2604 0
+rnode "vss.n96" 0 0 3381 -2604 0
+rnode "vss.n97" 0 0 3381 -2604 0
+rnode "vss.n98" 0 0 3381 -2604 0
+rnode "vss.n99" 0 0 3538 -2864 0
+rnode "vss.n100" 0 0 3398 -2834 0
+rnode "buffer_9/inv_1/vss" 0 0 3328 -2914 0
+rnode "buffer_9/inv_0/XMn/D" 0 -0 3075 -2604 0
+rnode "vss.n101" 0 0 2978 -2834 0
+rnode "vss.n102" 0 0 3118 -2864 0
+rnode "vss.n103" 0 0 3118 -2864 0
+rnode "vss.n104" 0 0 2961 -2604 0
+rnode "vss.n105" 0 0 2961 -2604 0
+rnode "vss.n106" 0 0 2961 -2604 0
+rnode "vss.n107" 0 0 1801 -2604 0
+rnode "tmux_2to1_2/XM6/B" 0 0 1643 -2861 0
+rnode "vss.n108" 0 0 1643 -2861 0
+rnode "vss.n109" 0 0 1643 -2347 0
+rnode "vss.n110" 0 0 1643 -2347 0
+rnode "vss.n111" 0 0 1643 -2347 0
+rnode "vss.n112" 0 0 1485 -2604 0
+rnode "vss.n113" 0 0 1485 -2604 0
+rnode "vss.n114" 0 0 1485 -2364 0
+rnode "vss.n115" 0 0 1169 -2604 0
+rnode "vss.n116" 0 0 1169 -2604 0
+rnode "vss.n117" 0 0 853 -2604 0
+rnode "vss.n118" 0 0 853 -2604 0
+rnode "tmux_2to1_2/XM2/B" 0 0 1011 -2861 0
+rnode "vss.n119" 0 0 1011 -2861 0
+rnode "vss.n120" 0 0 747 -2604 0
+rnode "vss.n121" 0 0 589 -2967 0
+rnode "vss.n122" 0 0 589 -2967 0
+rnode "vss.n123" 0 0 589 -3481 0
+rnode "buffer_3/inv_1/XMn/B" 0 0 589 -2967 0
+rnode "vss.n124" 0 0 588 -2964 0
+rnode "vss.n125" 0 0 589 -2347 0
+rnode "vss.n126" 0 0 589 -2861 0
+rnode "vss.n127" 0 0 589 -2347 0
+rnode "vss.n128" 0 0 747 -2604 0
+rnode "buffer_2/inv_1/XMn/B" 0 0 589 -2861 0
+rnode "tmux_2to1_2/vss" 0 0 800 -2914 0
+rnode "vss.n129" 0 0 588 -2864 0
+rnode "vss.n130" 0 0 588 -2864 0
+rnode "vss.n131" 0 0 431 -2604 0
+rnode "vss.n132" 0 0 431 -2604 0
+rnode "vss.n133" 0 0 327 -3224 0
+rnode "vss.n134" 0 0 169 -2347 0
+rnode "vss.n135" 0 0 169 -2347 0
+rnode "vss.n136" 0 0 169 -2861 0
+rnode "vss.n137" 0 0 169 -2347 0
+rnode "vss.n138" 0 0 11 -2604 0
+rnode "buffer_2/inv_1/XMn/D" 0 -0 545 -2604 0
+rnode "buffer_3/inv_1/XMn/D" 0 -0 545 -3224 0
+rnode "vss.n139" 0 0 448 -2834 0
+rnode "buffer_2/inv_1/vss" 0 0 378 -2914 0
+rnode "buffer_3/inv_0/XMn/B" 0 0 169 -2967 0
+rnode "vss.n140" 0 0 327 -3224 0
+rnode "vss.n141" 0 0 169 -3481 0
+rnode "vss.n142" 0 0 169 -2967 0
+rnode "vss.n143" 0 0 169 -3481 0
+rnode "vss.n144" 0 0 11 -2604 0
+rnode "vss.n145" 0 0 11 -2604 0
+rnode "vss.n146" 0 0 11 -3224 0
+rnode "vss.n147" 0 0 11 -3224 0
+rnode "vss.n148" 0 0 168 -2964 0
+rnode "buffer_2/inv_0/XMn/D" 0 -0 125 -2604 0
+rnode "buffer_3/inv_0/XMn/D" 0 -0 125 -3224 0
+rnode "buffer_3/inv_0/vss" 0 0 -42 -2994 0
+rnode "vss.n149" 0 0 28 -2834 0
+rnode "vss.n150" 0 0 168 -2864 0
+rnode "vss.n151" 0 0 168 -2864 0
+rnode "buffer_2/inv_0/XMn/B" 0 0 169 -2861 0
+rnode "vss.n152" 0 0 327 -2604 0
+rnode "vss.n153" 0 0 327 -2604 0
+rnode "vss.n154" 0 0 327 -2604 0
+rnode "vss.n155" 0 0 431 -3224 0
+rnode "vss.n156" 0 0 431 -3224 0
+rnode "vss.n157" 0 0 431 -3224 0
+rnode "vss.n158" 0 0 589 -3481 0
+rnode "vss.n159" 0 0 747 -3224 0
+rnode "vss.n160" 0 0 747 -3224 0
+rnode "vss.n161" 0 0 747 -3224 0
+rnode "vss.n162" 0 0 853 -2604 0
+rnode "vss.n163" 0 0 1011 -2347 0
+rnode "vss.n164" 0 0 1011 -2347 0
+rnode "vss.n165" 0 0 1011 -2347 0
+rnode "vss.n166" 0 0 1169 -2364 0
+rnode "vss.n167" 0 0 1327 -2347 0
+rnode "vss.n168" 0 0 1327 -2347 0
+rnode "vss.n169" 0 0 1327 -2347 0
+rnode "vss.n170" 0 0 1327 -2861 0
+rnode "tmux_2to1_2/XM4/B" 0 0 1327 -2861 0
+rnode "vss.n171" 0 0 1336 -2877 0
+rnode "vss.n172" 0 0 1336 -2877 0
+rnode "vss.n173" 0 0 1849 -2916 0
+rnode "vss.n174" 0 0 1849 -2916 0
+rnode "vss.n175" 0 0 3284 -2912 0
+rnode "vss.n176" 0 0 473 -46 0
+rnode "tmux_2to1_3/vss" 0 0 1854 -64 0
+rnode "vss.n177" 0 0 1336 -35 0
+rnode "tmux_2to1_0/XM2/D" 0 -0 967 312 0
+rnode "tmux_2to1_1/XM2/D" 0 -0 967 -308 0
+rnode "vss.n178" 0 0 855 82 0
+rnode "vss.n179" 0 0 1485 72 0
+rnode "vss.n180" 0 0 1169 72 0
+rnode "vss.n181" 0 0 1485 72 0
+rnode "vss.n182" 0 0 1169 72 0
+rnode "vss.n183" 0 0 3697 312 0
+rnode "vss.n184" 0 0 3119 55 0
+rnode "vss.n185" 0 0 589 55 0
+rnode "vss.n186" 0 0 0 0 0
+rnode "vss.n187" 0 0 169 55 0
+rnode "vss.n188" 0 0 1011 55 0
+rnode "vss.n189" 0 0 1643 55 0
+rnode "vss.n190" 0 0 3697 312 0
+rnode "vss.n191" 0 0 3381 312 0
+rnode "vss.n192" 0 0 3697 312 0
+rnode "vss.n193" 0 0 3381 312 0
+rnode "vss.n194" 0 0 3538 -48 0
+rnode "buffer_7/inv_1/XMn/D" 0 -0 3495 312 0
+rnode "buffer_8/inv_1/XMn/D" 0 -0 3495 -308 0
+rnode "vss.n195" 0 0 3118 -48 0
+rnode "buffer_7/inv_0/XMn/D" 0 -0 3075 312 0
+rnode "buffer_8/inv_0/XMn/D" 0 -0 3075 -308 0
+rnode "vss.n196" 0 0 2978 82 0
+rnode "buffer_7/inv_0/XMn/B" 0 0 3119 55 0
+rnode "vss.n197" 0 0 3119 569 0
+rnode "vss.n198" 0 0 3277 312 0
+rnode "vss.n199" 0 0 3277 312 0
+rnode "vss.n200" 0 0 1327 569 0
+rnode "vss.n201" 0 0 589 569 0
+rnode "vss.n202" 0 0 327 312 0
+rnode "vss.n203" 0 0 11 312 0
+rnode "vss.n204" 0 0 327 312 0
+rnode "buffer_0/inv_0/XMn/B" 0 0 169 55 0
+rnode "buffer_0/inv_1/XMn/D" 0 -0 545 312 0
+rnode "buffer_1/inv_1/XMn/D" 0 -0 545 -308 0
+rnode "vss.n205" 0 0 448 82 0
+rnode "buffer_0/inv_1/vss" 0 0 378 2 0
+rnode "buffer_1/inv_0/XMn/B" 0 0 169 -51 0
+rnode "vss.n206" 0 0 169 -565 0
+rnode "vss.n207" 0 0 169 -51 0
+rnode "vss.n208" 0 0 169 -565 0
+rnode "vss.n209" 0 0 3539 -51 0
+rnode "vss.n210" 0 0 3697 -308 0
+rnode "vss.n211" 0 0 3381 -308 0
+rnode "vss.n212" 0 0 3277 -308 0
+rnode "vss.n213" 0 0 2961 -308 0
+rnode "vss.n214" 0 0 2855 -308 0
+rnode "vss.n215" 0 0 2223 -308 0
+rnode "vss.n216" 0 0 1801 -308 0
+rnode "vss.n217" 0 0 1169 -308 0
+rnode "vss.n218" 0 0 747 -308 0
+rnode "vss.n219" 0 0 327 -308 0
+rnode "vss.n220" 0 0 327 -308 0
+rnode "vss.n221" 0 0 3119 -51 0
+rnode "buffer_8/inv_0/XMn/B" 0 0 3119 -51 0
+rnode "vss.n222" 0 0 3277 -308 0
+rnode "vss.n223" 0 0 2961 -308 0
+rnode "vss.n224" 0 0 3119 -565 0
+rnode "vss.n225" 0 0 3119 -565 0
+rnode "vss.n226" 0 0 3539 -51 0
+rnode "buffer_8/inv_1/XMn/B" 0 0 3539 -51 0
+rnode "vss.n227" 0 0 3697 -308 0
+rnode "vss.n228" 0 0 3381 -308 0
+rnode "vss.n229" 0 0 3539 -565 0
+rnode "vss.n230" 0 0 3539 -565 0
+rnode "vss.n231" 0 0 3539 -565 0
+rnode "vss.n232" 0 0 589 -51 0
+rnode "vss.n233" 0 0 589 -565 0
+rnode "tmux_2to1_1/vss" 0 0 800 -64 0
+rnode "buffer_0/inv_1/XMn/B" 0 0 589 55 0
+rnode "vss.n234" 0 0 747 312 0
+rnode "vss.n235" 0 0 747 312 0
+rnode "vss.n236" 0 0 589 569 0
+rnode "vss.n237" 0 0 431 312 0
+rnode "vss.n238" 0 0 431 312 0
+rnode "vss.n239" 0 0 588 52 0
+rnode "vss.n240" 0 0 588 52 0
+rnode "vss.n241" 0 0 588 -48 0
+rnode "buffer_1/inv_1/XMn/B" 0 0 589 -51 0
+rnode "vss.n242" 0 0 747 -308 0
+rnode "vss.n243" 0 0 589 -565 0
+rnode "vss.n244" 0 0 431 -308 0
+rnode "vss.n245" 0 0 431 -308 0
+rnode "vss.n246" 0 0 853 -308 0
+rnode "tmux_2to1_1/XM6/B" 0 0 1643 -51 0
+rnode "vss.n247" 0 0 1643 -51 0
+rnode "vss.n248" 0 0 1485 -68 0
+rnode "vss.n249" 0 0 1485 -548 0
+rnode "vss.n250" 0 0 1485 -68 0
+rnode "vss.n251" 0 0 1801 -308 0
+rnode "vss.n252" 0 0 1643 -565 0
+rnode "vss.n253" 0 0 1643 -565 0
+rnode "vss.n254" 0 0 1169 -548 0
+rnode "vss.n255" 0 0 1169 -308 0
+rnode "vss.n256" 0 0 1169 -68 0
+rnode "vss.n257" 0 0 1335 -52 0
+rnode "tmux_2to1_1/XM4/B" 0 0 1327 -51 0
+rnode "vss.n258" 0 0 1327 -51 0
+rnode "vss.n259" 0 0 1169 -68 0
+rnode "vss.n260" 0 0 1011 -51 0
+rnode "tmux_2to1_1/XM2/B" 0 0 1011 -51 0
+rnode "vss.n261" 0 0 852 -60 0
+rnode "vss.n262" 0 0 853 -308 0
+rnode "vss.n263" 0 0 1011 -565 0
+rnode "vss.n264" 0 0 1011 -565 0
+rnode "vss.n265" 0 0 1169 -548 0
+rnode "vss.n266" 0 0 1327 -565 0
+rnode "vss.n267" 0 0 1327 -565 0
+rnode "vss.n268" 0 0 1485 -548 0
+rnode "vss.n269" 0 0 1485 -308 0
+rnode "vss.n270" 0 0 1485 -308 0
+rnode "vss.n271" 0 0 1907 -308 0
+rnode "vss.n272" 0 0 2539 -68 0
+rnode "vss.n273" 0 0 2539 -548 0
+rnode "vss.n274" 0 0 2539 -68 0
+rnode "vss.n275" 0 0 2697 -51 0
+rnode "tmux_2to1_3/XM6/B" 0 0 2697 -51 0
+rnode "vss.n276" 0 0 2855 -308 0
+rnode "vss.n277" 0 0 2697 -565 0
+rnode "vss.n278" 0 0 2697 -565 0
+rnode "vss.n279" 0 0 2223 -548 0
+rnode "vss.n280" 0 0 2223 -308 0
+rnode "vss.n281" 0 0 2223 -68 0
+rnode "buffer_8/inv_0/vss" 0 0 2908 -78 0
+rnode "tmux_2to1_3/XM2/D" 0 -0 2021 -308 0
+rnode "vss.n282" 0 0 1909 -78 0
+rnode "vss.n283" 0 0 2390 -35 0
+rnode "vss.n284" 0 0 2390 -35 0
+rnode "tmux_2to1_3/XM4/B" 0 0 2381 -51 0
+rnode "vss.n285" 0 0 2381 -51 0
+rnode "vss.n286" 0 0 2223 -68 0
+rnode "vss.n287" 0 0 2065 -51 0
+rnode "tmux_2to1_3/XM2/B" 0 0 2065 -51 0
+rnode "vss.n288" 0 0 1907 -308 0
+rnode "vss.n289" 0 0 2065 -565 0
+rnode "vss.n290" 0 0 2065 -565 0
+rnode "vss.n291" 0 0 2223 -548 0
+rnode "vss.n292" 0 0 2381 -565 0
+rnode "vss.n293" 0 0 2381 -565 0
+rnode "vss.n294" 0 0 2539 -548 0
+rnode "vss.n295" 0 0 2539 -308 0
+rnode "vss.n296" 0 0 2539 -308 0
+rnode "vss.n297" 0 0 2539 -308 0
+rnode "vss.n298" 0 0 11 -308 0
+rnode "vss.n299" 0 0 11 -308 0
+rnode "vss.n300" 0 0 168 -48 0
+rnode "buffer_0/inv_0/XMn/D" 0 -0 125 312 0
+rnode "buffer_1/inv_0/XMn/D" 0 -0 125 -308 0
+rnode "buffer_0/inv_0/vss" 0 0 -42 2 0
+rnode "vss.n301" 0 0 28 82 0
+rnode "vss.n302" 0 0 168 52 0
+rnode "vss.n303" 0 0 168 52 0
+rnode "vss.n304" 0 0 11 312 0
+rnode "vss.n305" 0 0 169 569 0
+rnode "vss.n306" 0 0 169 569 0
+rnode "vss.n307" 0 0 1011 569 0
+rnode "vss.n308" 0 0 1801 312 0
+rnode "vss.n309" 0 0 1485 552 0
+rnode "tmux_2to1_0/XM6/B" 0 0 1643 55 0
+rnode "vss.n310" 0 0 1801 312 0
+rnode "vss.n311" 0 0 1169 552 0
+rnode "vss.n312" 0 0 1169 312 0
+rnode "vss.n313" 0 0 1169 312 0
+rnode "tmux_2to1_0/XM2/B" 0 0 1011 55 0
+rnode "vss.n314" 0 0 853 312 0
+rnode "vss.n315" 0 0 853 312 0
+rnode "vss.n316" 0 0 1011 569 0
+rnode "vss.n317" 0 0 1169 552 0
+rnode "vss.n318" 0 0 1327 569 0
+rnode "vss.n319" 0 0 1485 312 0
+rnode "vss.n320" 0 0 1485 312 0
+rnode "vss.n321" 0 0 1485 552 0
+rnode "vss.n322" 0 0 1643 569 0
+rnode "vss.n323" 0 0 1643 569 0
+rnode "vss.n324" 0 0 3539 569 0
+rnode "vss.n325" 0 0 3539 569 0
+rnode "vss.n326" 0 0 3539 569 0
+rnode "vss.n327" 0 0 3119 569 0
+rnode "vss.n328" 0 0 2961 312 0
+rnode "vss.n329" 0 0 2961 312 0
+rnode "vss.n330" 0 0 3118 52 0
+rnode "vss.n331" 0 0 3118 52 0
+rnode "buffer_7/inv_1/vss" 0 0 3328 2 0
+rnode "vss.n332" 0 0 3398 82 0
+rnode "vss.n333" 0 0 3538 52 0
+rnode "vss.n334" 0 0 3538 52 0
+rnode "buffer_7/inv_1/XMn/B" 0 0 3539 55 0
+rnode "vss.n335" 0 0 3539 55 0
+rnode "vss.n336" 0 0 3539 55 0
+rnode "vss.n337" 0 0 1327 55 0
+rnode "tmux_2to1_0/XM4/B" 0 0 1327 55 0
+rnode "vss.n338" 0 0 1336 39 0
+rnode "vss.n339" 0 0 1336 39 0
+rnode "vss.n340" 0 0 1851 8 0
+rnode "vss.n341" 0 0 1851 8 0
+rnode "vss.n342" 0 0 3273 6 0
+rnode "vss" 0 0 3016 60 0
+rnode "vss" 0 0 3276 1460 0
+resist "vss.n340" "tmux_2to1_3/vss" 0.00234375
+resist "vss" "vss.n342" 0.00463139
+resist "vss.n139" "vss.n70" 0.0164062
+resist "vss.n205" "vss.n176" 0.0195312
+resist "vss.n68" "vss.n67" 0.0228551
+resist "tmux_2to1_2/vss" "vss.n71" 0.0429688
+resist "tmux_2to1_1/vss" "vss.n178" 0.0429688
+resist "vss.n282" "tmux_2to1_3/vss" 0.0429688
+resist "vss.n58" "buffer_4/inv_0/vss" 0.0546875
+resist "buffer_4/inv_1/vss" "vss.n26" 0.0546875
+resist "vss.n149" "buffer_3/inv_0/vss" 0.0546875
+resist "buffer_2/inv_1/vss" "vss.n139" 0.0546875
+resist "vss.n101" "buffer_9/inv_0/vss" 0.0546875
+resist "buffer_9/inv_1/vss" "vss.n100" 0.0546875
+resist "vss.n301" "buffer_0/inv_0/vss" 0.0546875
+resist "buffer_0/inv_1/vss" "vss.n205" 0.0546875
+resist "buffer_8/inv_0/vss" "vss.n196" 0.0546875
+resist "vss.n332" "buffer_7/inv_1/vss" 0.0546875
+resist "vss.n174" "vss.n173" 0.0775862
+resist "vss.n341" "vss.n340" 0.0775862
+resist "vss.n68" "vss.n26" 0.0855255
+resist "vss.n240" "vss.n176" 0.0898438
+resist "vss.n129" "vss.n70" 0.0929687
+resist "vss.n15" "buffer_6/inv_0/vss" 0.109375
+resist "buffer_6/inv_1/vss" "vss.n0" 0.109375
+resist "vss.n59" "vss.n58" 0.109375
+resist "vss.n150" "vss.n149" 0.109375
+resist "vss.n102" "vss.n101" 0.109375
+resist "vss.n302" "vss.n301" 0.109375
+resist "vss.n331" "vss.n196" 0.109375
+resist "vss.n333" "vss.n332" 0.109375
+resist "vss" "vss" 0.120073
+resist "vss.n59" "buffer_4/inv_1/vss" 0.164062
+resist "vss.n150" "buffer_2/inv_1/vss" 0.164062
+resist "vss.n102" "buffer_9/inv_1/vss" 0.164062
+resist "vss.n302" "buffer_0/inv_1/vss" 0.164062
+resist "buffer_7/inv_1/vss" "vss.n331" 0.164062
+resist "vss.n129" "tmux_2to1_2/vss" 0.165625
+resist "vss.n240" "tmux_2to1_1/vss" 0.165625
+resist "vss.n25" "vss.n0" 0.175822
+resist "vss.n16" "vss.n15" 0.21875
+resist "vss.n175" "vss.n69" 0.250095
+resist "vss.n342" "vss.n175" 0.250266
+resist "vss.n16" "buffer_6/inv_1/vss" 0.328125
+resist "vss.n172" "vss.n71" 0.375781
+resist "vss.n339" "vss.n178" 0.375781
+resist "vss.n283" "vss.n282" 0.375781
+resist "vss.n24" "buffer_6/inv_1/XMn/B" 0.376471
+resist "buffer_6/inv_0/XMn/B" "vss.n17" 0.376471
+resist "buffer_5/inv_1/XMn/B" "vss.n27" 0.376471
+resist "vss.n57" "buffer_5/inv_0/XMn/B" 0.376471
+resist "vss.n66" "buffer_4/inv_1/XMn/B" 0.376471
+resist "buffer_4/inv_0/XMn/B" "vss.n60" 0.376471
+resist "vss.n124" "buffer_3/inv_1/XMn/B" 0.376471
+resist "vss.n148" "buffer_3/inv_0/XMn/B" 0.376471
+resist "vss.n99" "buffer_9/inv_1/XMn/B" 0.376471
+resist "vss.n103" "buffer_9/inv_0/XMn/B" 0.376471
+resist "vss.n130" "buffer_2/inv_1/XMn/B" 0.376471
+resist "buffer_2/inv_0/XMn/B" "vss.n151" 0.376471
+resist "buffer_8/inv_1/XMn/B" "vss.n194" 0.376471
+resist "buffer_8/inv_0/XMn/B" "vss.n195" 0.376471
+resist "vss.n257" "vss.n177" 0.376471
+resist "buffer_1/inv_1/XMn/B" "vss.n241" 0.376471
+resist "vss.n300" "buffer_1/inv_0/XMn/B" 0.376471
+resist "buffer_7/inv_1/XMn/B" "vss.n334" 0.376471
+resist "vss.n330" "buffer_7/inv_0/XMn/B" 0.376471
+resist "vss.n239" "buffer_0/inv_1/XMn/B" 0.376471
+resist "vss.n303" "buffer_0/inv_0/XMn/B" 0.376471
+resist "vss.n173" "vss.n172" 0.400781
+resist "vss.n340" "vss.n339" 0.402344
+resist "vss.n283" "buffer_8/inv_0/vss" 0.404687
+resist "vss.n172" "vss.n171" 0.715385
+resist "vss.n339" "vss.n338" 0.715385
+resist "vss.n339" "vss.n177" 0.715385
+resist "vss.n284" "vss.n283" 0.715385
+resist "vss.n173" "buffer_9/inv_0/vss" 0.827344
+resist "vss.n175" "vss.n174" 1.68943
+resist "vss.n342" "vss.n341" 1.79294
+resist "vss.n17" "vss.n16" 1.86
+resist "vss.n60" "vss.n59" 1.86
+resist "vss.n67" "vss.n66" 1.86
+resist "vss.n59" "vss.n57" 1.86
+resist "vss.n67" "vss.n27" 1.86
+resist "vss.n151" "vss.n150" 1.86
+resist "vss.n130" "vss.n129" 1.86
+resist "vss.n103" "vss.n102" 1.86
+resist "vss.n150" "vss.n148" 1.86
+resist "vss.n129" "vss.n124" 1.86
+resist "vss.n303" "vss.n302" 1.86
+resist "vss.n240" "vss.n239" 1.86
+resist "vss.n331" "vss.n330" 1.86
+resist "vss.n334" "vss.n333" 1.86
+resist "vss.n302" "vss.n300" 1.86
+resist "vss.n241" "vss.n240" 1.86
+resist "vss.n331" "vss.n195" 1.86
+resist "vss.n333" "vss.n194" 1.86
+resist "vss.n25" "vss.n24" 1.90053
+resist "vss.n100" "vss.n99" 1.96938
+resist "vss.n171" "tmux_2to1_2/XM4/B" 2.304
+resist "tmux_2to1_3/XM4/B" "vss.n284" 2.304
+resist "vss.n338" "tmux_2to1_0/XM4/B" 2.304
+resist "vss.n69" "vss.n68" 2.46879
+resist "tmux_2to1_1/XM4/B" "vss.n257" 3.01176
+resist "vss.n69" "vss.n25" 4.58282
+resist "vss.n15" "buffer_6/inv_0/XMn/D" 5.01667
+resist "vss.n0" "buffer_6/inv_1/XMn/D" 5.01667
+resist "vss.n58" "buffer_4/inv_0/XMn/D" 5.01667
+resist "vss.n58" "buffer_5/inv_0/XMn/D" 5.01667
+resist "vss.n26" "buffer_4/inv_1/XMn/D" 5.01667
+resist "vss.n26" "buffer_5/inv_1/XMn/D" 5.01667
+resist "vss.n149" "buffer_2/inv_0/XMn/D" 5.01667
+resist "vss.n149" "buffer_3/inv_0/XMn/D" 5.01667
+resist "vss.n139" "buffer_2/inv_1/XMn/D" 5.01667
+resist "vss.n139" "buffer_3/inv_1/XMn/D" 5.01667
+resist "vss.n101" "buffer_9/inv_0/XMn/D" 5.01667
+resist "vss.n100" "buffer_9/inv_1/XMn/D" 5.01667
+resist "vss.n301" "buffer_0/inv_0/XMn/D" 5.01667
+resist "vss.n301" "buffer_1/inv_0/XMn/D" 5.01667
+resist "vss.n205" "buffer_0/inv_1/XMn/D" 5.01667
+resist "vss.n205" "buffer_1/inv_1/XMn/D" 5.01667
+resist "vss.n196" "buffer_7/inv_0/XMn/D" 5.01667
+resist "vss.n196" "buffer_8/inv_0/XMn/D" 5.01667
+resist "vss.n332" "buffer_7/inv_1/XMn/D" 5.01667
+resist "vss.n332" "buffer_8/inv_1/XMn/D" 5.01667
+resist "vss.n71" "tmux_2to1_2/XM2/D" 5.02311
+resist "vss.n282" "tmux_2to1_3/XM2/D" 5.02311
+resist "vss.n178" "tmux_2to1_0/XM2/D" 5.02311
+resist "vss.n178" "tmux_2to1_1/XM2/D" 5.02311
+resist "vss.n341" "vss.n176" 5.57656
+resist "vss.n174" "vss.n70" 5.57812
+resist "vss.n171" "vss.n72" 38.144
+resist "vss.n284" "vss.n274" 38.144
+resist "vss.n338" "vss.n179" 38.144
+resist "tmux_2to1_2/XM2/B" "vss.n73" 40.448
+resist "tmux_2to1_2/XM4/B" "vss.n73" 40.448
+resist "tmux_2to1_2/XM6/B" "vss.n72" 40.448
+resist "tmux_2to1_3/XM2/B" "vss.n281" 40.448
+resist "tmux_2to1_3/XM4/B" "vss.n281" 40.448
+resist "tmux_2to1_3/XM6/B" "vss.n274" 40.448
+resist "tmux_2to1_0/XM2/B" "vss.n180" 40.448
+resist "tmux_2to1_0/XM4/B" "vss.n180" 40.448
+resist "tmux_2to1_0/XM6/B" "vss.n179" 40.448
+resist "vss.n209" "vss.n186" 59.1772
+resist "vss.n166" "vss.n165" 59.4824
+resist "vss.n167" "vss.n166" 59.4824
+resist "vss.n167" "vss.n114" 59.4824
+resist "vss.n114" "vss.n111" 59.4824
+resist "vss.n289" "vss.n279" 59.4824
+resist "vss.n293" "vss.n279" 59.4824
+resist "vss.n294" "vss.n293" 59.4824
+resist "vss.n294" "vss.n278" 59.4824
+resist "vss.n263" "vss.n254" 59.4824
+resist "vss.n267" "vss.n254" 59.4824
+resist "vss.n268" "vss.n267" 59.4824
+resist "vss.n268" "vss.n253" 59.4824
+resist "vss.n317" "vss.n316" 59.4824
+resist "vss.n318" "vss.n317" 59.4824
+resist "vss.n321" "vss.n318" 59.4824
+resist "vss.n322" "vss.n321" 59.4824
+resist "vss.n92" "vss.n91" 60.5008
+resist "vss.n336" "vss.n186" 63.8186
+resist "vss.n261" "tmux_2to1_1/XM2/B" 77.2558
+resist "vss.n262" "vss.n261" 89.9906
+resist "vss.n113" "vss.n72" 90.3529
+resist "vss.n114" "vss.n113" 90.3529
+resist "vss.n116" "vss.n73" 90.3529
+resist "vss.n166" "vss.n116" 90.3529
+resist "vss.n295" "vss.n294" 90.3529
+resist "vss.n295" "vss.n274" 90.3529
+resist "vss.n269" "vss.n268" 90.3529
+resist "vss.n269" "vss.n250" 90.3529
+resist "vss.n255" "vss.n254" 90.3529
+resist "vss.n256" "vss.n255" 90.3529
+resist "vss.n320" "vss.n179" 90.3529
+resist "vss.n321" "vss.n320" 90.3529
+resist "vss.n313" "vss.n180" 90.3529
+resist "vss.n317" "vss.n313" 90.3529
+resist "vss.n280" "vss.n279" 90.3529
+resist "vss.n281" "vss.n280" 90.3529
+resist "vss.n7" "vss.n6" 94.4009
+resist "vss.n12" "vss.n8" 94.4009
+resist "tmux_2to1_1/XM6/B" "vss.n177" 115.576
+resist "vss.n22" "vss.n21" 117
+resist "vss.n23" "vss.n22" 117
+resist "vss.n5" "vss.n4" 117
+resist "vss.n20" "vss.n19" 117
+resist "vss.n19" "vss.n18" 117
+resist "vss.n14" "vss.n13" 117
+resist "vss.n54" "vss.n44" 117
+resist "vss.n50" "vss.n44" 117
+resist "vss.n54" "vss.n53" 117
+resist "vss.n53" "vss.n52" 117
+resist "vss.n63" "vss.n62" 117
+resist "vss.n62" "vss.n61" 117
+resist "vss.n63" "vss.n32" 117
+resist "vss.n39" "vss.n32" 117
+resist "vss.n63" "vss.n35" 117
+resist "vss.n35" "vss.n34" 117
+resist "vss.n64" "vss.n63" 117
+resist "vss.n65" "vss.n64" 117
+resist "vss.n54" "vss.n46" 117
+resist "vss.n46" "vss.n45" 117
+resist "vss.n55" "vss.n54" 117
+resist "vss.n56" "vss.n55" 117
+resist "vss.n161" "vss.n160" 117
+resist "vss.n160" "vss.n159" 117
+resist "vss.n156" "vss.n155" 117
+resist "vss.n157" "vss.n156" 117
+resist "vss.n154" "vss.n153" 117
+resist "vss.n153" "vss.n152" 117
+resist "vss.n145" "vss.n144" 117
+resist "vss.n144" "vss.n138" 117
+resist "vss.n161" "vss.n120" 117
+resist "vss.n128" "vss.n120" 117
+resist "vss.n155" "vss.n132" 117
+resist "vss.n132" "vss.n131" 117
+resist "vss.n107" "vss.n81" 117
+resist "vss.n81" "vss.n80" 117
+resist "vss.n162" "vss.n118" 117
+resist "vss.n118" "vss.n117" 117
+resist "vss.n115" "vss.n77" 117
+resist "vss.n116" "vss.n115" 117
+resist "vss.n112" "vss.n76" 117
+resist "vss.n113" "vss.n112" 117
+resist "vss.n95" "vss.n94" 117
+resist "vss.n94" "vss.n93" 117
+resist "vss.n106" "vss.n105" 117
+resist "vss.n105" "vss.n104" 117
+resist "vss.n90" "vss.n89" 117
+resist "vss.n97" "vss.n96" 117
+resist "vss.n98" "vss.n97" 117
+resist "vss.n154" "vss.n133" 117
+resist "vss.n140" "vss.n133" 117
+resist "vss.n146" "vss.n145" 117
+resist "vss.n147" "vss.n146" 117
+resist "vss.n297" "vss.n214" 117
+resist "vss.n276" "vss.n214" 117
+resist "vss.n297" "vss.n271" 117
+resist "vss.n288" "vss.n271" 117
+resist "vss.n297" "vss.n215" 117
+resist "vss.n280" "vss.n215" 117
+resist "vss.n297" "vss.n296" 117
+resist "vss.n296" "vss.n295" 117
+resist "vss.n202" "vss.n183" 117
+resist "vss.n204" "vss.n202" 117
+resist "vss.n203" "vss.n183" 117
+resist "vss.n304" "vss.n203" 117
+resist "vss.n234" "vss.n183" 117
+resist "vss.n235" "vss.n234" 117
+resist "vss.n237" "vss.n183" 117
+resist "vss.n238" "vss.n237" 117
+resist "vss.n308" "vss.n183" 117
+resist "vss.n310" "vss.n308" 117
+resist "vss.n314" "vss.n183" 117
+resist "vss.n315" "vss.n314" 117
+resist "vss.n312" "vss.n183" 117
+resist "vss.n313" "vss.n312" 117
+resist "vss.n319" "vss.n183" 117
+resist "vss.n320" "vss.n319" 117
+resist "vss.n199" "vss.n183" 117
+resist "vss.n199" "vss.n198" 117
+resist "vss.n328" "vss.n183" 117
+resist "vss.n329" "vss.n328" 117
+resist "vss.n190" "vss.n183" 117
+resist "vss.n192" "vss.n190" 117
+resist "vss.n191" "vss.n183" 117
+resist "vss.n193" "vss.n191" 117
+resist "vss.n297" "vss.n220" 117
+resist "vss.n220" "vss.n219" 117
+resist "vss.n298" "vss.n297" 117
+resist "vss.n299" "vss.n298" 117
+resist "vss.n297" "vss.n218" 117
+resist "vss.n242" "vss.n218" 117
+resist "vss.n297" "vss.n245" 117
+resist "vss.n245" "vss.n244" 117
+resist "vss.n297" "vss.n216" 117
+resist "vss.n251" "vss.n216" 117
+resist "vss.n297" "vss.n246" 117
+resist "vss.n262" "vss.n246" 117
+resist "vss.n297" "vss.n217" 117
+resist "vss.n255" "vss.n217" 117
+resist "vss.n297" "vss.n270" 117
+resist "vss.n270" "vss.n269" 117
+resist "vss.n297" "vss.n212" 117
+resist "vss.n222" "vss.n212" 117
+resist "vss.n297" "vss.n213" 117
+resist "vss.n223" "vss.n213" 117
+resist "vss.n297" "vss.n210" 117
+resist "vss.n227" "vss.n210" 117
+resist "vss.n297" "vss.n211" 117
+resist "vss.n228" "vss.n211" 117
+resist "tmux_2to1_1/XM2/B" "tmux_2to1_1/XM4/B" 118.965
+resist "vss.n257" "vss.n250" 120
+resist "vss.n43" "vss.n33" 122.996
+resist "tmux_2to1_2/XM6/B" "vss.n80" 130.801
+resist "vss.n276" "tmux_2to1_3/XM6/B" 130.801
+resist "vss.n310" "tmux_2to1_0/XM6/B" 130.801
+resist "tmux_2to1_2/XM2/B" "vss.n117" 132.127
+resist "vss.n315" "tmux_2to1_0/XM2/B" 132.127
+resist "vss.n288" "tmux_2to1_3/XM2/B" 132.128
+resist "vss.n257" "vss.n256" 132.8
+resist "vss.n24" "vss.n23" 149.459
+resist "vss.n17" "vss.n14" 149.459
+resist "vss.n52" "vss.n27" 149.459
+resist "vss.n57" "vss.n56" 149.459
+resist "vss.n66" "vss.n65" 149.459
+resist "vss.n60" "vss.n39" 149.459
+resist "vss.n157" "vss.n124" 149.459
+resist "vss.n148" "vss.n147" 149.459
+resist "vss.n99" "vss.n98" 149.459
+resist "vss.n104" "vss.n103" 149.459
+resist "vss.n131" "vss.n130" 149.459
+resist "vss.n151" "vss.n138" 149.459
+resist "vss.n228" "vss.n194" 149.459
+resist "vss.n223" "vss.n195" 149.459
+resist "vss.n244" "vss.n241" 149.459
+resist "vss.n300" "vss.n299" 149.459
+resist "vss.n334" "vss.n193" 149.459
+resist "vss.n330" "vss.n329" 149.459
+resist "vss.n239" "vss.n238" 149.459
+resist "vss.n304" "vss.n303" 149.459
+resist "vss.n23" "vss.n1" 149.835
+resist "vss.n4" "buffer_6/inv_1/XMn/B" 149.835
+resist "vss.n4" "vss.n1" 149.835
+resist "vss.n18" "buffer_6/inv_0/XMn/B" 149.835
+resist "vss.n14" "vss.n11" 149.835
+resist "vss.n18" "vss.n11" 149.835
+resist "vss.n50" "buffer_5/inv_1/XMn/B" 149.835
+resist "vss.n51" "vss.n50" 149.835
+resist "vss.n52" "vss.n51" 149.835
+resist "vss.n56" "vss.n40" 149.835
+resist "vss.n45" "vss.n40" 149.835
+resist "vss.n45" "buffer_5/inv_0/XMn/B" 149.835
+resist "vss.n34" "buffer_4/inv_1/XMn/B" 149.835
+resist "vss.n65" "vss.n28" 149.835
+resist "vss.n34" "vss.n28" 149.835
+resist "vss.n61" "buffer_4/inv_0/XMn/B" 149.835
+resist "vss.n39" "vss.n38" 149.835
+resist "vss.n61" "vss.n38" 149.835
+resist "vss.n159" "buffer_3/inv_1/XMn/B" 149.835
+resist "vss.n159" "vss.n158" 149.835
+resist "vss.n158" "vss.n157" 149.835
+resist "vss.n147" "vss.n141" 149.835
+resist "vss.n141" "vss.n140" 149.835
+resist "vss.n140" "buffer_3/inv_0/XMn/B" 149.835
+resist "vss.n89" "buffer_9/inv_1/XMn/B" 149.835
+resist "vss.n98" "vss.n86" 149.835
+resist "vss.n89" "vss.n86" 149.835
+resist "vss.n93" "buffer_9/inv_0/XMn/B" 149.835
+resist "vss.n104" "vss.n85" 149.835
+resist "vss.n93" "vss.n85" 149.835
+resist "vss.n111" "vss.n80" 149.835
+resist "buffer_2/inv_1/XMn/B" "vss.n128" 149.835
+resist "vss.n131" "vss.n127" 149.835
+resist "vss.n128" "vss.n127" 149.835
+resist "vss.n152" "buffer_2/inv_0/XMn/B" 149.835
+resist "vss.n138" "vss.n137" 149.835
+resist "vss.n152" "vss.n137" 149.835
+resist "vss.n278" "vss.n276" 149.835
+resist "vss.n229" "vss.n228" 149.835
+resist "vss.n229" "vss.n227" 149.835
+resist "vss.n227" "buffer_8/inv_1/XMn/B" 149.835
+resist "vss.n224" "vss.n223" 149.835
+resist "vss.n224" "vss.n222" 149.835
+resist "vss.n222" "buffer_8/inv_0/XMn/B" 149.835
+resist "vss.n253" "vss.n251" 149.835
+resist "vss.n244" "vss.n243" 149.835
+resist "vss.n243" "vss.n242" 149.835
+resist "vss.n242" "buffer_1/inv_1/XMn/B" 149.835
+resist "vss.n299" "vss.n206" 149.835
+resist "vss.n219" "vss.n206" 149.835
+resist "vss.n219" "buffer_1/inv_0/XMn/B" 149.835
+resist "buffer_7/inv_1/XMn/B" "vss.n192" 149.835
+resist "vss.n324" "vss.n193" 149.835
+resist "vss.n324" "vss.n192" 149.835
+resist "vss.n198" "buffer_7/inv_0/XMn/B" 149.835
+resist "vss.n329" "vss.n197" 149.835
+resist "vss.n198" "vss.n197" 149.835
+resist "vss.n322" "vss.n310" 149.835
+resist "vss.n235" "buffer_0/inv_1/XMn/B" 149.835
+resist "vss.n238" "vss.n236" 149.835
+resist "vss.n236" "vss.n235" 149.835
+resist "buffer_0/inv_0/XMn/B" "vss.n204" 149.835
+resist "vss.n305" "vss.n304" 149.835
+resist "vss.n305" "vss.n204" 149.835
+resist "vss.n165" "vss.n117" 150.417
+resist "vss.n263" "vss.n262" 150.417
+resist "vss.n316" "vss.n315" 150.417
+resist "vss.n289" "vss.n288" 150.418
+resist "vss.n6" "vss.n2" 175.802
+resist "vss.n12" "vss.n10" 175.802
+resist "vss.n91" "vss.n87" 205.886
+resist "vss.n261" "vss.n256" 249.666
+resist "vss.n7" "vss.n3" 292.5
+resist "vss.n3" "buffer_6/inv_1/XMn/B" 292.5
+resist "vss.n2" "vss.n1" 292.5
+resist "vss.n9" "vss.n8" 292.5
+resist "vss.n11" "vss.n9" 292.5
+resist "buffer_6/inv_0/XMn/B" "vss.n10" 292.5
+resist "vss.n48" "vss.n43" 292.5
+resist "buffer_5/inv_1/XMn/B" "vss.n48" 292.5
+resist "vss.n49" "vss.n47" 292.5
+resist "vss.n51" "vss.n49" 292.5
+resist "vss.n36" "vss.n31" 292.5
+resist "vss.n38" "vss.n36" 292.5
+resist "vss.n37" "vss.n33" 292.5
+resist "buffer_4/inv_0/XMn/B" "vss.n37" 292.5
+resist "vss.n31" "vss.n29" 292.5
+resist "vss.n29" "vss.n28" 292.5
+resist "vss.n33" "vss.n30" 292.5
+resist "vss.n30" "buffer_4/inv_1/XMn/B" 292.5
+resist "vss.n43" "vss.n41" 292.5
+resist "vss.n41" "buffer_5/inv_0/XMn/B" 292.5
+resist "vss.n47" "vss.n42" 292.5
+resist "vss.n42" "vss.n40" 292.5
+resist "vss.n122" "vss.n121" 292.5
+resist "buffer_3/inv_1/XMn/B" "vss.n122" 292.5
+resist "vss.n123" "vss.n121" 292.5
+resist "vss.n158" "vss.n123" 292.5
+resist "vss.n135" "vss.n134" 292.5
+resist "vss.n137" "vss.n135" 292.5
+resist "vss.n136" "vss.n134" 292.5
+resist "buffer_2/inv_0/XMn/B" "vss.n136" 292.5
+resist "vss.n125" "vss.n121" 292.5
+resist "vss.n127" "vss.n125" 292.5
+resist "vss.n126" "vss.n121" 292.5
+resist "buffer_2/inv_1/XMn/B" "vss.n126" 292.5
+resist "vss.n164" "vss.n163" 292.5
+resist "vss.n165" "vss.n164" 292.5
+resist "vss.n169" "vss.n168" 292.5
+resist "vss.n168" "vss.n167" 292.5
+resist "vss.n110" "vss.n109" 292.5
+resist "vss.n111" "vss.n110" 292.5
+resist "vss.n109" "vss.n108" 292.5
+resist "vss.n108" "tmux_2to1_2/XM6/B" 292.5
+resist "vss.n170" "vss.n169" 292.5
+resist "tmux_2to1_2/XM4/B" "vss.n170" 292.5
+resist "vss.n163" "vss.n119" 292.5
+resist "vss.n119" "tmux_2to1_2/XM2/B" 292.5
+resist "vss.n83" "vss.n82" 292.5
+resist "vss.n85" "vss.n83" 292.5
+resist "vss.n84" "vss.n82" 292.5
+resist "buffer_9/inv_0/XMn/B" "vss.n84" 292.5
+resist "vss.n87" "vss.n86" 292.5
+resist "vss.n92" "vss.n88" 292.5
+resist "vss.n88" "buffer_9/inv_1/XMn/B" 292.5
+resist "vss.n142" "vss.n134" 292.5
+resist "vss.n142" "buffer_3/inv_0/XMn/B" 292.5
+resist "vss.n143" "vss.n134" 292.5
+resist "vss.n143" "vss.n141" 292.5
+resist "vss.n287" "vss.n209" 292.5
+resist "tmux_2to1_3/XM2/B" "vss.n287" 292.5
+resist "vss.n285" "vss.n209" 292.5
+resist "vss.n285" "tmux_2to1_3/XM4/B" 292.5
+resist "vss.n275" "vss.n209" 292.5
+resist "tmux_2to1_3/XM6/B" "vss.n275" 292.5
+resist "vss.n277" "vss.n231" 292.5
+resist "vss.n278" "vss.n277" 292.5
+resist "vss.n292" "vss.n231" 292.5
+resist "vss.n293" "vss.n292" 292.5
+resist "vss.n290" "vss.n231" 292.5
+resist "vss.n290" "vss.n289" 292.5
+resist "vss.n326" "vss.n306" 292.5
+resist "vss.n306" "vss.n305" 292.5
+resist "vss.n336" "vss.n187" 292.5
+resist "buffer_0/inv_0/XMn/B" "vss.n187" 292.5
+resist "vss.n326" "vss.n201" 292.5
+resist "vss.n236" "vss.n201" 292.5
+resist "vss.n336" "vss.n185" 292.5
+resist "buffer_0/inv_1/XMn/B" "vss.n185" 292.5
+resist "vss.n326" "vss.n307" 292.5
+resist "vss.n316" "vss.n307" 292.5
+resist "vss.n326" "vss.n200" 292.5
+resist "vss.n318" "vss.n200" 292.5
+resist "vss.n326" "vss.n323" 292.5
+resist "vss.n323" "vss.n322" 292.5
+resist "vss.n336" "vss.n189" 292.5
+resist "tmux_2to1_0/XM6/B" "vss.n189" 292.5
+resist "vss.n337" "vss.n336" 292.5
+resist "tmux_2to1_0/XM4/B" "vss.n337" 292.5
+resist "vss.n336" "vss.n188" 292.5
+resist "tmux_2to1_0/XM2/B" "vss.n188" 292.5
+resist "vss.n327" "vss.n326" 292.5
+resist "vss.n327" "vss.n197" 292.5
+resist "vss.n336" "vss.n184" 292.5
+resist "buffer_7/inv_0/XMn/B" "vss.n184" 292.5
+resist "vss.n326" "vss.n325" 292.5
+resist "vss.n325" "vss.n324" 292.5
+resist "vss.n336" "vss.n335" 292.5
+resist "vss.n335" "buffer_7/inv_1/XMn/B" 292.5
+resist "vss.n209" "vss.n207" 292.5
+resist "vss.n207" "buffer_1/inv_0/XMn/B" 292.5
+resist "vss.n231" "vss.n208" 292.5
+resist "vss.n208" "vss.n206" 292.5
+resist "vss.n232" "vss.n209" 292.5
+resist "buffer_1/inv_1/XMn/B" "vss.n232" 292.5
+resist "vss.n233" "vss.n231" 292.5
+resist "vss.n243" "vss.n233" 292.5
+resist "vss.n260" "vss.n209" 292.5
+resist "tmux_2to1_1/XM2/B" "vss.n260" 292.5
+resist "vss.n258" "vss.n209" 292.5
+resist "vss.n258" "tmux_2to1_1/XM4/B" 292.5
+resist "vss.n247" "vss.n209" 292.5
+resist "vss.n247" "tmux_2to1_1/XM6/B" 292.5
+resist "vss.n252" "vss.n231" 292.5
+resist "vss.n253" "vss.n252" 292.5
+resist "vss.n266" "vss.n231" 292.5
+resist "vss.n267" "vss.n266" 292.5
+resist "vss.n264" "vss.n231" 292.5
+resist "vss.n264" "vss.n263" 292.5
+resist "vss.n221" "vss.n209" 292.5
+resist "buffer_8/inv_0/XMn/B" "vss.n221" 292.5
+resist "vss.n231" "vss.n225" 292.5
+resist "vss.n225" "vss.n224" 292.5
+resist "vss.n226" "vss.n209" 292.5
+resist "buffer_8/inv_1/XMn/B" "vss.n226" 292.5
+resist "vss.n231" "vss.n230" 292.5
+resist "vss.n230" "vss.n229" 292.5
+resist "vss.n54" "vss.n47" 298.207
+resist "vss.n54" "vss.n43" 298.207
+resist "vss.n63" "vss.n33" 298.207
+resist "vss.n63" "vss.n31" 298.207
+resist "vss.n297" "vss.n231" 298.207
+resist "vss.n297" "vss.n209" 298.207
+resist "vss.n336" "vss.n183" 298.207
+resist "vss.n326" "vss.n183" 298.207
+resist "vss.n251" "vss.n250" 343.153
+resist "vss.n155" "vss.n154" 369.032
+resist "vss.n96" "vss.n95" 369.032
+resist "vss.n162" "vss.n161" 376.129
+resist "vss.n91" "vss.n90" 476.982
+resist "vss.n145" "vss.n134" 560.645
+resist "vss.n154" "vss.n134" 560.645
+resist "vss.n155" "vss.n121" 560.645
+resist "vss.n161" "vss.n121" 560.645
+resist "vss.n163" "vss.n162" 560.645
+resist "vss.n163" "vss.n77" 560.645
+resist "vss.n169" "vss.n77" 560.645
+resist "vss.n169" "vss.n76" 560.645
+resist "vss.n109" "vss.n76" 560.645
+resist "vss.n109" "vss.n107" 560.645
+resist "vss.n106" "vss.n82" 560.645
+resist "vss.n95" "vss.n82" 560.645
+resist "vss.n96" "vss.n92" 560.645
+resist "vss.n21" "vss.n20" 738.065
+resist "vss.n13" "vss.n12" 744.249
+resist "vss.n6" "vss.n5" 744.249
+resist "vss.n119" "vss.n75" 915.471
+resist "vss.n170" "vss.n75" 915.471
+resist "vss.n170" "vss.n74" 915.471
+resist "vss.n108" "vss.n74" 915.471
+resist "vss.n164" "vss.n79" 915.471
+resist "vss.n168" "vss.n79" 915.471
+resist "vss.n168" "vss.n78" 915.471
+resist "vss.n110" "vss.n78" 915.471
+resist "vss.n291" "vss.n290" 915.471
+resist "vss.n292" "vss.n291" 915.471
+resist "vss.n292" "vss.n273" 915.471
+resist "vss.n277" "vss.n273" 915.471
+resist "vss.n287" "vss.n286" 915.471
+resist "vss.n286" "vss.n285" 915.471
+resist "vss.n285" "vss.n272" 915.471
+resist "vss.n275" "vss.n272" 915.471
+resist "vss.n265" "vss.n264" 915.471
+resist "vss.n266" "vss.n265" 915.471
+resist "vss.n266" "vss.n249" 915.471
+resist "vss.n252" "vss.n249" 915.471
+resist "vss.n260" "vss.n259" 915.471
+resist "vss.n259" "vss.n258" 915.471
+resist "vss.n258" "vss.n248" 915.471
+resist "vss.n248" "vss.n247" 915.471
+resist "vss.n188" "vss.n182" 915.471
+resist "vss.n337" "vss.n182" 915.471
+resist "vss.n337" "vss.n181" 915.471
+resist "vss.n189" "vss.n181" 915.471
+resist "vss.n311" "vss.n307" 915.471
+resist "vss.n311" "vss.n200" 915.471
+resist "vss.n309" "vss.n200" 915.471
+resist "vss.n323" "vss.n309" 915.471
+resist "vss.n20" "vss.n8" 1121.29
+resist "vss.n21" "vss.n7" 1121.29
+resist "vss.n112" "vss.n74" 1390.59
+resist "vss.n112" "vss.n78" 1390.59
+resist "vss.n115" "vss.n75" 1390.59
+resist "vss.n115" "vss.n79" 1390.59
+resist "vss.n291" "vss.n215" 1390.59
+resist "vss.n286" "vss.n215" 1390.59
+resist "vss.n296" "vss.n273" 1390.59
+resist "vss.n296" "vss.n272" 1390.59
+resist "vss.n270" "vss.n249" 1390.59
+resist "vss.n270" "vss.n248" 1390.59
+resist "vss.n265" "vss.n217" 1390.59
+resist "vss.n259" "vss.n217" 1390.59
+resist "vss.n319" "vss.n181" 1390.59
+resist "vss.n319" "vss.n309" 1390.59
+resist "vss.n312" "vss.n182" 1390.59
+resist "vss.n312" "vss.n311" 1390.59
+resist "vss.n5" "vss.n3" 2306.06
+resist "vss.n22" "vss.n3" 2306.06
+resist "vss.n22" "vss.n2" 2306.06
+resist "vss.n19" "vss.n10" 2306.06
+resist "vss.n13" "vss.n9" 2306.06
+resist "vss.n19" "vss.n9" 2306.06
+resist "vss.n53" "vss.n49" 2306.06
+resist "vss.n49" "vss.n44" 2306.06
+resist "vss.n53" "vss.n48" 2306.06
+resist "vss.n48" "vss.n44" 2306.06
+resist "vss.n55" "vss.n42" 2306.06
+resist "vss.n46" "vss.n42" 2306.06
+resist "vss.n55" "vss.n41" 2306.06
+resist "vss.n46" "vss.n41" 2306.06
+resist "vss.n64" "vss.n30" 2306.06
+resist "vss.n35" "vss.n30" 2306.06
+resist "vss.n64" "vss.n29" 2306.06
+resist "vss.n35" "vss.n29" 2306.06
+resist "vss.n37" "vss.n32" 2306.06
+resist "vss.n62" "vss.n37" 2306.06
+resist "vss.n36" "vss.n32" 2306.06
+resist "vss.n62" "vss.n36" 2306.06
+resist "vss.n156" "vss.n123" 2306.06
+resist "vss.n160" "vss.n123" 2306.06
+resist "vss.n156" "vss.n122" 2306.06
+resist "vss.n160" "vss.n122" 2306.06
+resist "vss.n146" "vss.n143" 2306.06
+resist "vss.n143" "vss.n133" 2306.06
+resist "vss.n146" "vss.n142" 2306.06
+resist "vss.n142" "vss.n133" 2306.06
+resist "vss.n97" "vss.n88" 2306.06
+resist "vss.n90" "vss.n88" 2306.06
+resist "vss.n97" "vss.n87" 2306.06
+resist "vss.n105" "vss.n84" 2306.06
+resist "vss.n94" "vss.n84" 2306.06
+resist "vss.n105" "vss.n83" 2306.06
+resist "vss.n94" "vss.n83" 2306.06
+resist "vss.n119" "vss.n118" 2306.06
+resist "vss.n164" "vss.n118" 2306.06
+resist "vss.n108" "vss.n81" 2306.06
+resist "vss.n110" "vss.n81" 2306.06
+resist "vss.n132" "vss.n126" 2306.06
+resist "vss.n126" "vss.n120" 2306.06
+resist "vss.n132" "vss.n125" 2306.06
+resist "vss.n125" "vss.n120" 2306.06
+resist "vss.n144" "vss.n136" 2306.06
+resist "vss.n153" "vss.n136" 2306.06
+resist "vss.n144" "vss.n135" 2306.06
+resist "vss.n153" "vss.n135" 2306.06
+resist "vss.n290" "vss.n271" 2306.06
+resist "vss.n287" "vss.n271" 2306.06
+resist "vss.n277" "vss.n214" 2306.06
+resist "vss.n275" "vss.n214" 2306.06
+resist "vss.n230" "vss.n211" 2306.06
+resist "vss.n230" "vss.n210" 2306.06
+resist "vss.n226" "vss.n211" 2306.06
+resist "vss.n226" "vss.n210" 2306.06
+resist "vss.n225" "vss.n213" 2306.06
+resist "vss.n225" "vss.n212" 2306.06
+resist "vss.n221" "vss.n213" 2306.06
+resist "vss.n221" "vss.n212" 2306.06
+resist "vss.n264" "vss.n246" 2306.06
+resist "vss.n260" "vss.n246" 2306.06
+resist "vss.n252" "vss.n216" 2306.06
+resist "vss.n247" "vss.n216" 2306.06
+resist "vss.n245" "vss.n233" 2306.06
+resist "vss.n233" "vss.n218" 2306.06
+resist "vss.n245" "vss.n232" 2306.06
+resist "vss.n232" "vss.n218" 2306.06
+resist "vss.n298" "vss.n208" 2306.06
+resist "vss.n220" "vss.n208" 2306.06
+resist "vss.n220" "vss.n207" 2306.06
+resist "vss.n335" "vss.n191" 2306.06
+resist "vss.n335" "vss.n190" 2306.06
+resist "vss.n325" "vss.n191" 2306.06
+resist "vss.n325" "vss.n190" 2306.06
+resist "vss.n328" "vss.n184" 2306.06
+resist "vss.n199" "vss.n184" 2306.06
+resist "vss.n328" "vss.n327" 2306.06
+resist "vss.n327" "vss.n199" 2306.06
+resist "vss.n314" "vss.n188" 2306.06
+resist "vss.n314" "vss.n307" 2306.06
+resist "vss.n308" "vss.n189" 2306.06
+resist "vss.n323" "vss.n308" 2306.06
+resist "vss.n237" "vss.n185" 2306.06
+resist "vss.n234" "vss.n185" 2306.06
+resist "vss.n237" "vss.n201" 2306.06
+resist "vss.n234" "vss.n201" 2306.06
+resist "vss.n202" "vss.n187" 2306.06
+resist "vss.n306" "vss.n203" 2306.06
+resist "vss.n306" "vss.n202" 2306.06
+resist "vss.n203" "vss.n187" 2510.19
+resist "vss.n298" "vss.n207" 2547.63
+resist "vss.n107" "vss.n106" 4116.13
+rnode "buffer_7/inv_0/vdd" 0 20.2685 2908 1382 0
+rnode "tmux_2to1_0/XM1/D" 0 0.647137 967 1041 0
+rnode "vdd.n0" 0 35.3397 865 1380 0
+rnode "vdd.n1" 0 1.211 1327 1407 0
+rnode "vdd.n2" 0 5.31622 1169 1041 0
+rnode "vdd.n3" 0 7.8844 853 1041 0
+rnode "vdd.n4" 0 5.06488 1169 1390 0
+rnode "vdd.n5" 0 7.8844 853 1041 0
+rnode "vdd.n6" 0 59.3198 1169 1041 0
+rnode "vdd.n7" 0 5.31622 1169 1041 0
+rnode "vdd.n8" 0 5.06488 1169 692 0
+rnode "vdd.n9" 0 5.06488 1485 692 0
+rnode "vdd.n10" 0 5.06488 1485 692 0
+rnode "vdd.n11" 0 59.3198 1485 1041 0
+rnode "vdd.n12" 0 5.24314 1643 1407 0
+rnode "tmux_2to1_0/XM5/B" 0 5.24314 1643 675 0
+rnode "vdd.n13" 0 5.24314 1643 675 0
+rnode "vdd.n14" 0 59.3198 3119 1407 0
+rnode "vdd.n15" 0 8.07951 3119 1407 0
+rnode "vdd.n16" 0 8.07951 3119 675 0
+rnode "vdd.n17" 0 2.82149 3118 1412 0
+rnode "vdd.n18" 0 4.04737 3119 1407 0
+rnode "vdd.n19" 0 64.9865 3539 1407 0
+rnode "vdd.n20" 0 8.07951 3539 1407 0
+rnode "vdd.n21" 0 8.07951 3539 675 0
+rnode "buffer_7/inv_1/XMp/D" 0 0.906649 3495 1041 0
+rnode "buffer_7/inv_0/XMp/D" 0 0.906649 3075 1041 0
+rnode "vdd.n22" 0 28.0499 2978 1380 0
+rnode "vdd.n23" 0 6.2723 3118 1412 0
+rnode "buffer_7/inv_1/vdd" 0 5.01784 3328 1382 0
+rnode "vdd.n24" 0 37.0936 3398 1380 0
+rnode "vdd.n25" 0 3.8851 3538 1412 0
+rnode "vdd.n26" 0 4.04737 3539 1407 0
+rnode "vdd.n27" 0 0 3539 1407 0
+rnode "vdd.n28" 0 51.7761 3697 1041 0
+rnode "vdd.n29" 0 7.8844 3697 1041 0
+rnode "buffer_7/inv_1/XMp/B" 0 8.07951 3539 675 0
+rnode "vdd.n30" 0 7.87643 3381 1041 0
+rnode "vdd.n31" 0 7.8844 3381 1041 0
+rnode "vdd.n32" 0 49.1829 3381 1041 0
+rnode "vdd.n33" 0 49.1829 3277 1041 0
+rnode "vdd.n34" 0 7.8844 3277 1041 0
+rnode "vdd.n35" 0 7.8844 3277 1041 0
+rnode "buffer_7/inv_0/XMp/B" 0 8.07951 3119 675 0
+rnode "vdd.n36" 0 7.87643 2961 1041 0
+rnode "vdd.n37" 0 7.8844 2961 1041 0
+rnode "vdd.n38" 0 247.416 2961 1041 0
+rnode "vdd.n39" 0 59.3198 1643 1407 0
+rnode "vdd.n40" 0 247.416 1801 1041 0
+rnode "vdd.n41" 0 7.8844 1801 1041 0
+rnode "vdd.n42" 0 7.8844 1801 1041 0
+rnode "vdd.n43" 0 5.24314 1643 1407 0
+rnode "vdd.n44" 0 5.06488 1485 1390 0
+rnode "vdd.n45" 0 5.31622 1485 1041 0
+rnode "vdd.n46" 0 5.31622 1485 1041 0
+rnode "vdd.n47" 0 5.06488 1485 1390 0
+rnode "vdd.n48" 0 2.40677 1327 1407 0
+rnode "vdd.n49" 0 59.3198 1327 1407 0
+rnode "vdd.n50" 0 2.40677 1327 675 0
+rnode "tmux_2to1_0/XM3/B" 0 2.40677 1327 675 0
+rnode "vdd.n51" 0 5.06488 1169 692 0
+rnode "tmux_2to1_0/XM1/B" 0 5.24314 1011 675 0
+rnode "vdd.n52" 0 5.24314 1011 675 0
+rnode "vdd.n53" 0 59.3198 589 1407 0
+rnode "vdd.n54" 0 8.07951 589 1407 0
+rnode "vdd.n55" 0 8.07951 589 675 0
+rnode "vdd.n56" 0 4.04737 589 1407 0
+rnode "vdd.n57" 0 2.82149 588 1412 0
+rnode "vdd.n58" 0 64.9865 169 1407 0
+rnode "vdd.n59" 0 8.07951 169 1407 0
+rnode "vdd.n60" 0 8.07951 169 675 0
+rnode "vdd.n61" 0 4.04737 169 1407 0
+rnode "buffer_0/inv_1/XMp/D" 0 0.906649 545 1041 0
+rnode "tmux_2to1_0/vdd" 0 4.96408 800 1424 0
+rnode "vdd.n62" 0 6.30814 588 1412 0
+rnode "vdd.n63" 0 28.0499 448 1380 0
+rnode "buffer_0/inv_1/vdd" 0 5.01784 378 1382 0
+rnode "buffer_0/inv_0/XMp/D" 0 0.906649 125 1041 0
+rnode "buffer_0/inv_0/vdd" 0 1.25446 -42 1382 0
+rnode "vdd.n64" 0 28.0499 28 1380 0
+rnode "vdd.n65" 0 6.2723 168 1412 0
+rnode "vdd.n66" 0 2.82149 168 1412 0
+rnode "vdd.n67" 0 0 169 675 0
+rnode "vdd.n68" 0 51.7761 11 1041 0
+rnode "vdd.n69" 0 7.87643 11 1041 0
+rnode "buffer_0/inv_0/XMp/B" 0 8.07951 169 675 0
+rnode "vdd.n70" 0 7.8844 327 1041 0
+rnode "vdd.n71" 0 7.8844 327 1041 0
+rnode "vdd.n72" 0 49.1829 327 1041 0
+rnode "vdd.n73" 0 49.1829 431 1041 0
+rnode "vdd.n74" 0 7.8844 431 1041 0
+rnode "vdd.n75" 0 7.87643 431 1041 0
+rnode "buffer_0/inv_1/XMp/B" 0 8.07951 589 675 0
+rnode "vdd.n76" 0 7.8844 747 1041 0
+rnode "vdd.n77" 0 7.8844 747 1041 0
+rnode "vdd.n78" 0 49.5583 747 1041 0
+rnode "vdd.n79" 0 49.5583 853 1041 0
+rnode "vdd.n80" 0 59.3198 1011 1407 0
+rnode "vdd.n81" 0 5.24314 1011 1407 0
+rnode "vdd.n82" 0 5.24314 1011 1407 0
+rnode "vdd.n83" 0 5.05727 1169 1390 0
+rnode "vdd.n84" 0 1.20339 1326 1407 0
+rnode "vdd.n85" 0 17.5983 1326 1407 0
+rnode "vdd.n86" 0 127.438 1847 1421 0
+rnode "vdd.n87" 0 1368.7 479 -4366 0
+rnode "vdd.n88" 0 2.82149 588 -7336 0
+rnode "buffer_5/inv_1/XMp/D" 0 0.906649 545 -6869 0
+rnode "buffer_6/inv_1/XMp/D" 0 0.906649 545 -7707 0
+rnode "vdd.n89" 0 56.0998 448 -7208 0
+rnode "vdd.n90" 0 4.04737 589 -7235 0
+rnode "buffer_5/inv_1/XMp/B" 0 8.07951 589 -6503 0
+rnode "vdd.n91" 0 8.07951 589 -6503 0
+rnode "vdd.n92" 0 8.07951 589 -7235 0
+rnode "vdd.n93" 0 400.94 169 -6503 0
+rnode "vdd.n94" 0 7.8844 11 -6869 0
+rnode "vdd.n95" 0 400.94 169 -7235 0
+rnode "vdd.n96" 0 7.8844 747 -6869 0
+rnode "vdd.n97" 0 7.8844 747 -6869 0
+rnode "vdd.n98" 0 8.07951 169 -6503 0
+rnode "vdd.n99" 0 8.07951 169 -7235 0
+rnode "buffer_5/inv_0/XMp/B" 0 8.07951 169 -6503 0
+rnode "vdd.n100" 0 7.87643 11 -6869 0
+rnode "buffer_6/inv_1/vdd" 0 10.0357 378 -7366 0
+rnode "vdd.n101" 0 4.04737 169 -7341 0
+rnode "buffer_6/inv_0/XMp/B" 0 8.07951 169 -8073 0
+rnode "vdd.n102" 0 8.07951 169 -7341 0
+rnode "vdd.n103" 0 8.07951 169 -8073 0
+rnode "vdd.n104" 0 400.94 589 -7341 0
+rnode "vdd.n105" 0 7.8844 747 -7707 0
+rnode "vdd.n106" 0 7.8844 327 -7707 0
+rnode "vdd.n107" 0 7.8844 327 -7707 0
+rnode "vdd.n108" 0 400.94 589 -8073 0
+rnode "vdd.n109" 0 8.07951 589 -7341 0
+rnode "vdd.n110" 0 8.07951 589 -8073 0
+rnode "vdd.n111" 0 4.04737 589 -7341 0
+rnode "vdd.n112" 0 7.8844 747 -7707 0
+rnode "buffer_6/inv_1/XMp/B" 0 8.07951 589 -8073 0
+rnode "vdd.n113" 0 7.87643 431 -7707 0
+rnode "vdd.n114" 0 7.8844 431 -7707 0
+rnode "vdd.n115" 0 621.797 431 -7707 0
+rnode "vdd.n116" 0 7.8844 11 -7707 0
+rnode "vdd.n117" 0 7.87643 11 -7707 0
+rnode "vdd.n118" 0 2.82149 168 -7336 0
+rnode "buffer_5/inv_0/XMp/D" 0 0.906649 125 -6869 0
+rnode "buffer_6/inv_0/XMp/D" 0 0.906649 125 -7707 0
+rnode "buffer_5/inv_0/vdd" 0 2.50892 -42 -7288 0
+rnode "vdd.n119" 0 56.0998 28 -7208 0
+rnode "vdd.n120" 0 12.5446 168 -7240 0
+rnode "vdd.n121" 0 2.82149 168 -7240 0
+rnode "vdd.n122" 0 4.04737 169 -7235 0
+rnode "vdd.n123" 0 7.8844 327 -6869 0
+rnode "vdd.n124" 0 7.8844 327 -6869 0
+rnode "vdd.n125" 0 621.797 327 -6869 0
+rnode "vdd.n126" 0 7.8844 431 -6869 0
+rnode "vdd.n127" 0 7.87643 431 -6869 0
+rnode "vdd.n128" 0 2.82149 588 -7240 0
+rnode "vdd.n129" 0 63.4154 588 -7240 0
+rnode "vdd.n130" 0 587.723 1847 -7290 0
+rnode "vdd.n131" 0 2.82149 588 -4420 0
+rnode "buffer_3/inv_1/XMp/D" 0 0.906649 545 -3953 0
+rnode "buffer_4/inv_1/XMp/D" 0 0.906649 545 -4791 0
+rnode "vdd.n132" 0 56.0998 448 -4292 0
+rnode "vdd.n133" 0 4.04737 589 -4319 0
+rnode "buffer_3/inv_1/XMp/B" 0 8.07951 589 -3587 0
+rnode "vdd.n134" 0 8.07951 589 -3587 0
+rnode "vdd.n135" 0 8.07951 589 -4319 0
+rnode "vdd.n136" 0 400.94 169 -3587 0
+rnode "vdd.n137" 0 7.8844 11 -3953 0
+rnode "vdd.n138" 0 400.94 169 -4319 0
+rnode "vdd.n139" 0 7.8844 747 -3953 0
+rnode "vdd.n140" 0 7.8844 747 -3953 0
+rnode "vdd.n141" 0 8.07951 169 -3587 0
+rnode "vdd.n142" 0 8.07951 169 -4319 0
+rnode "buffer_3/inv_0/XMp/B" 0 8.07951 169 -3587 0
+rnode "vdd.n143" 0 7.87643 11 -3953 0
+rnode "buffer_3/inv_1/vdd" 0 10.0357 378 -4372 0
+rnode "vdd.n144" 0 4.04737 169 -4425 0
+rnode "buffer_4/inv_0/XMp/B" 0 8.07951 169 -5157 0
+rnode "vdd.n145" 0 8.07951 169 -4425 0
+rnode "vdd.n146" 0 8.07951 169 -5157 0
+rnode "vdd.n147" 0 400.94 589 -4425 0
+rnode "vdd.n148" 0 7.8844 747 -4791 0
+rnode "vdd.n149" 0 7.8844 327 -4791 0
+rnode "vdd.n150" 0 7.8844 327 -4791 0
+rnode "vdd.n151" 0 400.94 589 -5157 0
+rnode "vdd.n152" 0 8.07951 589 -4425 0
+rnode "vdd.n153" 0 8.07951 589 -5157 0
+rnode "vdd.n154" 0 4.04737 589 -4425 0
+rnode "vdd.n155" 0 7.8844 747 -4791 0
+rnode "buffer_4/inv_1/XMp/B" 0 8.07951 589 -5157 0
+rnode "vdd.n156" 0 7.87643 431 -4791 0
+rnode "vdd.n157" 0 7.8844 431 -4791 0
+rnode "vdd.n158" 0 621.797 431 -4791 0
+rnode "vdd.n159" 0 7.8844 11 -4791 0
+rnode "vdd.n160" 0 7.87643 11 -4791 0
+rnode "vdd.n161" 0 2.82149 168 -4420 0
+rnode "buffer_3/inv_0/XMp/D" 0 0.906649 125 -3953 0
+rnode "buffer_4/inv_0/XMp/D" 0 0.906649 125 -4791 0
+rnode "buffer_4/inv_0/vdd" 0 2.50892 -42 -4450 0
+rnode "vdd.n162" 0 56.0998 28 -4292 0
+rnode "vdd.n163" 0 12.5446 168 -4324 0
+rnode "vdd.n164" 0 2.82149 168 -4324 0
+rnode "vdd.n165" 0 4.04737 169 -4319 0
+rnode "vdd.n166" 0 7.8844 327 -3953 0
+rnode "vdd.n167" 0 7.8844 327 -3953 0
+rnode "vdd.n168" 0 621.797 327 -3953 0
+rnode "vdd.n169" 0 7.8844 431 -3953 0
+rnode "vdd.n170" 0 7.87643 431 -3953 0
+rnode "vdd.n171" 0 2.82149 588 -4324 0
+rnode "vdd.n172" 0 60.7294 588 -4324 0
+rnode "vdd.n173" 0 310.579 1847 -4370 0
+rnode "vdd.n174" 0 1847.62 2337 -4370 0
+rnode "tmux_2to1_3/vdd" 0 2.43724 1854 -1456 0
+rnode "vdd.n175" 0 1.20339 1326 -1509 0
+rnode "tmux_2to1_1/XM1/D" 0 0.647137 967 -1037 0
+rnode "tmux_2to1_2/XM1/D" 0 0.647137 967 -1875 0
+rnode "vdd.n176" 0 70.6795 865 -1376 0
+rnode "vdd.n177" 0 1.211 1327 -1403 0
+rnode "vdd.n178" 0 5.31622 1169 -1037 0
+rnode "vdd.n179" 0 7.8844 853 -1037 0
+rnode "vdd.n180" 0 5.06488 1169 -1386 0
+rnode "vdd.n181" 0 7.8844 853 -1037 0
+rnode "vdd.n182" 0 118.64 1169 -1037 0
+rnode "vdd.n183" 0 5.24314 1011 -2241 0
+rnode "vdd.n184" 0 7.8844 747 -1875 0
+rnode "vdd.n185" 0 118.64 589 -671 0
+rnode "vdd.n186" 0 8.07951 589 -671 0
+rnode "vdd.n187" 0 8.07951 589 -1403 0
+rnode "buffer_1/inv_1/XMp/B" 0 8.07951 589 -671 0
+rnode "vdd.n188" 0 7.87643 431 -1037 0
+rnode "tmux_2to1_2/vdd" 0 9.92816 800 -1492 0
+rnode "vdd.n189" 0 2.82149 588 -1504 0
+rnode "buffer_1/inv_1/XMp/D" 0 0.906649 545 -1037 0
+rnode "buffer_2/inv_1/XMp/D" 0 0.906649 545 -1875 0
+rnode "vdd.n190" 0 2.82149 168 -1504 0
+rnode "buffer_1/inv_0/XMp/D" 0 0.906649 125 -1037 0
+rnode "buffer_2/inv_0/XMp/D" 0 0.906649 125 -1875 0
+rnode "buffer_2/inv_0/vdd" 0 2.50892 -42 -1534 0
+rnode "vdd.n191" 0 56.0998 28 -1376 0
+rnode "vdd.n192" 0 4.04737 169 -1403 0
+rnode "buffer_1/inv_0/XMp/B" 0 8.07951 169 -671 0
+rnode "vdd.n193" 0 8.07951 169 -671 0
+rnode "vdd.n194" 0 8.07951 169 -1403 0
+rnode "vdd.n195" 0 118.64 169 -671 0
+rnode "vdd.n196" 0 8.07951 169 -1509 0
+rnode "vdd.n197" 0 8.07951 169 -2241 0
+rnode "vdd.n198" 0 4.04737 169 -1509 0
+rnode "vdd.n199" 0 8.07951 589 -1509 0
+rnode "vdd.n200" 0 8.07951 589 -2241 0
+rnode "vdd.n201" 0 4.04737 589 -1509 0
+rnode "vdd.n202" 0 7.8844 747 -1875 0
+rnode "buffer_2/inv_1/XMp/B" 0 8.07951 589 -2241 0
+rnode "vdd.n203" 0 7.87643 431 -1875 0
+rnode "vdd.n204" 0 7.8844 431 -1875 0
+rnode "vdd.n205" 0 7.8844 431 -1037 0
+rnode "vdd.n206" 0 98.3658 431 -1037 0
+rnode "vdd.n207" 0 7.8844 327 -1037 0
+rnode "vdd.n208" 0 7.8844 327 -1037 0
+rnode "vdd.n209" 0 98.3658 327 -1037 0
+rnode "vdd.n210" 0 7.8844 327 -1875 0
+rnode "vdd.n211" 0 7.8844 327 -1875 0
+rnode "buffer_2/inv_0/XMp/B" 0 8.07951 169 -2241 0
+rnode "vdd.n212" 0 7.87643 11 -1875 0
+rnode "vdd.n213" 0 7.8844 11 -1875 0
+rnode "vdd.n214" 0 99.1167 11 -1037 0
+rnode "vdd.n215" 0 7.8844 11 -1037 0
+rnode "vdd.n216" 0 7.87643 11 -1037 0
+rnode "vdd.n217" 0 2.82149 168 -1408 0
+rnode "vdd.n218" 0 12.5446 168 -1408 0
+rnode "buffer_2/inv_1/vdd" 0 10.0357 378 -1534 0
+rnode "vdd.n219" 0 56.0998 448 -1376 0
+rnode "vdd.n220" 0 12.6163 588 -1408 0
+rnode "vdd.n221" 0 2.82149 588 -1408 0
+rnode "vdd.n222" 0 4.04737 589 -1403 0
+rnode "vdd.n223" 0 7.8844 747 -1037 0
+rnode "vdd.n224" 0 7.8844 747 -1037 0
+rnode "vdd.n225" 0 99.1167 747 -1037 0
+rnode "vdd.n226" 0 99.1167 853 -1037 0
+rnode "vdd.n227" 0 5.24314 1011 -1509 0
+rnode "vdd.n228" 0 5.31622 1169 -1037 0
+rnode "vdd.n229" 0 5.06488 1169 -688 0
+rnode "vdd.n230" 0 5.06488 1485 -688 0
+rnode "vdd.n231" 0 5.06488 1485 -688 0
+rnode "vdd.n232" 0 118.64 1485 -1037 0
+rnode "vdd.n233" 0 2.40677 1327 -1403 0
+rnode "vdd.n234" 0 2.40677 1327 -2241 0
+rnode "vdd.n235" 0 5.06488 1485 -1526 0
+rnode "vdd.n236" 0 5.06488 1169 -1526 0
+rnode "vdd.n237" 0 5.24314 1643 -1509 0
+rnode "vdd.n238" 0 5.06488 1169 -2224 0
+rnode "vdd.n239" 0 5.31622 1169 -1875 0
+rnode "vdd.n240" 0 5.31622 1169 -1875 0
+rnode "vdd.n241" 0 5.05727 1169 -1526 0
+rnode "vdd.n242" 0 5.24314 1011 -1509 0
+rnode "vdd.n243" 0 7.8844 853 -1875 0
+rnode "vdd.n244" 0 7.8844 853 -1875 0
+rnode "tmux_2to1_2/XM1/B" 0 5.24314 1011 -2241 0
+rnode "vdd.n245" 0 5.06488 1169 -2224 0
+rnode "tmux_2to1_2/XM3/B" 0 2.40677 1327 -2241 0
+rnode "vdd.n246" 0 5.06488 1485 -2224 0
+rnode "vdd.n247" 0 7.8844 1801 -1875 0
+rnode "vdd.n248" 0 7.8844 1801 -1875 0
+rnode "tmux_2to1_2/XM5/B" 0 5.24314 1643 -2241 0
+rnode "vdd.n249" 0 118.64 2065 -671 0
+rnode "vdd.n250" 0 5.24314 2065 -671 0
+rnode "vdd.n251" 0 5.24314 2065 -1403 0
+rnode "tmux_2to1_3/XM1/B" 0 5.24314 2065 -671 0
+rnode "vdd.n252" 0 5.31622 2223 -1037 0
+rnode "vdd.n253" 0 1.211 2381 -1403 0
+rnode "buffer_8/inv_0/XMp/D" 0 0.906649 3075 -1037 0
+rnode "buffer_9/inv_0/XMp/D" 0 0.906649 3075 -1875 0
+rnode "buffer_8/inv_1/vdd" 0 10.0357 3328 -1456 0
+rnode "vdd.n254" 0 2.82149 3118 -1504 0
+rnode "vdd.n255" 0 4.04737 3119 -1403 0
+rnode "buffer_8/inv_0/XMp/B" 0 8.07951 3119 -671 0
+rnode "vdd.n256" 0 8.07951 3119 -671 0
+rnode "vdd.n257" 0 8.07951 3119 -1403 0
+rnode "vdd.n258" 0 118.64 3119 -671 0
+rnode "vdd.n259" 0 8.07951 3119 -1509 0
+rnode "vdd.n260" 0 8.07951 3119 -2241 0
+rnode "vdd.n261" 0 4.04737 3119 -1509 0
+rnode "vdd.n262" 0 118.64 3539 -1509 0
+rnode "vdd.n263" 0 7.8844 3381 -1037 0
+rnode "vdd.n264" 0 8.07951 3539 -1509 0
+rnode "vdd.n265" 0 8.07951 3539 -2241 0
+rnode "vdd.n266" 0 2.82149 3538 -1504 0
+rnode "vdd.n267" 0 4.04737 3539 -1509 0
+rnode "vdd.n268" 0 8.07951 3539 -671 0
+rnode "vdd.n269" 0 8.07951 3539 -1403 0
+rnode "buffer_8/inv_1/XMp/B" 0 8.07951 3539 -671 0
+rnode "vdd.n270" 0 7.87643 3381 -1037 0
+rnode "buffer_8/inv_1/XMp/D" 0 0.906649 3495 -1037 0
+rnode "buffer_9/inv_1/XMp/D" 0 0.906649 3495 -1875 0
+rnode "vdd.n271" 0 56.0998 3398 -1376 0
+rnode "vdd.n272" 0 20.2147 3538 -1408 0
+rnode "vdd.n273" 0 2.82149 3538 -1408 0
+rnode "vdd.n274" 0 4.04737 3539 -1403 0
+rnode "vdd.n275" 0 7.8844 3697 -1037 0
+rnode "vdd.n276" 0 7.8844 3697 -1037 0
+rnode "vdd.n277" 0 99.1167 3697 -1875 0
+rnode "vdd.n278" 0 7.8844 3697 -1875 0
+rnode "vdd.n279" 0 7.8844 3697 -1875 0
+rnode "buffer_9/inv_1/XMp/B" 0 8.07951 3539 -2241 0
+rnode "vdd.n280" 0 7.87643 3381 -1875 0
+rnode "vdd.n281" 0 7.8844 3381 -1875 0
+rnode "vdd.n282" 0 98.3658 3381 -1875 0
+rnode "vdd.n283" 0 7.8844 3277 -1037 0
+rnode "vdd.n284" 0 7.8844 3277 -1037 0
+rnode "vdd.n285" 0 98.3658 3277 -1037 0
+rnode "vdd.n286" 0 7.8844 3277 -1875 0
+rnode "vdd.n287" 0 7.8844 3277 -1875 0
+rnode "buffer_9/inv_0/XMp/B" 0 8.07951 3119 -2241 0
+rnode "vdd.n288" 0 7.87643 2961 -1875 0
+rnode "vdd.n289" 0 7.8844 2961 -1875 0
+rnode "vdd.n290" 0 118.64 2697 -671 0
+rnode "vdd.n291" 0 5.24314 2697 -671 0
+rnode "vdd.n292" 0 5.24314 2697 -1403 0
+rnode "tmux_2to1_3/XM5/B" 0 5.24314 2697 -671 0
+rnode "vdd.n293" 0 5.06488 2539 -688 0
+rnode "vdd.n294" 0 5.06488 2539 -688 0
+rnode "vdd.n295" 0 5.06488 2539 -1386 0
+rnode "vdd.n296" 0 2.40677 2381 -1403 0
+rnode "vdd.n297" 0 118.64 2223 -1037 0
+rnode "vdd.n298" 0 5.06488 2223 -1386 0
+rnode "vdd.n299" 0 5.31622 2223 -1037 0
+rnode "vdd.n300" 0 5.06488 2223 -688 0
+rnode "vdd.n301" 0 5.06488 2223 -688 0
+rnode "tmux_2to1_3/XM3/B" 0 2.40677 2381 -671 0
+rnode "vdd.n302" 0 2.40677 2381 -671 0
+rnode "vdd.n303" 0 118.64 2381 -671 0
+rnode "vdd.n304" 0 118.64 2539 -1037 0
+rnode "vdd.n305" 0 5.31622 2539 -1037 0
+rnode "vdd.n306" 0 5.31622 2539 -1037 0
+rnode "vdd.n307" 0 5.06488 2539 -1386 0
+rnode "vdd.n308" 0 5.24314 2697 -1403 0
+rnode "vdd.n309" 0 7.8844 2855 -1037 0
+rnode "vdd.n310" 0 7.8844 2855 -1037 0
+rnode "vdd.n311" 0 99.1167 2855 -1037 0
+rnode "vdd.n312" 0 99.1167 2961 -1037 0
+rnode "vdd.n313" 0 7.8844 2961 -1037 0
+rnode "vdd.n314" 0 7.87643 2961 -1037 0
+rnode "vdd.n315" 0 2.82149 3118 -1408 0
+rnode "vdd.n316" 0 12.5446 3118 -1408 0
+rnode "vdd.n317" 0 56.0998 2978 -1376 0
+rnode "buffer_8/inv_0/vdd" 0 21.4333 2908 -1456 0
+rnode "tmux_2to1_3/XM1/D" 0 0.647137 2021 -1037 0
+rnode "vdd.n318" 0 44.7661 1919 -1376 0
+rnode "vdd.n319" 0 35.4475 2380 -1403 0
+rnode "vdd.n320" 0 1.20339 2380 -1403 0
+rnode "vdd.n321" 0 5.05727 2223 -1386 0
+rnode "vdd.n322" 0 5.24314 2065 -1403 0
+rnode "vdd.n323" 0 7.8844 1907 -1037 0
+rnode "vdd.n324" 0 7.8844 1907 -1037 0
+rnode "vdd.n325" 0 99.1167 1907 -1037 0
+rnode "vdd.n326" 0 99.1167 1801 -1037 0
+rnode "vdd.n327" 0 5.24314 1643 -1403 0
+rnode "vdd.n328" 0 5.24314 1643 -1509 0
+rnode "vdd.n329" 0 7.8844 1801 -1037 0
+rnode "vdd.n330" 0 5.06488 1485 -1386 0
+rnode "vdd.n331" 0 5.31622 1485 -1037 0
+rnode "vdd.n332" 0 5.31622 1485 -1037 0
+rnode "vdd.n333" 0 5.06488 1485 -1386 0
+rnode "vdd.n334" 0 5.24314 1643 -1403 0
+rnode "vdd.n335" 0 7.8844 1801 -1037 0
+rnode "tmux_2to1_1/XM5/B" 0 5.24314 1643 -671 0
+rnode "vdd.n336" 0 5.24314 1643 -671 0
+rnode "vdd.n337" 0 118.64 1643 -671 0
+rnode "vdd.n338" 0 5.24314 1643 -2241 0
+rnode "vdd.n339" 0 5.06488 1485 -2224 0
+rnode "vdd.n340" 0 5.31622 1485 -1875 0
+rnode "vdd.n341" 0 5.31622 1485 -1875 0
+rnode "vdd.n342" 0 5.06488 1485 -1526 0
+rnode "vdd.n343" 0 1.211 1327 -1509 0
+rnode "vdd.n344" 0 2.40677 1327 -1509 0
+rnode "vdd.n345" 0 118.64 1327 -671 0
+rnode "vdd.n346" 0 2.40677 1327 -671 0
+rnode "tmux_2to1_1/XM3/B" 0 2.40677 1327 -671 0
+rnode "vdd.n347" 0 5.06488 1169 -688 0
+rnode "tmux_2to1_1/XM1/B" 0 5.24314 1011 -671 0
+rnode "vdd.n348" 0 5.24314 1011 -671 0
+rnode "vdd.n349" 0 118.64 1011 -671 0
+rnode "vdd.n350" 0 5.24314 1011 -1403 0
+rnode "vdd.n351" 0 5.24314 1011 -1403 0
+rnode "vdd.n352" 0 5.05727 1169 -1386 0
+rnode "vdd.n353" 0 1.20339 1326 -1403 0
+rnode "vdd.n354" 0 35.3399 1326 -1403 0
+rnode "vdd.n355" 0 18.9244 1851 -1450 0
+rnode "vdd.n356" 0 257.562 1851 -1450 0
+rnode "vdd.n357" 0 397.619 471 -1460 0
+rnode "vdd" 0 331.984 218 -1406 0
+rnode "vdd" 0 378.826 478 1390 0
+resist "vdd.n355" "tmux_2to1_3/vdd" 0.00234375
+resist "vdd" "vdd.n357" 0.00488077
+resist "tmux_2to1_2/vdd" "vdd.n176" 0.0507812
+resist "vdd.n318" "tmux_2to1_3/vdd" 0.0507812
+resist "vdd.n162" "buffer_4/inv_0/vdd" 0.0546875
+resist "buffer_3/inv_1/vdd" "vdd.n132" 0.0546875
+resist "vdd.n191" "buffer_2/inv_0/vdd" 0.0546875
+resist "vdd.n219" "buffer_2/inv_1/vdd" 0.0546875
+resist "buffer_8/inv_0/vdd" "vdd.n317" 0.0546875
+resist "vdd.n271" "buffer_8/inv_1/vdd" 0.0546875
+resist "vdd.n119" "buffer_5/inv_0/vdd" 0.0546875
+resist "buffer_6/inv_1/vdd" "vdd.n89" 0.0546875
+resist "vdd.n356" "vdd.n355" 0.0775862
+resist "tmux_2to1_0/vdd" "vdd.n0" 0.101562
+resist "vdd.n163" "vdd.n162" 0.109375
+resist "vdd.n172" "vdd.n132" 0.109375
+resist "vdd.n218" "vdd.n191" 0.109375
+resist "vdd.n220" "vdd.n219" 0.109375
+resist "vdd.n317" "vdd.n316" 0.109375
+resist "vdd.n272" "vdd.n271" 0.109375
+resist "vdd.n120" "vdd.n119" 0.109375
+resist "vdd.n129" "vdd.n89" 0.109375
+resist "vdd.n64" "buffer_0/inv_0/vdd" 0.109375
+resist "buffer_0/inv_1/vdd" "vdd.n63" 0.109375
+resist "vdd.n22" "buffer_7/inv_0/vdd" 0.109375
+resist "vdd.n24" "buffer_7/inv_1/vdd" 0.109375
+resist "vdd.n163" "buffer_3/inv_1/vdd" 0.164062
+resist "buffer_2/inv_1/vdd" "vdd.n218" 0.164062
+resist "vdd.n316" "buffer_8/inv_1/vdd" 0.164062
+resist "vdd.n120" "buffer_6/inv_1/vdd" 0.164062
+resist "vdd.n220" "tmux_2to1_2/vdd" 0.165625
+resist "vdd.n65" "vdd.n64" 0.21875
+resist "vdd.n63" "vdd.n62" 0.21875
+resist "vdd.n23" "vdd.n22" 0.21875
+resist "vdd" "vdd" 0.252715
+resist "vdd.n357" "vdd.n87" 0.262658
+resist "vdd.n65" "buffer_0/inv_1/vdd" 0.328125
+resist "buffer_7/inv_1/vdd" "vdd.n23" 0.328125
+resist "vdd.n62" "tmux_2to1_0/vdd" 0.33125
+resist "vdd.n354" "vdd.n176" 0.360156
+resist "vdd.n319" "vdd.n318" 0.360156
+resist "vdd.n154" "vdd.n131" 0.376471
+resist "vdd.n161" "vdd.n144" 0.376471
+resist "vdd.n171" "vdd.n133" 0.376471
+resist "vdd.n165" "vdd.n164" 0.376471
+resist "vdd.n267" "vdd.n266" 0.376471
+resist "vdd.n261" "vdd.n254" 0.376471
+resist "vdd.n343" "vdd.n175" 0.376471
+resist "vdd.n201" "vdd.n189" 0.376471
+resist "vdd.n198" "vdd.n190" 0.376471
+resist "vdd.n274" "vdd.n273" 0.376471
+resist "vdd.n315" "vdd.n255" 0.376471
+resist "vdd.n320" "vdd.n253" 0.376471
+resist "vdd.n353" "vdd.n177" 0.376471
+resist "vdd.n222" "vdd.n221" 0.376471
+resist "vdd.n217" "vdd.n192" 0.376471
+resist "vdd.n111" "vdd.n88" 0.376471
+resist "vdd.n118" "vdd.n101" 0.376471
+resist "vdd.n128" "vdd.n90" 0.376471
+resist "vdd.n122" "vdd.n121" 0.376471
+resist "vdd.n26" "vdd.n25" 0.376471
+resist "vdd.n18" "vdd.n17" 0.376471
+resist "vdd.n84" "vdd.n1" 0.376471
+resist "vdd.n57" "vdd.n56" 0.376471
+resist "vdd.n66" "vdd.n61" 0.376471
+resist "vdd.n355" "vdd.n354" 0.410156
+resist "vdd.n319" "buffer_8/inv_0/vdd" 0.4125
+resist "vdd.n354" "vdd.n353" 0.715385
+resist "vdd.n320" "vdd.n319" 0.715385
+resist "vdd.n354" "vdd.n175" 0.715385
+resist "vdd.n85" "vdd.n84" 0.715385
+resist "vdd.n85" "vdd.n0" 0.720312
+resist "vdd.n86" "vdd.n85" 0.814062
+resist "vdd.n173" "vdd.n172" 1.06118
+resist "vdd.n130" "vdd.n129" 1.06118
+resist "vdd.n174" "vdd.n173" 1.06481
+resist "vdd.n174" "vdd.n130" 1.28837
+resist "vdd.n356" "vdd.n174" 1.28945
+resist "vdd.n86" "buffer_7/inv_0/vdd" 1.65781
+resist "vdd.n173" "vdd.n87" 1.75075
+resist "vdd.n357" "vdd.n356" 1.76013
+resist "vdd.n164" "vdd.n163" 1.86
+resist "vdd.n172" "vdd.n171" 1.86
+resist "vdd.n163" "vdd.n161" 1.86
+resist "vdd.n172" "vdd.n131" 1.86
+resist "vdd.n218" "vdd.n217" 1.86
+resist "vdd.n221" "vdd.n220" 1.86
+resist "vdd.n316" "vdd.n315" 1.86
+resist "vdd.n273" "vdd.n272" 1.86
+resist "vdd.n218" "vdd.n190" 1.86
+resist "vdd.n220" "vdd.n189" 1.86
+resist "vdd.n316" "vdd.n254" 1.86
+resist "vdd.n272" "vdd.n266" 1.86
+resist "vdd.n121" "vdd.n120" 1.86
+resist "vdd.n129" "vdd.n128" 1.86
+resist "vdd.n120" "vdd.n118" 1.86
+resist "vdd.n129" "vdd.n88" 1.86
+resist "vdd.n66" "vdd.n65" 1.86
+resist "vdd.n62" "vdd.n57" 1.86
+resist "vdd.n23" "vdd.n17" 1.86
+resist "vdd.n130" "vdd.n87" 2.02423
+resist "vdd.n25" "vdd.n24" 2.07875
+resist "vdd.n176" "tmux_2to1_1/XM1/D" 2.29362
+resist "vdd.n176" "tmux_2to1_2/XM1/D" 2.29362
+resist "vdd.n318" "tmux_2to1_3/XM1/D" 2.29362
+resist "vdd.n0" "tmux_2to1_0/XM1/D" 2.29362
+resist "vdd.n162" "buffer_3/inv_0/XMp/D" 2.34
+resist "vdd.n162" "buffer_4/inv_0/XMp/D" 2.34
+resist "vdd.n132" "buffer_3/inv_1/XMp/D" 2.34
+resist "vdd.n132" "buffer_4/inv_1/XMp/D" 2.34
+resist "vdd.n191" "buffer_1/inv_0/XMp/D" 2.34
+resist "vdd.n191" "buffer_2/inv_0/XMp/D" 2.34
+resist "vdd.n219" "buffer_1/inv_1/XMp/D" 2.34
+resist "vdd.n219" "buffer_2/inv_1/XMp/D" 2.34
+resist "vdd.n317" "buffer_8/inv_0/XMp/D" 2.34
+resist "vdd.n317" "buffer_9/inv_0/XMp/D" 2.34
+resist "vdd.n271" "buffer_8/inv_1/XMp/D" 2.34
+resist "vdd.n271" "buffer_9/inv_1/XMp/D" 2.34
+resist "vdd.n119" "buffer_5/inv_0/XMp/D" 2.34
+resist "vdd.n119" "buffer_6/inv_0/XMp/D" 2.34
+resist "vdd.n89" "buffer_5/inv_1/XMp/D" 2.34
+resist "vdd.n89" "buffer_6/inv_1/XMp/D" 2.34
+resist "vdd.n24" "buffer_7/inv_1/XMp/D" 2.34
+resist "vdd.n22" "buffer_7/inv_0/XMp/D" 2.34
+resist "vdd.n63" "buffer_0/inv_1/XMp/D" 2.34
+resist "vdd.n64" "buffer_0/inv_0/XMp/D" 2.34
+resist "vdd" "vdd.n86" 2.79863
+resist "vdd.n27" "vdd.n19" 8.97651
+resist "vdd.n67" "vdd.n58" 8.97651
+resist "vdd.n158" "vdd.n148" 23.125
+resist "vdd.n155" "vdd.n148" 23.125
+resist "vdd.n158" "vdd.n157" 23.125
+resist "vdd.n157" "vdd.n156" 23.125
+resist "vdd.n168" "vdd.n167" 23.125
+resist "vdd.n167" "vdd.n166" 23.125
+resist "vdd.n168" "vdd.n137" 23.125
+resist "vdd.n143" "vdd.n137" 23.125
+resist "vdd.n168" "vdd.n140" 23.125
+resist "vdd.n140" "vdd.n139" 23.125
+resist "vdd.n169" "vdd.n168" 23.125
+resist "vdd.n170" "vdd.n169" 23.125
+resist "vdd.n158" "vdd.n150" 23.125
+resist "vdd.n150" "vdd.n149" 23.125
+resist "vdd.n159" "vdd.n158" 23.125
+resist "vdd.n160" "vdd.n159" 23.125
+resist "vdd.n278" "vdd.n277" 23.125
+resist "vdd.n279" "vdd.n278" 23.125
+resist "vdd.n282" "vdd.n281" 23.125
+resist "vdd.n281" "vdd.n280" 23.125
+resist "vdd.n209" "vdd.n208" 23.125
+resist "vdd.n208" "vdd.n207" 23.125
+resist "vdd.n215" "vdd.n214" 23.125
+resist "vdd.n216" "vdd.n215" 23.125
+resist "vdd.n225" "vdd.n224" 23.125
+resist "vdd.n224" "vdd.n223" 23.125
+resist "vdd.n206" "vdd.n205" 23.125
+resist "vdd.n205" "vdd.n188" 23.125
+resist "vdd.n329" "vdd.n326" 23.125
+resist "vdd.n335" "vdd.n329" 23.125
+resist "vdd.n226" "vdd.n181" 23.125
+resist "vdd.n181" "vdd.n179" 23.125
+resist "vdd.n228" "vdd.n182" 23.125
+resist "vdd.n228" "vdd.n178" 23.125
+resist "vdd.n331" "vdd.n232" 23.125
+resist "vdd.n332" "vdd.n331" 23.125
+resist "vdd.n311" "vdd.n310" 23.125
+resist "vdd.n310" "vdd.n309" 23.125
+resist "vdd.n325" "vdd.n324" 23.125
+resist "vdd.n324" "vdd.n323" 23.125
+resist "vdd.n299" "vdd.n297" 23.125
+resist "vdd.n299" "vdd.n252" 23.125
+resist "vdd.n305" "vdd.n304" 23.125
+resist "vdd.n306" "vdd.n305" 23.125
+resist "vdd.n285" "vdd.n284" 23.125
+resist "vdd.n284" "vdd.n283" 23.125
+resist "vdd.n313" "vdd.n312" 23.125
+resist "vdd.n314" "vdd.n313" 23.125
+resist "vdd.n277" "vdd.n276" 23.125
+resist "vdd.n276" "vdd.n275" 23.125
+resist "vdd.n282" "vdd.n263" 23.125
+resist "vdd.n270" "vdd.n263" 23.125
+resist "vdd.n210" "vdd.n209" 23.125
+resist "vdd.n211" "vdd.n210" 23.125
+resist "vdd.n214" "vdd.n213" 23.125
+resist "vdd.n213" "vdd.n212" 23.125
+resist "vdd.n225" "vdd.n184" 23.125
+resist "vdd.n202" "vdd.n184" 23.125
+resist "vdd.n206" "vdd.n204" 23.125
+resist "vdd.n204" "vdd.n203" 23.125
+resist "vdd.n326" "vdd.n247" 23.125
+resist "vdd.n248" "vdd.n247" 23.125
+resist "vdd.n243" "vdd.n226" 23.125
+resist "vdd.n244" "vdd.n243" 23.125
+resist "vdd.n239" "vdd.n182" 23.125
+resist "vdd.n240" "vdd.n239" 23.125
+resist "vdd.n340" "vdd.n232" 23.125
+resist "vdd.n341" "vdd.n340" 23.125
+resist "vdd.n286" "vdd.n285" 23.125
+resist "vdd.n287" "vdd.n286" 23.125
+resist "vdd.n312" "vdd.n289" 23.125
+resist "vdd.n289" "vdd.n288" 23.125
+resist "vdd.n115" "vdd.n105" 23.125
+resist "vdd.n112" "vdd.n105" 23.125
+resist "vdd.n115" "vdd.n114" 23.125
+resist "vdd.n114" "vdd.n113" 23.125
+resist "vdd.n125" "vdd.n124" 23.125
+resist "vdd.n124" "vdd.n123" 23.125
+resist "vdd.n125" "vdd.n94" 23.125
+resist "vdd.n100" "vdd.n94" 23.125
+resist "vdd.n125" "vdd.n97" 23.125
+resist "vdd.n97" "vdd.n96" 23.125
+resist "vdd.n126" "vdd.n125" 23.125
+resist "vdd.n127" "vdd.n126" 23.125
+resist "vdd.n115" "vdd.n107" 23.125
+resist "vdd.n107" "vdd.n106" 23.125
+resist "vdd.n116" "vdd.n115" 23.125
+resist "vdd.n117" "vdd.n116" 23.125
+resist "vdd.n29" "vdd.n28" 23.125
+resist "vdd.n32" "vdd.n31" 23.125
+resist "vdd.n31" "vdd.n30" 23.125
+resist "vdd.n72" "vdd.n71" 23.125
+resist "vdd.n71" "vdd.n70" 23.125
+resist "vdd.n69" "vdd.n68" 23.125
+resist "vdd.n78" "vdd.n77" 23.125
+resist "vdd.n77" "vdd.n76" 23.125
+resist "vdd.n74" "vdd.n73" 23.125
+resist "vdd.n75" "vdd.n74" 23.125
+resist "vdd.n41" "vdd.n40" 23.125
+resist "vdd.n42" "vdd.n41" 23.125
+resist "vdd.n79" "vdd.n5" 23.125
+resist "vdd.n5" "vdd.n3" 23.125
+resist "vdd.n7" "vdd.n6" 23.125
+resist "vdd.n7" "vdd.n2" 23.125
+resist "vdd.n46" "vdd.n11" 23.125
+resist "vdd.n46" "vdd.n45" 23.125
+resist "vdd.n34" "vdd.n33" 23.125
+resist "vdd.n35" "vdd.n34" 23.125
+resist "vdd.n38" "vdd.n37" 23.125
+resist "vdd.n37" "vdd.n36" 23.125
+resist "vdd.n147" "vdd.n138" 26.5559
+resist "vdd.n104" "vdd.n95" 26.5559
+resist "vdd.n209" "vdd.n206" 58.9499
+resist "vdd.n285" "vdd.n282" 58.9499
+resist "vdd.n241" "vdd.n175" 59.1059
+resist "vdd.n321" "vdd.n320" 59.1059
+resist "vdd.n353" "vdd.n352" 59.1059
+resist "vdd.n84" "vdd.n83" 59.1059
+resist "vdd.n245" "tmux_2to1_2/XM1/B" 59.4824
+resist "tmux_2to1_2/XM3/B" "vdd.n245" 59.4824
+resist "vdd.n246" "tmux_2to1_2/XM3/B" 59.4824
+resist "tmux_2to1_2/XM5/B" "vdd.n246" 59.4824
+resist "vdd.n242" "vdd.n241" 59.4824
+resist "vdd.n343" "vdd.n342" 59.4824
+resist "vdd.n342" "vdd.n237" 59.4824
+resist "vdd.n322" "vdd.n321" 59.4824
+resist "vdd.n307" "vdd.n253" 59.4824
+resist "vdd.n308" "vdd.n307" 59.4824
+resist "vdd.n301" "tmux_2to1_3/XM1/B" 59.4824
+resist "tmux_2to1_3/XM3/B" "vdd.n301" 59.4824
+resist "tmux_2to1_3/XM3/B" "vdd.n293" 59.4824
+resist "vdd.n293" "tmux_2to1_3/XM5/B" 59.4824
+resist "vdd.n352" "vdd.n351" 59.4824
+resist "vdd.n333" "vdd.n177" 59.4824
+resist "vdd.n334" "vdd.n333" 59.4824
+resist "tmux_2to1_1/XM1/B" "vdd.n347" 59.4824
+resist "vdd.n347" "tmux_2to1_1/XM3/B" 59.4824
+resist "tmux_2to1_1/XM3/B" "vdd.n230" 59.4824
+resist "tmux_2to1_1/XM5/B" "vdd.n230" 59.4824
+resist "tmux_2to1_0/XM1/B" "vdd.n51" 59.4824
+resist "vdd.n51" "tmux_2to1_0/XM3/B" 59.4824
+resist "tmux_2to1_0/XM3/B" "vdd.n9" 59.4824
+resist "tmux_2to1_0/XM5/B" "vdd.n9" 59.4824
+resist "vdd.n83" "vdd.n82" 59.4824
+resist "vdd.n44" "vdd.n1" 59.4824
+resist "vdd.n44" "vdd.n43" 59.4824
+resist "vdd.n226" "vdd.n225" 60.0835
+resist "vdd.n326" "vdd.n325" 60.0835
+resist "vdd.n312" "vdd.n311" 60.0835
+resist "vdd.n27" "vdd.n20" 79.4191
+resist "vdd.n67" "vdd.n60" 79.4191
+resist "vdd.n214" "vdd.n195" 89.5585
+resist "vdd.n209" "vdd.n195" 89.5585
+resist "vdd.n206" "vdd.n185" 89.5585
+resist "vdd.n225" "vdd.n185" 89.5585
+resist "vdd.n349" "vdd.n226" 89.5585
+resist "vdd.n349" "vdd.n182" 89.5585
+resist "vdd.n345" "vdd.n182" 89.5585
+resist "vdd.n345" "vdd.n232" 89.5585
+resist "vdd.n337" "vdd.n232" 89.5585
+resist "vdd.n337" "vdd.n326" 89.5585
+resist "vdd.n325" "vdd.n249" 89.5585
+resist "vdd.n297" "vdd.n249" 89.5585
+resist "vdd.n303" "vdd.n297" 89.5585
+resist "vdd.n304" "vdd.n303" 89.5585
+resist "vdd.n304" "vdd.n290" 89.5585
+resist "vdd.n311" "vdd.n290" 89.5585
+resist "vdd.n312" "vdd.n258" 89.5585
+resist "vdd.n285" "vdd.n258" 89.5585
+resist "vdd.n282" "vdd.n262" 89.5585
+resist "vdd.n277" "vdd.n262" 89.5585
+resist "vdd.n158" "vdd.n151" 91.693
+resist "vdd.n158" "vdd.n147" 91.693
+resist "vdd.n168" "vdd.n138" 91.693
+resist "vdd.n168" "vdd.n136" 91.693
+resist "vdd.n115" "vdd.n108" 91.693
+resist "vdd.n115" "vdd.n104" 91.693
+resist "vdd.n125" "vdd.n95" 91.693
+resist "vdd.n125" "vdd.n93" 91.693
+resist "vdd.n152" "vdd.n147" 92.5
+resist "vdd.n154" "vdd.n152" 92.5
+resist "vdd.n153" "vdd.n151" 92.5
+resist "buffer_4/inv_1/XMp/B" "vdd.n153" 92.5
+resist "vdd.n141" "vdd.n136" 92.5
+resist "buffer_3/inv_0/XMp/B" "vdd.n141" 92.5
+resist "vdd.n142" "vdd.n138" 92.5
+resist "vdd.n165" "vdd.n142" 92.5
+resist "vdd.n136" "vdd.n134" 92.5
+resist "vdd.n134" "buffer_3/inv_1/XMp/B" 92.5
+resist "vdd.n138" "vdd.n135" 92.5
+resist "vdd.n135" "vdd.n133" 92.5
+resist "vdd.n147" "vdd.n145" 92.5
+resist "vdd.n145" "vdd.n144" 92.5
+resist "vdd.n151" "vdd.n146" 92.5
+resist "vdd.n146" "buffer_4/inv_0/XMp/B" 92.5
+resist "vdd.n264" "vdd.n262" 92.5
+resist "vdd.n267" "vdd.n264" 92.5
+resist "vdd.n265" "vdd.n262" 92.5
+resist "buffer_9/inv_1/XMp/B" "vdd.n265" 92.5
+resist "vdd.n195" "vdd.n193" 92.5
+resist "vdd.n193" "buffer_1/inv_0/XMp/B" 92.5
+resist "vdd.n195" "vdd.n194" 92.5
+resist "vdd.n194" "vdd.n192" 92.5
+resist "vdd.n186" "vdd.n185" 92.5
+resist "buffer_1/inv_1/XMp/B" "vdd.n186" 92.5
+resist "vdd.n187" "vdd.n185" 92.5
+resist "vdd.n222" "vdd.n187" 92.5
+resist "vdd.n349" "vdd.n348" 92.5
+resist "vdd.n348" "tmux_2to1_1/XM1/B" 92.5
+resist "vdd.n346" "vdd.n345" 92.5
+resist "tmux_2to1_1/XM3/B" "vdd.n346" 92.5
+resist "vdd.n337" "vdd.n336" 92.5
+resist "vdd.n336" "tmux_2to1_1/XM5/B" 92.5
+resist "vdd.n337" "vdd.n327" 92.5
+resist "vdd.n334" "vdd.n327" 92.5
+resist "vdd.n345" "vdd.n233" 92.5
+resist "vdd.n233" "vdd.n177" 92.5
+resist "vdd.n350" "vdd.n349" 92.5
+resist "vdd.n351" "vdd.n350" 92.5
+resist "vdd.n250" "vdd.n249" 92.5
+resist "tmux_2to1_3/XM1/B" "vdd.n250" 92.5
+resist "vdd.n303" "vdd.n302" 92.5
+resist "vdd.n302" "tmux_2to1_3/XM3/B" 92.5
+resist "vdd.n291" "vdd.n290" 92.5
+resist "tmux_2to1_3/XM5/B" "vdd.n291" 92.5
+resist "vdd.n292" "vdd.n290" 92.5
+resist "vdd.n308" "vdd.n292" 92.5
+resist "vdd.n303" "vdd.n296" 92.5
+resist "vdd.n296" "vdd.n253" 92.5
+resist "vdd.n251" "vdd.n249" 92.5
+resist "vdd.n322" "vdd.n251" 92.5
+resist "vdd.n258" "vdd.n256" 92.5
+resist "vdd.n256" "buffer_8/inv_0/XMp/B" 92.5
+resist "vdd.n258" "vdd.n257" 92.5
+resist "vdd.n257" "vdd.n255" 92.5
+resist "vdd.n268" "vdd.n262" 92.5
+resist "buffer_8/inv_1/XMp/B" "vdd.n268" 92.5
+resist "vdd.n269" "vdd.n262" 92.5
+resist "vdd.n274" "vdd.n269" 92.5
+resist "vdd.n196" "vdd.n195" 92.5
+resist "vdd.n198" "vdd.n196" 92.5
+resist "vdd.n197" "vdd.n195" 92.5
+resist "buffer_2/inv_0/XMp/B" "vdd.n197" 92.5
+resist "vdd.n199" "vdd.n185" 92.5
+resist "vdd.n201" "vdd.n199" 92.5
+resist "vdd.n200" "vdd.n185" 92.5
+resist "buffer_2/inv_1/XMp/B" "vdd.n200" 92.5
+resist "vdd.n349" "vdd.n227" 92.5
+resist "vdd.n242" "vdd.n227" 92.5
+resist "vdd.n345" "vdd.n344" 92.5
+resist "vdd.n344" "vdd.n343" 92.5
+resist "vdd.n337" "vdd.n328" 92.5
+resist "vdd.n328" "vdd.n237" 92.5
+resist "vdd.n338" "vdd.n337" 92.5
+resist "vdd.n338" "tmux_2to1_2/XM5/B" 92.5
+resist "vdd.n345" "vdd.n234" 92.5
+resist "tmux_2to1_2/XM3/B" "vdd.n234" 92.5
+resist "vdd.n349" "vdd.n183" 92.5
+resist "tmux_2to1_2/XM1/B" "vdd.n183" 92.5
+resist "vdd.n259" "vdd.n258" 92.5
+resist "vdd.n261" "vdd.n259" 92.5
+resist "vdd.n260" "vdd.n258" 92.5
+resist "buffer_9/inv_0/XMp/B" "vdd.n260" 92.5
+resist "vdd.n109" "vdd.n104" 92.5
+resist "vdd.n111" "vdd.n109" 92.5
+resist "vdd.n110" "vdd.n108" 92.5
+resist "buffer_6/inv_1/XMp/B" "vdd.n110" 92.5
+resist "vdd.n98" "vdd.n93" 92.5
+resist "buffer_5/inv_0/XMp/B" "vdd.n98" 92.5
+resist "vdd.n99" "vdd.n95" 92.5
+resist "vdd.n122" "vdd.n99" 92.5
+resist "vdd.n93" "vdd.n91" 92.5
+resist "vdd.n91" "buffer_5/inv_1/XMp/B" 92.5
+resist "vdd.n95" "vdd.n92" 92.5
+resist "vdd.n92" "vdd.n90" 92.5
+resist "vdd.n104" "vdd.n102" 92.5
+resist "vdd.n102" "vdd.n101" 92.5
+resist "vdd.n108" "vdd.n103" 92.5
+resist "vdd.n103" "buffer_6/inv_0/XMp/B" 92.5
+resist "vdd.n26" "vdd.n20" 92.5
+resist "vdd.n21" "vdd.n19" 92.5
+resist "buffer_7/inv_1/XMp/B" "vdd.n21" 92.5
+resist "vdd.n59" "vdd.n58" 92.5
+resist "vdd.n61" "vdd.n59" 92.5
+resist "buffer_0/inv_0/XMp/B" "vdd.n60" 92.5
+resist "vdd.n54" "vdd.n53" 92.5
+resist "vdd.n56" "vdd.n54" 92.5
+resist "vdd.n55" "vdd.n53" 92.5
+resist "buffer_0/inv_1/XMp/B" "vdd.n55" 92.5
+resist "vdd.n81" "vdd.n80" 92.5
+resist "vdd.n82" "vdd.n81" 92.5
+resist "vdd.n49" "vdd.n48" 92.5
+resist "vdd.n48" "vdd.n1" 92.5
+resist "vdd.n39" "vdd.n12" 92.5
+resist "vdd.n43" "vdd.n12" 92.5
+resist "vdd.n39" "vdd.n13" 92.5
+resist "vdd.n13" "tmux_2to1_0/XM5/B" 92.5
+resist "vdd.n50" "vdd.n49" 92.5
+resist "tmux_2to1_0/XM3/B" "vdd.n50" 92.5
+resist "vdd.n80" "vdd.n52" 92.5
+resist "vdd.n52" "tmux_2to1_0/XM1/B" 92.5
+resist "vdd.n15" "vdd.n14" 92.5
+resist "vdd.n18" "vdd.n15" 92.5
+resist "vdd.n16" "vdd.n14" 92.5
+resist "buffer_7/inv_0/XMp/B" "vdd.n16" 92.5
+resist "vdd.n73" "vdd.n72" 117.9
+resist "vdd.n33" "vdd.n32" 117.9
+resist "vdd.n79" "vdd.n78" 120.167
+resist "vdd.n341" "vdd.n246" 131.388
+resist "vdd.n342" "vdd.n341" 131.388
+resist "vdd.n245" "vdd.n240" 131.388
+resist "vdd.n241" "vdd.n240" 131.388
+resist "vdd.n307" "vdd.n306" 131.388
+resist "vdd.n306" "vdd.n293" 131.388
+resist "vdd.n321" "vdd.n252" 131.388
+resist "vdd.n301" "vdd.n252" 131.388
+resist "vdd.n333" "vdd.n332" 131.388
+resist "vdd.n332" "vdd.n230" 131.388
+resist "vdd.n352" "vdd.n178" 131.388
+resist "vdd.n347" "vdd.n178" 131.388
+resist "vdd.n45" "vdd.n9" 131.388
+resist "vdd.n45" "vdd.n44" 131.388
+resist "vdd.n51" "vdd.n2" 131.388
+resist "vdd.n83" "vdd.n2" 131.388
+resist "vdd.n68" "vdd.n67" 173.641
+resist "vdd.n28" "vdd.n27" 173.641
+resist "vdd.n72" "vdd.n58" 179.117
+resist "vdd.n73" "vdd.n53" 179.117
+resist "vdd.n78" "vdd.n53" 179.117
+resist "vdd.n80" "vdd.n79" 179.117
+resist "vdd.n80" "vdd.n6" 179.117
+resist "vdd.n49" "vdd.n6" 179.117
+resist "vdd.n49" "vdd.n11" 179.117
+resist "vdd.n39" "vdd.n11" 179.117
+resist "vdd.n40" "vdd.n39" 179.117
+resist "vdd.n38" "vdd.n14" 179.117
+resist "vdd.n33" "vdd.n14" 179.117
+resist "vdd.n32" "vdd.n19" 179.117
+resist "vdd.n156" "vdd.n131" 190.494
+resist "vdd.n161" "vdd.n160" 190.494
+resist "vdd.n171" "vdd.n170" 190.494
+resist "vdd.n164" "vdd.n143" 190.494
+resist "vdd.n280" "vdd.n266" 190.494
+resist "vdd.n288" "vdd.n254" 190.494
+resist "vdd.n203" "vdd.n189" 190.494
+resist "vdd.n212" "vdd.n190" 190.494
+resist "vdd.n273" "vdd.n270" 190.494
+resist "vdd.n315" "vdd.n314" 190.494
+resist "vdd.n221" "vdd.n188" 190.494
+resist "vdd.n217" "vdd.n216" 190.494
+resist "vdd.n113" "vdd.n88" 190.494
+resist "vdd.n118" "vdd.n117" 190.494
+resist "vdd.n128" "vdd.n127" 190.494
+resist "vdd.n121" "vdd.n100" 190.494
+resist "vdd.n30" "vdd.n25" 190.494
+resist "vdd.n36" "vdd.n17" 190.494
+resist "vdd.n75" "vdd.n57" 190.494
+resist "vdd.n69" "vdd.n66" 190.494
+resist "vdd.n155" "vdd.n154" 190.871
+resist "buffer_4/inv_1/XMp/B" "vdd.n155" 190.871
+resist "vdd.n156" "buffer_4/inv_1/XMp/B" 190.871
+resist "vdd.n160" "buffer_4/inv_0/XMp/B" 190.871
+resist "vdd.n149" "buffer_4/inv_0/XMp/B" 190.871
+resist "vdd.n149" "vdd.n144" 190.871
+resist "vdd.n139" "vdd.n133" 190.871
+resist "vdd.n170" "buffer_3/inv_1/XMp/B" 190.871
+resist "vdd.n139" "buffer_3/inv_1/XMp/B" 190.871
+resist "vdd.n166" "vdd.n165" 190.871
+resist "vdd.n143" "buffer_3/inv_0/XMp/B" 190.871
+resist "vdd.n166" "buffer_3/inv_0/XMp/B" 190.871
+resist "vdd.n279" "vdd.n267" 190.871
+resist "buffer_9/inv_1/XMp/B" "vdd.n279" 190.871
+resist "vdd.n280" "buffer_9/inv_1/XMp/B" 190.871
+resist "vdd.n288" "buffer_9/inv_0/XMp/B" 190.871
+resist "buffer_9/inv_0/XMp/B" "vdd.n287" 190.871
+resist "vdd.n287" "vdd.n261" 190.871
+resist "tmux_2to1_2/XM1/B" "vdd.n244" 190.871
+resist "vdd.n244" "vdd.n242" 190.871
+resist "tmux_2to1_2/XM5/B" "vdd.n248" 190.871
+resist "vdd.n248" "vdd.n237" 190.871
+resist "vdd.n203" "buffer_2/inv_1/XMp/B" 190.871
+resist "buffer_2/inv_1/XMp/B" "vdd.n202" 190.871
+resist "vdd.n202" "vdd.n201" 190.871
+resist "vdd.n212" "buffer_2/inv_0/XMp/B" 190.871
+resist "buffer_2/inv_0/XMp/B" "vdd.n211" 190.871
+resist "vdd.n211" "vdd.n198" 190.871
+resist "vdd.n275" "vdd.n274" 190.871
+resist "vdd.n270" "buffer_8/inv_1/XMp/B" 190.871
+resist "vdd.n275" "buffer_8/inv_1/XMp/B" 190.871
+resist "vdd.n283" "vdd.n255" 190.871
+resist "vdd.n314" "buffer_8/inv_0/XMp/B" 190.871
+resist "vdd.n283" "buffer_8/inv_0/XMp/B" 190.871
+resist "vdd.n323" "vdd.n322" 190.871
+resist "vdd.n323" "tmux_2to1_3/XM1/B" 190.871
+resist "vdd.n309" "vdd.n308" 190.871
+resist "vdd.n309" "tmux_2to1_3/XM5/B" 190.871
+resist "vdd.n351" "vdd.n179" 190.871
+resist "tmux_2to1_1/XM1/B" "vdd.n179" 190.871
+resist "vdd.n335" "vdd.n334" 190.871
+resist "tmux_2to1_1/XM5/B" "vdd.n335" 190.871
+resist "vdd.n223" "vdd.n222" 190.871
+resist "vdd.n188" "buffer_1/inv_1/XMp/B" 190.871
+resist "vdd.n223" "buffer_1/inv_1/XMp/B" 190.871
+resist "vdd.n207" "vdd.n192" 190.871
+resist "vdd.n216" "buffer_1/inv_0/XMp/B" 190.871
+resist "vdd.n207" "buffer_1/inv_0/XMp/B" 190.871
+resist "vdd.n112" "vdd.n111" 190.871
+resist "buffer_6/inv_1/XMp/B" "vdd.n112" 190.871
+resist "vdd.n113" "buffer_6/inv_1/XMp/B" 190.871
+resist "vdd.n117" "buffer_6/inv_0/XMp/B" 190.871
+resist "vdd.n106" "buffer_6/inv_0/XMp/B" 190.871
+resist "vdd.n106" "vdd.n101" 190.871
+resist "vdd.n96" "vdd.n90" 190.871
+resist "vdd.n127" "buffer_5/inv_1/XMp/B" 190.871
+resist "vdd.n96" "buffer_5/inv_1/XMp/B" 190.871
+resist "vdd.n123" "vdd.n122" 190.871
+resist "vdd.n100" "buffer_5/inv_0/XMp/B" 190.871
+resist "vdd.n123" "buffer_5/inv_0/XMp/B" 190.871
+resist "vdd.n29" "vdd.n26" 190.871
+resist "buffer_7/inv_1/XMp/B" "vdd.n29" 190.871
+resist "vdd.n30" "buffer_7/inv_1/XMp/B" 190.871
+resist "vdd.n36" "buffer_7/inv_0/XMp/B" 190.871
+resist "buffer_7/inv_0/XMp/B" "vdd.n35" 190.871
+resist "vdd.n35" "vdd.n18" 190.871
+resist "tmux_2to1_0/XM1/B" "vdd.n3" 190.871
+resist "vdd.n82" "vdd.n3" 190.871
+resist "vdd.n42" "tmux_2to1_0/XM5/B" 190.871
+resist "vdd.n43" "vdd.n42" 190.871
+resist "buffer_0/inv_1/XMp/B" "vdd.n75" 190.871
+resist "vdd.n76" "buffer_0/inv_1/XMp/B" 190.871
+resist "vdd.n76" "vdd.n56" 190.871
+resist "buffer_0/inv_0/XMp/B" "vdd.n69" 190.871
+resist "vdd.n70" "buffer_0/inv_0/XMp/B" 190.871
+resist "vdd.n70" "vdd.n61" 190.871
+resist "vdd.n238" "vdd.n183" 557.647
+resist "vdd.n238" "vdd.n234" 557.647
+resist "vdd.n339" "vdd.n234" 557.647
+resist "vdd.n339" "vdd.n338" 557.647
+resist "vdd.n236" "vdd.n227" 557.647
+resist "vdd.n344" "vdd.n236" 557.647
+resist "vdd.n344" "vdd.n235" 557.647
+resist "vdd.n328" "vdd.n235" 557.647
+resist "vdd.n298" "vdd.n251" 557.647
+resist "vdd.n298" "vdd.n296" 557.647
+resist "vdd.n296" "vdd.n295" 557.647
+resist "vdd.n295" "vdd.n292" 557.647
+resist "vdd.n300" "vdd.n250" 557.647
+resist "vdd.n302" "vdd.n300" 557.647
+resist "vdd.n302" "vdd.n294" 557.647
+resist "vdd.n294" "vdd.n291" 557.647
+resist "vdd.n350" "vdd.n180" 557.647
+resist "vdd.n233" "vdd.n180" 557.647
+resist "vdd.n330" "vdd.n233" 557.647
+resist "vdd.n330" "vdd.n327" 557.647
+resist "vdd.n348" "vdd.n229" 557.647
+resist "vdd.n346" "vdd.n229" 557.647
+resist "vdd.n346" "vdd.n231" 557.647
+resist "vdd.n336" "vdd.n231" 557.647
+resist "vdd.n52" "vdd.n8" 557.647
+resist "vdd.n50" "vdd.n8" 557.647
+resist "vdd.n50" "vdd.n10" 557.647
+resist "vdd.n13" "vdd.n10" 557.647
+resist "vdd.n81" "vdd.n4" 557.647
+resist "vdd.n48" "vdd.n4" 557.647
+resist "vdd.n48" "vdd.n47" 557.647
+resist "vdd.n47" "vdd.n12" 557.647
+resist "vdd.n340" "vdd.n339" 1231.76
+resist "vdd.n340" "vdd.n235" 1231.76
+resist "vdd.n239" "vdd.n238" 1231.76
+resist "vdd.n239" "vdd.n236" 1231.76
+resist "vdd.n305" "vdd.n295" 1231.76
+resist "vdd.n305" "vdd.n294" 1231.76
+resist "vdd.n299" "vdd.n298" 1231.76
+resist "vdd.n300" "vdd.n299" 1231.76
+resist "vdd.n331" "vdd.n330" 1231.76
+resist "vdd.n331" "vdd.n231" 1231.76
+resist "vdd.n228" "vdd.n180" 1231.76
+resist "vdd.n229" "vdd.n228" 1231.76
+resist "vdd.n46" "vdd.n10" 1231.76
+resist "vdd.n47" "vdd.n46" 1231.76
+resist "vdd.n8" "vdd.n7" 1231.76
+resist "vdd.n7" "vdd.n4" 1231.76
+resist "vdd.n40" "vdd.n38" 1315.04
+resist "vdd.n157" "vdd.n153" 1789.41
+resist "vdd.n153" "vdd.n148" 1789.41
+resist "vdd.n157" "vdd.n152" 1789.41
+resist "vdd.n152" "vdd.n148" 1789.41
+resist "vdd.n159" "vdd.n146" 1789.41
+resist "vdd.n150" "vdd.n146" 1789.41
+resist "vdd.n159" "vdd.n145" 1789.41
+resist "vdd.n150" "vdd.n145" 1789.41
+resist "vdd.n169" "vdd.n135" 1789.41
+resist "vdd.n140" "vdd.n135" 1789.41
+resist "vdd.n169" "vdd.n134" 1789.41
+resist "vdd.n140" "vdd.n134" 1789.41
+resist "vdd.n142" "vdd.n137" 1789.41
+resist "vdd.n167" "vdd.n142" 1789.41
+resist "vdd.n141" "vdd.n137" 1789.41
+resist "vdd.n167" "vdd.n141" 1789.41
+resist "vdd.n281" "vdd.n265" 1789.41
+resist "vdd.n278" "vdd.n265" 1789.41
+resist "vdd.n281" "vdd.n264" 1789.41
+resist "vdd.n278" "vdd.n264" 1789.41
+resist "vdd.n289" "vdd.n260" 1789.41
+resist "vdd.n286" "vdd.n260" 1789.41
+resist "vdd.n289" "vdd.n259" 1789.41
+resist "vdd.n286" "vdd.n259" 1789.41
+resist "vdd.n243" "vdd.n183" 1789.41
+resist "vdd.n243" "vdd.n227" 1789.41
+resist "vdd.n338" "vdd.n247" 1789.41
+resist "vdd.n328" "vdd.n247" 1789.41
+resist "vdd.n204" "vdd.n200" 1789.41
+resist "vdd.n200" "vdd.n184" 1789.41
+resist "vdd.n204" "vdd.n199" 1789.41
+resist "vdd.n199" "vdd.n184" 1789.41
+resist "vdd.n213" "vdd.n197" 1789.41
+resist "vdd.n210" "vdd.n197" 1789.41
+resist "vdd.n213" "vdd.n196" 1789.41
+resist "vdd.n210" "vdd.n196" 1789.41
+resist "vdd.n269" "vdd.n263" 1789.41
+resist "vdd.n276" "vdd.n269" 1789.41
+resist "vdd.n268" "vdd.n263" 1789.41
+resist "vdd.n276" "vdd.n268" 1789.41
+resist "vdd.n313" "vdd.n257" 1789.41
+resist "vdd.n284" "vdd.n257" 1789.41
+resist "vdd.n313" "vdd.n256" 1789.41
+resist "vdd.n284" "vdd.n256" 1789.41
+resist "vdd.n324" "vdd.n251" 1789.41
+resist "vdd.n324" "vdd.n250" 1789.41
+resist "vdd.n310" "vdd.n292" 1789.41
+resist "vdd.n310" "vdd.n291" 1789.41
+resist "vdd.n350" "vdd.n181" 1789.41
+resist "vdd.n348" "vdd.n181" 1789.41
+resist "vdd.n329" "vdd.n327" 1789.41
+resist "vdd.n336" "vdd.n329" 1789.41
+resist "vdd.n205" "vdd.n187" 1789.41
+resist "vdd.n224" "vdd.n187" 1789.41
+resist "vdd.n205" "vdd.n186" 1789.41
+resist "vdd.n224" "vdd.n186" 1789.41
+resist "vdd.n215" "vdd.n194" 1789.41
+resist "vdd.n208" "vdd.n194" 1789.41
+resist "vdd.n215" "vdd.n193" 1789.41
+resist "vdd.n208" "vdd.n193" 1789.41
+resist "vdd.n114" "vdd.n110" 1789.41
+resist "vdd.n110" "vdd.n105" 1789.41
+resist "vdd.n114" "vdd.n109" 1789.41
+resist "vdd.n109" "vdd.n105" 1789.41
+resist "vdd.n116" "vdd.n103" 1789.41
+resist "vdd.n107" "vdd.n103" 1789.41
+resist "vdd.n116" "vdd.n102" 1789.41
+resist "vdd.n107" "vdd.n102" 1789.41
+resist "vdd.n126" "vdd.n92" 1789.41
+resist "vdd.n97" "vdd.n92" 1789.41
+resist "vdd.n126" "vdd.n91" 1789.41
+resist "vdd.n97" "vdd.n91" 1789.41
+resist "vdd.n99" "vdd.n94" 1789.41
+resist "vdd.n124" "vdd.n99" 1789.41
+resist "vdd.n98" "vdd.n94" 1789.41
+resist "vdd.n124" "vdd.n98" 1789.41
+resist "vdd.n31" "vdd.n21" 1789.41
+resist "vdd.n28" "vdd.n21" 1789.41
+resist "vdd.n31" "vdd.n20" 1789.41
+resist "vdd.n37" "vdd.n16" 1789.41
+resist "vdd.n34" "vdd.n16" 1789.41
+resist "vdd.n37" "vdd.n15" 1789.41
+resist "vdd.n34" "vdd.n15" 1789.41
+resist "vdd.n52" "vdd.n5" 1789.41
+resist "vdd.n81" "vdd.n5" 1789.41
+resist "vdd.n41" "vdd.n13" 1789.41
+resist "vdd.n41" "vdd.n12" 1789.41
+resist "vdd.n74" "vdd.n55" 1789.41
+resist "vdd.n77" "vdd.n55" 1789.41
+resist "vdd.n74" "vdd.n54" 1789.41
+resist "vdd.n77" "vdd.n54" 1789.41
+resist "vdd.n71" "vdd.n60" 1789.41
+resist "vdd.n68" "vdd.n59" 1789.41
+resist "vdd.n71" "vdd.n59" 1789.41
+device msubckt sky130_fd_pr__pfet_01v8 154 -7907 155 -7906  "vdd" "d6.t1" 60 0 "vdd" 400 23200,916 "buffer_6/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 -8536 155 -8535  "vss" "d6.t0" 60 0 "vss" 200 11600,516 "buffer_6/inv_1/vin" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 154 -7069 155 -7068  "vdd" "d5.t1" 60 0 "vdd" 400 23200,916 "buffer_5/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 -6240 155 -6239  "vss" "d5.t0" 60 0 "vss" 200 11600,516 "buffer_5/inv_1/vin" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 154 -4991 155 -4990  "vdd" "d4.t1" 60 0 "vdd" 400 23200,916 "buffer_4/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 -5620 155 -5619  "vss" "d4.t0" 60 0 "vss" 200 11600,516 "buffer_4/inv_1/vin" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 154 -4153 155 -4152  "vdd" "d3.t1" 60 0 "vdd" 400 23200,916 "buffer_3/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 -3324 155 -3323  "vss" "d3.t0" 60 0 "vss" 200 11600,516 "buffer_3/inv_1/vin" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 154 -2075 155 -2074  "vdd" "d2.t1" 60 0 "vdd" 400 23200,916 "buffer_2/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 -2704 155 -2703  "vss" "d2.t0" 60 0 "vss" 200 11600,516 "buffer_2/inv_1/vin" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 154 -1237 155 -1236  "vdd" "d1.t1" 60 0 "vdd" 400 23200,916 "buffer_1/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 -408 155 -407  "vss" "d1.t0" 60 0 "vss" 200 11600,516 "buffer_1/inv_1/vin" 200 11600,516
+device msubckt sky130_fd_pr__pfet_01v8 154 841 155 842  "vdd" "d0.t1" 60 0 "vdd" 400 23200,916 "buffer_0/inv_1/vin" 400 23200,916
+device msubckt sky130_fd_pr__nfet_01v8 154 212 155 213  "vss" "d0.t0" 60 0 "vss" 200 11600,516 "buffer_0/inv_1/vin" 200 11600,516

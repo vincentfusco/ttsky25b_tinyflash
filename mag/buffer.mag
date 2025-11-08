@@ -1,0 +1,27 @@
+magic
+tech sky130A
+timestamp 1762110336
+<< metal1 >>
+rect -110 699 311 739
+rect -90 300 -50 340
+rect 80 300 120 340
+rect 260 300 300 340
+rect -110 10 311 50
+use inv  inv_0
+timestamp 1762110229
+transform 1 0 -100 0 1 30
+box -10 -20 201 709
+use inv  inv_1
+timestamp 1762110229
+transform 1 0 110 0 1 30
+box -10 -20 201 709
+<< labels >>
+flabel metal1 -90 300 -50 340 0 FreeSans 600 0 0 0 in
+port 0 nsew
+flabel metal1 260 300 300 340 0 FreeSans 600 0 0 0 out
+port 1 nsew
+flabel metal1 -110 700 310 739 0 FreeSans 600 0 0 0 vdd
+port 2 nsew
+flabel metal1 -110 10 310 50 0 FreeSans 600 0 0 0 vss
+port 3 nsew
+<< end >>

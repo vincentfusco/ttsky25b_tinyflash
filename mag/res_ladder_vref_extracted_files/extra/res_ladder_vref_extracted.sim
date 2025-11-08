@@ -1,0 +1,69 @@
+| units: 500000 tech: sky130A format: MIT
+x XR1/a_n573_n557# ref6 vref vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=9752 sky130_fd_pr__res_xhigh_po_5p73
+x XR2/a_n573_n557# ref6 vref vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=8380 sky130_fd_pr__res_xhigh_po_5p73
+x XR10/a_n573_n557# ref0 vss vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=-2596 sky130_fd_pr__res_xhigh_po_5p73
+x XR3/a_n573_n557# ref6 ref5 vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=7008 sky130_fd_pr__res_xhigh_po_5p73
+x XR4/a_n573_n557# ref4 ref5 vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=5636 sky130_fd_pr__res_xhigh_po_5p73
+x XR5/a_n573_n557# ref4 ref3 vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=4264 sky130_fd_pr__res_xhigh_po_5p73
+x XR6/a_n573_n557# ref2 ref3 vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=2892 sky130_fd_pr__res_xhigh_po_5p73
+x XR7/a_n573_n557# ref2 ref1 vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=1520 sky130_fd_pr__res_xhigh_po_5p73
+x XR8/a_n573_n557# ref0 ref1 vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=148 sky130_fd_pr__res_xhigh_po_5p73
+x XR9/a_n573_n557# ref0 vss vss s=495072,3156 d=495072,3156 l=1114 w=0 x=1697 y=-1224 sky130_fd_pr__res_xhigh_po_5p73
+C ref00 5.5
+R ref0 361
+= ref0 XR8/R1
+= ref0 XR10/R1
+= ref0 XR9/R1
+R vss 304997
+= vss XR1/B
+= vss XR2/B
+= vss XR3/B
+= vss XR4/B
+= vss XR5/B
+= vss XR6/B
+= vss XR7/B
+= vss XR8/B
+= vss XR10/R2
+= vss XR10/B
+= vss XR9/R2
+= vss VSUBS
+= vss XR9/B
+R XR9/a_n573_n557# 2057
+C ref10 3.5
+R ref1 232
+= ref1 XR7/R2
+= ref1 XR8/R2
+R XR8/a_n573_n557# 2057
+C ref20 3.4
+R ref2 232
+= ref2 XR6/R1
+= ref2 XR7/R1
+R XR7/a_n573_n557# 2057
+C ref30 3.4
+R ref3 232
+= ref3 XR5/R2
+= ref3 XR6/R2
+R XR6/a_n573_n557# 2057
+C ref40 3.4
+R ref4 232
+= ref4 XR4/R1
+= ref4 XR5/R1
+R XR5/a_n573_n557# 2057
+C ref50 3.4
+R ref5 232
+= ref5 XR3/R2
+= ref5 XR4/R2
+R XR4/a_n573_n557# 2057
+C ref60 5.2
+R ref6 361
+= ref6 XR1/R1
+= ref6 XR2/R1
+= ref6 XR3/R1
+R XR3/a_n573_n557# 2057
+R XR10/a_n573_n557# 2057
+C vref0 4.6
+R vref 233
+= vref XR1/R2
+= vref XR2/R2
+R XR2/a_n573_n557# 2057
+R XR1/a_n573_n557# 2057

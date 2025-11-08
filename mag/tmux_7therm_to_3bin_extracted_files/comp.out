@@ -1,0 +1,132 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__pfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__pfet_01v8         |Circuit 2: sky130_fd_pr__pfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_MH3LLV in circuit inv (0)(1 instance)
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_A6MZLZ in circuit inv (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: inv                             |Circuit 2: inv                             
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: inv                             |Circuit 2: inv                             
+-------------------------------------------|-------------------------------------------
+vout                                       |vout                                       
+vin                                        |vin                                        
+vss                                        |vss                                        
+vdd                                        |vdd                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes inv and inv are equivalent.
+Flattening unmatched subcell sky130_fd_pr__pfet_01v8_A6MZLZ in circuit tmux_2to1 (0)(3 instances)
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_MH3LLV in circuit tmux_2to1 (0)(3 instances)
+
+Subcircuit summary:
+Circuit 1: tmux_2to1                       |Circuit 2: tmux_2to1                       
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__pfet_01v8 (3)                |sky130_fd_pr__pfet_01v8 (3)                
+sky130_fd_pr__nfet_01v8 (3)                |sky130_fd_pr__nfet_01v8 (3)                
+Number of devices: 6                       |Number of devices: 6                       
+Number of nets: 7                          |Number of nets: 7                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tmux_2to1                       |Circuit 2: tmux_2to1                       
+-------------------------------------------|-------------------------------------------
+B                                          |B                                          
+A                                          |A                                          
+S                                          |S                                          
+vdd                                        |vdd                                        
+vss                                        |vss                                        
+Y                                          |Y                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tmux_2to1 and tmux_2to1 are equivalent.
+
+Subcircuit summary:
+Circuit 1: buffer                          |Circuit 2: buffer                          
+-------------------------------------------|-------------------------------------------
+inv (2)                                    |inv (2)                                    
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 5                          |Number of nets: 5                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: buffer                          |Circuit 2: buffer                          
+-------------------------------------------|-------------------------------------------
+vdd                                        |vdd                                        
+vss                                        |vss                                        
+in                                         |in                                         
+out                                        |out                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes buffer and buffer are equivalent.
+Flattening unmatched subcell sky130_fd_pr__res_generic_m1_SPQYYJ in circuit tmux_7therm_to_3bin_lvs (0)(1 instance)
+
+Subcircuit summary:
+Circuit 1: tmux_7therm_to_3bin_lvs         |Circuit 2: tmux_7therm_to_3bin             
+-------------------------------------------|-------------------------------------------
+tmux_2to1 (4)                              |tmux_2to1 (4)                              
+sky130_fd_pr__res_generic_m1 (1)           |sky130_fd_pr__res_generic_m1 (1)           
+buffer (10)                                |buffer (10)                                
+Number of devices: 15                      |Number of devices: 15                      
+Number of nets: 24                         |Number of nets: 24                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: tmux_7therm_to_3bin_lvs         |Circuit 2: tmux_7therm_to_3bin             
+-------------------------------------------|-------------------------------------------
+d5                                         |d5                                         
+d4                                         |d4                                         
+d6                                         |d6                                         
+d3                                         |d3                                         
+d1                                         |d1                                         
+d0                                         |d0                                         
+d2                                         |d2                                         
+q0                                         |q0                                         
+q1                                         |q1                                         
+q2                                         |q2                                         
+vdd                                        |vdd                                        
+vss                                        |vss                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes tmux_7therm_to_3bin_lvs and tmux_7therm_to_3bin are equivalent.
+
+Final result: Circuits match uniquely.
+.

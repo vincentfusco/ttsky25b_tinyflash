@@ -1,0 +1,16 @@
+** sch_path: /home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sch
+.subckt vbias_generation bias_n bias_p vdd vss
+*.opin bias_p
+*.iopin vdd
+*.iopin vss
+*.opin bias_n
+XR_bias_1 bias_1 bias_p vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+XMn_bias bias_n bias_n vss vss sky130_fd_pr__nfet_01v8_lvt L=1 W=5 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XMp_bias bias_p bias_p vdd vdd sky130_fd_pr__pfet_01v8_lvt L=1 W=10 nf=1 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
++ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XR_bias_2 bias_2 bias_1 vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+XR_bias_3 bias_3 bias_2 vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+XR_bias_4 bias_n bias_3 vss sky130_fd_pr__res_xhigh_po_1p41 L=7 mult=1 m=1
+**.ends
+.end

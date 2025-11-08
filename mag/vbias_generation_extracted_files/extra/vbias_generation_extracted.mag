@@ -1,0 +1,67 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1762138715
+<< nwell >>
+rect -284 3674 2280 4266
+<< pwell >>
+rect 1136 962 2280 1554
+<< locali >>
+rect -224 1496 1068 1596
+<< viali >>
+rect -192 4196 2138 4234
+rect -212 990 1072 1032
+<< metal1 >>
+rect -284 4234 2280 4266
+rect -284 4196 -192 4234
+rect 2138 4196 2280 4234
+rect -284 4176 2280 4196
+rect -4 4076 1978 4176
+rect -118 3858 -48 4070
+rect 2016 3870 2170 4070
+rect -118 3226 314 3858
+rect -118 2210 314 3000
+rect 1682 2718 2114 3508
+rect -162 1368 314 1984
+rect 1682 1702 2114 2492
+rect -162 1158 -102 1368
+rect 958 1158 1136 1358
+rect -62 1052 914 1152
+rect -282 1032 1136 1052
+rect -282 990 -212 1032
+rect 1072 990 1136 1032
+rect -282 962 1136 990
+use sky130_fd_pr__nfet_01v8_lvt_ELBHUY  XMn_bias
+timestamp 1762137849
+transform 0 1 426 -1 0 1258
+box -296 -710 296 710
+use sky130_fd_pr__pfet_01v8_lvt_VTBKAA  XMp_bias
+timestamp 1762137849
+transform 0 -1 987 1 0 3970
+box -296 -1219 296 1219
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_1
+timestamp 1762137849
+transform 0 1 998 -1 0 3367
+box -307 -1282 307 1282
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_2
+timestamp 1762137849
+transform 0 -1 998 1 0 2859
+box -307 -1282 307 1282
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_3
+timestamp 1762137849
+transform 0 1 998 -1 0 2351
+box -307 -1282 307 1282
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9  XR_bias_4
+timestamp 1762137849
+transform 0 1 998 -1 0 1843
+box -307 -1282 307 1282
+<< labels >>
+rlabel metal1 958 1158 1136 1358 1 bias_n
+port 0 n
+rlabel metal1 -284 4234 2280 4266 1 vdd
+port 2 n
+rlabel metal1 -282 962 1136 990 1 vss
+port 3 n
+rlabel metal1 2016 3870 2170 4070 1 bias_p
+port 1 n
+<< end >>

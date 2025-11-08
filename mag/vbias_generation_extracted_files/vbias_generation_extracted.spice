@@ -1,0 +1,232 @@
+* NGSPICE file created from vbias_generation_extracted.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 B R1 R2
+X0 R1 R2 B sky130_fd_pr__res_xhigh_po_1p41 l=7
+C0 R2 R1 0.01325f
+C1 R2 B 0.82332f
+C2 R1 B 0.82332f
+.ends
+
+.subckt sky130_fd_pr__nfet_01v8_lvt_ELBHUY B D S G
+X0 S G D B sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=5 l=1
+C0 S G 0.11229f
+C1 S D 0.27388f
+C2 G D 0.11229f
+C3 S B 0.59197f
+C4 D B 0.59197f
+C5 G B 0.75059f
+.ends
+
+.subckt sky130_fd_pr__pfet_01v8_lvt_VTBKAA B D S G VSUBS
+X0 S G D B sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=10 l=1
+C0 S B 0.634f
+C1 D B 0.634f
+C2 S G 0.21915f
+C3 D G 0.21915f
+C4 S D 0.54671f
+C5 B G 0.43443f
+C6 S VSUBS 0.51455f
+C7 D VSUBS 0.51455f
+C8 G VSUBS 0.36418f
+C9 B VSUBS 5.72384f
+.ends
+
+.subckt vbias_generation_extracted bias_n bias_p vdd vss
+XXR_bias_1 vss XR_bias_2/R2 bias_p sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_2 vss XR_bias_3/R2 XR_bias_2/R2 sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_3 vss XR_bias_4/R1 XR_bias_3/R2 sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXR_bias_4 vss XR_bias_4/R1 bias_n sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9
+XXMn_bias vss bias_n vss bias_n sky130_fd_pr__nfet_01v8_lvt_ELBHUY
+XXMp_bias vdd bias_p vdd bias_p vss sky130_fd_pr__pfet_01v8_lvt_VTBKAA
+X0 vss bias_n.t0 bias_n.t1 vss sky130_fd_pr__nfet_01v8_lvt ad=1.45 pd=10.58 as=1.45 ps=10.58 w=0 l=0
+X1 vdd bias_p.t0 bias_p.t1 vdd sky130_fd_pr__pfet_01v8_lvt ad=2.9 pd=20.58 as=2.9 ps=20.58 w=0 l=0
+R0 bias_p.n1 bias_p.t0 337.075
+R1 bias_p.t0 bias_p 332.425
+R2 bias_p bias_p.t1 23.0294
+R3 bias_p.n0 bias_p 8.6705
+R4 bias_p bias_p.n0 5.22669
+R5 bias_p.n0 bias_p 2.28805
+R6 bias_p bias_p.n1 0.0816688
+R7 bias_p.n1 bias_p 0.0816688
+R8 vss.n43 vss.n7 8494.18
+R9 vss.n45 vss.n7 8494.18
+R10 vss.n27 vss.n23 8494.18
+R11 vss.n10 vss.n9 7120.97
+R12 vss.n10 vss.n6 7120.97
+R13 vss.n16 vss.n13 7120.97
+R14 vss.n16 vss.n15 7120.97
+R15 vss.n29 vss.n21 7120.97
+R16 vss.n29 vss.n19 7120.97
+R17 vss.n49 vss.n1 5116.21
+R18 vss.n49 vss.n2 5116.21
+R19 vss.n53 vss.n1 5116.21
+R20 vss.n43 vss.n9 1373.21
+R21 vss.n37 vss.n15 1373.21
+R22 vss.n37 vss.n6 1373.21
+R23 vss.n45 vss.n6 1373.21
+R24 vss.n32 vss.n21 1373.21
+R25 vss.n32 vss.n13 1373.21
+R26 vss.n39 vss.n13 1373.21
+R27 vss.n39 vss.n9 1373.21
+R28 vss.n27 vss.n21 1373.21
+R29 vss.n24 vss.n19 1373.21
+R30 vss.n34 vss.n19 1373.21
+R31 vss.n34 vss.n15 1373.21
+R32 vss.n55 vss.n0 705.365
+R33 vss.n48 vss.n0 599.019
+R34 vss.n42 vss.n4 551.907
+R35 vss.n28 vss.n22 551.907
+R36 vss vss.n22 551.907
+R37 vss.n41 vss.n11 462.683
+R38 vss.n11 vss.n5 462.683
+R39 vss.n17 vss.n12 462.683
+R40 vss.n36 vss.n17 462.683
+R41 vss.n31 vss.n30 462.683
+R42 vss.n30 vss.n18 462.683
+R43 vss.n26 vss.n20 435.882
+R44 vss.n33 vss.n20 435.882
+R45 vss.n33 vss.n14 435.882
+R46 vss.n38 vss.n14 435.882
+R47 vss.n38 vss.n8 435.882
+R48 vss.n44 vss.n8 435.882
+R49 vss.n44 vss.n3 435.882
+R50 vss.n25 vss.n23 424.591
+R51 vss.n51 vss.n50 417.005
+R52 vss.n53 vss.n52 406.279
+R53 vss.n47 vss 335.06
+R54 vss.n46 vss 289.281
+R55 vss.n54 vss 285.604
+R56 vss.n47 vss.n4 216.847
+R57 vss.n50 vss.n3 151.014
+R58 vss.n46 vss 130.327
+R59 vss.n1 vss.n0 117.272
+R60 vss.n24 vss 117.001
+R61 vss.n35 vss.n34 117.001
+R62 vss.n34 vss.n33 117.001
+R63 vss.n37 vss 117.001
+R64 vss.n38 vss.n37 117.001
+R65 vss vss.n45 117.001
+R66 vss.n45 vss.n44 117.001
+R67 vss.n43 vss.n42 117.001
+R68 vss.n44 vss.n43 117.001
+R69 vss.n40 vss.n39 117.001
+R70 vss.n39 vss.n38 117.001
+R71 vss.n32 vss 117.001
+R72 vss.n33 vss.n32 117.001
+R73 vss.n28 vss.n27 117.001
+R74 vss.n27 vss.n26 117.001
+R75 vss.n51 vss.n1 117.001
+R76 vss.n2 vss 117.001
+R77 vss.n25 vss.n24 109.642
+R78 vss.n52 vss.n2 105.302
+R79 vss.n47 vss.n46 93.2369
+R80 vss.n42 vss.n41 89.224
+R81 vss vss.n36 89.224
+R82 vss vss.n5 89.224
+R83 vss vss.n5 89.224
+R84 vss vss.n31 89.224
+R85 vss vss.n12 89.224
+R86 vss.n40 vss.n12 89.224
+R87 vss.n41 vss.n40 89.224
+R88 vss.n31 vss.n28 89.224
+R89 vss vss.n18 89.224
+R90 vss.n35 vss.n18 89.224
+R91 vss.n36 vss.n35 89.224
+R92 vss.n49 vss.n48 34.4123
+R93 vss.n50 vss.n49 34.4123
+R94 vss.n54 vss.n53 34.4123
+R95 vss.n30 vss.n29 17.2064
+R96 vss.n29 vss.n20 17.2064
+R97 vss.n17 vss.n16 17.2064
+R98 vss.n16 vss.n14 17.2064
+R99 vss.n11 vss.n10 17.2064
+R100 vss.n10 vss.n8 17.2064
+R101 vss.n7 vss.n4 17.2064
+R102 vss.n7 vss.n3 17.2064
+R103 vss.n23 vss.n22 17.2064
+R104 vss.n52 vss.n51 9.29198
+R105 vss.n26 vss.n25 5.84938
+R106 vss.n55 vss.n54 1.21955
+R107 vss.n56 vss 0.99531
+R108 vss vss.n58 0.679667
+R109 vss.n57 vss 0.664786
+R110 vss.n48 vss.n47 0.582318
+R111 vss.n56 vss.n55 0.517167
+R112 vss.n58 vss.n57 0.321553
+R113 vss.n58 vss 0.306056
+R114 vss.n58 vss 0.145237
+R115 vss vss.n56 0.00247368
+R116 vss.n57 vss 0.00115789
+R117 bias_n.t0 bias_n.n0 215.072
+R118 bias_n bias_n.t0 209.756
+R119 bias_n bias_n.t1 16.6948
+R120 bias_n.n0 bias_n 8.6574
+R121 bias_n.n1 bias_n 4.6505
+R122 bias_n.n0 bias_n 1.06224
+R123 bias_n bias_n.n1 0.0707247
+R124 bias_n.n1 bias_n 0.0707247
+R125 vdd.n8 vdd.n7 4912.94
+R126 vdd.n10 vdd.n3 4912.94
+R127 vdd vdd.n5 1446.4
+R128 vdd vdd.n6 1446.4
+R129 vdd.n7 vdd.n4 1373.18
+R130 vdd.n10 vdd.n9 1373.18
+R131 vdd.n11 vdd.n2 524.069
+R132 vdd.n12 vdd.n11 473.219
+R133 vdd.n6 vdd.n2 432.942
+R134 vdd.n5 vdd.n1 387.368
+R135 vdd vdd.n6 97.577
+R136 vdd vdd.n5 97.5373
+R137 vdd.n7 vdd 37.0005
+R138 vdd.n11 vdd.n10 37.0005
+R139 vdd.n3 vdd.n2 5.78175
+R140 vdd.n8 vdd.n1 5.78175
+R141 vdd.n12 vdd.n1 4.71629
+R142 vdd.n9 vdd.n8 4.16148
+R143 vdd.n4 vdd.n3 4.16148
+R144 vdd.n9 vdd.n4 3.23324
+R145 vdd vdd.n14 1.39217
+R146 vdd.n14 vdd.n13 0.643263
+R147 vdd.n14 vdd 0.389389
+R148 vdd.n0 vdd 0.344944
+R149 vdd.n13 vdd.n12 0.291125
+R150 vdd.n14 vdd 0.184711
+R151 vdd.n13 vdd.n0 0.00971053
+R152 vdd.n0 vdd 0.00773684
+C0 vdd bias_p 0.23727f
+C1 XR_bias_4/R1 XR_bias_3/R2 0
+C2 XR_bias_2/R2 XR_bias_3/R2 0
+C3 XR_bias_2/R2 XR_bias_4/R1 0.06887f
+C4 bias_p XR_bias_3/R2 0.06932f
+C5 bias_n XR_bias_3/R2 0.06908f
+C6 bias_n XR_bias_4/R1 0
+C7 bias_p XR_bias_4/R1 0
+C8 bias_p XR_bias_2/R2 0.05112f
+C9 vdd XR_bias_2/R2 0.01866f
+C10 vdd.n0 vss 0.00218f
+C11 vdd.n1 vss 0.02027f
+C12 vdd.n2 vss 0.0397f
+C13 vdd.n3 vss 0.04356f
+C14 vdd.n4 vss 0.32374f
+C15 vdd.n5 vss 0.02432f
+C16 vdd.n6 vss 0.02221f
+C17 vdd.n7 vss 0.4221f
+C18 vdd.n8 vss 0.04356f
+C19 vdd.n9 vss 0.32374f
+C20 vdd.n10 vss 0.41039f
+C21 vdd.n11 vss 0.04547f
+C22 vdd.n12 vss 0.02466f
+C23 vdd.n13 vss 0.0863f
+C24 vdd.n14 vss 0.16197f
+C25 bias_p.t1 vss 0.17289f
+C26 bias_p.n0 vss 0.82996f
+C27 bias_p.t0 vss 0.43674f
+C28 bias_p.n1 vss 0.17759f
+C29 vdd vss 6.89783f
+C30 bias_n vss 2.49607f
+C31 XR_bias_4/R1 vss 1.63605f
+C32 XR_bias_3/R2 vss 1.57785f
+C33 XR_bias_2/R2 vss 1.57097f
+C34 bias_p vss 2.12604f
+.ends
+

@@ -1,0 +1,47 @@
+| units: 500000 tech: sky130A format: MIT
+x XR_bias_1/a_n141_n684# XR_bias_2/R2 bias_p vss s=121824,1428 d=121824,1428 l=1368 w=0 x=315 y=3506 sky130_fd_pr__res_xhigh_po_1p41
+x XR_bias_2/a_n141_n684# XR_bias_3/R2 XR_bias_2/R2 vss s=121824,1428 d=121824,1428 l=1368 w=0 x=1680 y=2719 sky130_fd_pr__res_xhigh_po_1p41
+x XR_bias_3/a_n141_n684# XR_bias_4/R1 XR_bias_3/R2 vss s=121824,1428 d=121824,1428 l=1368 w=0 x=315 y=2490 sky130_fd_pr__res_xhigh_po_1p41
+x XR_bias_4/a_n141_n684# XR_bias_4/R1 bias_n vss s=121824,1428 d=121824,1428 l=1368 w=0 x=315 y=1982 sky130_fd_pr__res_xhigh_po_1p41
+x bias_n bias_n vss vss s=58000,2116 d=58000,2116 l=200 w=1000 x=-73 y=1356 sky130_fd_pr__nfet_01v8_lvt
+x bias_p bias_p vdd vdd s=116000,4116 d=116000,4116 l=200 w=2000 x=1985 y=3871 sky130_fd_pr__pfet_01v8_lvt
+C vdd bias_p 2.1
+C vdd0 6.8
+R vdd 33343
+= vdd XMp_bias/S
+= vdd XMp_bias/B
+= vdd w_n284_3674#
+R vss 121707
+= vss XMn_bias/S
+= vss XMn_bias/B
+= vss VSUBS
+= vss XMp_bias/VSUBS
+= vss XR_bias_1/B
+= vss XR_bias_2/B
+= vss XR_bias_3/B
+= vss XR_bias_4/B
+= vss li_n224_1496#
+C bias_n0 2.9
+R bias_n 2707
+= bias_n XMn_bias/G
+= bias_n XMn_bias/D
+= bias_n XR_bias_4/R2
+= bias_n m1_n162_1158#
+R XR_bias_4/R1 188
+= XR_bias_4/R1 XR_bias_3/R1
+= XR_bias_4/R1 m1_1682_1702#
+R XR_bias_4/a_n141_n684# 9702
+R XR_bias_3/R2 188
+= XR_bias_3/R2 XR_bias_2/R1
+= XR_bias_3/R2 m1_n118_2210#
+R XR_bias_3/a_n141_n684# 9702
+R XR_bias_2/R2 188
+= XR_bias_2/R2 XR_bias_1/R1
+= XR_bias_2/R2 m1_1682_2718#
+R XR_bias_2/a_n141_n684# 9702
+R bias_p 7909
+= bias_p XMp_bias/D
+= bias_p XMp_bias/G
+= bias_p XR_bias_1/R2
+= bias_p m1_n118_3226#
+R XR_bias_1/a_n141_n684# 9702

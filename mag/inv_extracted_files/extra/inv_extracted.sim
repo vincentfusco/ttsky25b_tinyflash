@@ -1,0 +1,19 @@
+| units: 500000 tech: sky130A format: MIT
+x vin vss vout vss s=11600,516 d=11600,516 l=30 w=200 x=177 y=171 sky130_fd_pr__nfet_01v8
+x vin vdd vout vdd s=23200,916 d=23200,916 l=30 w=400 x=177 y=800 sky130_fd_pr__pfet_01v8
+R vin 1827
+= vin XMn/G
+= vin m1_160_80#
+= vin XMp/G
+= vin m1_160_1240#
+R vout 2034
+= vout XMn/S
+= vout XMp/S
+R vdd 11321
+= vdd XMp/D
+= vdd XMp/B
+R vss 10320
+= vss XMn/D
+= vss XMp/VSUBS
+= vss VSUBS
+= vss XMn/B

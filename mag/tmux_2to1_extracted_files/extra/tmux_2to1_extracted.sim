@@ -1,0 +1,49 @@
+| units: 500000 tech: sky130A format: MIT
+x S vdd XM5/G vdd s=23200,916 d=23200,916 l=30 w=400 x=283 y=254 sky130_fd_pr__pfet_01v8
+x S vss XM5/G vss s=11600,516 d=11600,516 l=30 w=200 x=283 y=-375 sky130_fd_pr__nfet_01v8
+x S A Y vdd s=23200,916 d=23200,916 l=30 w=400 x=599 y=254 sky130_fd_pr__pfet_01v8
+x XM5/G A Y vss s=11600,516 d=11600,516 l=30 w=200 x=599 y=-375 sky130_fd_pr__nfet_01v8
+x XM5/G Y B vdd s=23200,916 d=23200,916 l=30 w=400 x=915 y=254 sky130_fd_pr__pfet_01v8
+x S Y B vss s=11600,516 d=11600,516 l=30 w=200 x=915 y=-375 sky130_fd_pr__nfet_01v8
+R S 3780
+= S XM1/G
+= S XM3/G
+= S m1_580_156#
+= S m1_264_694#
+= S XM2/G
+= S XM6/G
+= S m1_896_n140#
+= S m1_244_n476#
+R XM5/G 3877
+= XM5/G XM1/S
+= XM5/G XM2/S
+= XM5/G XM4/G
+= XM5/G m1_580_n464#
+= XM5/G m1_896_696#
+= XM5/G m1_324_n364#
+R vss 23099
+= vss XM1/VSUBS
+= vss XM2/D
+= vss XM2/B
+= vss XM3/VSUBS
+= vss XM4/B
+= vss XM5/VSUBS
+= vss XM6/B
+= vss VSUBS
+R B 2034
+= B XM5/S
+= B XM6/S
+R Y 4828
+= Y XM3/S
+= Y XM4/S
+= Y XM5/D
+= Y XM6/D
+C vdd0 4.1
+R vdd 20526
+= vdd XM1/D
+= vdd XM1/B
+= vdd XM3/B
+= vdd XM5/B
+R A 2034
+= A XM3/D
+= A XM4/D
