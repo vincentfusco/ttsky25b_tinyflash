@@ -1,11 +1,11 @@
 <testsuites>
   <testsuite name="Tiny Tapeout Prechecks">
-    <testcase name="Magic DRC" time="0.78" />
-    <testcase name="KLayout FEOL" time="2.62" />
-    <testcase name="KLayout BEOL" time="2.93" />
-    <testcase name="KLayout offgrid" time="2.09" />
-    <testcase name="KLayout pin label overlapping drawing" time="1.82" />
-    <testcase name="KLayout zero area" time="1.75" />
+    <testcase name="Magic DRC" time="0.64" />
+    <testcase name="KLayout FEOL" time="2.44" />
+    <testcase name="KLayout BEOL" time="2.84" />
+    <testcase name="KLayout offgrid" time="2.02" />
+    <testcase name="KLayout pin label overlapping drawing" time="1.72" />
+    <testcase name="KLayout zero area" time="1.66" />
     <testcase name="KLayout Checks" time="0.01" />
     <testcase name="Pin check" time="0.01">
       <error message="Some ports are missing or have wrong dimensions, see 2 LEF errors above">Traceback (most recent call last):
@@ -23,20 +23,7 @@ precheck_failure.PrecheckFailure: Some ports are missing or have wrong dimension
     <testcase name="Power pin check" time="0.0" />
     <testcase name="Layer check" time="0.01" />
     <testcase name="Cell name check" time="0.0" />
-    <testcase name="urpm/nwell check" time="1.71">
-      <error message="Klayout nwell_urpm failed with 2 DRC violations">Traceback (most recent call last):
-  File "/home/runner/work/ttsky25b_tinyflash/ttsky25b_tinyflash/tt/precheck/precheck.py", line 413, in main
-    check["check"]()
-  File "/home/runner/work/ttsky25b_tinyflash/ttsky25b_tinyflash/tt/precheck/precheck.py", line 391, in &lt;lambda&gt;
-    "check": lambda: urpm_nwell_check(gds_file, top_module),
-                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/ttsky25b_tinyflash/ttsky25b_tinyflash/tt/precheck/precheck.py", line 214, in urpm_nwell_check
-    klayout_drc(
-  File "/home/runner/work/ttsky25b_tinyflash/ttsky25b_tinyflash/tt/precheck/precheck.py", line 98, in klayout_drc
-    raise PrecheckFailure(
-precheck_failure.PrecheckFailure: Klayout nwell_urpm failed with 2 DRC violations
-</error>
-    </testcase>
+    <testcase name="urpm/nwell check" time="1.65" />
     <testcase name="Analog pin check" time="0.03" />
   </testsuite>
 </testsuites>

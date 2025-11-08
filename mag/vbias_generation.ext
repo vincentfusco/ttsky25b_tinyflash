@@ -1,14 +1,14 @@
-timestamp 1762640420
+timestamp 1762640459
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
-use sky130_fd_pr__pfet_01v8_lvt_VTBKAA XMp_bias 0 -1 987 1 0 4036
-use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_1 0 1 998 -1 0 3367
-use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_2 0 -1 998 1 0 2859
-use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_3 0 1 998 -1 0 2351
 use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_4 0 1 998 -1 0 1843
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_3 0 1 998 -1 0 2351
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_2 0 -1 998 1 0 2859
+use sky130_fd_pr__res_xhigh_po_1p41_UKZ7C9 XR_bias_1 0 1 998 -1 0 3367
+use sky130_fd_pr__pfet_01v8_lvt_VTBKAA XMp_bias 0 -1 987 1 0 4036
 use sky130_fd_pr__nfet_01v8_lvt_ELBHUY XMn_bias 0 1 426 -1 0 1258
 port "bias_n" 0 1114 1174 1136 1358 m1
 port "bias_p" 1 2150 3936 2170 4120 m1
@@ -27,85 +27,85 @@ node "li_n224_1496#" 165 598.534 -224 1496 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 node "vdd" 787 1743.69 -284 4300 m1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88540 4736 420812 5508 0 0 0 0 0 0 0 0 0 0
 node "w_n286_3836#" 4956 3801.79 -286 3836 nw 0 0 0 0 1267264 6128 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-cap "m1_1682_1702#" "m1_n118_2210#" 8.75035
 cap "w_n286_3836#" "m1_n118_3852#" 119.231
-cap "w_n286_3836#" "vdd" 526.005
-cap "vss" "m1_n162_1174#" 81.0206
-cap "bias_n" "m1_n162_1174#" 7.29369
-cap "bias_p" "m1_1682_2718#" 9.02092
-cap "li_n224_1496#" "m1_n162_1174#" 299.296
-cap "m1_n118_3226#" "m1_1682_2718#" 8.75035
-cap "bias_p" "vdd" 36.4301
-cap "m1_n118_3226#" "m1_n118_3852#" 55.9059
-cap "w_n286_3836#" "bias_p" 68.1274
-cap "li_n224_1496#" "m1_n118_2210#" 3.78718
-cap "bias_n" "vss" 42.1075
-cap "m1_n118_3226#" "m1_n118_2210#" 68.8696
-cap "m1_n118_3226#" "w_n286_3836#" 1.31405
-cap "m1_1682_1702#" "m1_1682_2718#" 68.8696
-cap "m1_1682_1702#" "m1_n162_1174#" 8.75035
 cap "vdd" "m1_1682_2718#" 21.1362
-cap "li_n224_1496#" "vss" 80.0838
-cap "bias_n" "li_n224_1496#" 8.07843
-cap "m1_1682_2718#" "m1_n118_2210#" 8.75035
+cap "m1_n118_3852#" "m1_n118_3226#" 55.9059
+cap "m1_1682_1702#" "m1_1682_2718#" 68.8696
+cap "m1_n118_2210#" "m1_1682_2718#" 8.75035
+cap "w_n286_3836#" "bias_p" 68.1274
+cap "vss" "li_n224_1496#" 80.0838
+cap "m1_n118_2210#" "li_n224_1496#" 3.78718
 cap "w_n286_3836#" "m1_1682_2718#" 15.6507
+cap "m1_n118_3226#" "m1_1682_2718#" 8.75035
+cap "m1_n118_2210#" "m1_1682_1702#" 8.75035
+cap "w_n286_3836#" "vdd" 526.005
+cap "m1_n118_2210#" "m1_n118_3226#" 68.8696
+cap "m1_n162_1174#" "li_n224_1496#" 299.296
+cap "bias_n" "li_n224_1496#" 8.07843
+cap "m1_n162_1174#" "vss" 81.0206
+cap "w_n286_3836#" "m1_n118_3226#" 1.31405
+cap "vss" "bias_n" 42.1075
+cap "m1_n162_1174#" "m1_1682_1702#" 8.75035
 cap "m1_n118_2210#" "m1_n162_1174#" 68.8696
+cap "bias_p" "m1_1682_2718#" 9.02092
+cap "m1_n162_1174#" "bias_n" 7.29369
 cap "m1_n118_3852#" "vdd" 73.8362
-cap "XR_bias_1/B" "XR_bias_4/R2" -2.10338
-cap "XR_bias_1/B" "XR_bias_2/R1" -1.74042
-cap "XR_bias_4/R2" "XR_bias_3/R1" -4.04785
-cap "XR_bias_2/R1" "XR_bias_3/R1" -2.19387
-cap "XR_bias_4/R2" "XR_bias_2/R1" 43.5819
-cap "XR_bias_3/R1" "XR_bias_2/R1" -2.19387
-cap "XR_bias_3/R1" "XR_bias_4/R2" -4.04785
-cap "XR_bias_3/R1" "XR_bias_1/B" 132.633
-cap "XR_bias_4/R2" "XR_bias_1/B" 0.65196
-cap "XR_bias_1/B" "XMp_bias/S" 29.4903
-cap "XMp_bias/D" "XR_bias_1/B" 61.9887
-cap "XR_bias_2/R1" "XR_bias_1/R1" -4.04785
-cap "XR_bias_1/R1" "XR_bias_1/R2" -4.04785
-cap "XR_bias_2/R1" "XR_bias_3/R1" -1.85398
-cap "XR_bias_2/R1" "XR_bias_1/R2" 43.3701
-cap "XR_bias_1/B" "XR_bias_1/R2" 35.0409
-cap "XR_bias_2/R1" "XR_bias_1/B" 132.594
+cap "bias_p" "vdd" 36.4301
+cap "XR_bias_3/R2" "XR_bias_4/R1" -2.19387
+cap "XR_bias_3/R2" "XR_bias_4/R2" 43.5819
+cap "XR_bias_3/R2" "XR_bias_4/B" -1.74042
+cap "XR_bias_4/R2" "XR_bias_4/R1" -4.04785
+cap "XR_bias_4/R2" "XR_bias_4/B" -2.10338
+cap "XR_bias_4/R1" "XR_bias_3/R2" -2.19387
+cap "XR_bias_4/R2" "XR_bias_4/B" 0.65196
+cap "XR_bias_4/R1" "XR_bias_4/B" 132.633
+cap "XR_bias_4/R2" "XR_bias_4/R1" -4.04785
+cap "XR_bias_2/R2" "XR_bias_1/R2" -4.04785
+cap "XR_bias_1/R2" "XR_bias_3/R2" 43.3701
 cap "XMp_bias/S" "XR_bias_1/R2" 1.56099
-cap "XR_bias_3/R1" "XR_bias_1/B" 2.00777
-cap "XR_bias_1/R1" "XR_bias_1/B" 134.64
-cap "XMp_bias/S" "XR_bias_1/B" 27.6861
-cap "XR_bias_1/R1" "XR_bias_3/R1" 43.3701
-cap "XR_bias_1/R1" "XR_bias_1/R2" -4.04785
-cap "XR_bias_1/R1" "XMp_bias/S" -14.0156
-cap "XMp_bias/D" "XR_bias_1/B" 47.5555
-cap "XR_bias_2/R1" "XR_bias_3/R1" -1.85398
-cap "XR_bias_1/R1" "XR_bias_2/R1" -4.04785
-cap "XMp_bias/D" "XR_bias_1/R1" 16.6931
-cap "XMp_bias/D" "XR_bias_2/R1" 0.379446
-cap "XMp_bias/S" "XMp_bias/D" -148.417
-cap "XMp_bias/S" "XR_bias_1/B" 3.48461
-cap "XR_bias_1/B" "XMp_bias/D" 64.0623
+cap "XR_bias_4/R1" "XR_bias_3/R2" -1.85398
+cap "XR_bias_2/R2" "XR_bias_3/R2" -4.04785
+cap "XR_bias_4/B" "XR_bias_1/R2" 35.0409
+cap "XR_bias_4/B" "XMp_bias/D" 61.9887
+cap "XR_bias_4/B" "XR_bias_3/R2" 132.594
+cap "XR_bias_4/B" "XMp_bias/S" 29.4903
+cap "XR_bias_4/R1" "XR_bias_2/R2" 43.3701
+cap "XMp_bias/D" "XR_bias_2/R2" 16.6931
+cap "XR_bias_4/B" "XMp_bias/S" 27.6861
+cap "XR_bias_2/R2" "XR_bias_4/B" 134.64
+cap "XR_bias_4/R1" "XR_bias_4/B" 2.00777
+cap "XR_bias_1/R2" "XR_bias_2/R2" -4.04785
+cap "XMp_bias/D" "XR_bias_4/B" 47.5555
+cap "XR_bias_3/R2" "XR_bias_2/R2" -4.04785
+cap "XR_bias_3/R2" "XR_bias_4/R1" -1.85398
+cap "XR_bias_2/R2" "XMp_bias/S" -14.0156
 cap "XR_bias_1/R2" "XMp_bias/D" 1.03096
-cap "XMp_bias/S" "XR_bias_1/R1" -9.76859
-cap "XMp_bias/S" "XMp_bias/D" -38.2606
-cap "XR_bias_1/R1" "XMp_bias/D" 16.9979
-cap "XR_bias_1/B" "XMp_bias/S" 2.87595
-cap "XR_bias_3/R1" "XMp_bias/D" 0.0553888
-cap "XR_bias_1/B" "XMp_bias/D" 49.6078
+cap "XMp_bias/S" "XMp_bias/D" -148.417
+cap "XR_bias_3/R2" "XMp_bias/D" 0.379446
+cap "XR_bias_3/B" "XMp_bias/S" 3.48461
+cap "XR_bias_3/B" "XMp_bias/D" 64.0623
+cap "XMp_bias/D" "XR_bias_3/R1" 0.0553888
+cap "XMp_bias/D" "XR_bias_3/B" 49.6078
+cap "XR_bias_3/B" "XMp_bias/S" 2.87595
+cap "XMp_bias/D" "XMp_bias/S" -38.2606
+cap "XR_bias_2/R2" "XMp_bias/D" 16.9979
+cap "XR_bias_2/R2" "XMp_bias/S" -9.76859
 merge "XMn_bias/S" "XMn_bias/B" -5553.52 0 0 0 0 0 0 0 0 0 0 -254184 -15156 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -357272 -23052 -44896 -2044 0 0 0 0 0 0 0 0 0 0
 merge "XMn_bias/B" "vss"
-merge "vss" "XR_bias_4/B"
-merge "XR_bias_4/B" "li_n224_1496#"
-merge "li_n224_1496#" "XR_bias_3/B"
-merge "XR_bias_3/B" "XR_bias_2/B"
-merge "XR_bias_2/B" "XR_bias_1/B"
-merge "XR_bias_1/B" "XMp_bias/VSUBS"
-merge "XMp_bias/VSUBS" "VSUBS"
-merge "XR_bias_4/R1" "XR_bias_3/R1" -850.121 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -220604 -2732 0 0 0 0 0 0 0 0 0 0
-merge "XR_bias_3/R1" "m1_1682_1702#"
+merge "vss" "XMp_bias/VSUBS"
+merge "XMp_bias/VSUBS" "XR_bias_1/B"
+merge "XR_bias_1/B" "XR_bias_2/B"
+merge "XR_bias_2/B" "XR_bias_3/B"
+merge "XR_bias_3/B" "XR_bias_4/B"
+merge "XR_bias_4/B" "VSUBS"
+merge "VSUBS" "li_n224_1496#"
 merge "XMp_bias/D" "XMp_bias/G" -497.374 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -29640 -1638 0 0 0 0 0 0 0 0 0 0
 merge "XMp_bias/G" "bias_p"
 merge "bias_p" "m1_n118_3852#"
-merge "XR_bias_3/R2" "XR_bias_2/R1" -899.065 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -220604 -2732 0 0 0 0 0 0 0 0 0 0
-merge "XR_bias_2/R1" "m1_n118_2210#"
+merge "XR_bias_3/R1" "XR_bias_4/R1" -850.121 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -220604 -2732 0 0 0 0 0 0 0 0 0 0
+merge "XR_bias_4/R1" "m1_1682_1702#"
+merge "XR_bias_2/R1" "XR_bias_3/R2" -899.065 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -220604 -2732 0 0 0 0 0 0 0 0 0 0
+merge "XR_bias_3/R2" "m1_n118_2210#"
 merge "XMp_bias/S" "XMp_bias/w_n200_n1220#" -5241.66 0 0 0 0 -1212288 -5904 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -77656 -4636 -91172 -4056 0 0 0 0 0 0 0 0 0 0
 merge "XMp_bias/w_n200_n1220#" "vdd"
 merge "vdd" "w_n286_3836#"
@@ -113,6 +113,6 @@ merge "XMn_bias/G" "bias_n" -798.479 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 merge "bias_n" "XMn_bias/D"
 merge "XMn_bias/D" "XR_bias_4/R2"
 merge "XR_bias_4/R2" "m1_n162_1174#"
-merge "XR_bias_2/R2" "XR_bias_1/R1" -868.398 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -220604 -2732 0 0 0 0 0 0 0 0 0 0
-merge "XR_bias_1/R1" "m1_1682_2718#"
+merge "XR_bias_1/R1" "XR_bias_2/R2" -868.398 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -220604 -2732 0 0 0 0 0 0 0 0 0 0
+merge "XR_bias_2/R2" "m1_1682_2718#"
 merge "XR_bias_1/R2" "m1_n118_3226#" -426.268 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -110302 -1366 0 0 0 0 0 0 0 0 0 0

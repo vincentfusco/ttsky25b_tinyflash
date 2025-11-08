@@ -14,7 +14,7 @@
 | Power pin check | ✅ |
 | Layer check | ✅ |
 | Cell name check | ✅ |
-| urpm/nwell check | ❌ Fail: Klayout nwell_urpm failed with 2 DRC violations |
+| urpm/nwell check | ✅ |
 | Analog pin check | ✅ |
 
 In case of failure, please reach out on [discord](https://tinytapeout.com/discord) for assistance.
