@@ -1,6 +1,6 @@
 # Tiny Tapeout project information
 project:
-  title:        "Tiny Chaos"      # Project title
+  title:        "Tiny Flash ADC"      # Project title
   author:       "Blake Mott"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "3bit flash ADC with binary and thermometer output"      # One line description of what your project does
