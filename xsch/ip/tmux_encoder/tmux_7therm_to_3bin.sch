@@ -53,57 +53,57 @@ model=res_generic_m1
 mult=1}
 C {devices/lab_pin.sym} 290 -190 0 0 {name=p33 sig_type=std_logic lab=x3}
 C {devices/lab_pin.sym} 460 -190 2 0 {name=p34 sig_type=std_logic lab=y2}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym} 0 -190 0 0 {name=x1}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym} 0 0 0 0 {name=x2}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym} 0 190 0 0 {name=x3}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux/tmux_2to1.sym} 320 190 0 0 {name=x4}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 -590 0 0 {name=x5}
 C {devices/lab_pin.sym} -400 -630 1 0 {name=p35 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 -550 3 0 {name=p36 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 -590 2 0 {name=p37 sig_type=std_logic lab=x0}
 C {devices/lab_pin.sym} -460 -590 0 0 {name=p38 sig_type=std_logic lab=d0}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 -420 0 0 {name=x6}
 C {devices/lab_pin.sym} -400 -460 1 0 {name=p39 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 -380 3 0 {name=p40 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 -420 2 0 {name=p41 sig_type=std_logic lab=x1}
 C {devices/lab_pin.sym} -460 -420 0 0 {name=p42 sig_type=std_logic lab=d1}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 -250 0 0 {name=x7}
 C {devices/lab_pin.sym} -400 -290 1 0 {name=p43 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 -210 3 0 {name=p44 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 -250 2 0 {name=p45 sig_type=std_logic lab=x2}
 C {devices/lab_pin.sym} -460 -250 0 0 {name=p46 sig_type=std_logic lab=d2}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 -80 0 0 {name=x8}
 C {devices/lab_pin.sym} -400 -120 1 0 {name=p47 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 -40 3 0 {name=p48 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 -80 2 0 {name=p49 sig_type=std_logic lab=x3}
 C {devices/lab_pin.sym} -460 -80 0 0 {name=p50 sig_type=std_logic lab=d3}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 90 0 0 {name=x9}
 C {devices/lab_pin.sym} -400 50 1 0 {name=p51 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 130 3 0 {name=p52 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 90 2 0 {name=p53 sig_type=std_logic lab=x4}
 C {devices/lab_pin.sym} -460 90 0 0 {name=p54 sig_type=std_logic lab=d4}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 260 0 0 {name=x10}
 C {devices/lab_pin.sym} -400 220 1 0 {name=p55 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 300 3 0 {name=p56 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 260 2 0 {name=p57 sig_type=std_logic lab=x5}
 C {devices/lab_pin.sym} -460 260 0 0 {name=p58 sig_type=std_logic lab=d5}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} -400 430 0 0 {name=x11}
 C {devices/lab_pin.sym} -400 390 1 0 {name=p59 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -400 470 3 0 {name=p60 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} -320 430 2 0 {name=p61 sig_type=std_logic lab=x6}
 C {devices/lab_pin.sym} -460 430 0 0 {name=p62 sig_type=std_logic lab=d6}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} 700 -180 0 0 {name=x12}
 C {devices/lab_pin.sym} 700 -220 1 0 {name=p63 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 700 -140 3 0 {name=p64 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 780 -180 2 0 {name=p65 sig_type=std_logic lab=q0}
 C {devices/lab_pin.sym} 640 -180 0 0 {name=p66 sig_type=std_logic lab=y0}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} 700 -10 0 0 {name=x13}
 C {devices/lab_pin.sym} 700 -50 1 0 {name=p67 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 700 30 3 0 {name=p68 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 780 -10 2 0 {name=p69 sig_type=std_logic lab=q1}
 C {devices/lab_pin.sym} 640 -10 0 0 {name=p70 sig_type=std_logic lab=y1}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/logic/buffer/buffer.sym} 700 160 0 0 {name=x14}
 C {devices/lab_pin.sym} 700 120 1 0 {name=p71 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} 700 200 3 0 {name=p72 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 780 160 2 0 {name=p73 sig_type=std_logic lab=q2}
 C {devices/lab_pin.sym} 640 160 0 0 {name=p74 sig_type=std_logic lab=y2}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 -590 0 0 {name=x5}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 -420 0 0 {name=x6}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 -250 0 0 {name=x7}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 -80 0 0 {name=x8}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 90 0 0 {name=x9}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 260 0 0 {name=x10}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} -400 430 0 0 {name=x11}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} 700 -180 0 0 {name=x12}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} 700 -10 0 0 {name=x13}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/logic/buffer/buffer.sym} 700 160 0 0 {name=x14}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/tmux/tmux_2to1.sym} 0 -190 0 0 {name=x1}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/tmux/tmux_2to1.sym} 0 0 0 0 {name=x2}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/tmux/tmux_2to1.sym} 0 190 0 0 {name=x3}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/tmux/tmux_2to1.sym} 320 190 0 0 {name=x4}

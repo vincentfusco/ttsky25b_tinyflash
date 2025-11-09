@@ -17,37 +17,30 @@ T {3bit Flash ADC:
 PMOS Input-Pair Comparators
 Analog Inputs: Vin & Vref
 On-chip Iref from VDD} -1040 -770 0 0 0.4 0.4 {}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 340 0 0 {name=X2}
 C {devices/lab_pin.sym} 30 380 3 0 {name=p1 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 300 1 0 {name=p2 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 320 0 0 {name=p3 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 90 180 2 0 {name=p4 sig_type=std_logic lab=d1}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 180 0 0 {name=X3}
 C {devices/lab_pin.sym} 30 220 3 0 {name=p5 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 140 1 0 {name=p6 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 160 0 0 {name=p7 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 90 20 2 0 {name=p8 sig_type=std_logic lab=d2}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 20 0 0 {name=X4}
 C {devices/lab_pin.sym} 30 60 3 0 {name=p9 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 -20 1 0 {name=p10 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 0 0 0 {name=p11 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 90 -140 2 0 {name=p12 sig_type=std_logic lab=d3}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 -140 0 0 {name=X5}
 C {devices/lab_pin.sym} 30 -100 3 0 {name=p13 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 -180 1 0 {name=p14 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 -160 0 0 {name=p15 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 90 -300 2 0 {name=p16 sig_type=std_logic lab=d4}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 -300 0 0 {name=X6}
 C {devices/lab_pin.sym} 30 -260 3 0 {name=p17 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 -340 1 0 {name=p18 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 -320 0 0 {name=p19 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 90 -460 2 0 {name=p20 sig_type=std_logic lab=d5}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 -460 0 0 {name=X7}
 C {devices/lab_pin.sym} 30 -420 3 0 {name=p21 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 -500 1 0 {name=p22 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 -480 0 0 {name=p23 sig_type=std_logic lab=vin}
 C {devices/lab_pin.sym} 90 -620 2 0 {name=p24 sig_type=std_logic lab=d6}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/comparators/comp_p/comp_p.sym} 30 -620 0 0 {name=X8}
 C {devices/lab_pin.sym} 30 -580 3 0 {name=p25 sig_type=std_logic lab=vss}
 C {devices/lab_pin.sym} 30 -660 1 0 {name=p26 sig_type=std_logic lab=vdd}
 C {devices/lab_pin.sym} -30 -640 0 0 {name=p27 sig_type=std_logic lab=vin}
@@ -97,8 +90,6 @@ C {devices/opin.sym} 550 -700 0 0 {name=p80 lab=dout1}
 C {devices/opin.sym} 550 -680 0 0 {name=p81 lab=dout2}
 C {devices/lab_pin.sym} 460 0 0 0 {name=p38 sig_type=std_logic lab=d0}
 C {devices/lab_pin.sym} 90 340 2 0 {name=p28 sig_type=std_logic lab=d0}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/vbias_generation/vbias_generation.sym} 520 -370 0 0 {name=x9}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sym} 610 60 0 0 {name=x1}
 C {devices/opin.sym} 470 -720 0 0 {name=p85 lab=d0}
 C {devices/opin.sym} 470 -700 0 0 {name=p86 lab=d1}
 C {devices/opin.sym} 470 -680 0 0 {name=p87 lab=d2}
@@ -106,5 +97,14 @@ C {devices/opin.sym} 470 -660 0 0 {name=p88 lab=d3}
 C {devices/opin.sym} 470 -640 0 0 {name=p89 lab=d4}
 C {devices/opin.sym} 470 -620 0 0 {name=p90 lab=d5}
 C {devices/opin.sym} 470 -600 0 0 {name=p91 lab=d6}
-C {/home/bmott/ttsky25b_tiny_chaos/xsch/ip/res_ladder_vref/res_ladder_vref.sym} -380 -310 0 0 {name=x10}
 C {devices/noconn.sym} 670 -350 2 0 {name=l1}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/res_ladder_vref/res_ladder_vref.sym} -380 -310 0 0 {name=x10}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/vbias_generation/vbias_generation.sym} 520 -370 0 0 {name=x9}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/tmux_encoder/tmux_7therm_to_3bin.sym} 610 60 0 0 {name=x1}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 -620 0 0 {name=X2}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 -460 0 0 {name=X3}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 -300 0 0 {name=X4}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 -140 0 0 {name=X5}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 20 0 0 {name=X6}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 180 0 0 {name=X7}
+C {/home/bmott/ttsky25b_tinyflash/xsch/ip/comparators/comp_p/comp_p.sym} 30 340 0 0 {name=X8}

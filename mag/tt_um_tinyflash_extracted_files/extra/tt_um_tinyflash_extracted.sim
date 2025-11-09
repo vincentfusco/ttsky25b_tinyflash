@@ -1,10 +1,10 @@
 | units: 500000 tech: sky130A format: MIT
-x flashADC_3bit_0/vbias_generation_0/XR_bias_1/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/comp_p_6/vbias_p VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=9560 y=29423 sky130_fd_pr__res_xhigh_po_1p41
-x flashADC_3bit_0/vbias_generation_0/XR_bias_2/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=8195 y=30210 sky130_fd_pr__res_xhigh_po_1p41
-x flashADC_3bit_0/vbias_generation_0/XR_bias_3/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=9560 y=30439 sky130_fd_pr__res_xhigh_po_1p41
-x flashADC_3bit_0/vbias_generation_0/XR_bias_4/a_n141_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/bias_n VGND s=121824,1428 d=121824,1428 l=1368 w=0 x=9560 y=30947 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_1/a_n140_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/comp_p_6/vbias_p VGND s=120960,1424 d=120960,1424 l=1368 w=0 x=9560 y=29424 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_2/a_n140_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 VGND s=120960,1424 d=120960,1424 l=1368 w=0 x=8195 y=30209 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_3/a_n140_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 VGND s=120960,1424 d=120960,1424 l=1368 w=0 x=9560 y=30440 sky130_fd_pr__res_xhigh_po_1p41
+x flashADC_3bit_0/vbias_generation_0/XR_bias_4/a_n140_n684# flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/bias_n VGND s=120960,1424 d=120960,1424 l=1368 w=0 x=9560 y=30948 sky130_fd_pr__res_xhigh_po_1p41
 x flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/bias_n VGND VGND s=58000,2116 d=58000,2116 l=200 w=1000 x=9948 y=31573 sky130_fd_pr__nfet_01v8_lvt
-x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/vbias_p VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=7890 y=29058 sky130_fd_pr__pfet_01v8_lvt
+x flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/vbias_p VDPWR VDPWR s=116000,4116 d=116000,4116 l=200 w=2000 x=7890 y=28992 sky130_fd_pr__pfet_01v8_lvt
 x flashADC_3bit_0/res_ladder_vref_0/XR1/a_n573_n557# flashADC_3bit_0/comp_p_6/vinn ua[1] VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=29037 sky130_fd_pr__res_xhigh_po_5p73
 x flashADC_3bit_0/res_ladder_vref_0/XR2/a_n573_n557# flashADC_3bit_0/comp_p_6/vinn ua[1] VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=30409 sky130_fd_pr__res_xhigh_po_5p73
 x flashADC_3bit_0/res_ladder_vref_0/XR10/a_n573_n557# flashADC_3bit_0/comp_p_1/vinn VGND VGND s=495072,3156 d=495072,3156 l=1114 w=0 x=2987 y=41385 sky130_fd_pr__res_xhigh_po_5p73
@@ -199,95 +199,95 @@ x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bi
 x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_0/out flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A VGND s=11600,516 d=11600,516 l=30 w=200 x=18391 y=42095 sky130_fd_pr__nfet_01v8
 x flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VDPWR s=23200,916 d=23200,916 l=30 w=400 x=18707 y=42724 sky130_fd_pr__pfet_01v8
 x flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/A flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VGND s=11600,516 d=11600,516 l=30 w=200 x=18707 y=42095 sky130_fd_pr__nfet_01v8
-C VDPWR flashADC_3bit_0/comp_p_1/latch_left 3.7
-C uo_out[5] VDPWR 5.5
-C flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/latch_left 8.8
-C uo_out[5] uo_out[4] 4.1
-C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B 2.4
-C VDPWR flashADC_3bit_0/comp_p_3/tail 3.8
-C VDPWR flashADC_3bit_0/comp_p_6/vbias_p 39.4
-C VDPWR flashADC_3bit_0/comp_p_5/vinn 6.9
-C flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_left 8.8
-C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out 5.1
-C flashADC_3bit_0/comp_p_3/latch_left flashADC_3bit_0/comp_p_3/tail 8.8
-C VDPWR flashADC_3bit_0/comp_p_5/latch_right 3.8
-C VDPWR uio_out[0] 6.5
-C flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/latch_left 8.8
-C flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/tail 8.9
-C flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/latch_left 8.8
-C flashADC_3bit_0/comp_p_0/out_left VDPWR 5.3
-C VDPWR flashADC_3bit_0/comp_p_1/latch_right 3.6
-C ua[0] flashADC_3bit_0/comp_p_6/vinn 2.3
-C flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/vinn 3.5
-C flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/vinn 3.5
-C uo_out[7] uo_out[6] 3.7
-C flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/latch_right 8.9
-C flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_right 8.9
-C flashADC_3bit_0/comp_p_0/tail ua[0] 2.9
-C flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/tail 8.9
-C flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/latch_left 5.4
-C VDPWR ua[0] 46.9
-C flashADC_3bit_0/comp_p_4/tail ua[0] 2.9
-C VDPWR uio_out[1] 10.3
-C VDPWR flashADC_3bit_0/comp_p_0/vinn 4.2
-C flashADC_3bit_0/comp_p_5/tail ua[0] 2.9
-C flashADC_3bit_0/comp_p_1/tail ua[0] 2.9
-C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 5.9
-C flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/vinn 3.5
-C ua[0] flashADC_3bit_0/comp_p_2/tail 2.9
-C VDPWR flashADC_3bit_0/comp_p_3/out_left 7.1
-C VDPWR flashADC_3bit_0/comp_p_6/tail 3.8
-C VDPWR flashADC_3bit_0/comp_p_1/out_left 7.1
-C VDPWR flashADC_3bit_0/comp_p_2/vinn 2.4
-C VDPWR uo_out[6] 6.0
-C flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/tail 8.9
-C VDPWR uo_out[7] 6.2
-C ua[1] ua[0] 4.6
-C flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/comp_p_5/latch_right 3.5
-C ua[0] flashADC_3bit_0/comp_p_1/vinn 2.2
-C flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/latch_left 5.4
-C VDPWR flashADC_3bit_0/comp_p_3/vinn 5.4
-C VDPWR flashADC_3bit_0/comp_p_5/latch_left 3.8
-C uo_out[2] uo_out[1] 2.1
-C flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/vinn 3.5
-C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out 3.9
-C VDPWR flashADC_3bit_0/comp_p_6/out_left 7.3
-C flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/tail 8.9
-C flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/latch_left 8.8
-C VDPWR flashADC_3bit_0/comp_p_6/vinn 4.2
-C ua[0] flashADC_3bit_0/comp_p_3/tail 2.9
-C flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_left 8.8
-C VDPWR flashADC_3bit_0/comp_p_5/out_left 7.5
-C flashADC_3bit_0/comp_p_0/latch_left flashADC_3bit_0/comp_p_0/latch_right 5.4
-C flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/vinn 3.5
-C uio_out[0] uio_out[1] 5.4
-C flashADC_3bit_0/comp_p_0/tail VDPWR 3.4
-C flashADC_3bit_0/comp_p_4/tail VDPWR 4.1
-C VDPWR uo_out[4] 4.9
-C VDPWR flashADC_3bit_0/comp_p_3/latch_left 3.7
-C flashADC_3bit_0/comp_p_2/latch_right flashADC_3bit_0/comp_p_2/latch_left 5.4
+C flashADC_3bit_0/comp_p_4/vinn VDPWR 2.9
+C flashADC_3bit_0/comp_p_2/latch_left flashADC_3bit_0/comp_p_2/latch_right 5.4
+C flashADC_3bit_0/comp_p_2/out_left VDPWR 5.3
+C flashADC_3bit_0/comp_p_1/latch_right VDPWR 3.6
+C flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/latch_right 8.9
+C flashADC_3bit_0/comp_p_4/latch_left flashADC_3bit_0/comp_p_4/latch_right 5.4
+C flashADC_3bit_0/comp_p_5/vinn VDPWR 6.9
 C VDPWR flashADC_3bit_0/comp_p_3/latch_right 3.7
-C VDPWR flashADC_3bit_0/comp_p_6/latch_right 3.8
-C uo_out[5] uo_out[6] 3.3
+C uo_out[7] VDPWR 6.2
+C flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_left 8.8
+C uio_out[1] VDPWR 10.3
+C ua[0] VDPWR 46.3
+C ua[0] flashADC_3bit_0/comp_p_2/tail 2.9
+C ua[0] flashADC_3bit_0/comp_p_1/tail 2.9
+C flashADC_3bit_0/comp_p_2/vinn VDPWR 2.4
+C flashADC_3bit_0/comp_p_5/latch_left VDPWR 3.8
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_3/B VDPWR 2.4
+C VDPWR flashADC_3bit_0/comp_p_1/latch_left 3.7
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out VDPWR 3.1
+C ua[0] flashADC_3bit_0/comp_p_5/tail 2.9
+C flashADC_3bit_0/comp_p_1/tail flashADC_3bit_0/comp_p_1/latch_left 8.8
 C flashADC_3bit_0/comp_p_3/latch_right flashADC_3bit_0/comp_p_3/latch_left 5.4
+C flashADC_3bit_0/comp_p_6/latch_left flashADC_3bit_0/comp_p_6/latch_right 5.4
+C flashADC_3bit_0/comp_p_5/tail flashADC_3bit_0/comp_p_5/latch_left 8.8
+C VDPWR flashADC_3bit_0/comp_p_6/latch_right 3.8
+C flashADC_3bit_0/comp_p_6/latch_left VDPWR 3.9
+C uo_out[4] VDPWR 4.9
+C uo_out[7] uo_out[6] 3.7
+C flashADC_3bit_0/comp_p_0/tail flashADC_3bit_0/comp_p_0/latch_right 8.9
+C ua[0] flashADC_3bit_0/comp_p_0/tail 2.9
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/R1/R1 VDPWR 5.9
+C VDPWR flashADC_3bit_0/comp_p_6/out_left 7.1
+C flashADC_3bit_0/comp_p_2/tail VDPWR 3.4
+C flashADC_3bit_0/comp_p_1/tail VDPWR 3.8
+C uo_out[7] uio_out[0] 5.5
+C uio_out[1] uio_out[0] 5.4
+C flashADC_3bit_0/comp_p_6/vbias_p VDPWR 38.5
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out VDPWR 3.9
+C flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/latch_right 8.9
+C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/vinn 3.5
+C ua[0] ua[1] 4.6
 C flashADC_3bit_0/comp_p_5/tail VDPWR 4.5
-C VDPWR flashADC_3bit_0/comp_p_1/tail 3.8
+C ua[0] flashADC_3bit_0/comp_p_3/tail 2.9
+C uo_out[5] uo_out[4] 4.1
+C VDPWR flashADC_3bit_0/comp_p_3/latch_left 3.7
+C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/latch_left 5.4
+C uo_out[5] VDPWR 5.5
+C flashADC_3bit_0/comp_p_1/out_left VDPWR 7.1
+C flashADC_3bit_0/comp_p_3/vinn flashADC_3bit_0/comp_p_3/latch_right 3.5
+C flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/comp_p_1/latch_right 3.5
+C ua[0] flashADC_3bit_0/comp_p_4/tail 2.9
+C flashADC_3bit_0/comp_p_0/tail VDPWR 3.4
 C VDPWR uo_out[3] 6.0
-C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in 2.2
-C VDPWR flashADC_3bit_0/comp_p_2/tail 3.4
-C VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_4/out 3.1
-C VDPWR flashADC_3bit_0/comp_p_4/out_left 5.6
-C uio_out[0] uo_out[7] 5.5
+C VDPWR uo_out[6] 6.0
+C flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/latch_left 8.8
+C flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/latch_left 8.8
+C ua[0] flashADC_3bit_0/comp_p_6/tail 2.9
+C flashADC_3bit_0/comp_p_2/vinn flashADC_3bit_0/comp_p_2/latch_right 3.5
+C ua[0] flashADC_3bit_0/comp_p_1/vinn 2.2
+C uio_out[0] VDPWR 6.5
 C flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/vinn 3.5
 C ua[0] flashADC_3bit_0/comp_p_0/vinn 2.1
-C VDPWR flashADC_3bit_0/comp_p_2/out_left 5.3
-C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/latch_left 5.4
-C flashADC_3bit_0/comp_p_4/latch_right flashADC_3bit_0/comp_p_4/tail 8.9
-C VDPWR flashADC_3bit_0/comp_p_1/vinn 4.9
-C VDPWR flashADC_3bit_0/comp_p_6/latch_left 3.9
-C ua[0] flashADC_3bit_0/comp_p_6/tail 2.9
-C VDPWR flashADC_3bit_0/comp_p_4/vinn 2.9
-C flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/latch_left 5.4
+C flashADC_3bit_0/comp_p_3/out_left VDPWR 7.1
+C flashADC_3bit_0/comp_p_0/latch_right flashADC_3bit_0/comp_p_0/latch_left 5.4
+C flashADC_3bit_0/comp_p_6/vinn ua[0] 2.3
+C VDPWR flashADC_3bit_0/comp_p_3/tail 3.8
+C flashADC_3bit_0/comp_p_5/latch_right VDPWR 3.8
+C flashADC_3bit_0/comp_p_4/tail flashADC_3bit_0/comp_p_4/latch_right 8.9
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_8/in VDPWR 2.2
+C uo_out[5] uo_out[6] 3.3
+C flashADC_3bit_0/comp_p_4/tail VDPWR 4.1
+C flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_right 8.9
+C flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/latch_left 8.8
+C flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_6/out VDPWR 5.1
+C flashADC_3bit_0/comp_p_0/out_left VDPWR 5.3
+C flashADC_3bit_0/comp_p_3/vinn VDPWR 5.4
+C flashADC_3bit_0/comp_p_4/out_left VDPWR 5.6
+C flashADC_3bit_0/comp_p_5/latch_right flashADC_3bit_0/comp_p_5/tail 8.9
+C flashADC_3bit_0/comp_p_2/tail flashADC_3bit_0/comp_p_2/latch_right 8.9
+C flashADC_3bit_0/comp_p_3/tail flashADC_3bit_0/comp_p_3/latch_left 8.8
+C flashADC_3bit_0/comp_p_6/tail VDPWR 3.8
+C flashADC_3bit_0/comp_p_1/vinn VDPWR 4.9
+C uo_out[1] uo_out[2] 2.1
+C flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/comp_p_6/latch_right 3.5
+C flashADC_3bit_0/comp_p_0/vinn VDPWR 4.2
+C flashADC_3bit_0/comp_p_4/vinn flashADC_3bit_0/comp_p_4/latch_right 3.5
+C flashADC_3bit_0/comp_p_6/vinn VDPWR 3.8
+C flashADC_3bit_0/comp_p_5/out_left VDPWR 7.5
+C flashADC_3bit_0/comp_p_1/latch_right flashADC_3bit_0/comp_p_1/latch_left 5.4
 R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G 3877
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM1/S
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_0/XM2/S
@@ -414,8 +414,8 @@ R flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out 4836
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vout
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMn/S
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/out flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/S
-C VDPWR0 498.4
-R VDPWR 1044036
+C VDPWR0 491.9
+R VDPWR 1033691
 = VDPWR flashADC_3bit_0/vdd
 = VDPWR flashADC_3bit_0/comp_p_1/vdd
 = VDPWR flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
@@ -461,11 +461,10 @@ R VDPWR 1044036
 = VDPWR flashADC_3bit_0/comp_p_4/XMp_tail/a_100_n1000#
 = VDPWR flashADC_3bit_0/comp_p_4/XMp_tail/w_n296_n1219#
 = VDPWR flashADC_3bit_0/w_5078_n6334#
-= VDPWR flashADC_3bit_0/w_2138_n11114#
 = VDPWR flashADC_3bit_0/vbias_generation_0/vdd
 = VDPWR flashADC_3bit_0/vbias_generation_0/XMp_bias/S
-= VDPWR flashADC_3bit_0/vbias_generation_0/XMp_bias/B
-= VDPWR flashADC_3bit_0/vbias_generation_0/w_n284_3674#
+= VDPWR flashADC_3bit_0/vbias_generation_0/XMp_bias/w_n200_n1220#
+= VDPWR flashADC_3bit_0/vbias_generation_0/w_n286_3836#
 = VDPWR flashADC_3bit_0/comp_p_6/vdd
 = VDPWR flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/a_100_n800#
 = VDPWR flashADC_3bit_0/comp_p_6/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/w_n296_n1019#
@@ -569,7 +568,7 @@ R VDPWR 1044036
 = VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/vdd
 = VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/D
 = VDPWR flashADC_3bit_0/tmux_7therm_to_3bin_0/buffer_5/inv_1/XMp/B
-R VGND 1492581
+R VGND 1490047
 = VGND VSUBS
 = VGND flashADC_3bit_0/vss
 = VGND flashADC_3bit_0/VSUBS
@@ -582,11 +581,11 @@ R VGND 1492581
 = VGND flashADC_3bit_0/res_ladder_vref_0/XR6/B
 = VGND flashADC_3bit_0/res_ladder_vref_0/XR7/B
 = VGND flashADC_3bit_0/res_ladder_vref_0/XR8/B
-= VGND flashADC_3bit_0/res_ladder_vref_0/XR10/R2
 = VGND flashADC_3bit_0/res_ladder_vref_0/XR10/B
-= VGND flashADC_3bit_0/res_ladder_vref_0/XR9/R2
-= VGND flashADC_3bit_0/res_ladder_vref_0/VSUBS
 = VGND flashADC_3bit_0/res_ladder_vref_0/XR9/B
+= VGND flashADC_3bit_0/res_ladder_vref_0/VSUBS
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR10/R2
+= VGND flashADC_3bit_0/res_ladder_vref_0/XR9/R2
 = VGND flashADC_3bit_0/comp_p_1/vss
 = VGND flashADC_3bit_0/comp_p_1/sky130_fd_pr__pfet_01v8_lvt_5VNMZ8_0/VSUBS
 = VGND flashADC_3bit_0/comp_p_1/XMp_out/VSUBS
@@ -1126,7 +1125,7 @@ R flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G 3877
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_580_n464#
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_896_696#
 = flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/XM5/G flashADC_3bit_0/tmux_7therm_to_3bin_0/tmux_2to1_1/m1_324_n364#
-C ua[0]0 43.8
+C ua[0]0 44.5
 R ua[0] 48336
 = ua[0] flashADC_3bit_0/vin
 = ua[0] flashADC_3bit_0/comp_p_1/vinp
@@ -1138,6 +1137,30 @@ R ua[0] 48336
 = ua[0] flashADC_3bit_0/comp_p_6/vinp
 R flashADC_3bit_0/comp_p_6/tail 55795
 = flashADC_3bit_0/comp_p_6/tail flashADC_3bit_0/comp_p_6/XMp_tail/a_n158_n1000#
+C flashADC_3bit_0/comp_p_6/vbias_p0 21.7
+R flashADC_3bit_0/comp_p_6/vbias_p 13362
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/vbias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/XMp_tail/a_n100_n1097#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/bias_p
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XMp_bias/D
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XMp_bias/G
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/m1_n118_3852#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XR_bias_1/R2
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/m1_n118_3226#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_4104_n10580#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_1376_n10844#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_4466_n10772#
+= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/XMp_tail/a_n100_n1097#
 C flashADC_3bit_0/comp_p_6/latch_right0 5.9
 R flashADC_3bit_0/comp_p_6/latch_right 36587
 = flashADC_3bit_0/comp_p_6/latch_right flashADC_3bit_0/comp_p_6/XMn_diode_right/a_n100_n488#
@@ -1290,7 +1313,7 @@ R flashADC_3bit_0/comp_p_1/latch_left 37855
 = flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_diode_left1/a_n100_n488#
 = flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_diode_left1/a_100_n400#
 = flashADC_3bit_0/comp_p_1/latch_left flashADC_3bit_0/comp_p_1/XMn_out_left/a_n100_n588#
-C flashADC_3bit_0/comp_p_1/vinn0 8.6
+C flashADC_3bit_0/comp_p_1/vinn0 8.7
 R flashADC_3bit_0/comp_p_1/vinn 6777
 = flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/res_ladder_vref_0/ref0
 = flashADC_3bit_0/comp_p_1/vinn flashADC_3bit_0/m1_n1358_n1008#
@@ -1333,7 +1356,7 @@ R flashADC_3bit_0/comp_p_5/vinn 6650
 = flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/res_ladder_vref_0/XR3/R2
 = flashADC_3bit_0/comp_p_5/vinn flashADC_3bit_0/res_ladder_vref_0/XR4/R2
 R flashADC_3bit_0/res_ladder_vref_0/XR4/a_n573_n557# 2057
-C flashADC_3bit_0/comp_p_6/vinn0 9.3
+C flashADC_3bit_0/comp_p_6/vinn0 9.8
 R flashADC_3bit_0/comp_p_6/vinn 6779
 = flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/res_ladder_vref_0/ref6
 = flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/m1_n1358_n10612#
@@ -1342,7 +1365,7 @@ R flashADC_3bit_0/comp_p_6/vinn 6779
 = flashADC_3bit_0/comp_p_6/vinn flashADC_3bit_0/res_ladder_vref_0/XR3/R1
 R flashADC_3bit_0/res_ladder_vref_0/XR3/a_n573_n557# 2057
 R flashADC_3bit_0/res_ladder_vref_0/XR10/a_n573_n557# 2057
-C ua[1]0 25.2
+C ua[1]0 25.6
 R ua[1] 243
 = ua[1] flashADC_3bit_0/vref
 = ua[1] flashADC_3bit_0/res_ladder_vref_0/vref
@@ -1351,7 +1374,7 @@ R ua[1] 243
 R flashADC_3bit_0/res_ladder_vref_0/XR2/a_n573_n557# 2057
 R flashADC_3bit_0/res_ladder_vref_0/XR1/a_n573_n557# 2057
 C flashADC_3bit_0/vbias_generation_0/bias_n0 3.4
-R flashADC_3bit_0/vbias_generation_0/bias_n 2707
+R flashADC_3bit_0/vbias_generation_0/bias_n 2708
 = flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/XMn_bias/G
 = flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/XMn_bias/D
 = flashADC_3bit_0/vbias_generation_0/bias_n flashADC_3bit_0/vbias_generation_0/XR_bias_4/R2
@@ -1359,36 +1382,14 @@ R flashADC_3bit_0/vbias_generation_0/bias_n 2707
 R flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 188
 = flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/XR_bias_3/R1
 = flashADC_3bit_0/vbias_generation_0/XR_bias_4/R1 flashADC_3bit_0/vbias_generation_0/m1_1682_1702#
-R flashADC_3bit_0/vbias_generation_0/XR_bias_4/a_n141_n684# 9702
+R flashADC_3bit_0/vbias_generation_0/XR_bias_4/a_n140_n684# 9771
 C flashADC_3bit_0/vbias_generation_0/XR_bias_3/R20 2.0
 R flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 188
 = flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_2/R1
 = flashADC_3bit_0/vbias_generation_0/XR_bias_3/R2 flashADC_3bit_0/vbias_generation_0/m1_n118_2210#
-R flashADC_3bit_0/vbias_generation_0/XR_bias_3/a_n141_n684# 9702
+R flashADC_3bit_0/vbias_generation_0/XR_bias_3/a_n140_n684# 9771
 R flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 188
 = flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/vbias_generation_0/XR_bias_1/R1
 = flashADC_3bit_0/vbias_generation_0/XR_bias_2/R2 flashADC_3bit_0/vbias_generation_0/m1_1682_2718#
-R flashADC_3bit_0/vbias_generation_0/XR_bias_2/a_n141_n684# 9702
-C flashADC_3bit_0/comp_p_6/vbias_p0 20.7
-R flashADC_3bit_0/comp_p_6/vbias_p 13357
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/vbias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_1/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/vbias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_0/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/vbias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_5/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/vbias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_3/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/vbias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_4/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/vbias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_2/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_1376_n10760#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/m1_4466_n10772#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/comp_p_6/XMp_tail/a_n100_n1097#
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/bias_p
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XMp_bias/D
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XMp_bias/G
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/XR_bias_1/R2
-= flashADC_3bit_0/comp_p_6/vbias_p flashADC_3bit_0/vbias_generation_0/m1_n118_3226#
-R flashADC_3bit_0/vbias_generation_0/XR_bias_1/a_n141_n684# 9702
+R flashADC_3bit_0/vbias_generation_0/XR_bias_2/a_n140_n684# 9771
+R flashADC_3bit_0/vbias_generation_0/XR_bias_1/a_n140_n684# 9771

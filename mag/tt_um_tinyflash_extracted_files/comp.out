@@ -167,20 +167,23 @@ sky130_fd_pr__res_xhigh_po_1p41 (4->1)     |sky130_fd_pr__res_xhigh_po_1p41 (4->
 sky130_fd_pr__nfet_01v8_lvt (1)            |sky130_fd_pr__nfet_01v8_lvt (1)            
 sky130_fd_pr__pfet_01v8_lvt (1)            |sky130_fd_pr__pfet_01v8_lvt (1)            
 Number of devices: 3                       |Number of devices: 3                       
-Number of nets: 4                          |Number of nets: 4                          
+Number of nets: 5 **Mismatch**             |Number of nets: 4 **Mismatch**             
 ---------------------------------------------------------------------------------------
-Netlists match uniquely.
-
-Subcircuit pins:
+NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: vbias_generation                |Circuit 2: vbias_generation                
--------------------------------------------|-------------------------------------------
-vdd                                        |vdd                                        
-bias_p                                     |bias_p                                     
-vss                                        |vss                                        
-bias_n                                     |bias_n                                     
+
 ---------------------------------------------------------------------------------------
-Cell pin lists are equivalent.
-Device classes vbias_generation and vbias_generation are equivalent.
+Net: bias_p                                |Net: bias_p                                
+  sky130_fd_pr__pfet_01v8_lvt/2 = 1        |  sky130_fd_pr__pfet_01v8_lvt/2 = 1        
+  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    |  sky130_fd_pr__pfet_01v8_lvt/(1|3) = 1    
+                                           |  sky130_fd_pr__res_xhigh_po_1p41/(1|2) =  
+                                           |                                           
+Net: XR_bias_1/R2                          |(no matching net)                          
+  sky130_fd_pr__res_xhigh_po_1p41/(1|2) =  |                                           
+---------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits vbias_generation vbias_generation
 Flattening unmatched subcell sky130_fd_pr__res_xhigh_po_5p73_JT48NU in circuit res_ladder_vref (0)(10 instances)
 
 Class res_ladder_vref (0):  Merged 2 parallel devices.
@@ -273,11 +276,13 @@ Device classes tmux_7therm_to_3bin and tmux_7therm_to_3bin are equivalent.
 Subcircuit summary:
 Circuit 1: flashADC_3bit                   |Circuit 2: flashADC_3bit                   
 -------------------------------------------|-------------------------------------------
-vbias_generation (1)                       |vbias_generation (1)                       
+sky130_fd_pr__res_xhigh_po_1p41 (4->1)     |sky130_fd_pr__res_xhigh_po_1p41 (4->1)     
+sky130_fd_pr__nfet_01v8_lvt (1)            |sky130_fd_pr__nfet_01v8_lvt (1)            
+sky130_fd_pr__pfet_01v8_lvt (1)            |sky130_fd_pr__pfet_01v8_lvt (1)            
 res_ladder_vref (1)                        |res_ladder_vref (1)                        
 comp_p (7)                                 |comp_p (7)                                 
 tmux_7therm_to_3bin (1)                    |tmux_7therm_to_3bin (1)                    
-Number of devices: 10                      |Number of devices: 10                      
+Number of devices: 12                      |Number of devices: 12                      
 Number of nets: 24                         |Number of nets: 24                         
 ---------------------------------------------------------------------------------------
 Netlists match uniquely.
@@ -286,6 +291,10 @@ Subcircuit pins:
 Circuit 1: flashADC_3bit                   |Circuit 2: flashADC_3bit                   
 -------------------------------------------|-------------------------------------------
 vin                                        |vin                                        
+dout0                                      |dout0                                      
+dout1                                      |dout1                                      
+dout2                                      |dout2                                      
+vref                                       |vref                                       
 d0                                         |d0                                         
 d1                                         |d1                                         
 d2                                         |d2                                         
@@ -295,10 +304,6 @@ d5                                         |d5
 d6                                         |d6                                         
 vss                                        |vss                                        
 vdd                                        |vdd                                        
-dout0                                      |dout0                                      
-dout1                                      |dout1                                      
-dout2                                      |dout2                                      
-vref                                       |vref                                       
 ---------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes flashADC_3bit and flashADC_3bit are equivalent.
